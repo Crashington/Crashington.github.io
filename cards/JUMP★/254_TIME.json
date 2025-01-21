@@ -1,1 +1,1 @@
-﻿{"card_name": "TIME", "color": "U", "rarity": "rare", "type": "", "number": 254, "color_identity": "U", "cost": "{U}", "rules_text": "", "pt": "", "special_text": "", "shape": "normal", "set": "JUMP\u2605", "loyalty": "", "notes": "!tag time\n!tag pack-cycle-incarnation"}
+﻿{"card_name": "TIME", "color": "U", "rarity": "rare", "type": "", "number": 254, "color_identity": "U", "cost": "{U}", "rules_text": "", "pt": "", "special_text": "", "shape": "normal", "set": "JUMP\u2605", "loyalty": "", "notes": "!tag pack-name-time\n!tag pack-cycle-incarnation\n!sort time\n "}

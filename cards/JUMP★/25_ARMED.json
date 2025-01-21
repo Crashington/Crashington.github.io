@@ -1,1 +1,1 @@
-﻿{"card_name": "ARMED", "color": "W", "rarity": "rare", "type": "", "number": 25, "color_identity": "W", "cost": "{W}", "rules_text": "", "pt": "", "special_text": "", "shape": "normal", "set": "JUMP\u2605", "loyalty": "", "notes": "!tag armed\n!tag pack-cycle-iconics"}
+﻿{"card_name": "ARMED", "color": "W", "rarity": "rare", "type": "", "number": 25, "color_identity": "W", "cost": "{W}", "rules_text": "", "pt": "", "special_text": "", "shape": "normal", "set": "JUMP\u2605", "loyalty": "", "notes": "!tag pack-name-armed\n!tag pack-cycle-iconics\n!sort armed"}

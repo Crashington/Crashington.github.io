@@ -1,1 +1,1 @@
-﻿{"card_name": "DIMIR", "color": "UB", "rarity": "rare", "type": "", "number": 678, "color_identity": "UB", "cost": "{U}{B}", "rules_text": "", "pt": "", "special_text": "", "shape": "normal", "set": "JUMP\u2605", "loyalty": "", "notes": "!tag dimir\n!tag pack-cycle-ravnica"}
+﻿{"card_name": "DIMIR", "color": "UB", "rarity": "rare", "type": "", "number": 678, "color_identity": "UB", "cost": "{U}{B}", "rules_text": "", "pt": "", "special_text": "", "shape": "normal", "set": "JUMP\u2605", "loyalty": "", "notes": "!tag pack-name-dimir\n!tag pack-cycle-ravnica\n!sort dimir"}

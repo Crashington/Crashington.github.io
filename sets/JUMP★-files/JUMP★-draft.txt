@@ -64,9 +64,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}{U}",
 			"type": "Instant",
-			"collector_number": "699",
+			"collector_number": "698",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/699_Learn the Law.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/698_Learn the Law.png"
 			}
 		},
 		{
@@ -74,9 +74,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Creature — Human Soldier Wizard ",
-			"collector_number": "702",
+			"collector_number": "701",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/702_Masterful Arrester.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/701_Masterful Arrester.png"
 			}
 		},
 		{
@@ -84,9 +84,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Enchantment",
-			"collector_number": "713",
+			"collector_number": "712",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/713_Righteous Prowess.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/712_Righteous Prowess.png"
 			}
 		},
 		{
@@ -94,9 +94,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/U}",
 			"type": "Creature — Griffin ",
-			"collector_number": "744",
+			"collector_number": "743",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/744_Azorius Courser.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/743_Azorius Courser.png"
 			}
 		},
 		{
@@ -104,9 +104,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W/U}{W/U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "745",
+			"collector_number": "744",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/745_Azorius Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/744_Azorius Guildsage.png"
 			}
 		},
 		{
@@ -114,9 +114,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/U}",
 			"type": "Creature — Human Knight ",
-			"collector_number": "837",
+			"collector_number": "836",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/837_Lyev Hussar.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/836_Lyev Hussar.png"
 			}
 		},
 		{
@@ -124,9 +124,9 @@
 			"rarity": "common",
 			"mana_cost": "{W/U}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "902",
+			"collector_number": "901",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/902_Soldier of the Key.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/901_Soldier of the Key.png"
 			}
 		},
 		{
@@ -134,9 +134,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "929",
+			"collector_number": "928",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/929_Wizard of the Key.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/928_Wizard of the Key.png"
 			}
 		},
 		{
@@ -144,10 +144,10 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Instant",
-			"collector_number": "937",
+			"collector_number": "936",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/937_Cease.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/936_Cease.png"
 			}
 		},
 		{
@@ -155,9 +155,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "945",
+			"collector_number": "944",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/945_Azorius Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/944_Azorius Insignia.png"
 			}
 		},
 		{
@@ -165,9 +165,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "1001",
+			"collector_number": "1000",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1001_Endless Rooftops AZORIUS.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1000_Endless Rooftops AZORIUS.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "700",
+			"collector_number": "699",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/700_Legion Punisher.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/699_Legion Punisher.png"
 			}
 		},
 		{
@@ -255,9 +255,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Angel Soldier ",
-			"collector_number": "722",
+			"collector_number": "721",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/722_Skyward Assailant.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/721_Skyward Assailant.png"
 			}
 		},
 		{
@@ -265,9 +265,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R/W}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "750",
+			"collector_number": "749",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/750_Blade Care.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/749_Blade Care.png"
 			}
 		},
 		{
@@ -275,9 +275,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "751",
+			"collector_number": "750",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/751_Blade Instructor.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/750_Blade Instructor.png"
 			}
 		},
 		{
@@ -285,9 +285,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R/W}{R/W}",
 			"type": "Creature — Human Soldier Wizard ",
-			"collector_number": "758",
+			"collector_number": "757",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/758_Boros Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/757_Boros Guildsage.png"
 			}
 		},
 		{
@@ -295,9 +295,9 @@
 			"rarity": "common",
 			"mana_cost": "{R/W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "786",
+			"collector_number": "785",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/786_Enforcer in Training.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/785_Enforcer in Training.png"
 			}
 		},
 		{
@@ -305,9 +305,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R/W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "826",
+			"collector_number": "825",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/826_Inspired Recruit.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/825_Inspired Recruit.png"
 			}
 		},
 		{
@@ -315,9 +315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R/W}",
 			"type": "Instant",
-			"collector_number": "835",
+			"collector_number": "834",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/835_Legion's Scorn.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/834_Legion's Scorn.png"
 			}
 		},
 		{
@@ -325,9 +325,9 @@
 			"rarity": "common",
 			"mana_cost": "{R/W}",
 			"type": "Enchantment",
-			"collector_number": "853",
+			"collector_number": "852",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/853_Oath to Justice.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/852_Oath to Justice.png"
 			}
 		},
 		{
@@ -335,9 +335,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "920",
+			"collector_number": "919",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/920_Twinblade Legionnaire.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/919_Twinblade Legionnaire.png"
 			}
 		},
 		{
@@ -345,9 +345,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "934",
+			"collector_number": "933",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/934_Zealous Flameblade.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/933_Zealous Flameblade.png"
 			}
 		},
 		{
@@ -355,10 +355,10 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "942",
+			"collector_number": "941",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/942_Swing.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/941_Swing.png"
 			}
 		},
 		{
@@ -366,9 +366,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "949",
+			"collector_number": "948",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/949_Boros Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/948_Boros Insignia.png"
 			}
 		},
 		{
@@ -376,9 +376,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "1002",
+			"collector_number": "1001",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1002_Endless Rooftops BOROS.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1001_Endless Rooftops BOROS.png"
 			}
 		},
 		{
@@ -576,9 +576,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact",
-			"collector_number": "969",
+			"collector_number": "968",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/969_The Sage's Stone.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/968_The Sage's Stone.png"
 			}
 		},
 		{
@@ -586,9 +586,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "975",
+			"collector_number": "974",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/975_Alchemist's Lab.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/974_Alchemist's Lab.png"
 			}
 		},
 		{
@@ -596,9 +596,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "1011",
+			"collector_number": "1010",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1011_Flamel's Homunculi and Apparati.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1010_Flamel's Homunculi and Apparati.png"
 			}
 		},
 		{
@@ -622,193 +622,193 @@
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "ALPHA",
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "",
-			"collector_number": "144",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/144_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/143_ALPHA.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Alpha, the Timewalker",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Artifact Creature — Wizard ",
-			"collector_number": "143",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/143_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/144_Alpha, the Timewalker.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Beta, Ancestral Archivist",
 			"rarity": "rare",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Legendary Artifact Creature — Advisor ",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/152_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/152_Beta, Ancestral Archivist.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Chronotwist",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/159_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/159_Chronotwist.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Control Hex",
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Enchantment — Aura ",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/161_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/161_Control Hex.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Countersell",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/162_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/162_Countersell.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Lightning Jolt",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/195_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/195_Lightning Jolt.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Masked Illusion",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Illusion ",
 			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/200_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/200_Masked Illusion.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Spears to Pitchforks",
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Enchantment — Aura ",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/239_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/239_Spears to Pitchforks.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Wall of Clouds",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Elemental Wall ",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/265_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/265_Wall of Clouds.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Wind Elemental",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}",
 			"type": "Creature — Elemental ",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/268_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/268_Wind Elemental.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Bird of Scrap",
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact Creature — Construct Bird ",
-			"collector_number": "947",
+			"collector_number": "946",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/947_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/946_Bird of Scrap.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Clockwork Juggernaut",
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Juggernaut ",
-			"collector_number": "950",
+			"collector_number": "949",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/950_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/949_Clockwork Juggernaut.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Forged Clone",
 			"rarity": "common",
 			"mana_cost": "{5}",
 			"type": "Artifact Creature — Shapeshifter ",
-			"collector_number": "956",
+			"collector_number": "955",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/956_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/955_Forged Clone.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Serrated Cog-Angel",
 			"rarity": "uncommon",
 			"mana_cost": "{5}",
 			"type": "Artifact Creature — Construct Angel ",
-			"collector_number": "971",
+			"collector_number": "970",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/971_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/970_Serrated Cog-Angel.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Solar Amulet",
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "973",
+			"collector_number": "972",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/973_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/972_Solar Amulet.png"
 			}
 		},
 		{
-			"name": "Island ALPHAalpha",
+			"name": "Island ALPHA",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island ",
 			"collector_number": "1048",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1048_Island ALPHAalpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1048_Island ALPHA.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Lotus Nebula",
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
 			"collector_number": "1067",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1067_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1067_Lotus Nebula.png"
 			}
 		},
 		{
-			"name": "alpha",
+			"name": "Origin Lake",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "1091",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1091_alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1091_Origin Lake.png"
 			}
 		},
 		{
@@ -956,9 +956,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R/W}",
 			"type": "Creature — Human Cleric Soldier ",
-			"collector_number": "871",
+			"collector_number": "870",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/871_Priest of the Blade.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/870_Priest of the Blade.png"
 			}
 		},
 		{
@@ -966,9 +966,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/W}",
 			"type": "Creature — Elf Cleric ",
-			"collector_number": "903",
+			"collector_number": "902",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/903_Soldiers' Saint.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/902_Soldiers' Saint.png"
 			}
 		},
 		{
@@ -1136,9 +1136,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U/R}",
 			"type": "Creature — Merfolk Druid ",
-			"collector_number": "761",
+			"collector_number": "760",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/761_Caller of Leviathans.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/760_Caller of Leviathans.png"
 			}
 		},
 		{
@@ -1146,9 +1146,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G/U}{G/U}",
 			"type": "Creature — Leviathan ",
-			"collector_number": "803",
+			"collector_number": "802",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/803_Galleon Swallower.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/802_Galleon Swallower.png"
 			}
 		},
 		{
@@ -1156,9 +1156,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G/U}",
 			"type": "Creature — Serpent ",
-			"collector_number": "918",
+			"collector_number": "917",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/918_Treasure-Cove Baiter.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/917_Treasure-Cove Baiter.png"
 			}
 		},
 		{
@@ -1166,9 +1166,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/U}",
 			"type": "Creature — Serpent ",
-			"collector_number": "931",
+			"collector_number": "930",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/931_Young Serpent.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/930_Young Serpent.png"
 			}
 		},
 		{
@@ -1286,9 +1286,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact",
-			"collector_number": "353",
+			"collector_number": "352",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/353_Monument to the Titans.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/352_Monument to the Titans.png"
 			}
 		},
 		{
@@ -1316,9 +1316,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W/B}",
 			"type": "Creature — Skeleton Angel ",
-			"collector_number": "754",
+			"collector_number": "753",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/754_Blessed Remains.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/753_Blessed Remains.png"
 			}
 		},
 		{
@@ -1326,9 +1326,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B/R}",
 			"type": "Creature — Skeleton Dragon ",
-			"collector_number": "774",
+			"collector_number": "773",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/774_Demanding Remains.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/773_Demanding Remains.png"
 			}
 		},
 		{
@@ -1336,9 +1336,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U/B}",
 			"type": "Creature — Skeleton Sphinx ",
-			"collector_number": "872",
+			"collector_number": "871",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/872_Prophetic Remains.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/871_Prophetic Remains.png"
 			}
 		},
 		{
@@ -1346,9 +1346,9 @@
 			"rarity": "common",
 			"mana_cost": "{X}{B/G}{B/G}",
 			"type": "Creature — Skeleton Hydra ",
-			"collector_number": "886",
+			"collector_number": "885",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/886_Scavenging Remains.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/885_Scavenging Remains.png"
 			}
 		},
 		{
@@ -1356,9 +1356,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "966",
+			"collector_number": "965",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/966_Ossified Oak.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/965_Ossified Oak.png"
 			}
 		},
 		{
@@ -1366,9 +1366,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "981",
+			"collector_number": "980",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/981_Cave of the Undead.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/980_Cave of the Undead.png"
 			}
 		},
 		{
@@ -1566,9 +1566,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "1000",
+			"collector_number": "999",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1000_The Empty Throne.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/999_The Empty Throne.png"
 			}
 		},
 		{
@@ -1716,9 +1716,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W/B}",
 			"type": "Legendary Artifact — Food Equipment ",
-			"collector_number": "790",
+			"collector_number": "789",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/790_The Excalibrie.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/789_The Excalibrie.png"
 			}
 		},
 		{
@@ -1726,9 +1726,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G/W}",
 			"type": "Creature — Mouse ",
-			"collector_number": "860",
+			"collector_number": "859",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/860_Passionate Cheesemaker.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/859_Passionate Cheesemaker.png"
 			}
 		},
 		{
@@ -1736,9 +1736,9 @@
 			"rarity": "common",
 			"mana_cost": "{R/W}",
 			"type": "Creature — Mouse ",
-			"collector_number": "898",
+			"collector_number": "897",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/898_Sleepy Connoisseur.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/897_Sleepy Connoisseur.png"
 			}
 		},
 		{
@@ -1746,9 +1746,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Food Knight ",
-			"collector_number": "967",
+			"collector_number": "966",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/967_Parmesan Partisan.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/966_Parmesan Partisan.png"
 			}
 		},
 		{
@@ -1886,9 +1886,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "753",
+			"collector_number": "752",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/753_Blessed Blast.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/752_Blessed Blast.png"
 			}
 		},
 		{
@@ -1896,9 +1896,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/B}",
 			"type": "Creature — Human Cleric Knight ",
-			"collector_number": "784",
+			"collector_number": "783",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/784_Empowered Holy Knight.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/783_Empowered Holy Knight.png"
 			}
 		},
 		{
@@ -1906,9 +1906,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/W}",
 			"type": "Creature — Elf Cleric ",
-			"collector_number": "817",
+			"collector_number": "816",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/817_Healer of the Nightwatch.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/816_Healer of the Nightwatch.png"
 			}
 		},
 		{
@@ -1916,9 +1916,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G/W}",
 			"type": "Creature — Elf Cleric ",
-			"collector_number": "831",
+			"collector_number": "830",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/831_Lanternlight Cleric.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/830_Lanternlight Cleric.png"
 			}
 		},
 		{
@@ -1926,9 +1926,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/W}",
 			"type": "Creature — Dwarf Cleric ",
-			"collector_number": "870",
+			"collector_number": "869",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/870_Priest of Golden Crest.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/869_Priest of Golden Crest.png"
 			}
 		},
 		{
@@ -1936,9 +1936,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W/B}",
 			"type": "Instant",
-			"collector_number": "878",
+			"collector_number": "877",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/878_Return to Life.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/877_Return to Life.png"
 			}
 		},
 		{
@@ -1946,9 +1946,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "963",
+			"collector_number": "962",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/963_Mending Powder.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/962_Mending Powder.png"
 			}
 		},
 		{
@@ -1956,9 +1956,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "985",
+			"collector_number": "984",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/985_Cleric's Chapel.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/984_Cleric's Chapel.png"
 			}
 		},
 		{
@@ -2136,9 +2136,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B/R}",
 			"type": "Creature — Phyrexian Artificer ",
-			"collector_number": "781",
+			"collector_number": "780",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/781_Draconic Splicer.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/780_Draconic Splicer.png"
 			}
 		},
 		{
@@ -2146,9 +2146,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B/G}",
 			"type": "Creature — Phyrexian Cleric ",
-			"collector_number": "869",
+			"collector_number": "868",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/869_Priest of Evolution.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/868_Priest of Evolution.png"
 			}
 		},
 		{
@@ -2276,9 +2276,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "348",
+			"collector_number": "347",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/348_Lethal Blow.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/347_Lethal Blow.png"
 			}
 		},
 		{
@@ -2286,9 +2286,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Elephant Zombie ",
-			"collector_number": "349",
+			"collector_number": "348",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/349_Lifeless Warden.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/348_Lifeless Warden.png"
 			}
 		},
 		{
@@ -2296,9 +2296,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Insect ",
-			"collector_number": "354",
+			"collector_number": "353",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/354_Morbid Parasite.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/353_Morbid Parasite.png"
 			}
 		},
 		{
@@ -2356,9 +2356,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "994",
+			"collector_number": "993",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/994_The Ebony Gate.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/993_The Ebony Gate.png"
 			}
 		},
 		{
@@ -2546,9 +2546,9 @@
 			"rarity": "common",
 			"mana_cost": "{W/B}",
 			"type": "Creature — Human Peasant ",
-			"collector_number": "767",
+			"collector_number": "766",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/767_Corpse To-Be.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/766_Corpse To-Be.png"
 			}
 		},
 		{
@@ -2556,9 +2556,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "1012",
+			"collector_number": "1011",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1012_Foreboding Catacombs.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1011_Foreboding Catacombs.png"
 			}
 		},
 		{
@@ -2676,9 +2676,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Demon ",
-			"collector_number": "341",
+			"collector_number": "340",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/341_Hollow Infernal.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/340_Hollow Infernal.png"
 			}
 		},
 		{
@@ -2686,9 +2686,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{6}{B}{B}",
 			"type": "Legendary Creature — Demon Horror ",
-			"collector_number": "344",
+			"collector_number": "343",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/344_Ixatrux, the Mindslaver.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/343_Ixatrux, the Mindslaver.png"
 			}
 		},
 		{
@@ -2736,9 +2736,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B/R}{B/R}",
 			"type": "Creature — Demon ",
-			"collector_number": "775",
+			"collector_number": "774",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/775_Demon of Tyranny.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/774_Demon of Tyranny.png"
 			}
 		},
 		{
@@ -2746,9 +2746,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/R}",
 			"type": "Creature — Demon Cleric ",
-			"collector_number": "868",
+			"collector_number": "867",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/868_Priest of Amnesia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/867_Priest of Amnesia.png"
 			}
 		},
 		{
@@ -2926,9 +2926,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B/R}",
 			"type": "Creature — Horror Noble ",
-			"collector_number": "783",
+			"collector_number": "782",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/783_Duke of Flies.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/782_Duke of Flies.png"
 			}
 		},
 		{
@@ -2936,9 +2936,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R/G}",
 			"type": "Creature — Human Horror ",
-			"collector_number": "822",
+			"collector_number": "821",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/822_Horrid Polycephalus.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/821_Horrid Polycephalus.png"
 			}
 		},
 		{
@@ -3106,9 +3106,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/W}",
 			"type": "Creature — Insect ",
-			"collector_number": "741",
+			"collector_number": "740",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/741_Aerial Invaders.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/740_Aerial Invaders.png"
 			}
 		},
 		{
@@ -3116,9 +3116,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R/W}",
 			"type": "Creature — Elf Knight ",
-			"collector_number": "752",
+			"collector_number": "751",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/752_Blade of the Kingdom.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/751_Blade of the Kingdom.png"
 			}
 		},
 		{
@@ -3126,9 +3126,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/G}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "839",
+			"collector_number": "838",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/839_Masked Bountyhunter.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/838_Masked Bountyhunter.png"
 			}
 		},
 		{
@@ -3136,9 +3136,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "974",
+			"collector_number": "973",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/974_Tilted Cartridge.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/973_Tilted Cartridge.png"
 			}
 		},
 		{
@@ -3146,9 +3146,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "989",
+			"collector_number": "988",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/989_Digital Peaks.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/988_Digital Peaks.png"
 			}
 		},
 		{
@@ -3236,9 +3236,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Legendary Creature — Shapeshifter ",
-			"collector_number": "698",
+			"collector_number": "697",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/698_Lazav, Faceless Shadow.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/697_Lazav, Faceless Shadow.png"
 			}
 		},
 		{
@@ -3246,9 +3246,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{B}",
 			"type": "Sorcery",
-			"collector_number": "717",
+			"collector_number": "716",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/717_Running Goods.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/716_Running Goods.png"
 			}
 		},
 		{
@@ -3256,9 +3256,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}{B}",
 			"type": "Creature — Shapeshifter Rogue ",
-			"collector_number": "726",
+			"collector_number": "725",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/726_Swift Slasher.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/725_Swift Slasher.png"
 			}
 		},
 		{
@@ -3266,9 +3266,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U}{B}",
 			"type": "Creature — Horror ",
-			"collector_number": "732",
+			"collector_number": "731",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/732_Undercity Aberration.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/731_Undercity Aberration.png"
 			}
 		},
 		{
@@ -3276,9 +3276,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U/B}{U/B}",
 			"type": "Creature — Human Rogue Wizard ",
-			"collector_number": "776",
+			"collector_number": "775",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/776_Dimir Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/775_Dimir Guildsage.png"
 			}
 		},
 		{
@@ -3286,9 +3286,9 @@
 			"rarity": "common",
 			"mana_cost": "{U/B}",
 			"type": "Sorcery",
-			"collector_number": "791",
+			"collector_number": "790",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/791_Exchange Intel.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/790_Exchange Intel.png"
 			}
 		},
 		{
@@ -3296,9 +3296,9 @@
 			"rarity": "common",
 			"mana_cost": "{U/B}",
 			"type": "Creature — Goblin Rogue ",
-			"collector_number": "840",
+			"collector_number": "839",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/840_Meek Infiltrator.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/839_Meek Infiltrator.png"
 			}
 		},
 		{
@@ -3306,9 +3306,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U/B}",
 			"type": "Creature — Human Rogue ",
-			"collector_number": "851",
+			"collector_number": "850",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/851_Numbblade Trespasser.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/850_Numbblade Trespasser.png"
 			}
 		},
 		{
@@ -3316,9 +3316,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U/B}",
 			"type": "Creature — Goblin Rogue ",
-			"collector_number": "864",
+			"collector_number": "863",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/864_Persistent Pursuer.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/863_Persistent Pursuer.png"
 			}
 		},
 		{
@@ -3326,10 +3326,10 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "938",
+			"collector_number": "937",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/938_Cloak.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/937_Cloak.png"
 			}
 		},
 		{
@@ -3337,9 +3337,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "954",
+			"collector_number": "953",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/954_Dimir Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/953_Dimir Insignia.png"
 			}
 		},
 		{
@@ -3347,9 +3347,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "986",
+			"collector_number": "985",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/986_Concealed Guildgate.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/985_Concealed Guildgate.png"
 			}
 		},
 		{
@@ -3537,9 +3537,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U/R}",
 			"type": "Creature — Djinn ",
-			"collector_number": "811",
+			"collector_number": "810",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/811_Granter of Knowledge.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/810_Granter of Knowledge.png"
 			}
 		},
 		{
@@ -3547,9 +3547,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R/G}",
 			"type": "Sorcery",
-			"collector_number": "928",
+			"collector_number": "927",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/928_A Wish for Wealth.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/927_A Wish for Wealth.png"
 			}
 		},
 		{
@@ -3717,9 +3717,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U/R}",
 			"type": "Creature — Dragon ",
-			"collector_number": "814",
+			"collector_number": "813",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/814_Greedy Rubblehide.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/813_Greedy Rubblehide.png"
 			}
 		},
 		{
@@ -3727,9 +3727,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R/W}",
 			"type": "Creature — Dragon ",
-			"collector_number": "830",
+			"collector_number": "829",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/830_Jungle Swiftclaw.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/829_Jungle Swiftclaw.png"
 			}
 		},
 		{
@@ -3737,9 +3737,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/G}",
 			"type": "Creature — Dragon ",
-			"collector_number": "832",
+			"collector_number": "831",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/832_Lazy Lindwyrm.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/831_Lazy Lindwyrm.png"
 			}
 		},
 		{
@@ -3747,9 +3747,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U/R}",
 			"type": "Creature — Dragon ",
-			"collector_number": "911",
+			"collector_number": "910",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/911_Sympathetic Alpha.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/910_Sympathetic Alpha.png"
 			}
 		},
 		{
@@ -3757,9 +3757,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "991",
+			"collector_number": "990",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/991_Dragon's Spine Ridge.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/990_Dragon's Spine Ridge.png"
 			}
 		},
 		{
@@ -3887,9 +3887,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/U}",
 			"type": "Creature — Azra Druid Advisor ",
-			"collector_number": "769",
+			"collector_number": "768",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/769_Councellor of Bark.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/768_Councellor of Bark.png"
 			}
 		},
 		{
@@ -3897,9 +3897,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/W}",
 			"type": "Creature — Human Druid Advisor ",
-			"collector_number": "770",
+			"collector_number": "769",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/770_Councellor of Lea.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/769_Councellor of Lea.png"
 			}
 		},
 		{
@@ -3907,9 +3907,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G/W}",
 			"type": "Enchantment",
-			"collector_number": "771",
+			"collector_number": "770",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/771_Cultivation Rite.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/770_Cultivation Rite.png"
 			}
 		},
 		{
@@ -3917,9 +3917,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G/U}{G/U}",
 			"type": "Instant",
-			"collector_number": "795",
+			"collector_number": "794",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/795_Ferocious Harmony.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/794_Ferocious Harmony.png"
 			}
 		},
 		{
@@ -3927,9 +3927,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R/G}",
 			"type": "Creature",
-			"collector_number": "800",
+			"collector_number": "799",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/800_Forestlight Druid.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/799_Forestlight Druid.png"
 			}
 		},
 		{
@@ -3937,9 +3937,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{G/W}{G/W}",
 			"type": "Legendary Creature — Faerie Fungus Druid ",
-			"collector_number": "854",
+			"collector_number": "853",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/854_Ognnur, Soul of the Forest.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/853_Ognnur, Soul of the Forest.png"
 			}
 		},
 		{
@@ -3947,9 +3947,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/G}",
 			"type": "Creature — Elf Druid ",
-			"collector_number": "915",
+			"collector_number": "914",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/915_Thorn-Essence Harvester.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/914_Thorn-Essence Harvester.png"
 			}
 		},
 		{
@@ -3957,9 +3957,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "993",
+			"collector_number": "992",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/993_Druid's Hut.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/992_Druid's Hut.png"
 			}
 		},
 		{
@@ -3967,9 +3967,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1013",
+			"collector_number": "1012",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1013_Forest DRUIDS.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1012_Forest DRUIDS.png"
 			}
 		},
 		{
@@ -4147,9 +4147,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "952",
+			"collector_number": "951",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/952_Deepwoods Runestone.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/951_Deepwoods Runestone.png"
 			}
 		},
 		{
@@ -4157,9 +4157,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1014",
+			"collector_number": "1013",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1014_Forest DRYADS.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1013_Forest DRYADS.png"
 			}
 		},
 		{
@@ -4377,9 +4377,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R/G}",
 			"type": "Creature — Dwarf Scout ",
-			"collector_number": "762",
+			"collector_number": "761",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/762_Caveclearer Crew.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/761_Caveclearer Crew.png"
 			}
 		},
 		{
@@ -4387,9 +4387,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R/W}",
 			"type": "Creature — Dwarf Warrior ",
-			"collector_number": "846",
+			"collector_number": "845",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/846_Mountainhollow Warmaster.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/845_Mountainhollow Warmaster.png"
 			}
 		},
 		{
@@ -4397,9 +4397,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/W}",
 			"type": "Creature — Dwarf Rogue ",
-			"collector_number": "879",
+			"collector_number": "878",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/879_Righteous Richseeker.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/878_Righteous Richseeker.png"
 			}
 		},
 		{
@@ -4617,9 +4617,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "951",
+			"collector_number": "950",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/951_Corrupted Hedron.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/950_Corrupted Hedron.png"
 			}
 		},
 		{
@@ -4757,9 +4757,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{R/G}",
 			"type": "Creature — Elemental Lizard ",
-			"collector_number": "765",
+			"collector_number": "764",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/765_Colossalamander.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/764_Colossalamander.png"
 			}
 		},
 		{
@@ -4767,9 +4767,9 @@
 			"rarity": "common",
 			"mana_cost": "{U/R}",
 			"type": "Creature — Phoenix ",
-			"collector_number": "796",
+			"collector_number": "795",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/796_Firebird Hatchling.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/795_Firebird Hatchling.png"
 			}
 		},
 		{
@@ -4777,9 +4777,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R/W}",
 			"type": "Instant",
-			"collector_number": "797",
+			"collector_number": "796",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/797_Firebird's Blessing.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/796_Firebird's Blessing.png"
 			}
 		},
 		{
@@ -4787,9 +4787,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/R}",
 			"type": "Creature — Elemental Wurm ",
-			"collector_number": "798",
+			"collector_number": "797",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/798_Flamecoiler.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/797_Flamecoiler.png"
 			}
 		},
 		{
@@ -4797,9 +4797,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B/R}",
 			"type": "Sorcery",
-			"collector_number": "856",
+			"collector_number": "855",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/856_One Last Dance.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/855_One Last Dance.png"
 			}
 		},
 		{
@@ -4807,9 +4807,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R/G}",
 			"type": "Creature — Elemental Cat ",
-			"collector_number": "888",
+			"collector_number": "887",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/888_Searing Firecat.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/887_Searing Firecat.png"
 			}
 		},
 		{
@@ -4817,9 +4817,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Elmental Construct ",
-			"collector_number": "964",
+			"collector_number": "963",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/964_Moltenstone Golem.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/963_Moltenstone Golem.png"
 			}
 		},
 		{
@@ -4827,9 +4827,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "1010",
+			"collector_number": "1009",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1010_Field of Fire.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1009_Field of Fire.png"
 			}
 		},
 		{
@@ -4997,9 +4997,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G/U}",
 			"type": "Creature — Elf Scout ",
-			"collector_number": "862",
+			"collector_number": "861",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/862_Patient Tracker.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/861_Patient Tracker.png"
 			}
 		},
 		{
@@ -5007,9 +5007,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "997",
+			"collector_number": "996",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/997_Elven Village.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/996_Elven Village.png"
 			}
 		},
 		{
@@ -5017,9 +5017,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1015",
+			"collector_number": "1014",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1015_Forest ELVES.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1014_Forest ELVES.png"
 			}
 		},
 		{
@@ -5177,9 +5177,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "687",
+			"collector_number": "1029",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/687_Gate to the Tweenside.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1029_Gate to the Tweenside.png"
 			}
 		},
 		{
@@ -5187,9 +5187,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{W/U}{W/U}",
 			"type": "Instant",
-			"collector_number": "739",
+			"collector_number": "738",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/739_Aberrate.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/738_Aberrate.png"
 			}
 		},
 		{
@@ -5197,9 +5197,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/W}",
 			"type": "Creature — Spirit ",
-			"collector_number": "820",
+			"collector_number": "819",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/820_Hopeful Soul.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/819_Hopeful Soul.png"
 			}
 		},
 		{
@@ -5207,9 +5207,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G/W}",
 			"type": "Creature — Spirit ",
-			"collector_number": "919",
+			"collector_number": "918",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/919_Tweenside Reaper.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/918_Tweenside Reaper.png"
 			}
 		},
 		{
@@ -5217,9 +5217,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W/B}",
 			"type": "Sorcery",
-			"collector_number": "925",
+			"collector_number": "924",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/925_Wail of the Dead.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/924_Wail of the Dead.png"
 			}
 		},
 		{
@@ -5397,9 +5397,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R/W}",
 			"type": "Instant",
-			"collector_number": "821",
+			"collector_number": "820",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/821_Hornsprout.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/820_Hornsprout.png"
 			}
 		},
 		{
@@ -5407,9 +5407,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/B}",
 			"type": "Instant",
-			"collector_number": "880",
+			"collector_number": "879",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/880_Rite of Pale Mane.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/879_Rite of Pale Mane.png"
 			}
 		},
 		{
@@ -5567,9 +5567,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G/W}",
 			"type": "Instant",
-			"collector_number": "829",
+			"collector_number": "828",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/829_Jungle Beat.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/828_Jungle Beat.png"
 			}
 		},
 		{
@@ -5577,9 +5577,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/W}",
 			"type": "Instant",
-			"collector_number": "834",
+			"collector_number": "833",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/834_Leak Acid.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/833_Leak Acid.png"
 			}
 		},
 		{
@@ -5587,9 +5587,9 @@
 			"rarity": "common",
 			"mana_cost": "{R/G}",
 			"type": "Instant",
-			"collector_number": "901",
+			"collector_number": "900",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/901_Solar Beam.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/900_Solar Beam.png"
 			}
 		},
 		{
@@ -5597,9 +5597,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R/G}",
 			"type": "Creature — Dinosaur ",
-			"collector_number": "921",
+			"collector_number": "920",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/921_Tyrannical Dreadmaw.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/920_Tyrannical Dreadmaw.png"
 			}
 		},
 		{
@@ -5607,9 +5607,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "955",
+			"collector_number": "954",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/955_Evolutionary Stone.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/954_Evolutionary Stone.png"
 			}
 		},
 		{
@@ -5617,9 +5617,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "984",
+			"collector_number": "983",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/984_Champion's Arena.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/983_Champion's Arena.png"
 			}
 		},
 		{
@@ -5627,9 +5627,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1016",
+			"collector_number": "1015",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1016_Forest EVOLVING.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1015_Forest EVOLVING.png"
 			}
 		},
 		{
@@ -5733,13 +5733,13 @@
 			}
 		},
 		{
-			"name": "Heretical Rites",
+			"name": "Pact of Decimation",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "339",
+			"collector_number": "361",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/339_Heretical Rites.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/361_Pact of Decimation.png"
 			}
 		},
 		{
@@ -5747,9 +5747,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creaure — Human Warlock",
-			"collector_number": "352",
+			"collector_number": "351",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/352_Menagerie Witch.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/351_Menagerie Witch.png"
 			}
 		},
 		{
@@ -5797,9 +5797,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/B}",
 			"type": "Creature — Human Warlock ",
-			"collector_number": "789",
+			"collector_number": "788",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/789_Eventide Witch.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/788_Eventide Witch.png"
 			}
 		},
 		{
@@ -5807,9 +5807,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/B}",
 			"type": "Creature — Human Warlock ",
-			"collector_number": "793",
+			"collector_number": "792",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/793_Familiar's Favorite.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/792_Familiar's Favorite.png"
 			}
 		},
 		{
@@ -5817,9 +5817,9 @@
 			"rarity": "common",
 			"mana_cost": "{U/B}",
 			"type": "Creature — Human Warlock ",
-			"collector_number": "932",
+			"collector_number": "931",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/932_Young Witch.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/931_Young Witch.png"
 			}
 		},
 		{
@@ -6007,9 +6007,9 @@
 			"rarity": "common",
 			"mana_cost": "{B/G}",
 			"type": "Creature — Phyrexian Beast ",
-			"collector_number": "749",
+			"collector_number": "748",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/749_Bilecrawler.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/748_Bilecrawler.png"
 			}
 		},
 		{
@@ -6017,9 +6017,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G/U}",
 			"type": "Creature — Phyrexian Artificer ",
-			"collector_number": "848",
+			"collector_number": "847",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/848_Mutation Splicer.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/847_Mutation Splicer.png"
 			}
 		},
 		{
@@ -6027,9 +6027,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R/G}",
 			"type": "Creature — Phyrexian Artificer ",
-			"collector_number": "884",
+			"collector_number": "883",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/884_Rush Splicer.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/883_Rush Splicer.png"
 			}
 		},
 		{
@@ -6037,9 +6037,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "990",
+			"collector_number": "989",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/990_The Distorted Wilds.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/989_The Distorted Wilds.png"
 			}
 		},
 		{
@@ -6047,9 +6047,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1017",
+			"collector_number": "1016",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1017_Forest FEROCITY.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1016_Forest FEROCITY.png"
 			}
 		},
 		{
@@ -6237,9 +6237,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W/U}",
 			"type": "Creature — Illusion ",
-			"collector_number": "773",
+			"collector_number": "772",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/773_Delusion Stalkers.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/772_Delusion Stalkers.png"
 			}
 		},
 		{
@@ -6247,9 +6247,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/U}",
 			"type": "Creature — Wolf Illusion ",
-			"collector_number": "865",
+			"collector_number": "864",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/865_Phantasmal Wolf.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/864_Phantasmal Wolf.png"
 			}
 		},
 		{
@@ -6257,9 +6257,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "961",
+			"collector_number": "960",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/961_Illusory Lotus.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/960_Illusory Lotus.png"
 			}
 		},
 		{
@@ -6267,9 +6267,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "992",
+			"collector_number": "991",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/992_The Dreamflow Creek.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/991_The Dreamflow Creek.png"
 			}
 		},
 		{
@@ -6437,9 +6437,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/U}",
 			"type": "Creature — Frog ",
-			"collector_number": "799",
+			"collector_number": "798",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/799_Flash Frog.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/798_Flash Frog.png"
 			}
 		},
 		{
@@ -6447,9 +6447,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G/U}",
 			"type": "Legendary Creature — Frog Knight ",
-			"collector_number": "912",
+			"collector_number": "911",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/912_Syr Croaksworth.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/911_Syr Croaksworth.png"
 			}
 		},
 		{
@@ -6597,9 +6597,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/G}",
 			"type": "Sorcery",
-			"collector_number": "746",
+			"collector_number": "745",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/746_Bad Matchup.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/745_Bad Matchup.png"
 			}
 		},
 		{
@@ -6607,9 +6607,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{R/W}",
 			"type": "Creature — Giant Warrior ",
-			"collector_number": "802",
+			"collector_number": "801",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/802_Furious Rocksmasher.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/801_Furious Rocksmasher.png"
 			}
 		},
 		{
@@ -6617,9 +6617,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R/G}",
 			"type": "Creature — Giant Berserker ",
-			"collector_number": "847",
+			"collector_number": "846",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/847_Mountainpeak Warrior.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/846_Mountainpeak Warrior.png"
 			}
 		},
 		{
@@ -6627,9 +6627,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R/G}",
 			"type": "Creature — Elemental Giant ",
-			"collector_number": "855",
+			"collector_number": "854",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/855_Old Fusebeard.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/854_Old Fusebeard.png"
 			}
 		},
 		{
@@ -6637,9 +6637,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "958",
+			"collector_number": "957",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/958_Giant's Axe.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/957_Giant's Axe.png"
 			}
 		},
 		{
@@ -6647,9 +6647,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "996",
+			"collector_number": "995",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/996_Elderblade Valley.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/995_Elderblade Valley.png"
 			}
 		},
 		{
@@ -6807,9 +6807,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R/W}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "804",
+			"collector_number": "803",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/804_Glyph of Fire.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/803_Glyph of Fire.png"
 			}
 		},
 		{
@@ -6817,9 +6817,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W/U}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "805",
+			"collector_number": "804",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/805_Glyph of Frost.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/804_Glyph of Frost.png"
 			}
 		},
 		{
@@ -6827,9 +6827,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/W}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "806",
+			"collector_number": "805",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/806_Glyph of Growth.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/805_Glyph of Growth.png"
 			}
 		},
 		{
@@ -6837,9 +6837,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W/B}{W/B}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "807",
+			"collector_number": "806",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/807_Glyph of Light.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/806_Glyph of Light.png"
 			}
 		},
 		{
@@ -6847,9 +6847,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "979",
+			"collector_number": "978",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/979_Boiling Isles.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/978_Boiling Isles.png"
 			}
 		},
 		{
@@ -6927,9 +6927,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Legendary Creature — Zombie Elf ",
-			"collector_number": "694",
+			"collector_number": "693",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/694_Jarad, Betrayed.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/693_Jarad, Betrayed.png"
 			}
 		},
 		{
@@ -6937,9 +6937,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Instant",
-			"collector_number": "714",
+			"collector_number": "713",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/714_Rot Away.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/713_Rot Away.png"
 			}
 		},
 		{
@@ -6947,9 +6947,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{G}",
 			"type": "Creature — Zombie Troll ",
-			"collector_number": "733",
+			"collector_number": "732",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/733_Undercity Troll.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/732_Undercity Troll.png"
 			}
 		},
 		{
@@ -6957,9 +6957,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{B}{G}",
 			"type": "Legendary Planeswalker — Vraska ",
-			"collector_number": "738",
+			"collector_number": "737",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/738_Vraska, Golgari Sovereign.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/737_Vraska, Golgari Sovereign.png"
 			}
 		},
 		{
@@ -6967,9 +6967,9 @@
 			"rarity": "common",
 			"mana_cost": "{B/G}",
 			"type": "Creature — Fungus Insect ",
-			"collector_number": "768",
+			"collector_number": "767",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/768_Corpsebloom Crawler.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/767_Corpsebloom Crawler.png"
 			}
 		},
 		{
@@ -6977,9 +6977,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B/G}",
 			"type": "Sorcery",
-			"collector_number": "794",
+			"collector_number": "793",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/794_Feed On Flesh.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/793_Feed On Flesh.png"
 			}
 		},
 		{
@@ -6987,9 +6987,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B/G}{B/G}",
 			"type": "Creature — Human Insect Wizard ",
-			"collector_number": "808",
+			"collector_number": "807",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/808_Golgari Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/807_Golgari Guildsage.png"
 			}
 		},
 		{
@@ -6997,9 +6997,9 @@
 			"rarity": "common",
 			"mana_cost": "{B/G}{B/G}",
 			"type": "Creature — Fungus Zombie ",
-			"collector_number": "843",
+			"collector_number": "842",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/843_Molderbrute.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/842_Molderbrute.png"
 			}
 		},
 		{
@@ -7007,9 +7007,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/G}",
 			"type": "Creature — Zombie Wizard ",
-			"collector_number": "850",
+			"collector_number": "849",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/850_Noxious Lich.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/849_Noxious Lich.png"
 			}
 		},
 		{
@@ -7017,9 +7017,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B/G}",
 			"type": "Creature — Fungus Zombie ",
-			"collector_number": "858",
+			"collector_number": "857",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/858_Overgrown Corpse.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/857_Overgrown Corpse.png"
 			}
 		},
 		{
@@ -7027,9 +7027,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B/G}",
 			"type": "Enchantment",
-			"collector_number": "904",
+			"collector_number": "903",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/904_Spawning Infestation.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/903_Spawning Infestation.png"
 			}
 		},
 		{
@@ -7037,9 +7037,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B/G}",
 			"type": "Creature — Fungus Zombie ",
-			"collector_number": "922",
+			"collector_number": "921",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/922_Undergrowth Strider.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/921_Undergrowth Strider.png"
 			}
 		},
 		{
@@ -7047,10 +7047,10 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "939",
+			"collector_number": "938",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/939_Fester.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/938_Fester.png"
 			}
 		},
 		{
@@ -7058,9 +7058,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "959",
+			"collector_number": "958",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/959_Golgari Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/958_Golgari Insignia.png"
 			}
 		},
 		{
@@ -7068,9 +7068,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Gate ",
-			"collector_number": "1009",
+			"collector_number": "1008",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1009_Festering Gate.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1008_Festering Gate.png"
 			}
 		},
 		{
@@ -7078,9 +7078,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1018",
+			"collector_number": "1017",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1018_Forest GOLGARI.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1017_Forest GOLGARI.png"
 			}
 		},
 		{
@@ -7128,9 +7128,9 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{G}",
 			"type": "",
-			"collector_number": "688",
+			"collector_number": "687",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/688_GRUUL.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/687_GRUUL.png"
 			}
 		},
 		{
@@ -7158,9 +7158,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{G}",
 			"type": "Creature — Cyclops Berserker ",
-			"collector_number": "689",
+			"collector_number": "688",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/689_Gruul Cobblebuster.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/688_Gruul Cobblebuster.png"
 			}
 		},
 		{
@@ -7168,9 +7168,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}{G}",
 			"type": "Creature — Centaur Berserker Shaman ",
-			"collector_number": "715",
+			"collector_number": "714",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/715_Rousing Rioter.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/714_Rousing Rioter.png"
 			}
 		},
 		{
@@ -7178,9 +7178,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{G}",
 			"type": "Sorcery",
-			"collector_number": "729",
+			"collector_number": "728",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/729_Till the City.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/728_Till the City.png"
 			}
 		},
 		{
@@ -7188,9 +7188,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/G}",
 			"type": "Sorcery",
-			"collector_number": "782",
+			"collector_number": "781",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/782_Drag Out.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/781_Drag Out.png"
 			}
 		},
 		{
@@ -7198,9 +7198,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R/G}",
 			"type": "Creature — Human Shaman ",
-			"collector_number": "785",
+			"collector_number": "784",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/785_End-Raze Prophet.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/784_End-Raze Prophet.png"
 			}
 		},
 		{
@@ -7208,9 +7208,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/G}",
 			"type": "Creature — Goblin Berserker ",
-			"collector_number": "815",
+			"collector_number": "814",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/815_Gruul Grenadier.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/814_Gruul Grenadier.png"
 			}
 		},
 		{
@@ -7218,9 +7218,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R/G}{R/G}",
 			"type": "Creature — Human Shaman ",
-			"collector_number": "816",
+			"collector_number": "815",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/816_Gruul Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/815_Gruul Guildsage.png"
 			}
 		},
 		{
@@ -7228,9 +7228,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R/G}",
 			"type": "Creature — Human Shaman ",
-			"collector_number": "849",
+			"collector_number": "848",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/849_Nature's Empath.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/848_Nature's Empath.png"
 			}
 		},
 		{
@@ -7238,9 +7238,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/G}",
 			"type": "Creature — Human Berserker ",
-			"collector_number": "866",
+			"collector_number": "865",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/866_Pillarsmasher.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/865_Pillarsmasher.png"
 			}
 		},
 		{
@@ -7248,9 +7248,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R/G}",
 			"type": "Creature — Goblin Berserker ",
-			"collector_number": "883",
+			"collector_number": "882",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/883_Rubblebelt Ravager.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/882_Rubblebelt Ravager.png"
 			}
 		},
 		{
@@ -7258,9 +7258,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R/G}",
 			"type": "Sorcery",
-			"collector_number": "923",
+			"collector_number": "922",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/923_Urban Uprising.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/922_Urban Uprising.png"
 			}
 		},
 		{
@@ -7268,10 +7268,10 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Instant",
-			"collector_number": "936",
+			"collector_number": "935",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/936_Bruise.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/935_Bruise.png"
 			}
 		},
 		{
@@ -7279,9 +7279,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "960",
+			"collector_number": "959",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/960_Gruul Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/959_Gruul Insignia.png"
 			}
 		},
 		{
@@ -7289,9 +7289,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1019",
+			"collector_number": "1018",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1019_Forest GRUUL.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1018_Forest GRUUL.png"
 			}
 		},
 		{
@@ -7469,9 +7469,9 @@
 			"rarity": "common",
 			"mana_cost": "{W/U}",
 			"type": "Instant",
-			"collector_number": "777",
+			"collector_number": "776",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/777_Diplomatic Gift.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/776_Diplomatic Gift.png"
 			}
 		},
 		{
@@ -7479,9 +7479,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "778",
+			"collector_number": "777",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/778_Diplomatic Strike.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/777_Diplomatic Strike.png"
 			}
 		},
 		{
@@ -7489,9 +7489,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W/B}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "882",
+			"collector_number": "881",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/882_Royal Castigator.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/881_Royal Castigator.png"
 			}
 		},
 		{
@@ -7499,9 +7499,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "999",
+			"collector_number": "998",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/999_Empirial Archives.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/998_Empirial Archives.png"
 			}
 		},
 		{
@@ -7689,9 +7689,9 @@
 			"rarity": "common",
 			"mana_cost": "{X}{R/G}",
 			"type": "Creature — Hydra ",
-			"collector_number": "755",
+			"collector_number": "754",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/755_Blind Hydra.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/754_Blind Hydra.png"
 			}
 		},
 		{
@@ -7699,9 +7699,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G/U}",
 			"type": "Enchantment",
-			"collector_number": "876",
+			"collector_number": "875",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/876_Regrow Limbs.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/875_Regrow Limbs.png"
 			}
 		},
 		{
@@ -7709,9 +7709,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/W}",
 			"type": "Creature — Hydra ",
-			"collector_number": "930",
+			"collector_number": "929",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/930_Young Hydra.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/929_Young Hydra.png"
 			}
 		},
 		{
@@ -7719,9 +7719,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1020",
+			"collector_number": "1019",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1020_Forest HYDRAS.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1019_Forest HYDRAS.png"
 			}
 		},
 		{
@@ -7889,9 +7889,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R/G}{R/G}",
 			"type": "Artifact Creature — Phyrexian Goblin ",
-			"collector_number": "887",
+			"collector_number": "886",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/887_Scraprazer.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/886_Scraprazer.png"
 			}
 		},
 		{
@@ -7899,9 +7899,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Phyrexian Scarecrow ",
-			"collector_number": "957",
+			"collector_number": "956",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/957_Furnace Reaper.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/956_Furnace Reaper.png"
 			}
 		},
 		{
@@ -7909,9 +7909,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "1027",
+			"collector_number": "1026",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1027_Forge of Scrap.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1026_Forge of Scrap.png"
 			}
 		},
 		{
@@ -7919,9 +7919,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "1029",
+			"collector_number": "1028",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1029_The Furnace Halls.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1028_The Furnace Halls.png"
 			}
 		},
 		{
@@ -8089,9 +8089,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/U}",
 			"type": "Artifact Creature — Phyrexian Insect ",
-			"collector_number": "863",
+			"collector_number": "862",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/863_Perfected Critter.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/862_Perfected Critter.png"
 			}
 		},
 		{
@@ -8099,9 +8099,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U/R}",
 			"type": "Creature — Phyrexian Mystic ",
-			"collector_number": "885",
+			"collector_number": "884",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/885_Sage of Compleation.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/884_Sage of Compleation.png"
 			}
 		},
 		{
@@ -8109,9 +8109,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "983",
+			"collector_number": "982",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/983_The Central Thinktank.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/982_The Central Thinktank.png"
 			}
 		},
 		{
@@ -8139,9 +8139,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{R}",
 			"type": "",
-			"collector_number": "693",
+			"collector_number": "692",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/693_IZZET.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/692_IZZET.png"
 			}
 		},
 		{
@@ -8159,9 +8159,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "690",
+			"collector_number": "689",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/690_Hammer Down.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/689_Hammer Down.png"
 			}
 		},
 		{
@@ -8169,9 +8169,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "692",
+			"collector_number": "691",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/692_Intellectrocute.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/691_Intellectrocute.png"
 			}
 		},
 		{
@@ -8179,9 +8179,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{R}",
 			"type": "Legendary Creature — Dragon Wizard ",
-			"collector_number": "703",
+			"collector_number": "702",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/703_Niv-Mizzet, Izzet Architect.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/702_Niv-Mizzet, Izzet Architect.png"
 			}
 		},
 		{
@@ -8189,9 +8189,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "710",
+			"collector_number": "709",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/710_Reduce the Rabble.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/709_Reduce the Rabble.png"
 			}
 		},
 		{
@@ -8199,9 +8199,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Creature — Viashino Wizard ",
-			"collector_number": "716",
+			"collector_number": "715",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/716_Rowdy Staticaster.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/715_Rowdy Staticaster.png"
 			}
 		},
 		{
@@ -8209,9 +8209,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Instant",
-			"collector_number": "724",
+			"collector_number": "723",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/724_Storming Emergence.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/723_Storming Emergence.png"
 			}
 		},
 		{
@@ -8219,9 +8219,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U/R}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "813",
+			"collector_number": "812",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/813_Gravityflux Mage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/812_Gravityflux Mage.png"
 			}
 		},
 		{
@@ -8229,9 +8229,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U/R}{U/R}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "828",
+			"collector_number": "827",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/828_Izzet Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/827_Izzet Guildsage.png"
 			}
 		},
 		{
@@ -8239,9 +8239,9 @@
 			"rarity": "common",
 			"mana_cost": "{U/R}",
 			"type": "Creature — Human Artificer ",
-			"collector_number": "833",
+			"collector_number": "832",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/833_League Steamrunner.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/832_League Steamrunner.png"
 			}
 		},
 		{
@@ -8249,9 +8249,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U/R}",
 			"type": "Sorcery",
-			"collector_number": "838",
+			"collector_number": "837",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/838_Making Time.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/837_Making Time.png"
 			}
 		},
 		{
@@ -8259,9 +8259,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U/R}",
 			"type": "Instant",
-			"collector_number": "874",
+			"collector_number": "873",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/874_Ral's Amplification.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/873_Ral's Amplification.png"
 			}
 		},
 		{
@@ -8269,9 +8269,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U/R}",
 			"type": "Sorcery",
-			"collector_number": "927",
+			"collector_number": "926",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/927_Weird Discharge.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/926_Weird Discharge.png"
 			}
 		},
 		{
@@ -8279,10 +8279,10 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "943",
+			"collector_number": "942",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/943_Theory.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/942_Theory.png"
 			}
 		},
 		{
@@ -8290,9 +8290,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "962",
+			"collector_number": "961",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/962_Izzet Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/961_Izzet Insignia.png"
 			}
 		},
 		{
@@ -8300,9 +8300,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Gate ",
-			"collector_number": "1006",
+			"collector_number": "1005",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1006_Experimental Guildgate.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1005_Experimental Guildgate.png"
 			}
 		},
 		{
@@ -8360,9 +8360,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "",
-			"collector_number": "604",
+			"collector_number": "603",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/604_LIFE.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/603_LIFE.png"
 			}
 		},
 		{
@@ -8410,9 +8410,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{G}",
 			"type": "Creature — Elemental Incarnation ",
-			"collector_number": "603",
+			"collector_number": "604",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/603_Life.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/604_Life.png"
 			}
 		},
 		{
@@ -8480,9 +8480,9 @@
 			"rarity": "common",
 			"mana_cost": "{B/G}",
 			"type": "Creature — Plant ",
-			"collector_number": "756",
+			"collector_number": "755",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/756_Bloomrover.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/755_Bloomrover.png"
 			}
 		},
 		{
@@ -8490,9 +8490,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/W}",
 			"type": "Instant",
-			"collector_number": "787",
+			"collector_number": "786",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/787_Enjoy Life.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/786_Enjoy Life.png"
 			}
 		},
 		{
@@ -8500,9 +8500,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/G}",
 			"type": "Creature — Horror Beast ",
-			"collector_number": "906",
+			"collector_number": "905",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/906_Stalking Scourge.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/905_Stalking Scourge.png"
 			}
 		},
 		{
@@ -8510,9 +8510,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G/W}",
 			"type": "Creature — Beast ",
-			"collector_number": "909",
+			"collector_number": "908",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/909_Sunsail Basker.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/908_Sunsail Basker.png"
 			}
 		},
 		{
@@ -8520,9 +8520,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "978",
+			"collector_number": "977",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/978_The Birthing Vale.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/977_The Birthing Vale.png"
 			}
 		},
 		{
@@ -8530,9 +8530,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1021",
+			"collector_number": "1020",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1021_Forest LIFE.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1020_Forest LIFE.png"
 			}
 		},
 		{
@@ -8680,9 +8680,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B/G}",
 			"type": "Creature — Ooze ",
-			"collector_number": "812",
+			"collector_number": "811",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/812_Graveyard Gloop.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/811_Graveyard Gloop.png"
 			}
 		},
 		{
@@ -8690,9 +8690,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/U}",
 			"type": "Enchantment",
-			"collector_number": "900",
+			"collector_number": "899",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/900_Sludge Transmission.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/899_Sludge Transmission.png"
 			}
 		},
 		{
@@ -8700,9 +8700,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G/W}",
 			"type": "Sorcery",
-			"collector_number": "924",
+			"collector_number": "923",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/924_Viscious Assimilation.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/923_Viscious Assimilation.png"
 			}
 		},
 		{
@@ -8710,9 +8710,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1022",
+			"collector_number": "1021",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1022_Forest MALLEABLE.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1021_Forest MALLEABLE.png"
 			}
 		},
 		{
@@ -8870,9 +8870,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/U}",
 			"type": "Enchantment Creature — Merfolk ",
-			"collector_number": "772",
+			"collector_number": "771",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/772_Curious Reefborn.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/771_Curious Reefborn.png"
 			}
 		},
 		{
@@ -8880,9 +8880,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/U}",
 			"type": "Creature — Merfolk Scout ",
-			"collector_number": "841",
+			"collector_number": "840",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/841_Merfolk Pioneer.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/840_Merfolk Pioneer.png"
 			}
 		},
 		{
@@ -8890,9 +8890,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/U}",
 			"type": "Creature — Merfolk ",
-			"collector_number": "899",
+			"collector_number": "898",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/899_Slipscale Siren.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/898_Slipscale Siren.png"
 			}
 		},
 		{
@@ -8960,9 +8960,9 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "",
-			"collector_number": "358",
+			"collector_number": "357",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/358_NIGHTMARES.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/357_NIGHTMARES.png"
 			}
 		},
 		{
@@ -9010,9 +9010,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Nightmare ",
-			"collector_number": "340",
+			"collector_number": "339",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/340_Hide Behind.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/339_Hide Behind.png"
 			}
 		},
 		{
@@ -9020,9 +9020,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{B}",
 			"type": "Artifact Creature — Nightmare Construct ",
-			"collector_number": "342",
+			"collector_number": "341",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/342_Intricate Amalgamation.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/341_Intricate Amalgamation.png"
 			}
 		},
 		{
@@ -9030,9 +9030,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "343",
+			"collector_number": "342",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/343_Irrationalize.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/342_Irrationalize.png"
 			}
 		},
 		{
@@ -9040,9 +9040,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Nightmare ",
-			"collector_number": "350",
+			"collector_number": "349",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/350_The Loneliness of Night.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/349_The Loneliness of Night.png"
 			}
 		},
 		{
@@ -9050,9 +9050,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Nightmare ",
-			"collector_number": "356",
+			"collector_number": "355",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/356_Nightcrawl Swarm.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/355_Nightcrawl Swarm.png"
 			}
 		},
 		{
@@ -9060,9 +9060,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
-			"collector_number": "357",
+			"collector_number": "356",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/357_Nightmare Fuel.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/356_Nightmare Fuel.png"
 			}
 		},
 		{
@@ -9070,9 +9070,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Nightmare ",
-			"collector_number": "359",
+			"collector_number": "358",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/359_Noises in the Cellar.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/358_Noises in the Cellar.png"
 			}
 		},
 		{
@@ -9080,9 +9080,9 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{B}",
 			"type": "Legendary Creature — Nightmare God ",
-			"collector_number": "360",
+			"collector_number": "359",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/360_O, Primordial Notion.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/359_O, Primordial Notion.png"
 			}
 		},
 		{
@@ -9100,9 +9100,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/R}",
 			"type": "Creature — Nightmare ",
-			"collector_number": "779",
+			"collector_number": "778",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/779_Distorted Memory.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/778_Distorted Memory.png"
 			}
 		},
 		{
@@ -9110,9 +9110,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B/G}",
 			"type": "Creature — Nightmare ",
-			"collector_number": "861",
+			"collector_number": "860",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/861_The Past, Distorted.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/860_The Past, Distorted.png"
 			}
 		},
 		{
@@ -9120,9 +9120,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "1007",
+			"collector_number": "1006",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1007_Familiar Cemetery.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1006_Familiar Cemetery.png"
 			}
 		},
 		{
@@ -9280,9 +9280,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G/W}",
 			"type": "Sorcery",
-			"collector_number": "748",
+			"collector_number": "747",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/748_Bendrick's Rally.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/747_Bendrick's Rally.png"
 			}
 		},
 		{
@@ -9290,9 +9290,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/W}",
 			"type": "Creature — Human Knight ",
-			"collector_number": "788",
+			"collector_number": "787",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/788_Esteemed Veteran.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/787_Esteemed Veteran.png"
 			}
 		},
 		{
@@ -9300,9 +9300,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/W}",
 			"type": "Instant",
-			"collector_number": "801",
+			"collector_number": "800",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/801_Frontline Phalanx.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/800_Frontline Phalanx.png"
 			}
 		},
 		{
@@ -9310,9 +9310,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/W}",
 			"type": "Creature — Human Knight ",
-			"collector_number": "910",
+			"collector_number": "909",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/910_Swift Spearmaster.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/909_Swift Spearmaster.png"
 			}
 		},
 		{
@@ -9320,9 +9320,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "976",
+			"collector_number": "975",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/976_Army Camp.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/975_Army Camp.png"
 			}
 		},
 		{
@@ -9330,9 +9330,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "995",
+			"collector_number": "994",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/995_Edinel, the United Front.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/994_Edinel, the United Front.png"
 			}
 		},
 		{
@@ -9360,9 +9360,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{B}",
 			"type": "",
-			"collector_number": "704",
+			"collector_number": "703",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/704_ORZHOV.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/703_ORZHOV.png"
 			}
 		},
 		{
@@ -9370,9 +9370,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Creature — Human Advisor ",
-			"collector_number": "691",
+			"collector_number": "690",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/691_Heartless Councelor.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/690_Heartless Councelor.png"
 			}
 		},
 		{
@@ -9380,9 +9380,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Legendary Planeswalker — Kaya ",
-			"collector_number": "697",
+			"collector_number": "696",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/697_Kaya, Orzhov Liquidator.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/696_Kaya, Orzhov Liquidator.png"
 			}
 		},
 		{
@@ -9390,9 +9390,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Creature — Human Noble ",
-			"collector_number": "705",
+			"collector_number": "704",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/705_Orzhov Convoy.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/704_Orzhov Convoy.png"
 			}
 		},
 		{
@@ -9400,9 +9400,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Creature — Thrull ",
-			"collector_number": "720",
+			"collector_number": "719",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/720_Sermon Thrull.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/719_Sermon Thrull.png"
 			}
 		},
 		{
@@ -9410,9 +9410,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Instant",
-			"collector_number": "723",
+			"collector_number": "722",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/723_Spiteful Mercy.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/722_Spiteful Mercy.png"
 			}
 		},
 		{
@@ -9420,9 +9420,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{W}{B}",
 			"type": "Legendary Creature — Human Advisor ",
-			"collector_number": "727",
+			"collector_number": "726",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/727_Teysa Karlov, Grand Usurper.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/726_Teysa Karlov, Grand Usurper.png"
 			}
 		},
 		{
@@ -9430,9 +9430,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{B}",
 			"type": "Enchantment",
-			"collector_number": "728",
+			"collector_number": "727",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/728_Teysa's Schemes.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/727_Teysa's Schemes.png"
 			}
 		},
 		{
@@ -9440,9 +9440,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W/B}",
 			"type": "Creature — Human Knight ",
-			"collector_number": "747",
+			"collector_number": "746",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/747_Basilica Knight.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/746_Basilica Knight.png"
 			}
 		},
 		{
@@ -9450,9 +9450,9 @@
 			"rarity": "common",
 			"mana_cost": "{W/B}",
 			"type": "Creature — Human Peasant ",
-			"collector_number": "780",
+			"collector_number": "779",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/780_Doomed Vagabond.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/779_Doomed Vagabond.png"
 			}
 		},
 		{
@@ -9460,9 +9460,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W/B}{W/B}",
 			"type": "Creature — Human Cleric ",
-			"collector_number": "857",
+			"collector_number": "856",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/857_Orzhov Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/856_Orzhov Guildsage.png"
 			}
 		},
 		{
@@ -9470,9 +9470,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "877",
+			"collector_number": "876",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/877_Repossess.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/876_Repossess.png"
 			}
 		},
 		{
@@ -9480,9 +9480,9 @@
 			"rarity": "common",
 			"mana_cost": "{W/B}",
 			"type": "Instant",
-			"collector_number": "914",
+			"collector_number": "913",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/914_Teysa's Offer.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/913_Teysa's Offer.png"
 			}
 		},
 		{
@@ -9490,9 +9490,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/B}",
 			"type": "Creature — Thrull ",
-			"collector_number": "916",
+			"collector_number": "915",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/916_Thrull Beggar.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/915_Thrull Beggar.png"
 			}
 		},
 		{
@@ -9500,10 +9500,10 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Sorcery",
-			"collector_number": "944",
+			"collector_number": "943",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/944_Thoughts.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/943_Thoughts.png"
 			}
 		},
 		{
@@ -9511,9 +9511,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "965",
+			"collector_number": "964",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/965_Orzhov Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/964_Orzhov Insignia.png"
 			}
 		},
 		{
@@ -9521,9 +9521,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "1003",
+			"collector_number": "1002",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1003_Endless Rooftops ORZHOV.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1002_Endless Rooftops ORZHOV.png"
 			}
 		},
 		{
@@ -9661,9 +9661,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Knight ",
-			"collector_number": "345",
+			"collector_number": "344",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/345_Knight of the Dead.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/344_Knight of the Dead.png"
 			}
 		},
 		{
@@ -9671,9 +9671,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Cleric ",
-			"collector_number": "347",
+			"collector_number": "346",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/347_Lady of Sorrows.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/346_Lady of Sorrows.png"
 			}
 		},
 		{
@@ -9681,9 +9681,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "351",
+			"collector_number": "350",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/351_Marshal of the End.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/350_Marshal of the End.png"
 			}
 		},
 		{
@@ -9691,9 +9691,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human ",
-			"collector_number": "355",
+			"collector_number": "354",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/355_Moribund Patient.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/354_Moribund Patient.png"
 			}
 		},
 		{
@@ -9721,9 +9721,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B/R}",
 			"type": "Enchantment Creature — Incarnation ",
-			"collector_number": "845",
+			"collector_number": "844",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/845_Mother War.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/844_Mother War.png"
 			}
 		},
 		{
@@ -9731,9 +9731,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B/G}",
 			"type": "Enchantment Creature — Zombie ",
-			"collector_number": "897",
+			"collector_number": "896",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/897_Sleeping Dead.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/896_Sleeping Dead.png"
 			}
 		},
 		{
@@ -9741,9 +9741,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "1028",
+			"collector_number": "1027",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1028_Foundations of Decay.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1027_Foundations of Decay.png"
 			}
 		},
 		{
@@ -9771,9 +9771,9 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{R}",
 			"type": "",
-			"collector_number": "706",
+			"collector_number": "705",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/706_RAKDOS.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/705_RAKDOS.png"
 			}
 		},
 		{
@@ -9791,9 +9791,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}{R}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "695",
+			"collector_number": "694",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/695_Juggler of Peril.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/694_Juggler of Peril.png"
 			}
 		},
 		{
@@ -9801,9 +9801,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Legendary Creature — Human Performer ",
-			"collector_number": "696",
+			"collector_number": "695",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/696_Juri, Closing Act.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/695_Juri, Closing Act.png"
 			}
 		},
 		{
@@ -9811,9 +9811,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{R}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "707",
+			"collector_number": "706",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/707_Rakdos' Plaything.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/706_Rakdos' Plaything.png"
 			}
 		},
 		{
@@ -9821,9 +9821,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{B}{R}",
 			"type": "Legendary Creature — Demon Performer ",
-			"collector_number": "708",
+			"collector_number": "707",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/708_Rakdos, the Ringmaster.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/707_Rakdos, the Ringmaster.png"
 			}
 		},
 		{
@@ -9831,9 +9831,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Human Performer ",
-			"collector_number": "711",
+			"collector_number": "710",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/711_Rehashed Actor.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/710_Rehashed Actor.png"
 			}
 		},
 		{
@@ -9841,9 +9841,9 @@
 			"rarity": "common",
 			"mana_cost": "{B/R}",
 			"type": "Creature — Imp ",
-			"collector_number": "759",
+			"collector_number": "758",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/759_Brandscythe Imp.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/758_Brandscythe Imp.png"
 			}
 		},
 		{
@@ -9851,9 +9851,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B/R}{B/R}",
 			"type": "Creature — Demon ",
-			"collector_number": "763",
+			"collector_number": "762",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/763_Chainfiend.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/762_Chainfiend.png"
 			}
 		},
 		{
@@ -9861,9 +9861,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B/R}",
 			"type": "Instant",
-			"collector_number": "825",
+			"collector_number": "824",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/825_Impfire.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/824_Impfire.png"
 			}
 		},
 		{
@@ -9871,9 +9871,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B/R}",
 			"type": "Creature — Devil Performer ",
-			"collector_number": "867",
+			"collector_number": "866",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/867_Pinbow Trickster.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/866_Pinbow Trickster.png"
 			}
 		},
 		{
@@ -9881,9 +9881,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B/R}{B/R}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "873",
+			"collector_number": "872",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/873_Rakdos Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/872_Rakdos Guildsage.png"
 			}
 		},
 		{
@@ -9891,9 +9891,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B/R}",
 			"type": "Creature — Human Performer ",
-			"collector_number": "891",
+			"collector_number": "890",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/891_Serpentfinger Mime.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/890_Serpentfinger Mime.png"
 			}
 		},
 		{
@@ -9901,9 +9901,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B/R}",
 			"type": "Creature — Human Performer ",
-			"collector_number": "917",
+			"collector_number": "916",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/917_Tightrope Fanatic.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/916_Tightrope Fanatic.png"
 			}
 		},
 		{
@@ -9911,10 +9911,10 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "941",
+			"collector_number": "940",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/941_Song.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/940_Song.png"
 			}
 		},
 		{
@@ -9922,9 +9922,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "968",
+			"collector_number": "967",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/968_Rakdos Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/967_Rakdos Insignia.png"
 			}
 		},
 		{
@@ -9932,9 +9932,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Gate ",
-			"collector_number": "980",
+			"collector_number": "979",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/980_Brutal Guildgate.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/979_Brutal Guildgate.png"
 			}
 		},
 		{
@@ -9982,9 +9982,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{W}",
 			"type": "",
-			"collector_number": "719",
+			"collector_number": "718",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/719_SELESNYA.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/718_SELESNYA.png"
 			}
 		},
 		{
@@ -10012,9 +10012,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}{W}",
 			"type": "Creature — Elephant Knight ",
-			"collector_number": "701",
+			"collector_number": "700",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/701_Loxodon Birdwatcher.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/700_Loxodon Birdwatcher.png"
 			}
 		},
 		{
@@ -10022,9 +10022,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{W}",
 			"type": "Legendary Creature — Dryad ",
-			"collector_number": "730",
+			"collector_number": "729",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/730_Trostani, Soul of Selesnya.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/729_Trostani, Soul of Selesnya.png"
 			}
 		},
 		{
@@ -10032,9 +10032,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{W}",
 			"type": "Creature — Griffin ",
-			"collector_number": "731",
+			"collector_number": "730",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/731_Truebond Griffin.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/730_Truebond Griffin.png"
 			}
 		},
 		{
@@ -10042,9 +10042,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{W}",
 			"type": "Enchantment",
-			"collector_number": "734",
+			"collector_number": "733",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/734_United Assault.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/733_United Assault.png"
 			}
 		},
 		{
@@ -10052,9 +10052,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{X}{G}{W}",
 			"type": "Sorcery",
-			"collector_number": "735",
+			"collector_number": "734",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/735_Urban Brawl.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/734_Urban Brawl.png"
 			}
 		},
 		{
@@ -10062,9 +10062,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Creature — Centaur Knight ",
-			"collector_number": "737",
+			"collector_number": "736",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/737_Veteran Guardian.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/736_Veteran Guardian.png"
 			}
 		},
 		{
@@ -10072,9 +10072,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/W}",
 			"type": "Enchantment",
-			"collector_number": "757",
+			"collector_number": "756",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/757_Boon of the Conclave.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/756_Boon of the Conclave.png"
 			}
 		},
 		{
@@ -10082,9 +10082,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/W}",
 			"type": "Creature — Human Knight ",
-			"collector_number": "766",
+			"collector_number": "765",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/766_Conclave Partisan.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/765_Conclave Partisan.png"
 			}
 		},
 		{
@@ -10092,9 +10092,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G/W}",
 			"type": "Instant",
-			"collector_number": "875",
+			"collector_number": "874",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/875_Recall to Nature.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/874_Recall to Nature.png"
 			}
 		},
 		{
@@ -10102,9 +10102,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G/W}{G/W}",
 			"type": "Creature — Elf Wizard ",
-			"collector_number": "889",
+			"collector_number": "888",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/889_Selesnya Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/888_Selesnya Guildsage.png"
 			}
 		},
 		{
@@ -10112,9 +10112,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/W}",
 			"type": "Creature — Human Druid ",
-			"collector_number": "890",
+			"collector_number": "889",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/890_Selesnya Ritualist.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/889_Selesnya Ritualist.png"
 			}
 		},
 		{
@@ -10122,10 +10122,10 @@
 			"rarity": "common",
 			"mana_cost": "{5}{G}",
 			"type": "Sorcery",
-			"collector_number": "940",
+			"collector_number": "939",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/940_Live.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/939_Live.png"
 			}
 		},
 		{
@@ -10133,9 +10133,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "970",
+			"collector_number": "969",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/970_Selesnya Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/969_Selesnya Insignia.png"
 			}
 		},
 		{
@@ -10143,9 +10143,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "1004",
+			"collector_number": "1003",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1004_Endless Rooftops SELESNYA.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1003_Endless Rooftops SELESNYA.png"
 			}
 		},
 		{
@@ -10153,9 +10153,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Gate ",
-			"collector_number": "1005",
+			"collector_number": "1004",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1005_Entwined Guildgate.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1004_Entwined Guildgate.png"
 			}
 		},
 		{
@@ -10163,9 +10163,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1023",
+			"collector_number": "1022",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1023_Forest SELESNYA.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1022_Forest SELESNYA.png"
 			}
 		},
 		{
@@ -10363,9 +10363,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R/G}",
 			"type": "Creature — Human Shaman ",
-			"collector_number": "823",
+			"collector_number": "822",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/823_Hotheaded Pugilist.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/822_Hotheaded Pugilist.png"
 			}
 		},
 		{
@@ -10373,9 +10373,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/W}",
 			"type": "Creature — Elf Shaman ",
-			"collector_number": "827",
+			"collector_number": "826",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/827_Irate Twinfist.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/826_Irate Twinfist.png"
 			}
 		},
 		{
@@ -10383,9 +10383,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B/R}",
 			"type": "Creature — Human Shaman ",
-			"collector_number": "892",
+			"collector_number": "891",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/892_Shaman of the Ragepool.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/891_Shaman of the Ragepool.png"
 			}
 		},
 		{
@@ -10393,9 +10393,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/G}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "893",
+			"collector_number": "892",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/893_Shaman's Ire.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/892_Shaman's Ire.png"
 			}
 		},
 		{
@@ -10443,9 +10443,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{U}",
 			"type": "",
-			"collector_number": "721",
+			"collector_number": "720",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/721_SIMIC.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/720_SIMIC.png"
 			}
 		},
 		{
@@ -10473,9 +10473,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Instant",
-			"collector_number": "709",
+			"collector_number": "708",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/709_Reconsider.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/708_Reconsider.png"
 			}
 		},
 		{
@@ -10483,9 +10483,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Creature — Insect Crab Mutant ",
-			"collector_number": "712",
+			"collector_number": "711",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/712_Rhopalostacean.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/711_Rhopalostacean.png"
 			}
 		},
 		{
@@ -10493,9 +10493,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Creature — Shark Crocodile Mutant ",
-			"collector_number": "718",
+			"collector_number": "717",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/718_Selachian Mutator.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/717_Selachian Mutator.png"
 			}
 		},
 		{
@@ -10503,9 +10503,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}{U}",
 			"type": "Creature — Merfolk Trilobite Mutant ",
-			"collector_number": "725",
+			"collector_number": "724",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/725_Subnautical Giant.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/724_Subnautical Giant.png"
 			}
 		},
 		{
@@ -10513,9 +10513,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Legendary Creature — Elf Ooze Wizard ",
-			"collector_number": "736",
+			"collector_number": "735",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/736_Vannifar, Grand Adaptionist.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/735_Vannifar, Grand Adaptionist.png"
 			}
 		},
 		{
@@ -10523,9 +10523,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/U}",
 			"type": "Creature — Fish Jellyfish Mutant ",
-			"collector_number": "742",
+			"collector_number": "741",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/742_Anguillizoa.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/741_Anguillizoa.png"
 			}
 		},
 		{
@@ -10533,9 +10533,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/U}",
 			"type": "Creature — Elf Crab Mutant ",
-			"collector_number": "809",
+			"collector_number": "808",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/809_Grafted Clawmaster.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/808_Grafted Clawmaster.png"
 			}
 		},
 		{
@@ -10543,9 +10543,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{G/U}{G/U}",
 			"type": "Creature — Hydra Chimera Mutant ",
-			"collector_number": "810",
+			"collector_number": "809",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/810_Grand Amalgamation.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/809_Grand Amalgamation.png"
 			}
 		},
 		{
@@ -10553,9 +10553,9 @@
 			"rarity": "common",
 			"mana_cost": "{G/U}",
 			"type": "Instant",
-			"collector_number": "818",
+			"collector_number": "817",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/818_Helical Growth.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/817_Helical Growth.png"
 			}
 		},
 		{
@@ -10563,9 +10563,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G/U}{G/U}",
 			"type": "Creature — Elf Mutant Wizard ",
-			"collector_number": "894",
+			"collector_number": "893",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/894_Simic Guildsage.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/893_Simic Guildsage.png"
 			}
 		},
 		{
@@ -10573,9 +10573,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G/U}",
 			"type": "Creature — Merfolk Advisor ",
-			"collector_number": "895",
+			"collector_number": "894",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/895_Simic Labguide.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/894_Simic Labguide.png"
 			}
 		},
 		{
@@ -10583,10 +10583,10 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
-			"collector_number": "935",
+			"collector_number": "934",
 			"layout": "split",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/935_Adapt.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/934_Adapt.png"
 			}
 		},
 		{
@@ -10594,9 +10594,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "972",
+			"collector_number": "971",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/972_Simic Insignia.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/971_Simic Insignia.png"
 			}
 		},
 		{
@@ -10604,9 +10604,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Gate ",
-			"collector_number": "998",
+			"collector_number": "997",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/998_Emergent Gate.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/997_Emergent Gate.png"
 			}
 		},
 		{
@@ -10614,9 +10614,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1024",
+			"collector_number": "1023",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1024_Forest SIMIC.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1023_Forest SIMIC.png"
 			}
 		},
 		{
@@ -10814,9 +10814,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R/G}{R/G}",
 			"type": "Sorcery",
-			"collector_number": "905",
+			"collector_number": "904",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/905_Spew Acid.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/904_Spew Acid.png"
 			}
 		},
 		{
@@ -10824,9 +10824,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B/G}",
 			"type": "Creature — Snake ",
-			"collector_number": "933",
+			"collector_number": "932",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/933_Youthful Bluecoil.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/932_Youthful Bluecoil.png"
 			}
 		},
 		{
@@ -10834,9 +10834,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "982",
+			"collector_number": "981",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/982_Cavern of True Colors.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/981_Cavern of True Colors.png"
 			}
 		},
 		{
@@ -10844,9 +10844,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1025",
+			"collector_number": "1024",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1025_Forest SNAKES.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1024_Forest SNAKES.png"
 			}
 		},
 		{
@@ -11024,9 +11024,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/U}",
 			"type": "Enchantment",
-			"collector_number": "743",
+			"collector_number": "742",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/743_Audience with the Oracle.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/742_Audience with the Oracle.png"
 			}
 		},
 		{
@@ -11204,9 +11204,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/G}",
 			"type": "Creature — Dinosaur ",
-			"collector_number": "881",
+			"collector_number": "880",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/881_Rowdy Raptor.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/880_Rowdy Raptor.png"
 			}
 		},
 		{
@@ -11214,9 +11214,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G/W}",
 			"type": "Creature — Dinosaur ",
-			"collector_number": "907",
+			"collector_number": "906",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/907_Striped Sunplate.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/906_Striped Sunplate.png"
 			}
 		},
 		{
@@ -11224,9 +11224,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "1008",
+			"collector_number": "1007",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1008_Feeding Grounds.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1007_Feeding Grounds.png"
 			}
 		},
 		{
@@ -11234,9 +11234,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "1026",
+			"collector_number": "1025",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1026_Forest STAMPEDING.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/1025_Forest STAMPEDING.png"
 			}
 		},
 		{
@@ -11374,9 +11374,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{G/U}",
 			"type": "Creature — Elemental Fish ",
-			"collector_number": "824",
+			"collector_number": "823",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/824_Hulking Timedrifter.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/823_Hulking Timedrifter.png"
 			}
 		},
 		{
@@ -11384,9 +11384,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U/B}",
 			"type": "Creature — Zombie Wizard ",
-			"collector_number": "842",
+			"collector_number": "841",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/842_Midnight Chronolich.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/841_Midnight Chronolich.png"
 			}
 		},
 		{
@@ -11394,9 +11394,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W/U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "844",
+			"collector_number": "843",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/844_Moonwise Prophet.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/843_Moonwise Prophet.png"
 			}
 		},
 		{
@@ -11404,9 +11404,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "946",
+			"collector_number": "945",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/946_Backwards Chronograph.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/945_Backwards Chronograph.png"
 			}
 		},
 		{
@@ -11414,9 +11414,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "987",
+			"collector_number": "986",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/987_The Cradle of Moments.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/986_The Cradle of Moments.png"
 			}
 		},
 		{
@@ -11574,9 +11574,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G/W}",
 			"type": "Creature — Turtle Elephant ",
-			"collector_number": "852",
+			"collector_number": "851",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/852_Oasis Trampler.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/851_Oasis Trampler.png"
 			}
 		},
 		{
@@ -11584,9 +11584,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G/W}",
 			"type": "Creature — Turtle Elephant ",
-			"collector_number": "913",
+			"collector_number": "912",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/913_Testudinephant.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/912_Testudinephant.png"
 			}
 		},
 		{
@@ -11594,9 +11594,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "953",
+			"collector_number": "952",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/953_Delicate Jewelery.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/952_Delicate Jewelery.png"
 			}
 		},
 		{
@@ -11784,9 +11784,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R/W}",
 			"type": "Creature — Phyrexian Cleric ",
-			"collector_number": "859",
+			"collector_number": "858",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/859_Pale Twins.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/858_Pale Twins.png"
 			}
 		},
 		{
@@ -11794,9 +11794,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W/U}",
 			"type": "Creature — Phyrexian Dragon ",
-			"collector_number": "896",
+			"collector_number": "895",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/896_Sinew Dragon.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/895_Sinew Dragon.png"
 			}
 		},
 		{
@@ -11804,9 +11804,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "977",
+			"collector_number": "976",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/977_Basilica of Porcelain.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/976_Basilica of Porcelain.png"
 			}
 		},
 		{
@@ -11904,9 +11904,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "361",
+			"collector_number": "360",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/361_Open the Crypt.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/360_Open the Crypt.png"
 			}
 		},
 		{
@@ -11984,9 +11984,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W/B}",
 			"type": "Creature — Vampire Noble ",
-			"collector_number": "819",
+			"collector_number": "818",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/819_Highblooded Schemer.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/818_Highblooded Schemer.png"
 			}
 		},
 		{
@@ -11994,9 +11994,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W/B}",
 			"type": "Creature — Vampire Peasant ",
-			"collector_number": "836",
+			"collector_number": "835",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/836_Lowblood Scavenger.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/835_Lowblood Scavenger.png"
 			}
 		},
 		{
@@ -12124,9 +12124,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Legendary Creature — Human Warlock ",
-			"collector_number": "346",
+			"collector_number": "345",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/346_Kuro, Abyssal Prophet.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/345_Kuro, Abyssal Prophet.png"
 			}
 		},
 		{
@@ -12174,9 +12174,9 @@
 			"rarity": "common",
 			"mana_cost": "{W/B}",
 			"type": "Creature — Azra Warlock ",
-			"collector_number": "740",
+			"collector_number": "739",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/740_Abyssal Aspirant.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/739_Abyssal Aspirant.png"
 			}
 		},
 		{
@@ -12184,9 +12184,9 @@
 			"rarity": "common",
 			"mana_cost": "{X}{W/B}",
 			"type": "Sorcery",
-			"collector_number": "760",
+			"collector_number": "759",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/760_Call Forth.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/759_Call Forth.png"
 			}
 		},
 		{
@@ -12194,9 +12194,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B/G}",
 			"type": "Creature — Human Warlock ",
-			"collector_number": "792",
+			"collector_number": "791",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/792_Familiar Pitcaller.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/791_Familiar Pitcaller.png"
 			}
 		},
 		{
@@ -12204,9 +12204,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "948",
+			"collector_number": "947",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/948_Blasphemous Pact.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/947_Blasphemous Pact.png"
 			}
 		},
 		{
@@ -12214,9 +12214,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "988",
+			"collector_number": "987",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/988_Dark Mage's Tower.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/987_Dark Mage's Tower.png"
 			}
 		},
 		{
@@ -12384,9 +12384,9 @@
 			"rarity": "common",
 			"mana_cost": "{W/U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "764",
+			"collector_number": "763",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/764_Clumsy Apprentice.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/763_Clumsy Apprentice.png"
 			}
 		},
 		{
@@ -12394,9 +12394,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W/U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "908",
+			"collector_number": "907",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/908_Summoner of Wings.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/907_Summoner of Wings.png"
 			}
 		},
 		{
@@ -12404,9 +12404,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G/U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "926",
+			"collector_number": "925",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/JUMP★-files/img/926_Wave Thrasher.png"
+				"en": "https://Crashington.github.io/sets/JUMP★-files/img/925_Wave Thrasher.png"
 			}
 		},
 		{

@@ -1,1 +1,1 @@
-﻿{"card_name": "BOROS", "color": "WR", "rarity": "rare", "type": "", "number": 671, "color_identity": "WR", "cost": "{R}{W}", "rules_text": "", "pt": "", "special_text": "", "shape": "normal", "set": "JUMP\u2605", "loyalty": "", "notes": "!tag boros\n!tag pack-cycle-ravnica"}
+﻿{"card_name": "BOROS", "color": "WR", "rarity": "rare", "type": "", "number": 671, "color_identity": "WR", "cost": "{R}{W}", "rules_text": "", "pt": "", "special_text": "", "shape": "normal", "set": "JUMP\u2605", "loyalty": "", "notes": "!tag pack-name-boros\n!tag pack-cycle-ravnica\n!sort boros"}

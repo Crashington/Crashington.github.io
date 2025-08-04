@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+  <cards>
+
+    <card>
+      <name>Treasure OPC</name>
+      <set>OPC</set>
+      <prop>
+        <colors></colors>
+        <type>Artifact - Treasure </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Rebel OPC</name>
+      <set>OPC</set>
+      <prop>
+        <colors>R</colors>
+        <type>Creature - Rebel </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Soldier OPC</name>
+      <set>OPC</set>
+      <prop>
+        <colors>W</colors>
+        <type>Creature - Soldier </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Pirate OPC</name>
+      <set>OPC</set>
+      <prop>
+        <colors>B</colors>
+        <type>Creature - Pirate </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Merfolk OPC</name>
+      <set>OPC</set>
+      <prop>
+        <colors>G</colors>
+        <type>Creature Token - Merfolk </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Bird OPC</name>
+      <set>OPC</set>
+      <prop>
+        <colors>B</colors>
+        <type>Creature Token - Bird </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Desert OPC</name>
+      <set>OPC</set>
+      <prop>
+        <colors></colors>
+        <type>Token Land - Desert </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+
+  </cards>
+</cockatrice_carddatabase>

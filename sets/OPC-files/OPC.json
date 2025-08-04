@@ -453,7 +453,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!tag: kid-pirates"
+            "notes": "!tag: kid-pirates\n!exportname Eustass Captain Kid"
         },
         {
             "card_name": "Buggy, the Star Clown",
@@ -3387,7 +3387,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!tag: big-mom-pirates"
+            "notes": "!tag: big-mom-pirates\n!exportname Cracker Thousand Arms"
         },
         {
             "card_name": "Orochi, Kurozomi Usurper",

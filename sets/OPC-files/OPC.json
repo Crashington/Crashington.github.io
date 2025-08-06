@@ -2415,7 +2415,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Spandam, CP9 Chief;Mother Carmel, Mountain Witch;Reinstated Bounties;Nezumi, Corrupt Captain;Paulie, Rash Rigger;The Will of D;The Oro Jackson;Gol D. Roger, Pirate King<1>\n!related Pappag, Star Designer;Huge Haul;Baby 5, Full Body Weapon;Nami, Cat Burglar;<2>\n!related Exploitative Industry;Wet Haired Caribou;Reinstated Bounties;Alliance Celebrations<X>\n"
+            "notes": "!related Spandam, CP9 Chief;Mother Carmel, Mountain Witch;Reinstated Bounties;Nezumi, Corrupt Captain;Paulie, Rash Rigger;The Will of D;The Oro Jackson;Gol D. Roger, Pirate King;Pappag, Star Designer<2>;Huge Haul<2>;Baby 5, Full Body Weapon<2>;Nami, Cat Burglar<2>;Industry Exploitation<X>;Wet Haired Caribou<X>;Reinstated Bounties<X>;Alliance Celebrations<X>"
         },
         {
             "card_name": "Rebel",
@@ -2433,7 +2433,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Koza, Rebel Leader;Flag of the Revolutionaries<1>\n!related Dragon, Revolutionary<2>"
+            "notes": "!related Koza, Rebel Leader;Flag of the Revolutionaries;Dragon, Revolutionary<2>"
         },
         {
             "card_name": "Soldier",
@@ -2451,7 +2451,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related G-5 Tactics<2>\n!related Make a Myth;Viola, Insightful Agent;Nezumi, Corrupt Captain;Leo, Tonta Corps Leader;The Germa Kingdom;Marineford, Marine Headquarters<1>\n!related Nefertari Cobra, Arabasta King;Show of Force<X>\n"
+            "notes": "!related G-5 Tactics<2>;Make a Myth;Viola, Insightful Agent;Nezumi, Corrupt Captain;Leo, Tonta Corps Leader;The Germa Kingdom;Marineford, Marine Headquarters;Nefertari Cobra, Arabasta King<X>;Show of Force<X>"
         },
         {
             "card_name": "Pirate",
@@ -2469,7 +2469,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Whitebeard, Roaring Patriarch;Higuma, Mountain Bandit;Capone Bege, Family Man<1>\n!related Capone Bege, Family Man;The Moby Dick<2>"
+            "notes": "!related Whitebeard, Roaring Patriarch;Higuma, Mountain Bandit;Capone Bege, Family Man;Capone Bege, Family Man<2>;The Moby Dick<2>"
         },
         {
             "card_name": "Reinstated Bounties",
@@ -2775,7 +2775,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Arlong the Saw, Fishman Pirate<1>"
+            "notes": "!related Arlong the Saw, Fishman Pirate"
         },
         {
             "card_name": "Fisher Tiger, Slave Liberator",
@@ -4323,7 +4323,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Karasu, North Army Commander<1>"
+            "notes": "!related Karasu, North Army Commander"
         },
         {
             "card_name": "Ice Time",
@@ -4557,7 +4557,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Sir Crocodile, Desert King<1>"
+            "notes": "!related Sir Crocodile, Desert King"
         },
         {
             "card_name": "Culinary Paradise",
@@ -6627,7 +6627,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Bartholomew Kuma, PX0<1>\n!related Sentomaru, Science Captain<1>\n!related Sentomaru, Science Captain<3>"
+            "notes": "!related Bartholomew Kuma, PX0;Sentomaru, Science Captain;Sentomaru, Science Captain<3>"
         },
         {
             "card_name": "Satellite",
@@ -6645,7 +6645,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Dr. Vegapunk, Super Genius<1>"
+            "notes": "!related Dr. Vegapunk, Super Genius"
         },
         {
             "card_name": "Leviathan",
@@ -6663,7 +6663,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Poseidon's Call;Sea King Nest<1>"
+            "notes": "!related Poseidon's Call;Sea King Nest"
         },
         {
             "card_name": "Clue",
@@ -6681,7 +6681,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Dr. Vegapunk, Super Genius;Clou D Clover, Ohara Scholar;Mr. 3, Intelligent Criminal<1>"
+            "notes": "!related Dr. Vegapunk, Super Genius;Clou D Clover, Ohara Scholar;Mr. 3, Intelligent Criminal"
         },
         {
             "card_name": "Food",
@@ -6699,7 +6699,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Hachi, Takoyaki Griller;Culinary Paradise;Headchef Zeff;Queen Mama Chanter;Sanji, Chef En Flamb\u00e9<1>\n!related Cracker Thousand Arms;Perospero, First Son of Linlin<X>"
+            "notes": "!related Hachi, Takoyaki Griller;Culinary Paradise;Headchef Zeff;Queen Mama Chanter;Sanji, Chef En Flamb\u00e9;Cracker Thousand Arms<X>;Perospero, First Son of Linlin<X>"
         },
         {
             "card_name": "Copy",
@@ -6717,7 +6717,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Kikunojo of the Snow;Clou D Clover, Ohara Scholar;Fata Morgana;Jack the Drought;Mr. 3, Intelligent Criminal;Buggy, the Star Clown<1>"
+            "notes": "!related Kikunojo of the Snow;Clou D Clover, Ohara Scholar;Fata Morgana;Jack the Drought;Mr. 3, Intelligent Criminal;Buggy, the Star Clown"
         },
         {
             "card_name": "Equipment",
@@ -6735,7 +6735,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Wyper, Shandia Warrior<1>"
+            "notes": "!related Wyper, Shandia Warrior"
         },
         {
             "card_name": "Junk",
@@ -6753,7 +6753,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Eustass Captain Kid<1>"
+            "notes": "!related Eustass Captain Kid"
         },
         {
             "card_name": "Baseball",
@@ -6807,7 +6807,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Perona, Ghost Princess<2>;"
+            "notes": "!related Perona, Ghost Princess<2>"
         },
         {
             "card_name": "Inkling",
@@ -6825,7 +6825,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Kanjuro, Theatrical Traitor<1>"
+            "notes": "!related Kanjuro, Theatrical Traitor"
         },
         {
             "card_name": "Vehicle",
@@ -6843,7 +6843,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Tom, Shipwright with a DON<1>"
+            "notes": "!related Tom, Shipwright with a DON"
         },
         {
             "card_name": "Toy",
@@ -6861,7 +6861,7 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!related Little Black Bears<1>"
+            "notes": "!related Little Black Bears<X>"
         }
     ],
     "version": 1

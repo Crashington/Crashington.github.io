@@ -123,7 +123,7 @@
 		{
 			"name": "Red Hair Shanks",
 			"rarity": "special",
-			"mana_cost": "{4}{R}{R}",
+			"mana_cost": "{5}{R}{R}",
 			"type": "Legendary Creature — Human Pirate",
 			"collector_number": "185",
 			"image_uris": {
@@ -655,9 +655,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Sorcery",
-			"collector_number": "154",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/154_Cards of Fortune.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/153_Cards of Fortune.png"
 			}
 		},
 		{
@@ -665,9 +665,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "153",
+			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/153_Buster Call.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/152_Buster Call.png"
 			}
 		},
 		{
@@ -1785,9 +1785,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{R}",
 			"type": "Legendary Creature — Human Pirate Noble",
-			"collector_number": "152",
+			"collector_number": "151",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/152_Boa Hancock, Pirate Empress.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/151_Boa Hancock, Pirate Empress.png"
 			}
 		},
 		{
@@ -1795,9 +1795,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Creature — Human Rebel",
-			"collector_number": "151",
+			"collector_number": "150",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/151_Belo Betty, East Army Commander.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/150_Belo Betty, East Army Commander.png"
 			}
 		},
 		{
@@ -1815,9 +1815,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "148",
+			"collector_number": "147",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/148_Alvida, the Iron Mace.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/147_Alvida, the Iron Mace.png"
 			}
 		},
 		{
@@ -2133,7 +2133,7 @@
 		{
 			"name": "King the Conflagration",
 			"rarity": "special",
-			"mana_cost": "{5}{R}{R}",
+			"mana_cost": "{4}{R}{R}",
 			"type": "Legendary Creature — Moonfolk Pirate",
 			"collector_number": "170",
 			"image_uris": {
@@ -3235,9 +3235,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "150",
+			"collector_number": "149",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/150_Bartolomeo the Cannibal.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/149_Bartolomeo the Cannibal.png"
 			}
 		},
 		{
@@ -3335,9 +3335,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Artifact Creature — Human Equipment",
-			"collector_number": "149",
+			"collector_number": "148",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/149_Baby 5, Full Body Weapon.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/148_Baby 5, Full Body Weapon.png"
 			}
 		},
 		{
@@ -3438,16 +3438,6 @@
 			"collector_number": "82",
 			"image_uris": {
 				"en": "https://Crashington.github.io/sets/OPC-files/img/82_Memories Too Sweet.png"
-			}
-		},
-		{
-			"name": "",
-			"rarity": "special",
-			"mana_cost": "{R}",
-			"type": "Enchantment",
-			"collector_number": "147",
-			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/147_.png"
 			}
 		},
 		{
@@ -3830,6 +3820,16 @@
 				"en": "https://Crashington.github.io/sets/OPC-files/img/16_Going Merry Flying Mode.png"
 			}
 		},
+		{
+			"name": "Cut Anything",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://Crashington.github.io/sets/OPC-files/img/154_Cut Anything.png"
+			}
+		},
 	]
 
 [cube(15)]
@@ -4170,7 +4170,6 @@
 	1 Exploitative Industry
 	1 Helmeppo, Son of Morgan
 	1 Memories Too Sweet
-	1 
 	1 Dreams Never Die
 	1 Lindbergh, South Army Commander
 	1 Noah, Ship of Promise
@@ -4194,3 +4193,4 @@
 	1 Make a Myth
 	1 Davy Back Fight
 	1 Going Merry Flying Mode
+	1 Cut Anything

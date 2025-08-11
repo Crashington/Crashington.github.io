@@ -5,9 +5,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Legendary Creature — Giant Warrior Pirate",
-			"collector_number": "205",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/205_Dorry and Brogy, Giant Warriors.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/206_Dorry and Brogy, Giant Warriors.png"
 			}
 		},
 		{
@@ -15,9 +15,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{G}",
 			"type": "Legendary Creature — Cat Dog Advisor",
-			"collector_number": "200",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/200_Cat and Dog, Nekomamushi and Inuarashi.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/201_Cat and Dog, Nekomamushi and Inuarashi.png"
 			}
 		},
 		{
@@ -25,9 +25,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}{G}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "257",
+			"collector_number": "259",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/257_Straw Hat Luffy, Dreamer.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/259_Straw Hat Luffy, Dreamer.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Legendary Creature — Human Rogue Pirate",
-			"collector_number": "251",
+			"collector_number": "252",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/251_Nami, Cat Burglar.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/252_Nami, Cat Burglar.png"
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Legendary Creature — Human Assassin Pirate",
-			"collector_number": "260",
+			"collector_number": "262",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/260_Zoro, Pirate Hunter.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/262_Zoro, Pirate Hunter.png"
 			}
 		},
 		{
@@ -55,9 +55,9 @@
 			"rarity": "special",
 			"mana_cost": "{B}{G}",
 			"type": "Legendary Creature — Human Coward Pirate",
-			"collector_number": "258",
+			"collector_number": "260",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/258_Usopp, Sniper King.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/260_Usopp, Sniper King.png"
 			}
 		},
 		{
@@ -65,9 +65,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Legendary Creature — Human Advisor Pirate",
-			"collector_number": "252",
+			"collector_number": "253",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/252_Nico Robin, Archeologist.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/253_Nico Robin, Archeologist.png"
 			}
 		},
 		{
@@ -75,9 +75,9 @@
 			"rarity": "special",
 			"mana_cost": "{G}{W}",
 			"type": "Legendary Creature — Elk Doctor Pirate",
-			"collector_number": "242",
+			"collector_number": "243",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/242_Chopper, Cure Concocter.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/243_Chopper, Cure Concocter.png"
 			}
 		},
 		{
@@ -85,9 +85,9 @@
 			"rarity": "special",
 			"mana_cost": "{W}{B}",
 			"type": "Legendary Creature — Skeleton Bard Pirate",
-			"collector_number": "240",
+			"collector_number": "241",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/240_Brook, Soul King.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/241_Brook, Soul King.png"
 			}
 		},
 		{
@@ -95,9 +95,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Artifact Creature — Artificer Pirate",
-			"collector_number": "246",
+			"collector_number": "247",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/246_Franky, Cyborg Shipwright.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/247_Franky, Cyborg Shipwright.png"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Legendary Creature — Human Chef Pirate",
-			"collector_number": "255",
+			"collector_number": "256",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/255_Sanji, Chef En Flambé.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/256_Sanji, Chef En Flambé.png"
 			}
 		},
 		{
@@ -115,9 +115,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Legendary Creature — Merfolk Pilot Pirate",
-			"collector_number": "249",
+			"collector_number": "250",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/249_Jinbe, Knight of the Sea.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/250_Jinbe, Knight of the Sea.png"
 			}
 		},
 		{
@@ -125,9 +125,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "184",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/184_Red Hair Shanks.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/185_Red Hair Shanks.png"
 			}
 		},
 		{
@@ -135,9 +135,9 @@
 			"rarity": "special",
 			"mana_cost": "{7}{B}{R}",
 			"type": "Legendary Creature — Human Demon",
-			"collector_number": "250",
+			"collector_number": "251",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/250_Kaidou, Strongest Creature.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/251_Kaidou, Strongest Creature.png"
 			}
 		},
 		{
@@ -145,9 +145,9 @@
 			"rarity": "special",
 			"mana_cost": "{6}{W}{W}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "51",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/51_Whitebeard, Roaring Patriarch.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/50_Whitebeard, Roaring Patriarch.png"
 			}
 		},
 		{
@@ -165,9 +165,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Legendary Creature — Elder Human Noble",
-			"collector_number": "244",
+			"collector_number": "245",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/244_The Five Elders.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/245_The Five Elders.png"
 			}
 		},
 		{
@@ -175,9 +175,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "101",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/101_Akainu, Thorough Admiral.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/100_Akainu, Thorough Admiral.png"
 			}
 		},
 		{
@@ -185,9 +185,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "170",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/170_Kizaru, Flippant Admiral.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/171_Kizaru, Flippant Admiral.png"
 			}
 		},
 		{
@@ -195,9 +195,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "55",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/55_Aokiji, Lazy Admiral.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/54_Aokiji, Lazy Admiral.png"
 			}
 		},
 		{
@@ -205,9 +205,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "47",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/47_Smoker the White Hunter.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/46_Smoker the White Hunter.png"
 			}
 		},
 		{
@@ -225,9 +225,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "26",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/26_Koby the Hero.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/25_Koby the Hero.png"
 			}
 		},
 		{
@@ -235,9 +235,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B/G}",
 			"type": "Legendary Artifact Creature — Human Noble",
-			"collector_number": "275",
+			"collector_number": "277",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/275_Wapol, Munch Machine.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/277_Wapol, Munch Machine.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Legendary Artifact Creature — Human Pirate",
-			"collector_number": "157",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/157_Eustass Captain Kid.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/158_Eustass Captain Kid.png"
 			}
 		},
 		{
@@ -255,19 +255,19 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B/R}",
 			"type": "Legendary Creature — Human Clown Pirate",
-			"collector_number": "263",
+			"collector_number": "265",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/263_Buggy, the Star Clown.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/265_Buggy, the Star Clown.png"
 			}
 		},
 		{
 			"name": "Sir Crocodile, Desert King",
 			"rarity": "special",
-			"mana_cost": "{3}{B}",
+			"mana_cost": "{2}{B}{G}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "140",
+			"collector_number": "258",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/140_Sir Crocodile, Desert King.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/258_Sir Crocodile, Desert King.png"
 			}
 		},
 		{
@@ -275,9 +275,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Shark Merfolk Pirate",
-			"collector_number": "195",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/195_Arlong the Saw, Fishman Pirate.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/196_Arlong the Saw, Fishman Pirate.png"
 			}
 		},
 		{
@@ -285,9 +285,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Moonfolk God",
-			"collector_number": "156",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/156_Enel, God of Skypiea.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/157_Enel, God of Skypiea.png"
 			}
 		},
 		{
@@ -315,9 +315,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{U}",
 			"type": "Legendary Creature — Human Scientist",
-			"collector_number": "63",
+			"collector_number": "62",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/63_Ceasar Clown, MADS Scientist.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/62_Ceasar Clown, MADS Scientist.png"
 			}
 		},
 		{
@@ -325,9 +325,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{W}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "46",
+			"collector_number": "45",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/46_Silvers Rayleigh, The Dark King.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/45_Silvers Rayleigh, The Dark King.png"
 			}
 		},
 		{
@@ -335,9 +335,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Performer",
-			"collector_number": "60",
+			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/60_Bon Clay, Okama Imitator.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/59_Bon Clay, Okama Imitator.png"
 			}
 		},
 		{
@@ -345,9 +345,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "181",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/181_Portgas D Ace, Fire Fist.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/182_Portgas D Ace, Fire Fist.png"
 			}
 		},
 		{
@@ -355,9 +355,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Artificer",
-			"collector_number": "77",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/77_Iceburg, Galley-La President.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/76_Iceburg, Galley-La President.png"
 			}
 		},
 		{
@@ -365,9 +365,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Doctor",
-			"collector_number": "80",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/80_Law, Surgeon of Death.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/79_Law, Surgeon of Death.png"
 			}
 		},
 		{
@@ -375,9 +375,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "33",
+			"collector_number": "32",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/33_Nefertari Vivi, Arabasta Princess.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/32_Nefertari Vivi, Arabasta Princess.png"
 			}
 		},
 		{
@@ -385,9 +385,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Scientist",
-			"collector_number": "72",
+			"collector_number": "71",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/72_Dr. Vegapunk, Super Genius.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/71_Dr. Vegapunk, Super Genius.png"
 			}
 		},
 		{
@@ -395,9 +395,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Legendary Creature — Human Rebel",
-			"collector_number": "243",
+			"collector_number": "244",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/243_Dragon, Revolutionary.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/244_Dragon, Revolutionary.png"
 			}
 		},
 		{
@@ -405,9 +405,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Rebel",
-			"collector_number": "185",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/185_Sabo, Flame Emperor.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/186_Sabo, Flame Emperor.png"
 			}
 		},
 		{
@@ -415,9 +415,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Dwarf Pirate",
-			"collector_number": "215",
+			"collector_number": "216",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/215_Leo, Tonta Corps Leader.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/216_Leo, Tonta Corps Leader.png"
 			}
 		},
 		{
@@ -435,9 +435,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "57",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/57_Barrier Screen.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/56_Barrier Screen.png"
 			}
 		},
 		{
@@ -445,9 +445,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "105",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/105_Darkness is Gravity.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/104_Darkness is Gravity.png"
 			}
 		},
 		{
@@ -465,9 +465,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "73",
+			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/73_Erase History.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/72_Erase History.png"
 			}
 		},
 		{
@@ -475,9 +475,9 @@
 			"rarity": "special",
 			"mana_cost": "{U/R}{U/R}",
 			"type": "Instant",
-			"collector_number": "267",
+			"collector_number": "269",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/267_Deflect.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/269_Deflect.png"
 			}
 		},
 		{
@@ -485,9 +485,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "61",
+			"collector_number": "60",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/61_Cake Raid Mirage.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/60_Cake Raid Mirage.png"
 			}
 		},
 		{
@@ -495,9 +495,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "90",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/90_Recover the Records.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/89_Recover the Records.png"
 			}
 		},
 		{
@@ -505,9 +505,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "29",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/29_Little Black Bears.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/28_Little Black Bears.png"
 			}
 		},
 		{
@@ -515,9 +515,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "52",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/52_Worthy Sacrifice.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/51_Worthy Sacrifice.png"
 			}
 		},
 		{
@@ -525,9 +525,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Artifact Land — Swamp Vehicle",
-			"collector_number": "310",
+			"collector_number": "311",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/310_The Thriller Bark.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/311_The Thriller Bark.png"
 			}
 		},
 		{
@@ -535,9 +535,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "289",
+			"collector_number": "290",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/289_The Going Merry.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/290_The Going Merry.png"
 			}
 		},
 		{
@@ -545,9 +545,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "293",
+			"collector_number": "294",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/293_The Moby Dick.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/294_The Moby Dick.png"
 			}
 		},
 		{
@@ -555,9 +555,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "legendary Artifact — Vehicle",
-			"collector_number": "288",
+			"collector_number": "289",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/288_The Going Luffy-Senpai.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/289_The Going Luffy-Senpai.png"
 			}
 		},
 		{
@@ -565,9 +565,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "300",
+			"collector_number": "301",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/300_Queen Mama Chanter.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/301_Queen Mama Chanter.png"
 			}
 		},
 		{
@@ -575,9 +575,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "309",
+			"collector_number": "310",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/309_The Thousand Sunny.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/310_The Thousand Sunny.png"
 			}
 		},
 		{
@@ -585,9 +585,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{G}{G}{G}{G}{G}",
 			"type": "Legendary Creature — Giant Pirate",
-			"collector_number": "230",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/230_Sanjuan Wolf.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/231_Sanjuan Wolf.png"
 			}
 		},
 		{
@@ -595,9 +595,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "165",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/165_I Want To Live!.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/166_I Want To Live!.png"
 			}
 		},
 		{
@@ -605,9 +605,9 @@
 			"rarity": "special",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "166",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/166_Jet Pistol.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/167_Jet Pistol.png"
 			}
 		},
 		{
@@ -615,9 +615,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "245",
+			"collector_number": "246",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/245_Foxy the Silver Fox.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/246_Foxy the Silver Fox.png"
 			}
 		},
 		{
@@ -625,9 +625,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{G}",
 			"type": "Legendary Creature — Whale",
-			"collector_number": "214",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/214_Laboon, Loyal Island Whale.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/215_Laboon, Loyal Island Whale.png"
 			}
 		},
 		{
@@ -635,9 +635,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "307",
+			"collector_number": "308",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/307_The Strawhat.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/308_The Strawhat.png"
 			}
 		},
 		{
@@ -645,9 +645,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment",
-			"collector_number": "114",
+			"collector_number": "113",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/114_Impel Down Breach.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/113_Impel Down Breach.png"
 			}
 		},
 		{
@@ -685,9 +685,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{W}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "23",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/23_Katakuri, Honorable Nemesis.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/22_Katakuri, Honorable Nemesis.png"
 			}
 		},
 		{
@@ -695,9 +695,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "291",
+			"collector_number": "292",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/291_Log Pose.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/292_Log Pose.png"
 			}
 		},
 		{
@@ -705,9 +705,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "325",
+			"collector_number": "326",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/325_Fabled Passage.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/326_Fabled Passage.png"
 			}
 		},
 		{
@@ -715,9 +715,9 @@
 			"rarity": "special",
 			"mana_cost": "{X}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "161",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/161_Gum Gum Gatling.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/162_Gum Gum Gatling.png"
 			}
 		},
 		{
@@ -725,9 +725,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{R}",
 			"type": "Sorcery",
-			"collector_number": "160",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/160_Gum Gum Elephant Gun.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/161_Gum Gum Elephant Gun.png"
 			}
 		},
 		{
@@ -735,9 +735,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "162",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/162_Gum Gum Whip.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/163_Gum Gum Whip.png"
 			}
 		},
 		{
@@ -745,9 +745,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Swamp Mountain",
-			"collector_number": "316",
+			"collector_number": "317",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/316_OPC Blood Crypt.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/317_OPC Blood Crypt.png"
 			}
 		},
 		{
@@ -755,9 +755,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Forest Island",
-			"collector_number": "319",
+			"collector_number": "320",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/319_OPC Breeding Pool.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/320_OPC Breeding Pool.png"
 			}
 		},
 		{
@@ -765,9 +765,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Plains Island",
-			"collector_number": "331",
+			"collector_number": "332",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/331_OPC Hallowed Fountain.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/332_OPC Hallowed Fountain.png"
 			}
 		},
 		{
@@ -775,9 +775,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Swamp Forest",
-			"collector_number": "341",
+			"collector_number": "342",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/341_OPC Overgrown Tomb.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/342_OPC Overgrown Tomb.png"
 			}
 		},
 		{
@@ -785,9 +785,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Mountain Plains",
-			"collector_number": "346",
+			"collector_number": "347",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/346_OPC Sacred Foundry.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/347_OPC Sacred Foundry.png"
 			}
 		},
 		{
@@ -795,9 +795,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Island Mountain",
-			"collector_number": "348",
+			"collector_number": "349",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/348_OPC Steam Vents.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/349_OPC Steam Vents.png"
 			}
 		},
 		{
@@ -805,9 +805,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Mountain Forest",
-			"collector_number": "349",
+			"collector_number": "350",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/349_OPC Stomping Ground.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/350_OPC Stomping Ground.png"
 			}
 		},
 		{
@@ -815,9 +815,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Forest Plains",
-			"collector_number": "350",
+			"collector_number": "351",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/350_OPC Temple Garden.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/351_OPC Temple Garden.png"
 			}
 		},
 		{
@@ -825,9 +825,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Island Swamp",
-			"collector_number": "356",
+			"collector_number": "357",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/356_OPC Watery Grave.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/357_OPC Watery Grave.png"
 			}
 		},
 		{
@@ -835,9 +835,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Instant",
-			"collector_number": "34",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/34_Nothing Happened.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/33_Nothing Happened.png"
 			}
 		},
 		{
@@ -845,9 +845,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land — Plains Swamp",
-			"collector_number": "329",
+			"collector_number": "330",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/329_OPC Godless Shrine.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/330_OPC Godless Shrine.png"
 			}
 		},
 		{
@@ -855,9 +855,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "315",
+			"collector_number": "316",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/315_OPC Arid Mesa.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/316_OPC Arid Mesa.png"
 			}
 		},
 		{
@@ -865,9 +865,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "317",
+			"collector_number": "318",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/317_OPC Bloodstained Mire.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/318_OPC Bloodstained Mire.png"
 			}
 		},
 		{
@@ -875,9 +875,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "327",
+			"collector_number": "328",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/327_OPC Flooded Strand.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/328_OPC Flooded Strand.png"
 			}
 		},
 		{
@@ -885,9 +885,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "336",
+			"collector_number": "337",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/336_OPC Marsh Flats.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/337_OPC Marsh Flats.png"
 			}
 		},
 		{
@@ -895,9 +895,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "338",
+			"collector_number": "339",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/338_OPC Misty Rainforest.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/339_OPC Misty Rainforest.png"
 			}
 		},
 		{
@@ -905,9 +905,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "342",
+			"collector_number": "343",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/342_OPC Polluted Delta.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/343_OPC Polluted Delta.png"
 			}
 		},
 		{
@@ -915,9 +915,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "347",
+			"collector_number": "348",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/347_OPC Scalding Tarn.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/348_OPC Scalding Tarn.png"
 			}
 		},
 		{
@@ -925,9 +925,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "353",
+			"collector_number": "354",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/353_OPC Verdant Catacombs.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/354_OPC Verdant Catacombs.png"
 			}
 		},
 		{
@@ -935,9 +935,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "358",
+			"collector_number": "359",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/358_OPC Windswept Heath.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/359_OPC Windswept Heath.png"
 			}
 		},
 		{
@@ -945,9 +945,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "359",
+			"collector_number": "360",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/359_Wooded Foothills.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/360_Wooded Foothills.png"
 			}
 		},
 		{
@@ -955,9 +955,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land — Plains",
-			"collector_number": "335",
+			"collector_number": "336",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/335_Marineford, Marine Headquarters.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/336_Marineford, Marine Headquarters.png"
 			}
 		},
 		{
@@ -965,9 +965,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "323",
+			"collector_number": "324",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/323_Egghead, Future Island.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/324_Egghead, Future Island.png"
 			}
 		},
 		{
@@ -975,9 +975,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "54",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/54_Abuse Authority.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/53_Abuse Authority.png"
 			}
 		},
 		{
@@ -985,9 +985,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "228",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/228_Rusted Blades.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/229_Rusted Blades.png"
 			}
 		},
 		{
@@ -995,9 +995,9 @@
 			"rarity": "special",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "189",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/189_Shoot Down That Flag.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/190_Shoot Down That Flag.png"
 			}
 		},
 		{
@@ -1005,9 +1005,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Instant",
-			"collector_number": "144",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/144_Unexpected Return.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/142_Unexpected Return.png"
 			}
 		},
 		{
@@ -1015,9 +1015,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "91",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/91_San Charlos, Spoiled Brat.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/90_San Charlos, Spoiled Brat.png"
 			}
 		},
 		{
@@ -1025,9 +1025,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{G/W}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "268",
+			"collector_number": "270",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/268_Garp, Marine Instructor.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/270_Garp, Marine Instructor.png"
 			}
 		},
 		{
@@ -1035,9 +1035,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
-			"collector_number": "190",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/190_Waste Nothing.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/191_Waste Nothing.png"
 			}
 		},
 		{
@@ -1045,9 +1045,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Enchantment",
-			"collector_number": "41",
+			"collector_number": "40",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/41_Sakazuki.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/40_Sakazuki.png"
 			}
 		},
 		{
@@ -1055,9 +1055,9 @@
 			"rarity": "special",
 			"mana_cost": "{W}",
 			"type": "Sorcery",
-			"collector_number": "35",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/35_The One Piece Is Real!.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/34_The One Piece Is Real!.png"
 			}
 		},
 		{
@@ -1065,9 +1065,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "44",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/44_A Ship Fit for a King.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/43_A Ship Fit for a King.png"
 			}
 		},
 		{
@@ -1075,9 +1075,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "357",
+			"collector_number": "358",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/357_Weatheria, Meteorology Heaven.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/358_Weatheria, Meteorology Heaven.png"
 			}
 		},
 		{
@@ -1085,9 +1085,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "318",
+			"collector_number": "319",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/318_Boin Archipelago, Stomach Baron.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/319_Boin Archipelago, Stomach Baron.png"
 			}
 		},
 		{
@@ -1095,9 +1095,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "339",
+			"collector_number": "340",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/339_Momoiro, Kamabakka Queendom.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/340_Momoiro, Kamabakka Queendom.png"
 			}
 		},
 		{
@@ -1105,9 +1105,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "352",
+			"collector_number": "353",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/352_Torino Kingdom, Medicine Island.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/353_Torino Kingdom, Medicine Island.png"
 			}
 		},
 		{
@@ -1115,9 +1115,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "351",
+			"collector_number": "352",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/351_Tequila Wolf, Bridge to Nowhere.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/352_Tequila Wolf, Bridge to Nowhere.png"
 			}
 		},
 		{
@@ -1125,9 +1125,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "333",
+			"collector_number": "334",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/333_Karakuri, Future Island Baldimore.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/334_Karakuri, Future Island Baldimore.png"
 			}
 		},
 		{
@@ -1135,9 +1135,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "340",
+			"collector_number": "341",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/340_Namakuri, Land of Poverty.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/341_Namakuri, Land of Poverty.png"
 			}
 		},
 		{
@@ -1145,9 +1145,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "345",
+			"collector_number": "346",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/345_Rusukaina, Harsh Island.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/346_Rusukaina, Harsh Island.png"
 			}
 		},
 		{
@@ -1155,9 +1155,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "334",
+			"collector_number": "335",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/334_Kuraigana, Muggy Kingdom.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/335_Kuraigana, Muggy Kingdom.png"
 			}
 		},
 		{
@@ -1165,9 +1165,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "326",
+			"collector_number": "327",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/326_Fish-Man Island, Ryugu Kingdom.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/327_Fish-Man Island, Ryugu Kingdom.png"
 			}
 		},
 		{
@@ -1175,9 +1175,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land — Forest",
-			"collector_number": "360",
+			"collector_number": "361",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/360_Zou, Home of the Minks.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/361_Zou, Home of the Minks.png"
 			}
 		},
 		{
@@ -1185,9 +1185,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Creature — Human Chef",
-			"collector_number": "20",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/20_Headchef Zeff.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/19_Headchef Zeff.png"
 			}
 		},
 		{
@@ -1195,9 +1195,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment — Aura",
-			"collector_number": "111",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/111_Fizzle Out.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/110_Fizzle Out.png"
 			}
 		},
 		{
@@ -1205,9 +1205,9 @@
 			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "75",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/75_Go on a Vacation.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/74_Go on a Vacation.png"
 			}
 		},
 		{
@@ -1215,9 +1215,9 @@
 			"rarity": "special",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "207",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/207_Golden Age of Piracy.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/208_Golden Age of Piracy.png"
 			}
 		},
 		{
@@ -1225,9 +1225,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
-			"collector_number": "66",
+			"collector_number": "65",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/66_Chart the World.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/65_Chart the World.png"
 			}
 		},
 		{
@@ -1235,9 +1235,9 @@
 			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "69",
+			"collector_number": "68",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/69_Coup de Burst.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/68_Coup de Burst.png"
 			}
 		},
 		{
@@ -1245,9 +1245,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "120",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/120_Kuro of a Hundred Plans.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/119_Kuro of a Hundred Plans.png"
 			}
 		},
 		{
@@ -1255,9 +1255,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Artifact Creature — Dog Equipment",
-			"collector_number": "173",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/173_Lassoo, Dog Gun.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/174_Lassoo, Dog Gun.png"
 			}
 		},
 		{
@@ -1275,9 +1275,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{W}",
 			"type": "Legendary Creature — Phoenix Human Pirate",
-			"collector_number": "31",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/31_Marco the Phoenix.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/30_Marco the Phoenix.png"
 			}
 		},
 		{
@@ -1285,9 +1285,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "303",
+			"collector_number": "304",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/303_Rocketman, Sea Train.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/304_Rocketman, Sea Train.png"
 			}
 		},
 		{
@@ -1295,9 +1295,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "71",
+			"collector_number": "70",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/71_Decyphering the Poneglyph.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/70_Decyphering the Poneglyph.png"
 			}
 		},
 		{
@@ -1305,9 +1305,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}",
 			"type": "Artifact",
-			"collector_number": "302",
+			"collector_number": "303",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/302_Road Poneglyph.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/303_Road Poneglyph.png"
 			}
 		},
 		{
@@ -1315,9 +1315,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Enchantment",
-			"collector_number": "74",
+			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/74_Fata Morgana.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/73_Fata Morgana.png"
 			}
 		},
 		{
@@ -1325,9 +1325,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "164",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/164_Huge Haul.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/165_Huge Haul.png"
 			}
 		},
 		{
@@ -1385,9 +1385,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
-			"collector_number": "191",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/191_The Will of D.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/192_The Will of D.png"
 			}
 		},
 		{
@@ -1395,9 +1395,9 @@
 			"rarity": "special",
 			"mana_cost": "{G}",
 			"type": "Legendary Creature — Bunny Pirate",
-			"collector_number": "199",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/199_Carrot, Mink Stowaway.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/200_Carrot, Mink Stowaway.png"
 			}
 		},
 		{
@@ -1405,9 +1405,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Enchantment — Aura",
-			"collector_number": "233",
+			"collector_number": "234",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/233_Sulong, Moon Lion Form.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/234_Sulong, Moon Lion Form.png"
 			}
 		},
 		{
@@ -1415,9 +1415,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Instant",
-			"collector_number": "193",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/193_3D2Y.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/194_3D2Y.png"
 			}
 		},
 		{
@@ -1433,11 +1433,11 @@
 		{
 			"name": "G-5 Tactics",
 			"rarity": "special",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "16",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/16_G-5 Tactics.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/160_G-5 Tactics.png"
 			}
 		},
 		{
@@ -1445,9 +1445,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Instant",
-			"collector_number": "45",
+			"collector_number": "44",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/45_Show of Force.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/44_Show of Force.png"
 			}
 		},
 		{
@@ -1455,9 +1455,9 @@
 			"rarity": "special",
 			"mana_cost": "{W}",
 			"type": "Legendary Creature — Dwarf Noble",
-			"collector_number": "39",
+			"collector_number": "38",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/39_Princess Mansherry.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/38_Princess Mansherry.png"
 			}
 		},
 		{
@@ -1465,9 +1465,9 @@
 			"rarity": "special",
 			"mana_cost": "{G}{W}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "254",
+			"collector_number": "255",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/254_Rosinante, Mute Savior.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/255_Rosinante, Mute Savior.png"
 			}
 		},
 		{
@@ -1485,9 +1485,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{G}",
 			"type": "Legendary Creature — Elder Elephant",
-			"collector_number": "239",
+			"collector_number": "240",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/239_Zunesha, Elephus Dali.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/240_Zunesha, Elephus Dali.png"
 			}
 		},
 		{
@@ -1495,9 +1495,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Merfolk Noble",
-			"collector_number": "232",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/232_Shirahoshi, Mermaid Princess.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/233_Shirahoshi, Mermaid Princess.png"
 			}
 		},
 		{
@@ -1505,9 +1505,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Octopus Merfolk",
-			"collector_number": "208",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/208_Hachi, Takoyaki Griller.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/209_Hachi, Takoyaki Griller.png"
 			}
 		},
 		{
@@ -1515,9 +1515,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment",
-			"collector_number": "234",
+			"collector_number": "235",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/234_The Tale of Noland the Liar.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/235_The Tale of Noland the Liar.png"
 			}
 		},
 		{
@@ -1525,9 +1525,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Shark Merfolk Pirate",
-			"collector_number": "113",
+			"collector_number": "112",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/113_Hody Jones, Hollow Idealist.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/112_Hody Jones, Hollow Idealist.png"
 			}
 		},
 		{
@@ -1545,9 +1545,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Merfolk Pirate",
-			"collector_number": "158",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/158_Fisher Tiger, Slave Liberator.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/159_Fisher Tiger, Slave Liberator.png"
 			}
 		},
 		{
@@ -1555,9 +1555,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "117",
+			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/117_Judge, Despotic Diplomat.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/116_Judge, Despotic Diplomat.png"
 			}
 		},
 		{
@@ -1565,9 +1565,9 @@
 			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Legendary Creature — Eye Human Pirate",
-			"collector_number": "88",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/88_Pudding, Three-Eyed Bride.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/87_Pudding, Three-Eyed Bride.png"
 			}
 		},
 		{
@@ -1575,9 +1575,9 @@
 			"rarity": "special",
 			"mana_cost": "{7}",
 			"type": "Legendary Artifact",
-			"collector_number": "283",
+			"collector_number": "284",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/283_The Empty Throne.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/284_The Empty Throne.png"
 			}
 		},
 		{
@@ -1585,9 +1585,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Legendary Creature — Human Demon",
-			"collector_number": "238",
+			"collector_number": "239",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/238_Yamato, Son of Kaidou.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/239_Yamato, Son of Kaidou.png"
 			}
 		},
 		{
@@ -1595,9 +1595,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{R}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "172",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/172_Kozuki Oden, Foolish Daimyo.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/173_Kozuki Oden, Foolish Daimyo.png"
 			}
 		},
 		{
@@ -1605,9 +1605,9 @@
 			"rarity": "special",
 			"mana_cost": "{G}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "218",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/218_Momonosuke, Young Shogun.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/219_Momonosuke, Young Shogun.png"
 			}
 		},
 		{
@@ -1615,9 +1615,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Bird Human Detective",
-			"collector_number": "58",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/58_Big News Morgans.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/57_Big News Morgans.png"
 			}
 		},
 		{
@@ -1625,9 +1625,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Creature — Bird Human Knight",
-			"collector_number": "38",
+			"collector_number": "37",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/38_Pell the Falcon.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/37_Pell the Falcon.png"
 			}
 		},
 		{
@@ -1645,9 +1645,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "68",
+			"collector_number": "67",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/68_Commence the Levely.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/67_Commence the Levely.png"
 			}
 		},
 		{
@@ -1655,9 +1655,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "292",
+			"collector_number": "293",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/292_Mask of Sogeking.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/293_Mask of Sogeking.png"
 			}
 		},
 		{
@@ -1665,9 +1665,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Legendary Creature — Plant Human Soldier",
-			"collector_number": "229",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/229_Ryokugyu, Determined Admiral.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/230_Ryokugyu, Determined Admiral.png"
 			}
 		},
 		{
@@ -1675,9 +1675,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "14",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/14_Fujitora, Humane Admiral.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/13_Fujitora, Humane Admiral.png"
 			}
 		},
 		{
@@ -1685,9 +1685,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "277",
+			"collector_number": "279",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/277_The Ark Maxim.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/279_The Ark Maxim.png"
 			}
 		},
 		{
@@ -1695,9 +1695,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "216",
+			"collector_number": "217",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/216_Mihawk, Strongest Swordsman.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/217_Mihawk, Strongest Swordsman.png"
 			}
 		},
 		{
@@ -1705,9 +1705,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Instant",
-			"collector_number": "224",
+			"collector_number": "225",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/224_Poseidon's Call.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/225_Poseidon's Call.png"
 			}
 		},
 		{
@@ -1715,9 +1715,9 @@
 			"rarity": "special",
 			"mana_cost": "{X}{B}",
 			"type": "Instant",
-			"collector_number": "104",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/104_Born to Boil.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/103_Born to Boil.png"
 			}
 		},
 		{
@@ -1755,9 +1755,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Merfolk Citizen",
-			"collector_number": "198",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/198_Camie, Designer Apprentice.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/199_Camie, Designer Apprentice.png"
 			}
 		},
 		{
@@ -1765,9 +1765,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "241",
+			"collector_number": "242",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/241_Capone Bege, Family Man.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/242_Capone Bege, Family Man.png"
 			}
 		},
 		{
@@ -1775,9 +1775,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "147",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/147_Wet Haired Caribou.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/145_Wet Haired Caribou.png"
 			}
 		},
 		{
@@ -1805,9 +1805,9 @@
 			"rarity": "special",
 			"mana_cost": "{8}",
 			"type": "Artifact Creature — Bear Human Robot",
-			"collector_number": "280",
+			"collector_number": "281",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/280_Bartholomew Kuma, PX0.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/281_Bartholomew Kuma, PX0.png"
 			}
 		},
 		{
@@ -1815,9 +1815,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "149",
+			"collector_number": "148",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/149_Alvida, the Iron Mace.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/148_Alvida, the Iron Mace.png"
 			}
 		},
 		{
@@ -1825,9 +1825,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Creature — Human Doctor",
-			"collector_number": "108",
+			"collector_number": "107",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/108_Doctor Hogback.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/107_Doctor Hogback.png"
 			}
 		},
 		{
@@ -1845,9 +1845,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Bat Human Rogue",
-			"collector_number": "143",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/143_Stussy, Triple Agent.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/141_Stussy, Triple Agent.png"
 			}
 		},
 		{
@@ -1855,9 +1855,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "211",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/211_Jesus Burgess, the Champion.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/212_Jesus Burgess, the Champion.png"
 			}
 		},
 		{
@@ -1865,9 +1865,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "64",
+			"collector_number": "63",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/64_Charlotte Brûlée, Mirror Woman.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/63_Charlotte Brûlée, Mirror Woman.png"
 			}
 		},
 		{
@@ -1885,9 +1885,9 @@
 			"rarity": "special",
 			"mana_cost": "{X}{G}",
 			"type": "Legendary Creature — Hydra Human Noble",
-			"collector_number": "220",
+			"collector_number": "221",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/220_Orochi, Kurozomi Usurper.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/221_Orochi, Kurozomi Usurper.png"
 			}
 		},
 		{
@@ -1895,9 +1895,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "177",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/177_Nezumi, Corrupt Captain.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/178_Nezumi, Corrupt Captain.png"
 			}
 		},
 		{
@@ -1915,9 +1915,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{W}",
 			"type": "Legendary Creature — Human Knight",
-			"collector_number": "17",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/17_Gan Fall, Knight of the Sky.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/15_Gan Fall, Knight of the Sky.png"
 			}
 		},
 		{
@@ -1925,9 +1925,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Human Doctor",
-			"collector_number": "203",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/203_Crocus, Laboon's Caretaker.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/204_Crocus, Laboon's Caretaker.png"
 			}
 		},
 		{
@@ -1935,9 +1935,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "202",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/202_Cricket's Crew.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/203_Cricket's Crew.png"
 			}
 		},
 		{
@@ -1945,9 +1945,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Creature — Human Assassin",
-			"collector_number": "106",
+			"collector_number": "105",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/106_Daz Bonez The Killer.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/105_Daz Bonez The Killer.png"
 			}
 		},
 		{
@@ -1955,9 +1955,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/13_Duval, Rosy Life Rider.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/12_Duval, Rosy Life Rider.png"
 			}
 		},
 		{
@@ -1965,9 +1965,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{R}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "186",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/186_Saint Figarland Garling.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/187_Saint Figarland Garling.png"
 			}
 		},
 		{
@@ -1975,9 +1975,9 @@
 			"rarity": "special",
 			"mana_cost": "{W}",
 			"type": "Legendary Artifact Creature — Elephant Equipment",
-			"collector_number": "15",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/15_Funkfreed, Elephant Sword.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/14_Funkfreed, Elephant Sword.png"
 			}
 		},
 		{
@@ -1985,19 +1985,19 @@
 			"rarity": "special",
 			"mana_cost": "{3}{G/U}{G/U}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "273",
+			"collector_number": "275",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/273_Mr. 3, Intelligent Criminal.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/275_Mr. 3, Intelligent Criminal.png"
 			}
 		},
 		{
-			"name": "Gatz, Coliseum Commentator",
+			"name": "Lafitte, Demon Sheriff",
 			"rarity": "special",
-			"mana_cost": "{2}{R}",
-			"type": "Legendary Creature — Human Advisor",
-			"collector_number": "159",
+			"mana_cost": "{B}",
+			"type": "Legendary Creature — Human Pirate",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/159_Gatz, Coliseum Commentator.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/120_Lafitte, Demon Sheriff.png"
 			}
 		},
 		{
@@ -2005,9 +2005,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "109",
+			"collector_number": "108",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/109_Don Foul Play Krieg.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/108_Don Foul Play Krieg.png"
 			}
 		},
 		{
@@ -2015,9 +2015,9 @@
 			"rarity": "special",
 			"mana_cost": "{W}{U}{B}{R}{G}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "247",
+			"collector_number": "248",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/247_Gol D. Roger, Pirate King.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/248_Gol D. Roger, Pirate King.png"
 			}
 		},
 		{
@@ -2025,9 +2025,9 @@
 			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "112",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/112_Higuma, Mountain Bandit.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/111_Higuma, Mountain Bandit.png"
 			}
 		},
 		{
@@ -2035,9 +2035,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Bird Scout",
-			"collector_number": "168",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/168_Karoo, Super Sonic Duck.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/169_Karoo, Super Sonic Duck.png"
 			}
 		},
 		{
@@ -2055,9 +2055,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Legendary Creature — Human Scout",
-			"collector_number": "248",
+			"collector_number": "249",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/248_Kokoro, Chimney and Gonbe.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/249_Kokoro, Chimney and Gonbe.png"
 			}
 		},
 		{
@@ -2065,9 +2065,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Legendary Creature — Elephant Merfolk Pirate",
-			"collector_number": "210",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/210_Jack the Drought.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/211_Jack the Drought.png"
 			}
 		},
 		{
@@ -2075,9 +2075,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Merfolk Pirate",
-			"collector_number": "98",
+			"collector_number": "97",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/98_Vander Decken IX.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/97_Vander Decken IX.png"
 			}
 		},
 		{
@@ -2085,9 +2085,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "78",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/78_Jewelry Bonney.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/77_Jewelry Bonney.png"
 			}
 		},
 		{
@@ -2095,9 +2095,9 @@
 			"rarity": "special",
 			"mana_cost": "{R}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "167",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/167_Johnny and Yosaku, Bounty Hunters.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/168_Johnny and Yosaku, Bounty Hunters.png"
 			}
 		},
 		{
@@ -2105,9 +2105,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "49",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/49_Soap Up.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/48_Soap Up.png"
 			}
 		},
 		{
@@ -2115,9 +2115,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Creature — Human Rebel",
-			"collector_number": "119",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/119_Karasu, North Army Commander.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/118_Karasu, North Army Commander.png"
 			}
 		},
 		{
@@ -2125,9 +2125,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{G}",
 			"type": "Legendary Creature — Merfolk Ninja",
-			"collector_number": "212",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/212_Kawamatsu the Kappa.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/213_Kawamatsu the Kappa.png"
 			}
 		},
 		{
@@ -2135,9 +2135,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Legendary Creature — Moonfolk Pirate",
-			"collector_number": "169",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/169_King the Conflagration.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/170_King the Conflagration.png"
 			}
 		},
 		{
@@ -2145,9 +2145,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Legendary Creature — Human Rebel",
-			"collector_number": "171",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/171_Koza, Rebel Leader.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/172_Koza, Rebel Leader.png"
 			}
 		},
 		{
@@ -2155,9 +2155,9 @@
 			"rarity": "special",
 			"mana_cost": "{7}{U}{U}",
 			"type": "Legendary Artifact Creature — Cyborg Pirate",
-			"collector_number": "89",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/89_Queen the Plague.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/88_Queen the Plague.png"
 			}
 		},
 		{
@@ -2165,9 +2165,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Artist",
-			"collector_number": "84",
+			"collector_number": "83",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/84_Miss Goldenweek, Expressionist.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/83_Miss Goldenweek, Expressionist.png"
 			}
 		},
 		{
@@ -2175,9 +2175,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U/B}",
 			"type": "Legendary Creature — Bird Human Scout",
-			"collector_number": "272",
+			"collector_number": "274",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/272_Monet, Punk Hazard Overseer.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/274_Monet, Punk Hazard Overseer.png"
 			}
 		},
 		{
@@ -2185,9 +2185,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Legendary Creature — Giant Rebel",
-			"collector_number": "219",
+			"collector_number": "220",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/219_Morley, West Army Commander.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/220_Morley, West Army Commander.png"
 			}
 		},
 		{
@@ -2195,9 +2195,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Legendary Creature — Snake",
-			"collector_number": "86",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/86_Nola, Master of the Sky.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/85_Nola, Master of the Sky.png"
 			}
 		},
 		{
@@ -2205,9 +2205,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Creature — Merfolk Noble",
-			"collector_number": "36",
+			"collector_number": "35",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/36_Otohime, Selfless Queen.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/35_Otohime, Selfless Queen.png"
 			}
 		},
 		{
@@ -2215,9 +2215,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Legendary Creature — Cat Knight",
-			"collector_number": "180",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/180_Pedro of the Treetops.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/181_Pedro of the Treetops.png"
 			}
 		},
 		{
@@ -2225,9 +2225,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{G}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "222",
+			"collector_number": "223",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/222_Pica, Gargantuan Pipsqueak.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/223_Pica, Gargantuan Pipsqueak.png"
 			}
 		},
 		{
@@ -2235,9 +2235,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Warrior Noble",
-			"collector_number": "183",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/183_Rebecca, Gladiator Princess.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/184_Rebecca, Gladiator Princess.png"
 			}
 		},
 		{
@@ -2255,9 +2255,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{W}",
 			"type": "Legendary Creature — God Human Soldier",
-			"collector_number": "42",
+			"collector_number": "41",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/42_Sengoku the Buddha.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/41_Sengoku the Buddha.png"
 			}
 		},
 		{
@@ -2265,9 +2265,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{W}{U}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "256",
+			"collector_number": "257",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/256_Sentomaru, Science Captain.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/257_Sentomaru, Science Captain.png"
 			}
 		},
 		{
@@ -2285,9 +2285,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Shark Merfolk Advisor",
-			"collector_number": "82",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/82_Madam Shyarly, Fortuneteller.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/81_Madam Shyarly, Fortuneteller.png"
 			}
 		},
 		{
@@ -2295,9 +2295,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Legendary Creature — Salamander Ooze",
-			"collector_number": "92",
+			"collector_number": "91",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/92_Smiley, Bio-Chemical Pet.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/91_Smiley, Bio-Chemical Pet.png"
 			}
 		},
 		{
@@ -2305,9 +2305,9 @@
 			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Legendary Creature — Human Advisor",
-			"collector_number": "142",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/142_Spandam, CP9 Chief.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/140_Spandam, CP9 Chief.png"
 			}
 		},
 		{
@@ -2315,9 +2315,9 @@
 			"rarity": "special",
 			"mana_cost": "{6}{U}{U}",
 			"type": "Legendary Creature — Kraken",
-			"collector_number": "93",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/93_Surume, Benthic Companion.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/92_Surume, Benthic Companion.png"
 			}
 		},
 		{
@@ -2325,9 +2325,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Spider Monkey Zombie",
-			"collector_number": "94",
+			"collector_number": "93",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/94_Tararan, Spider Monkey Zombie.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/93_Tararan, Spider Monkey Zombie.png"
 			}
 		},
 		{
@@ -2335,9 +2335,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{U}",
 			"type": "Legendary Creature — Merfolk Artificer",
-			"collector_number": "95",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/95_Tom, Shipwright with a DON.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/94_Tom, Shipwright with a DON.png"
 			}
 		},
 		{
@@ -2345,9 +2345,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Dinosaur Human Pirate",
-			"collector_number": "235",
+			"collector_number": "236",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/235_Ulti, Tobiroppo Rampage.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/236_Ulti, Tobiroppo Rampage.png"
 			}
 		},
 		{
@@ -2355,9 +2355,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{G}",
 			"type": "Legendary Creature — Moonfolk Monk",
-			"collector_number": "237",
+			"collector_number": "238",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/237_Urouge, Mad Monk.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/238_Urouge, Mad Monk.png"
 			}
 		},
 		{
@@ -2365,9 +2365,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "99",
+			"collector_number": "98",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/99_Viola, Insightful Agent.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/98_Viola, Insightful Agent.png"
 			}
 		},
 		{
@@ -2375,9 +2375,9 @@
 			"rarity": "special",
 			"mana_cost": "{R}{G}",
 			"type": "Legendary Creature — Moonfolk Rebel",
-			"collector_number": "259",
+			"collector_number": "261",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/259_Wyper, Shandia Warrior.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/261_Wyper, Shandia Warrior.png"
 			}
 		},
 		{
@@ -2385,9 +2385,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "53",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/53_X Drake, Pretend Deserter.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/52_X Drake, Pretend Deserter.png"
 			}
 		},
 		{
@@ -2405,9 +2405,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "76",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/76_Ice Time.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/75_Ice Time.png"
 			}
 		},
 		{
@@ -2415,9 +2415,9 @@
 			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Legendary Creature — Bird Otter Scout",
-			"collector_number": "96",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/96_The Unluckies, Informants.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/95_The Unluckies, Informants.png"
 			}
 		},
 		{
@@ -2425,9 +2425,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U/R}",
 			"type": "Legendary Creature — Human Rebel",
-			"collector_number": "270",
+			"collector_number": "272",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/270_Ivankov, Kamabakka Queen.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/272_Ivankov, Kamabakka Queen.png"
 			}
 		},
 		{
@@ -2435,9 +2435,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "37",
+			"collector_number": "36",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/37_Passing the Legacy.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/36_Passing the Legacy.png"
 			}
 		},
 		{
@@ -2445,9 +2445,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "21",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/21_Hearty Meal.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/20_Hearty Meal.png"
 			}
 		},
 		{
@@ -2455,9 +2455,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "19",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/19_Haki of the Supreme King.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/18_Haki of the Supreme King.png"
 			}
 		},
 		{
@@ -2465,9 +2465,9 @@
 			"rarity": "special",
 			"mana_cost": "{G}",
 			"type": "Enchantment — Aura",
-			"collector_number": "196",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/196_Armament Haki.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/197_Armament Haki.png"
 			}
 		},
 		{
@@ -2475,9 +2475,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "85",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/85_News Coo Delivery.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/84_News Coo Delivery.png"
 			}
 		},
 		{
@@ -2485,9 +2485,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "305",
+			"collector_number": "306",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/305_Sandai Kitetsu, Cursed Blade.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/306_Sandai Kitetsu, Cursed Blade.png"
 			}
 		},
 		{
@@ -2495,9 +2495,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "40",
+			"collector_number": "39",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/40_Rokushiki.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/39_Rokushiki.png"
 			}
 		},
 		{
@@ -2515,9 +2515,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "231",
+			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/231_Sea King Nest.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/232_Sea King Nest.png"
 			}
 		},
 		{
@@ -2535,9 +2535,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment",
-			"collector_number": "204",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/204_Culinary Paradise.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/205_Culinary Paradise.png"
 			}
 		},
 		{
@@ -2545,9 +2545,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}{U}{B}{R}{G}",
 			"type": "Legendary Enchantment",
-			"collector_number": "253",
+			"collector_number": "254",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/253_The One Piece.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/254_The One Piece.png"
 			}
 		},
 		{
@@ -2555,9 +2555,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "306",
+			"collector_number": "307",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/306_Sorcery Clima-Tact.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/307_Sorcery Clima-Tact.png"
 			}
 		},
 		{
@@ -2565,9 +2565,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "279",
+			"collector_number": "280",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/279_Baratie, Floating Restaurant.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/280_Baratie, Floating Restaurant.png"
 			}
 		},
 		{
@@ -2575,9 +2575,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "298",
+			"collector_number": "299",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/298_Polar Tang, Submarine.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/299_Polar Tang, Submarine.png"
 			}
 		},
 		{
@@ -2585,9 +2585,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "18",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/18_Goodbye Merry.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/17_Goodbye Merry.png"
 			}
 		},
 		{
@@ -2595,9 +2595,9 @@
 			"rarity": "special",
 			"mana_cost": "{W/B}",
 			"type": "Sorcery",
-			"collector_number": "271",
+			"collector_number": "273",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/271_Locked Away.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/273_Locked Away.png"
 			}
 		},
 		{
@@ -2605,9 +2605,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "87",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/87_Perception Haki.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/86_Perception Haki.png"
 			}
 		},
 		{
@@ -2615,9 +2615,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "312",
+			"collector_number": "313",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/312_Yoru, Black Blade.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/313_Yoru, Black Blade.png"
 			}
 		},
 		{
@@ -2625,9 +2625,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment Food",
-			"collector_number": "282",
+			"collector_number": "283",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/282_Devil Fruit.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/283_Devil Fruit.png"
 			}
 		},
 		{
@@ -2635,9 +2635,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "290",
+			"collector_number": "291",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/290_Kuro Kabuto, Pop Green Slingshot.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/291_Kuro Kabuto, Pop Green Slingshot.png"
 			}
 		},
 		{
@@ -2645,9 +2645,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "227",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/227_Rumble Ball.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/228_Rumble Ball.png"
 			}
 		},
 		{
@@ -2655,9 +2655,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{G}",
 			"type": "Instant",
-			"collector_number": "236",
+			"collector_number": "237",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/236_United Dreams.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/237_United Dreams.png"
 			}
 		},
 		{
@@ -2695,9 +2695,9 @@
 			"rarity": "special",
 			"mana_cost": "{R/G}",
 			"type": "Instant",
-			"collector_number": "262",
+			"collector_number": "264",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/262_Alliance Celebrations.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/264_Alliance Celebrations.png"
 			}
 		},
 		{
@@ -2715,9 +2715,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "225",
+			"collector_number": "226",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/225_Recover the Past.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/226_Recover the Past.png"
 			}
 		},
 		{
@@ -2725,9 +2725,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "343",
+			"collector_number": "344",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/343_Raftel, the Final Island.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/344_Raftel, the Final Island.png"
 			}
 		},
 		{
@@ -2735,9 +2735,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "320",
+			"collector_number": "321",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/320_The Calm Belt.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/321_The Calm Belt.png"
 			}
 		},
 		{
@@ -2745,9 +2745,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land — Swamp",
-			"collector_number": "332",
+			"collector_number": "333",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/332_Impel Down, Underwater Prison.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/333_Impel Down, Underwater Prison.png"
 			}
 		},
 		{
@@ -2755,9 +2755,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "344",
+			"collector_number": "345",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/344_The Red Line.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/345_The Red Line.png"
 			}
 		},
 		{
@@ -2765,9 +2765,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land — Mountain Desert",
-			"collector_number": "314",
+			"collector_number": "315",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/314_Arabasta, Desert Kingdom.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/315_Arabasta, Desert Kingdom.png"
 			}
 		},
 		{
@@ -2775,9 +2775,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Artifact Land — Food Plains",
-			"collector_number": "311",
+			"collector_number": "312",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/311_Whole Cake Island.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/312_Whole Cake Island.png"
 			}
 		},
 		{
@@ -2785,9 +2785,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land — Forest",
-			"collector_number": "354",
+			"collector_number": "355",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/354_Wano Kuni, Prevailing Nation.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/355_Wano Kuni, Prevailing Nation.png"
 			}
 		},
 		{
@@ -2795,9 +2795,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land — Island",
-			"collector_number": "322",
+			"collector_number": "323",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/322_Drum Island, Sakura Kingdom.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/323_Drum Island, Sakura Kingdom.png"
 			}
 		},
 		{
@@ -2805,9 +2805,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "337",
+			"collector_number": "338",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/337_Mary Geoise, Holy Land.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/338_Mary Geoise, Holy Land.png"
 			}
 		},
 		{
@@ -2815,9 +2815,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land — Mountain",
-			"collector_number": "321",
+			"collector_number": "322",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/321_Dressrosa, Land of Love and Passion.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/322_Dressrosa, Land of Love and Passion.png"
 			}
 		},
 		{
@@ -2825,9 +2825,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land — Island",
-			"collector_number": "355",
+			"collector_number": "356",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/355_Water 7, Capital of Water.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/356_Water 7, Capital of Water.png"
 			}
 		},
 		{
@@ -2835,9 +2835,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "324",
+			"collector_number": "325",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/324_Enies Lobby, Judicial Island.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/325_Enies Lobby, Judicial Island.png"
 			}
 		},
 		{
@@ -2845,9 +2845,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "328",
+			"collector_number": "329",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/328_The Gates of Justice.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/329_The Gates of Justice.png"
 			}
 		},
 		{
@@ -2855,9 +2855,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "27",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/27_Kozuki Hiyori, Tayu Oiran.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/26_Kozuki Hiyori, Tayu Oiran.png"
 			}
 		},
 		{
@@ -2865,9 +2865,9 @@
 			"rarity": "special",
 			"mana_cost": "{W}",
 			"type": "Legendary Creature — Human Citizen",
-			"collector_number": "24",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/24_Kaya, Doctor in Training.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/23_Kaya, Doctor in Training.png"
 			}
 		},
 		{
@@ -2875,9 +2875,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R/W}",
 			"type": "Legendary Creature — Human Samurai",
-			"collector_number": "261",
+			"collector_number": "263",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/261_Foxfire Kinnemon.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/263_Foxfire Kinnemon.png"
 			}
 		},
 		{
@@ -2885,9 +2885,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Creature — Human Doctor",
-			"collector_number": "22",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/22_Hiriluk, Savior of the Heart.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/21_Hiriluk, Savior of the Heart.png"
 			}
 		},
 		{
@@ -2905,9 +2905,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R/G}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "266",
+			"collector_number": "268",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/266_Curly Dadan, Foster Mother.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/268_Curly Dadan, Foster Mother.png"
 			}
 		},
 		{
@@ -2915,9 +2915,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "50",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/50_Tashigi, Marine Captain.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/49_Tashigi, Marine Captain.png"
 			}
 		},
 		{
@@ -2925,9 +2925,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{R}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "175",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/175_Mr. 4, Pinch Hitter.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/176_Mr. 4, Pinch Hitter.png"
 			}
 		},
 		{
@@ -2935,9 +2935,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Scientist",
-			"collector_number": "67",
+			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/67_Clou D Clover, Ohara Scholar.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/66_Clou D Clover, Ohara Scholar.png"
 			}
 		},
 		{
@@ -2955,9 +2955,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{B}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "145",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/145_Vergo, The First Corazon.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/143_Vergo, The First Corazon.png"
 			}
 		},
 		{
@@ -2965,9 +2965,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Assassin",
-			"collector_number": "79",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/79_Kaku, Undercover Shipwright.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/78_Kaku, Undercover Shipwright.png"
 			}
 		},
 		{
@@ -2975,9 +2975,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Artifact Creature — Human Pirate",
-			"collector_number": "194",
+			"collector_number": "195",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/194_Apoo, Roar of the Sea.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/195_Apoo, Roar of the Sea.png"
 			}
 		},
 		{
@@ -2985,9 +2985,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Creature — Mole Human Rogue",
-			"collector_number": "174",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/174_Miss Merry Christmas, Setter.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/175_Miss Merry Christmas, Setter.png"
 			}
 		},
 		{
@@ -2995,9 +2995,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "176",
+			"collector_number": "177",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/176_Mr. 5, Snot Bomber.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/177_Mr. 5, Snot Bomber.png"
 			}
 		},
 		{
@@ -3005,9 +3005,9 @@
 			"rarity": "special",
 			"mana_cost": "{B}",
 			"type": "Legendary Creature — Human Ninja",
-			"collector_number": "118",
+			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/118_Kanjuro, Theatrical Traitor.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/117_Kanjuro, Theatrical Traitor.png"
 			}
 		},
 		{
@@ -3015,9 +3015,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Legendary Creature — Yeti Assassin",
-			"collector_number": "100",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/100_Yeti Cool Brothers, For Hire.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/99_Yeti Cool Brothers, For Hire.png"
 			}
 		},
 		{
@@ -3025,9 +3025,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Creature — Human Samurai",
-			"collector_number": "25",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/25_Kikunojo of the Snow.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/24_Kikunojo of the Snow.png"
 			}
 		},
 		{
@@ -3035,9 +3035,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Human Artificer",
-			"collector_number": "179",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/179_Paulie, Rash Rigger.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/180_Paulie, Rash Rigger.png"
 			}
 		},
 		{
@@ -3045,9 +3045,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Bear Pirate",
-			"collector_number": "197",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/197_Bepo, Martial Artist Mink.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/198_Bepo, Martial Artist Mink.png"
 			}
 		},
 		{
@@ -3055,9 +3055,9 @@
 			"rarity": "special",
 			"mana_cost": "{G}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "206",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/206_Gaimon of Rare Animal Island.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/207_Gaimon of Rare Animal Island.png"
 			}
 		},
 		{
@@ -3065,9 +3065,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Legendary Artifact Creature — Human Rogue",
-			"collector_number": "146",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/146_The Vinsmoke Siblings.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/144_The Vinsmoke Siblings.png"
 			}
 		},
 		{
@@ -3075,9 +3075,9 @@
 			"rarity": "special",
 			"mana_cost": "{6}{W}{W}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "48",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/48_Smoothie, Sweet Commander.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/47_Smoothie, Sweet Commander.png"
 			}
 		},
 		{
@@ -3085,9 +3085,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "187",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/187_Senor Pink, Hard-Boiled.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/188_Senor Pink, Hard-Boiled.png"
 			}
 		},
 		{
@@ -3095,9 +3095,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{W}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "32",
+			"collector_number": "31",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/32_Nefertari Cobra, Arabasta King.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/31_Nefertari Cobra, Arabasta King.png"
 			}
 		},
 		{
@@ -3105,9 +3105,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "102",
+			"collector_number": "101",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/102_Basil Hawkins, the Magician.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/101_Basil Hawkins, the Magician.png"
 			}
 		},
 		{
@@ -3115,9 +3115,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "217",
+			"collector_number": "218",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/217_Miss Valentine, Weightlifter.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/218_Miss Valentine, Weightlifter.png"
 			}
 		},
 		{
@@ -3125,9 +3125,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Creature — Noble",
-			"collector_number": "115",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/115_Imu, Supreme Ruler.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/114_Imu, Supreme Ruler.png"
 			}
 		},
 		{
@@ -3135,9 +3135,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Egg Human Pirate",
-			"collector_number": "56",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/56_Baron Tamago.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/55_Baron Tamago.png"
 			}
 		},
 		{
@@ -3145,9 +3145,9 @@
 			"rarity": "special",
 			"mana_cost": "{R}",
 			"type": "Legendary Artifact Creature — Elemental",
-			"collector_number": "192",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/192_Zeus, Cumulo Companion.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/193_Zeus, Cumulo Companion.png"
 			}
 		},
 		{
@@ -3155,9 +3155,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Legendary Creature — Plant",
-			"collector_number": "213",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/213_Kingbaum, Master of the Woods.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/214_Kingbaum, Master of the Woods.png"
 			}
 		},
 		{
@@ -3165,9 +3165,9 @@
 			"rarity": "special",
 			"mana_cost": "{6}{R}",
 			"type": "Legendary Artifact Creature — Elemental",
-			"collector_number": "182",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/182_Prometheus the Sun.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/183_Prometheus the Sun.png"
 			}
 		},
 		{
@@ -3185,9 +3185,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "65",
+			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/65_Charlotte Mont-d'Or.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/64_Charlotte Mont-d'Or.png"
 			}
 		},
 		{
@@ -3195,9 +3195,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "28",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/28_Kyros, One-Legged Soldier.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/27_Kyros, One-Legged Soldier.png"
 			}
 		},
 		{
@@ -3205,9 +3205,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Assassin",
-			"collector_number": "59",
+			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/59_Blueno, Door Human.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/58_Blueno, Door Human.png"
 			}
 		},
 		{
@@ -3215,9 +3215,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{W/B}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "264",
+			"collector_number": "266",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/264_Cavendish the Pirate Prince.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/266_Cavendish the Pirate Prince.png"
 			}
 		},
 		{
@@ -3225,9 +3225,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "148",
+			"collector_number": "146",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/148_Yasopp, Red Hair's Sniper.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/146_Yasopp, Red Hair's Sniper.png"
 			}
 		},
 		{
@@ -3245,9 +3245,9 @@
 			"rarity": "special",
 			"mana_cost": "{R}",
 			"type": "Legendary Creature — Starfish Artist",
-			"collector_number": "178",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/178_Pappag, Star Designer.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/179_Pappag, Star Designer.png"
 			}
 		},
 		{
@@ -3255,9 +3255,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{U}",
 			"type": "Legendary Creature — Fox Human Pirate",
-			"collector_number": "62",
+			"collector_number": "61",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/62_Catarina Devon, Nine-Tail Imitator.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/61_Catarina Devon, Nine-Tail Imitator.png"
 			}
 		},
 		{
@@ -3265,9 +3265,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Human Pirate Doctor",
-			"collector_number": "107",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/107_Doc Q, Death God.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/106_Doc Q, Death God.png"
 			}
 		},
 		{
@@ -3275,9 +3275,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Pirate",
-			"collector_number": "97",
+			"collector_number": "96",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/97_Van Augur, The Supersonic.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/96_Van Augur, The Supersonic.png"
 			}
 		},
 		{
@@ -3285,9 +3285,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{W}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "43",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/43_Ship Cutter T Bone.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/42_Ship Cutter T Bone.png"
 			}
 		},
 		{
@@ -3295,9 +3295,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "313",
+			"collector_number": "314",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/313_Amazon Lily, Island of Women.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/314_Amazon Lily, Island of Women.png"
 			}
 		},
 		{
@@ -3305,9 +3305,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "330",
+			"collector_number": "331",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/330_Hachinosu, Pirate Island.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/331_Hachinosu, Pirate Island.png"
 			}
 		},
 		{
@@ -3315,9 +3315,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Legendary Artifact",
-			"collector_number": "297",
+			"collector_number": "298",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/297_The Pluton Blueprints.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/298_The Pluton Blueprints.png"
 			}
 		},
 		{
@@ -3325,19 +3325,19 @@
 			"rarity": "special",
 			"mana_cost": "{W/U}",
 			"type": "Legendary Creature — Human Citizen",
-			"collector_number": "274",
+			"collector_number": "276",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/274_The Usopp Pirates.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/276_The Usopp Pirates.png"
 			}
 		},
 		{
 			"name": "Baby 5, Full Body Weapon",
 			"rarity": "special",
-			"mana_cost": "{2}",
+			"mana_cost": "{1}{R}",
 			"type": "Legendary Artifact Creature — Human Equipment",
-			"collector_number": "278",
+			"collector_number": "149",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/278_Baby 5, Full Body Weapon.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/149_Baby 5, Full Body Weapon.png"
 			}
 		},
 		{
@@ -3345,9 +3345,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "286",
+			"collector_number": "287",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/286_Flag of the Strawhats.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/287_Flag of the Strawhats.png"
 			}
 		},
 		{
@@ -3355,19 +3355,19 @@
 			"rarity": "special",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "304",
+			"collector_number": "305",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/304_Saber of Xebec.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/305_Saber of Xebec.png"
 			}
 		},
 		{
 			"name": "The Drums of Liberation",
 			"rarity": "special",
-			"mana_cost": "{2}{W}{W}",
-			"type": "Enchantment — Aura",
-			"collector_number": "12",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/12_The Drums of Liberation.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/156_The Drums of Liberation.png"
 			}
 		},
 		{
@@ -3375,9 +3375,9 @@
 			"rarity": "special",
 			"mana_cost": "{B}{B}",
 			"type": "Legendary Enchantment",
-			"collector_number": "103",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/103_The Birdcage.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/102_The Birdcage.png"
 			}
 		},
 		{
@@ -3385,9 +3385,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "163",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/163_The Hoof of the World Nobles.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/164_The Hoof of the World Nobles.png"
 			}
 		},
 		{
@@ -3395,9 +3395,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}",
 			"type": "Artifact Creature — Snail",
-			"collector_number": "281",
+			"collector_number": "282",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/281_Den Den Mushi.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/282_Den Den Mushi.png"
 			}
 		},
 		{
@@ -3405,9 +3405,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "285",
+			"collector_number": "286",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/285_Flag of the Revolutionaries.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/286_Flag of the Revolutionaries.png"
 			}
 		},
 		{
@@ -3415,9 +3415,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "110",
+			"collector_number": "109",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/110_Exploitative Industry.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/109_Exploitative Industry.png"
 			}
 		},
 		{
@@ -3425,9 +3425,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "209",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/209_Helmeppo, Son of Morgan.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/210_Helmeppo, Son of Morgan.png"
 			}
 		},
 		{
@@ -3435,19 +3435,19 @@
 			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "83",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/83_Memories Too Sweet.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/82_Memories Too Sweet.png"
 			}
 		},
 		{
-			"name": "Soul Pocus",
+			"name": "",
 			"rarity": "special",
-			"mana_cost": "{B}",
-			"type": "Instant",
-			"collector_number": "141",
+			"mana_cost": "{R}",
+			"type": "Enchantment",
+			"collector_number": "147",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/141_Soul Pocus.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/147_.png"
 			}
 		},
 		{
@@ -3465,9 +3465,9 @@
 			"rarity": "special",
 			"mana_cost": "{U}",
 			"type": "Legendary Creature — Cat Rebel",
-			"collector_number": "81",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/81_Lindbergh, South Army Commander.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/80_Lindbergh, South Army Commander.png"
 			}
 		},
 		{
@@ -3475,9 +3475,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "295",
+			"collector_number": "296",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/295_Noah, Ship of Promise.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/296_Noah, Ship of Promise.png"
 			}
 		},
 		{
@@ -3485,9 +3485,9 @@
 			"rarity": "special",
 			"mana_cost": "{5}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "296",
+			"collector_number": "297",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/296_The Oro Jackson.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/297_The Oro Jackson.png"
 			}
 		},
 		{
@@ -3495,9 +3495,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "308",
+			"collector_number": "309",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/308_The Striker.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/309_The Striker.png"
 			}
 		},
 		{
@@ -3505,9 +3505,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact — Vehicle",
-			"collector_number": "287",
+			"collector_number": "288",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/287_The Germa Kingdom.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/288_The Germa Kingdom.png"
 			}
 		},
 		{
@@ -3515,9 +3515,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}{U/B}{U/B}",
 			"type": "Sorcery",
-			"collector_number": "265",
+			"collector_number": "267",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/265_Cheated Power.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/267_Cheated Power.png"
 			}
 		},
 		{
@@ -3525,9 +3525,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "299",
+			"collector_number": "300",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/299_Punishers.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/300_Punishers.png"
 			}
 		},
 		{
@@ -3535,9 +3535,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "188",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/188_Shine the Light of Shandia.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/189_Shine the Light of Shandia.png"
 			}
 		},
 		{
@@ -3545,9 +3545,9 @@
 			"rarity": "special",
 			"mana_cost": "{G/W}",
 			"type": "Sorcery",
-			"collector_number": "269",
+			"collector_number": "271",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/269_I Still Have My Crew.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/271_I Still Have My Crew.png"
 			}
 		},
 		{
@@ -3555,9 +3555,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "301",
+			"collector_number": "302",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/301_Raid Suit Number 3, Stealth Black.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/302_Raid Suit Number 3, Stealth Black.png"
 			}
 		},
 		{
@@ -3565,9 +3565,9 @@
 			"rarity": "special",
 			"mana_cost": "{6}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "276",
+			"collector_number": "278",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/276_Ace, The King's Cutlass.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/278_Ace, The King's Cutlass.png"
 			}
 		},
 		{
@@ -3575,9 +3575,9 @@
 			"rarity": "special",
 			"mana_cost": "{4}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "294",
+			"collector_number": "295",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/294_Murakumogiri, Supreme Naginata.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/295_Murakumogiri, Supreme Naginata.png"
 			}
 		},
 		{
@@ -3585,9 +3585,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "284",
+			"collector_number": "285",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/284_Enma, Kouzuki Heirloom.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/285_Enma, Kouzuki Heirloom.png"
 			}
 		},
 		{
@@ -3595,9 +3595,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "221",
+			"collector_number": "222",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/221_The Paramount War.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/222_The Paramount War.png"
 			}
 		},
 		{
@@ -3605,9 +3605,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "226",
+			"collector_number": "227",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/226_Repatriate.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/227_Repatriate.png"
 			}
 		},
 		{
@@ -3615,9 +3615,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "223",
+			"collector_number": "224",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/223_Pop Green Flytrap.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/224_Pop Green Flytrap.png"
 			}
 		},
 		{
@@ -3625,9 +3625,9 @@
 			"rarity": "special",
 			"mana_cost": "{X}{X}{G}",
 			"type": "Sorcery",
-			"collector_number": "201",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/201_Cien Fleur.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/202_Cien Fleur.png"
 			}
 		},
 		{
@@ -3645,9 +3645,9 @@
 			"rarity": "special",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
-			"collector_number": "116",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/116_Inhumane Auction.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/115_Inhumane Auction.png"
 			}
 		},
 		{
@@ -3655,9 +3655,9 @@
 			"rarity": "special",
 			"mana_cost": "{3}{W}",
 			"type": "Instant",
-			"collector_number": "30",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/30_Make a Myth.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/29_Make a Myth.png"
 			}
 		},
 		{
@@ -3665,9 +3665,9 @@
 			"rarity": "special",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "70",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://Crashington.github.io/sets/OPC-files/img/70_Davy Back Fight.png"
+				"en": "https://Crashington.github.io/sets/OPC-files/img/69_Davy Back Fight.png"
 			}
 		},
 		{
@@ -3818,6 +3818,16 @@
 			"collector_number": "12",
 			"image_uris": {
 				"en": "https://Crashington.github.io/sets/OPC-files/img/12_The Monarch.png"
+			}
+		},
+		{
+			"name": "Going Merry Flying Mode",
+			"rarity": "special",
+			"mana_cost": "{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Crashington.github.io/sets/OPC-files/img/16_Going Merry Flying Mode.png"
 			}
 		},
 	]
@@ -4017,7 +4027,7 @@
 	1 Saint Figarland Garling
 	1 Funkfreed, Elephant Sword
 	1 Mr. 3, Intelligent Criminal
-	1 Gatz, Coliseum Commentator
+	1 Lafitte, Demon Sheriff
 	1 Don Foul Play Krieg
 	1 Gol D. Roger, Pirate King
 	1 Higuma, Mountain Bandit
@@ -4160,7 +4170,7 @@
 	1 Exploitative Industry
 	1 Helmeppo, Son of Morgan
 	1 Memories Too Sweet
-	1 Soul Pocus
+	1 
 	1 Dreams Never Die
 	1 Lindbergh, South Army Commander
 	1 Noah, Ship of Promise
@@ -4183,3 +4193,4 @@
 	1 Inhumane Auction
 	1 Make a Myth
 	1 Davy Back Fight
+	1 Going Merry Flying Mode

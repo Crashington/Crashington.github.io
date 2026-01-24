@@ -1,1 +1,3224 @@
-﻿[{"card_name": "Bell-m\u00e8re, Ex-Marine", "number": 6, "shape": "normal"}, {"card_name": "Abuse Authority", "number": 53, "shape": "normal"}, {"card_name": "Akainu, Thorough Admiral", "number": 100, "shape": "normal"}, {"card_name": "Alvida, the Iron Mace", "number": 147, "shape": "normal"}, {"card_name": "3D2Y", "number": 194, "shape": "normal"}, {"card_name": "Big Mom, Soulful Host", "number": 7, "shape": "normal"}, {"card_name": "Aokiji, Lazy Admiral", "number": 54, "shape": "normal"}, {"card_name": "Basil Hawkins, the Magician", "number": 101, "shape": "normal"}, {"card_name": "Baby 5, Full Body Weapon", "number": 148, "shape": "normal"}, {"card_name": "Apoo, Roar of the Sea", "number": 195, "shape": "normal"}, {"card_name": "Black Cage Hina", "number": 8, "shape": "normal"}, {"card_name": "Baron Tamago", "number": 55, "shape": "normal"}, {"card_name": "The Birdcage", "number": 102, "shape": "normal"}, {"card_name": "Bartolomeo the Cannibal", "number": 149, "shape": "normal"}, {"card_name": "Arlong the Saw, Fishman Pirate", "number": 196, "shape": "normal"}, {"card_name": "Conis, Guide in Heaven", "number": 9, "shape": "normal"}, {"card_name": "Barrier Screen", "number": 56, "shape": "normal"}, {"card_name": "Born to Boil", "number": 103, "shape": "normal"}, {"card_name": "Belo Betty, East Army Commander", "number": 150, "shape": "normal"}, {"card_name": "Armament Haki", "number": 197, "shape": "normal"}, {"card_name": "Cracker Thousand Arms", "number": 10, "shape": "normal"}, {"card_name": "Big News Morgans", "number": 57, "shape": "normal"}, {"card_name": "Darkness is Gravity", "number": 104, "shape": "normal"}, {"card_name": "Boa Hancock, Pirate Empress", "number": 151, "shape": "normal"}, {"card_name": "Bepo, Martial Artist Mink", "number": 198, "shape": "normal"}, {"card_name": "Dreams Never Die", "number": 11, "shape": "normal"}, {"card_name": "Blueno, Door Human", "number": 58, "shape": "normal"}, {"card_name": "Daz Bonez The Killer", "number": 105, "shape": "normal"}, {"card_name": "Buster Call", "number": 152, "shape": "normal"}, {"card_name": "Camie, Designer Apprentice", "number": 199, "shape": "normal"}, {"card_name": "Duval, Rosy Life Rider", "number": 12, "shape": "normal"}, {"card_name": "Bon Clay, Okama Imitator", "number": 59, "shape": "normal"}, {"card_name": "Doc Q, Death God", "number": 106, "shape": "normal"}, {"card_name": "Cards of Fortune", "number": 153, "shape": "normal"}, {"card_name": "Carrot, Mink Stowaway", "number": 200, "shape": "normal"}, {"card_name": "Fujitora, Humane Admiral", "number": 13, "shape": "normal"}, {"card_name": "Cake Raid Mirage", "number": 60, "shape": "normal"}, {"card_name": "Doctor Hogback", "number": 107, "shape": "normal"}, {"card_name": "Cut Anything", "number": 154, "shape": "normal"}, {"card_name": "Cat and Dog, Nekomamushi and Inuarashi", "number": 201, "shape": "normal"}, {"card_name": "Funkfreed, Elephant Sword", "number": 14, "shape": "normal"}, {"card_name": "Catarina Devon, Nine-Tail Imitator", "number": 61, "shape": "normal"}, {"card_name": "Don Foul Play Krieg", "number": 108, "shape": "normal"}, {"card_name": "Doflamingo, Puppetmaster", "number": 155, "shape": "normal"}, {"card_name": "Cien Fleur", "number": 202, "shape": "normal"}, {"card_name": "Gan Fall, Knight of the Sky", "number": 15, "shape": "normal"}, {"card_name": "Ceasar Clown, MADS Scientist", "number": 62, "shape": "normal"}, {"card_name": "Exploitative Industry", "number": 109, "shape": "normal"}, {"card_name": "The Drums of Liberation", "number": 156, "shape": "normal"}, {"card_name": "Collective Charge", "number": 203, "shape": "normal"}, {"card_name": "Going Merry Flying Mode", "number": 16, "shape": "normal"}, {"card_name": "Charlotte Br\u00fbl\u00e9e, Mirror Woman", "number": 63, "shape": "normal"}, {"card_name": "Fizzle Out", "number": 110, "shape": "normal"}, {"card_name": "Enel, God of Skypiea", "number": 157, "shape": "normal"}, {"card_name": "Cricket's Crew", "number": 204, "shape": "normal"}, {"card_name": "Goodbye Merry", "number": 17, "shape": "normal"}, {"card_name": "Charlotte Mont-d'Or", "number": 64, "shape": "normal"}, {"card_name": "Higuma, Mountain Bandit", "number": 111, "shape": "normal"}, {"card_name": "Eustass Captain Kid", "number": 158, "shape": "normal"}, {"card_name": "Crocus, Laboon's Caretaker", "number": 205, "shape": "normal"}, {"card_name": "Haki of the Supreme King", "number": 18, "shape": "normal"}, {"card_name": "Chart the World", "number": 65, "shape": "normal"}, {"card_name": "Hody Jones, Hollow Idealist", "number": 112, "shape": "normal"}, {"card_name": "Fisher Tiger, Slave Liberator", "number": 159, "shape": "normal"}, {"card_name": "Culinary Paradise", "number": 206, "shape": "normal"}, {"card_name": "Headchef Zeff", "number": 19, "shape": "normal"}, {"card_name": "Clou D Clover, Ohara Scholar", "number": 66, "shape": "normal"}, {"card_name": "Impel Down Breach", "number": 113, "shape": "normal"}, {"card_name": "G-5 Tactics", "number": 160, "shape": "normal"}, {"card_name": "Dorry and Brogy, Giant Warriors", "number": 207, "shape": "normal"}, {"card_name": "Hearty Meal", "number": 20, "shape": "normal"}, {"card_name": "Commence the Levely", "number": 67, "shape": "normal"}, {"card_name": "Imu, Supreme Ruler", "number": 114, "shape": "normal"}, {"card_name": "Gum Gum Elephant Gun", "number": 161, "shape": "normal"}, {"card_name": "Gaimon of Rare Animal Island", "number": 208, "shape": "normal"}, {"card_name": "Hiriluk, Savior of the Heart", "number": 21, "shape": "normal"}, {"card_name": "Coup de Burst", "number": 68, "shape": "normal"}, {"card_name": "Inhumane Auction", "number": 115, "shape": "normal"}, {"card_name": "Gum Gum Gatling", "number": 162, "shape": "normal"}, {"card_name": "Golden Age of Piracy", "number": 209, "shape": "normal"}, {"card_name": "Katakuri, Honorable Nemesis", "number": 22, "shape": "normal"}, {"card_name": "Davy Back Fight", "number": 69, "shape": "normal"}, {"card_name": "Judge, Despotic Diplomat", "number": 116, "shape": "normal"}, {"card_name": "Gum Gum Whip", "number": 163, "shape": "normal"}, {"card_name": "Hachi, Takoyaki Griller", "number": 210, "shape": "normal"}, {"card_name": "Kaya, Doctor in Training", "number": 23, "shape": "normal"}, {"card_name": "Decyphering the Poneglyph", "number": 70, "shape": "normal"}, {"card_name": "Kanjuro, Theatrical Traitor", "number": 117, "shape": "normal"}, {"card_name": "The Hoof of the World Nobles", "number": 164, "shape": "normal"}, {"card_name": "Helmeppo, Son of Morgan", "number": 211, "shape": "normal"}, {"card_name": "Kikunojo of the Snow", "number": 24, "shape": "normal"}, {"card_name": "Dr. Vegapunk, Super Genius", "number": 71, "shape": "normal"}, {"card_name": "Karasu, North Army Commander", "number": 118, "shape": "normal"}, {"card_name": "Huge Haul", "number": 165, "shape": "normal"}, {"card_name": "Jack the Drought", "number": 212, "shape": "normal"}, {"card_name": "Koby the Hero", "number": 25, "shape": "normal"}, {"card_name": "Erase History", "number": 72, "shape": "normal"}, {"card_name": "Kuro of a Hundred Plans", "number": 119, "shape": "normal"}, {"card_name": "I Want To Live!", "number": 166, "shape": "normal"}, {"card_name": "Jesus Burgess, the Champion", "number": 213, "shape": "normal"}, {"card_name": "Kozuki Hiyori, Tayu Oiran", "number": 26, "shape": "normal"}, {"card_name": "Fata Morgana", "number": 73, "shape": "normal"}, {"card_name": "Lafitte, Demon Sheriff", "number": 120, "shape": "normal"}, {"card_name": "Jet Pistol", "number": 167, "shape": "normal"}, {"card_name": "Kawamatsu the Kappa", "number": 214, "shape": "normal"}, {"card_name": "Kyros, One-Legged Soldier", "number": 27, "shape": "normal"}, {"card_name": "Go on a Vacation", "number": 74, "shape": "normal"}, {"card_name": "Magellan, Noxious Warden", "number": 121, "shape": "normal"}, {"card_name": "Johnny and Yosaku, Bounty Hunters", "number": 168, "shape": "normal"}, {"card_name": "Kingbaum, Master of the Woods", "number": 215, "shape": "normal"}, {"card_name": "Little Black Bears", "number": 28, "shape": "normal"}, {"card_name": "Ice Time", "number": 75, "shape": "normal"}, {"card_name": "Marshal D. Teach, Blackbeard", "number": 122, "shape": "normal"}, {"card_name": "Karoo, Super Sonic Duck", "number": 169, "shape": "normal"}, {"card_name": "Laboon, Loyal Island Whale", "number": 216, "shape": "normal"}, {"card_name": "Make a Myth", "number": 29, "shape": "normal"}, {"card_name": "Iceburg, Galley-La President", "number": 76, "shape": "normal"}, {"card_name": "Memory Edit", "number": 123, "shape": "normal"}, {"card_name": "King the Conflagration", "number": 170, "shape": "normal"}, {"card_name": "Leo, Tonta Corps Leader", "number": 217, "shape": "normal"}, {"card_name": "Marco the Phoenix", "number": 30, "shape": "normal"}, {"card_name": "Jewelry Bonney", "number": 77, "shape": "normal"}, {"card_name": "Misplaced Anger", "number": 124, "shape": "normal"}, {"card_name": "Kizaru, Flippant Admiral", "number": 171, "shape": "normal"}, {"card_name": "Mihawk, Strongest Swordsman", "number": 218, "shape": "normal"}, {"card_name": "Nefertari Cobra, Arabasta King", "number": 31, "shape": "normal"}, {"card_name": "Kaku, Undercover Shipwright", "number": 78, "shape": "normal"}, {"card_name": "Miss Double Finger", "number": 125, "shape": "normal"}, {"card_name": "Koza, Rebel Leader", "number": 172, "shape": "normal"}, {"card_name": "Miss Valentine, Weightlifter", "number": 219, "shape": "normal"}, {"card_name": "Nefertari Vivi, Arabasta Princess", "number": 32, "shape": "normal"}, {"card_name": "Law, Surgeon of Death", "number": 79, "shape": "normal"}, {"card_name": "Moria, One Thousand Shadows", "number": 126, "shape": "normal"}, {"card_name": "Kozuki Oden, Foolish Daimyo", "number": 173, "shape": "normal"}, {"card_name": "Momonosuke, Young Shogun", "number": 220, "shape": "normal"}, {"card_name": "Nothing Happened", "number": 33, "shape": "normal"}, {"card_name": "Lindbergh, South Army Commander", "number": 80, "shape": "normal"}, {"card_name": "Mother Carmel, Mountain Witch", "number": 127, "shape": "normal"}, {"card_name": "Lassoo, Dog Gun", "number": 174, "shape": "normal"}, {"card_name": "Morley, West Army Commander", "number": 221, "shape": "normal"}, {"card_name": "The One Piece Is Real!", "number": 34, "shape": "normal"}, {"card_name": "Madam Shyarly, Fortuneteller", "number": 81, "shape": "normal"}, {"card_name": "Oars the Continent-Puller", "number": 128, "shape": "normal"}, {"card_name": "Miss Merry Christmas, Setter", "number": 175, "shape": "normal"}, {"card_name": "Orochi, Kurozomi Usurper", "number": 222, "shape": "normal"}, {"card_name": "Otohime, Selfless Queen", "number": 35, "shape": "normal"}, {"card_name": "Memories Too Sweet", "number": 82, "shape": "normal"}, {"card_name": "One Last Song", "number": 129, "shape": "normal"}, {"card_name": "Mr. 4, Pinch Hitter", "number": 176, "shape": "normal"}, {"card_name": "The Paramount War", "number": 223, "shape": "normal"}, {"card_name": "Passing the Legacy", "number": 36, "shape": "normal"}, {"card_name": "Miss Goldenweek, Expressionist", "number": 83, "shape": "normal"}, {"card_name": "Overdue Revival", "number": 130, "shape": "normal"}, {"card_name": "Mr. 5, Snot Bomber", "number": 177, "shape": "normal"}, {"card_name": "Pica, Gargantuan Pipsqueak", "number": 224, "shape": "normal"}, {"card_name": "Pell the Falcon", "number": 37, "shape": "normal"}, {"card_name": "News Coo Delivery", "number": 84, "shape": "normal"}, {"card_name": "Perona, Ghost Princess", "number": 131, "shape": "normal"}, {"card_name": "Nezumi, Corrupt Captain", "number": 178, "shape": "normal"}, {"card_name": "Pop Green Flytrap", "number": 225, "shape": "normal"}, {"card_name": "Princess Mansherry", "number": 38, "shape": "normal"}, {"card_name": "Nola, Master of the Sky", "number": 85, "shape": "normal"}, {"card_name": "Perospero, First Son of Linlin", "number": 132, "shape": "normal"}, {"card_name": "Pappag, Star Designer", "number": 179, "shape": "normal"}, {"card_name": "Poseidon's Call", "number": 226, "shape": "normal"}, {"card_name": "Rokushiki", "number": 39, "shape": "normal"}, {"card_name": "Perception Haki", "number": 86, "shape": "normal"}, {"card_name": "Pirate's Alliance", "number": 133, "shape": "normal"}, {"card_name": "Paulie, Rash Rigger", "number": 180, "shape": "normal"}, {"card_name": "Recover the Past", "number": 227, "shape": "normal"}, {"card_name": "Sakazuki", "number": 40, "shape": "normal"}, {"card_name": "Pudding, Three-Eyed Bride", "number": 87, "shape": "normal"}, {"card_name": "Reinstated Bounties", "number": 134, "shape": "normal"}, {"card_name": "Pedro of the Treetops", "number": 181, "shape": "normal"}, {"card_name": "Repatriate", "number": 228, "shape": "normal"}, {"card_name": "Sengoku the Buddha", "number": 41, "shape": "normal"}, {"card_name": "Queen the Plague", "number": 88, "shape": "normal"}, {"card_name": "Rob Luccy, Massacre Weapon", "number": 135, "shape": "normal"}, {"card_name": "Portgas D Ace, Fire Fist", "number": 182, "shape": "normal"}, {"card_name": "Rumble Ball", "number": 229, "shape": "normal"}, {"card_name": "Ship Cutter T Bone", "number": 42, "shape": "normal"}, {"card_name": "Recover the Records", "number": 89, "shape": "normal"}, {"card_name": "Ryuma, God of the Blade", "number": 136, "shape": "normal"}, {"card_name": "Prometheus the Sun", "number": 183, "shape": "normal"}, {"card_name": "Ryokugyu, Determined Admiral", "number": 230, "shape": "normal"}, {"card_name": "A Ship Fit for a King", "number": 43, "shape": "normal"}, {"card_name": "San Charlos, Spoiled Brat", "number": 90, "shape": "normal"}, {"card_name": "Senseless Violence", "number": 137, "shape": "normal"}, {"card_name": "Rebecca, Gladiator Princess", "number": 184, "shape": "normal"}, {"card_name": "Sanjuan Wolf", "number": 231, "shape": "normal"}, {"card_name": "Show of Force", "number": 44, "shape": "normal"}, {"card_name": "Smiley, Bio-Chemical Pet", "number": 91, "shape": "normal"}, {"card_name": "Shadow Theft", "number": 138, "shape": "normal"}, {"card_name": "Red Hair Shanks", "number": 185, "shape": "normal"}, {"card_name": "Sea King Nest", "number": 232, "shape": "normal"}, {"card_name": "Silvers Rayleigh, The Dark King", "number": 45, "shape": "normal"}, {"card_name": "Surume, Benthic Companion", "number": 92, "shape": "normal"}, {"card_name": "Shiryu of the Rain", "number": 139, "shape": "normal"}, {"card_name": "Sabo, Flame Emperor", "number": 186, "shape": "normal"}, {"card_name": "Shirahoshi, Mermaid Princess", "number": 233, "shape": "normal"}, {"card_name": "Smoker the White Hunter", "number": 46, "shape": "normal"}, {"card_name": "Tararan, Spider Monkey Zombie", "number": 93, "shape": "normal"}, {"card_name": "Spandam, CP9 Chief", "number": 140, "shape": "normal"}, {"card_name": "Saint Figarland Garling", "number": 187, "shape": "normal"}, {"card_name": "Sulong, Moon Lion Form", "number": 234, "shape": "normal"}, {"card_name": "Smoothie, Sweet Commander", "number": 47, "shape": "normal"}, {"card_name": "Tom, Shipwright with a DON", "number": 94, "shape": "normal"}, {"card_name": "Stussy, Triple Agent", "number": 141, "shape": "normal"}, {"card_name": "Senor Pink, Hard-Boiled", "number": 188, "shape": "normal"}, {"card_name": "The Tale of Noland the Liar", "number": 235, "shape": "normal"}, {"card_name": "Soap Up", "number": 48, "shape": "normal"}, {"card_name": "The Unluckies, Informants", "number": 95, "shape": "normal"}, {"card_name": "Unexpected Return", "number": 142, "shape": "normal"}, {"card_name": "Shine the Light of Shandia", "number": 189, "shape": "normal"}, {"card_name": "Ulti, Tobiroppo Rampage", "number": 236, "shape": "normal"}, {"card_name": "Tashigi, Marine Captain", "number": 49, "shape": "normal"}, {"card_name": "Van Augur, The Supersonic", "number": 96, "shape": "normal"}, {"card_name": "Vergo, The First Corazon", "number": 143, "shape": "normal"}, {"card_name": "Shoot Down That Flag", "number": 190, "shape": "normal"}, {"card_name": "United Dreams", "number": 237, "shape": "normal"}, {"card_name": "Whitebeard, Roaring Patriarch", "number": 50, "shape": "normal"}, {"card_name": "Vander Decken IX", "number": 97, "shape": "normal"}, {"card_name": "The Vinsmoke Siblings", "number": 144, "shape": "normal"}, {"card_name": "Waste Nothing", "number": 191, "shape": "normal"}, {"card_name": "Urouge, Mad Monk", "number": 238, "shape": "normal"}, {"card_name": "Worthy Sacrifice", "number": 51, "shape": "normal"}, {"card_name": "Viola, Insightful Agent", "number": 98, "shape": "normal"}, {"card_name": "Wet Haired Caribou", "number": 145, "shape": "normal"}, {"card_name": "The Will of D", "number": 192, "shape": "normal"}, {"card_name": "Yamato, Son of Kaidou", "number": 239, "shape": "normal"}, {"card_name": "X Drake, Pretend Deserter", "number": 52, "shape": "normal"}, {"card_name": "Yeti Cool Brothers, For Hire", "number": 99, "shape": "normal"}, {"card_name": "Yasopp, Red Hair's Sniper", "number": 146, "shape": "normal"}, {"card_name": "Zeus, Cumulo Companion", "number": 193, "shape": "normal"}, {"card_name": "Zunesha, Elephus Dali", "number": 240, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, "a->gold", {"card_name": "Cherry Blossoms in Winter", "number": 2, "shape": "normal"}, {"card_name": "The Five Elders", "number": 245, "shape": "normal"}, {"card_name": "Black Hole Liberation", "number": 1, "shape": "normal"}, {"card_name": "Straw Hat Luffy, Dreamer", "number": 259, "shape": "normal"}, {"card_name": "Chopper, Cure Concocter", "number": 243, "shape": "normal"}, {"card_name": "Jinbe, Knight of the Sea", "number": 250, "shape": "normal"}, {"card_name": "Nami, Cat Burglar", "number": 252, "shape": "normal"}, {"card_name": "Kaidou, Strongest Creature", "number": 251, "shape": "normal"}, {"card_name": "Wyper, Shandia Warrior", "number": 261, "shape": "normal"}, {"card_name": "Rosinante, Mute Savior", "number": 255, "shape": "normal"}, {"card_name": "Sentomaru, Science Captain", "number": 257, "shape": "normal"}, {"card_name": "Cheated Power", "number": 267, "shape": "normal"}, {"card_name": "Zoro, Pirate Hunter", "number": 262, "shape": "normal"}, {"card_name": "Alliance Celebrations", "number": 264, "shape": "normal"}, {"card_name": "Garp, Marine Instructor", "number": 270, "shape": "normal"}, {"card_name": "The Usopp Pirates", "number": 276, "shape": "normal"}, {"card_name": "Monet, Punk Hazard Overseer", "number": 273, "shape": "normal"}, {"card_name": "Buggy, the Star Clown", "number": 265, "shape": "normal"}, {"card_name": "Curly Dadan, Foster Mother", "number": 268, "shape": "normal"}, {"card_name": "Rusted Blades", "number": 275, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "Brook, Soul King", "number": 241, "shape": "normal"}, {"card_name": "Foxy the Silver Fox", "number": 246, "shape": "normal"}, {"card_name": "Ground Secco", "number": 4, "shape": "normal"}, {"card_name": "Gear Two", "number": 3, "shape": "normal"}, {"card_name": "Knock Up Stream", "number": 5, "shape": "normal"}, {"card_name": "Capone Bege, Family Man", "number": 242, "shape": "normal"}, {"card_name": "Franky, Cyborg Shipwright", "number": 247, "shape": "normal"}, {"card_name": "Sir Crocodile, Desert King", "number": 258, "shape": "normal"}, {"card_name": "Dragon, Revolutionary", "number": 244, "shape": "normal"}, {"card_name": "Kokoro, Chimney and Gonbe", "number": 249, "shape": "normal"}, {"card_name": "Cavendish the Pirate Prince", "number": 266, "shape": "normal"}, {"card_name": "Deflect", "number": 269, "shape": "normal"}, {"card_name": "Usopp, Sniper King", "number": 260, "shape": "normal"}, {"card_name": "Sanji, Chef En Flamb\u00e9", "number": 256, "shape": "normal"}, {"card_name": "Nico Robin, Archeologist", "number": 253, "shape": "normal"}, {"card_name": "Locked Away", "number": 272, "shape": "normal"}, {"card_name": "Ivankov, Kamabakka Queen", "number": 271, "shape": "normal"}, {"card_name": "Wapol, Munch Machine", "number": 277, "shape": "normal"}, {"card_name": "Foxfire Kinnemon", "number": 263, "shape": "normal"}, {"card_name": "Mr. 3, Intelligent Criminal", "number": 274, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "Gol D. Roger, Pirate King", "number": 248, "shape": "normal"}, {"card_name": "The One Piece", "number": 254, "shape": "normal"}, {"card_name": "e"}, {"card_name": "e"}, {"card_name": "e"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, "a->colorless", {"card_name": "Ace, The King's Cutlass", "number": 278, "shape": "normal"}, {"card_name": "The Ark Maxim", "number": 279, "shape": "normal"}, {"card_name": "Baratie, Floating Restaurant", "number": 280, "shape": "normal"}, {"card_name": "Bartholomew Kuma, PX0", "number": 281, "shape": "normal"}, {"card_name": "Den Den Mushi", "number": 282, "shape": "normal"}, {"card_name": "Devil Fruit", "number": 283, "shape": "normal"}, {"card_name": "The Empty Throne", "number": 284, "shape": "normal"}, {"card_name": "Enma, Kouzuki Heirloom", "number": 285, "shape": "normal"}, {"card_name": "Flag of the Revolutionaries", "number": 286, "shape": "normal"}, {"card_name": "Flag of the Strawhats", "number": 287, "shape": "normal"}, {"card_name": "The Germa Kingdom", "number": 288, "shape": "normal"}, {"card_name": "The Going Luffy-Senpai", "number": 289, "shape": "normal"}, {"card_name": "The Going Merry", "number": 290, "shape": "normal"}, {"card_name": "Kuro Kabuto, Pop Green Slingshot", "number": 291, "shape": "normal"}, {"card_name": "Log Pose", "number": 292, "shape": "normal"}, {"card_name": "Mask of Sogeking", "number": 293, "shape": "normal"}, {"card_name": "The Moby Dick", "number": 294, "shape": "normal"}, {"card_name": "Murakumogiri, Supreme Naginata", "number": 295, "shape": "normal"}, {"card_name": "Noah, Ship of Promise", "number": 296, "shape": "normal"}, {"card_name": "The Oro Jackson", "number": 297, "shape": "normal"}, {"card_name": "The Pluton Blueprints", "number": 298, "shape": "normal"}, {"card_name": "Polar Tang, Submarine", "number": 299, "shape": "normal"}, {"card_name": "Punishers", "number": 300, "shape": "normal"}, {"card_name": "Queen Mama Chanter", "number": 301, "shape": "normal"}, {"card_name": "Raid Suit Number 3, Stealth Black", "number": 302, "shape": "normal"}, {"card_name": "Road Poneglyph", "number": 303, "shape": "normal"}, {"card_name": "Rocketman, Sea Train", "number": 304, "shape": "normal"}, {"card_name": "Saber of Xebec", "number": 305, "shape": "normal"}, {"card_name": "Sandai Kitetsu, Cursed Blade", "number": 306, "shape": "normal"}, {"card_name": "Sorcery Clima-Tact", "number": 307, "shape": "normal"}, {"card_name": "The Strawhat", "number": 308, "shape": "normal"}, {"card_name": "The Striker", "number": 309, "shape": "normal"}, {"card_name": "The Thousand Sunny", "number": 310, "shape": "normal"}, {"card_name": "Yoru, Black Blade", "number": 313, "shape": "normal"}, {"card_name": "e"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, "a->land", {"card_name": "Whole Cake Island", "number": 312, "shape": "normal"}, {"card_name": "Drum Island, Sakura Kingdom", "number": 323, "shape": "normal"}, {"card_name": "The Thriller Bark", "number": 311, "shape": "normal"}, {"card_name": "Arabasta, Desert Kingdom", "number": 315, "shape": "normal"}, {"card_name": "Wano Kuni, Prevailing Nation", "number": 355, "shape": "normal"}, {"card_name": "Marineford, Marine Headquarters", "number": 336, "shape": "normal"}, {"card_name": "Water 7, Capital of Water", "number": 356, "shape": "normal"}, {"card_name": "Impel Down, Underwater Prison", "number": 333, "shape": "normal"}, {"card_name": "Dressrosa, Land of Love and Passion", "number": 322, "shape": "normal"}, {"card_name": "Zou, Home of the Minks", "number": 361, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "OPC Hallowed Fountain", "number": 332, "shape": "normal"}, {"card_name": "Tequila Wolf, Bridge to Nowhere", "number": 352, "shape": "normal"}, {"card_name": "OPC Blood Crypt", "number": 317, "shape": "normal"}, {"card_name": "Boin Archipelago, Stomach Baron", "number": 319, "shape": "normal"}, {"card_name": "Fish-Man Island, Ryugu Kingdom", "number": 327, "shape": "normal"}, {"card_name": "Weatheria, Meteorology Heaven", "number": 358, "shape": "normal"}, {"card_name": "OPC Watery Grave", "number": 357, "shape": "normal"}, {"card_name": "Kuraigana, Muggy Kingdom", "number": 335, "shape": "normal"}, {"card_name": "OPC Stomping Ground", "number": 350, "shape": "normal"}, {"card_name": "OPC Temple Garden", "number": 351, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "OPC Godless Shrine", "number": 330, "shape": "normal"}, {"card_name": "Karakuri, Future Island Baldimore", "number": 334, "shape": "normal"}, {"card_name": "OPC Overgrown Tomb", "number": 342, "shape": "normal"}, {"card_name": "Momoiro, Kamabakka Queendom", "number": 340, "shape": "normal"}, {"card_name": "OPC Breeding Pool", "number": 320, "shape": "normal"}, {"card_name": "Namakuri, Land of Poverty", "number": 341, "shape": "normal"}, {"card_name": "OPC Steam Vents", "number": 349, "shape": "normal"}, {"card_name": "Rusukaina, Harsh Island", "number": 346, "shape": "normal"}, {"card_name": "OPC Sacred Foundry", "number": 347, "shape": "normal"}, {"card_name": "Torino Kingdom, Medicine Island", "number": 353, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "Amazon Lily, Island of Women", "number": 314, "shape": "normal"}, {"card_name": "OPC Arid Mesa", "number": 316, "shape": "normal"}, {"card_name": "OPC Bloodstained Mire", "number": 318, "shape": "normal"}, {"card_name": "The Calm Belt", "number": 321, "shape": "normal"}, {"card_name": "Egghead, Future Island", "number": 324, "shape": "normal"}, {"card_name": "Enies Lobby, Judicial Island", "number": 325, "shape": "normal"}, {"card_name": "Fabled Passage", "number": 326, "shape": "normal"}, {"card_name": "OPC Flooded Strand", "number": 328, "shape": "normal"}, {"card_name": "The Gates of Justice", "number": 329, "shape": "normal"}, {"card_name": "Hachinosu, Pirate Island", "number": 331, "shape": "normal"}, {"card_name": "OPC Marsh Flats", "number": 337, "shape": "normal"}, {"card_name": "Mary Geoise, Holy Land", "number": 338, "shape": "normal"}, {"card_name": "OPC Misty Rainforest", "number": 339, "shape": "normal"}, {"card_name": "OPC Polluted Delta", "number": 343, "shape": "normal"}, {"card_name": "Raftel, the Final Island", "number": 344, "shape": "normal"}, {"card_name": "The Red Line", "number": 345, "shape": "normal"}, {"card_name": "OPC Scalding Tarn", "number": 348, "shape": "normal"}, {"card_name": "OPC Verdant Catacombs", "number": 354, "shape": "normal"}, {"card_name": "OPC Windswept Heath", "number": 359, "shape": "normal"}, {"card_name": "Wooded Foothills", "number": 360, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, "a->token", {"card_name": "Copy", "number": 1, "shape": "token"}, {"card_name": "The Monarch", "number": 12, "shape": "token"}, {"card_name": "Baseball", "number": 13, "shape": "token"}, {"card_name": "Clue", "number": 14, "shape": "token"}, {"card_name": "Equipment", "number": 15, "shape": "token"}, {"card_name": "Food", "number": 16, "shape": "token"}, {"card_name": "Junk", "number": 17, "shape": "token"}, {"card_name": "Satellite", "number": 18, "shape": "token"}, {"card_name": "Toy", "number": 19, "shape": "token"}, {"card_name": "Treasure", "number": 20, "shape": "token"}, {"card_name": "Vehicle", "number": 21, "shape": "token"}, {"card_name": "Desert", "number": 22, "shape": "token"}, {"card_name": "Robot", "number": 2, "shape": "token"}, {"card_name": "Soldier", "number": 3, "shape": "token"}, {"card_name": "Leviathan", "number": 4, "shape": "token"}, {"card_name": "Bird", "number": 5, "shape": "token"}, {"card_name": "Inkling", "number": 6, "shape": "token"}, {"card_name": "Pirate", "number": 7, "shape": "token"}, {"card_name": "Spirit", "number": 8, "shape": "token"}, {"card_name": "Zombie", "number": 9, "shape": "token"}, {"card_name": "Rebel", "number": 10, "shape": "token"}, {"card_name": "Merfolk", "number": 11, "shape": "token"}, {"card_name": "e"}, {"card_name": "e"}, {"card_name": "e"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}]
+﻿[
+    {
+        "card_name": "Bell-m\u00e8re, Ex-Marine",
+        "number": 6,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "288"
+    },
+    {
+        "card_name": "Abuse Authority",
+        "number": 53,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "97"
+    },
+    {
+        "card_name": "Akainu, Thorough Admiral",
+        "number": 100,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "Alvida, the Iron Mace",
+        "number": 147,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "181"
+    },
+    {
+        "card_name": "3D2Y",
+        "number": 194,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "141"
+    },
+    {
+        "card_name": "Big Mom, Soulful Host",
+        "number": 7,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "249"
+    },
+    {
+        "card_name": "Aokiji, Lazy Admiral",
+        "number": 54,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "Basil Hawkins, the Magician",
+        "number": 101,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "309"
+    },
+    {
+        "card_name": "Baby 5, Full Body Weapon",
+        "number": 148,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "332"
+    },
+    {
+        "card_name": "Apoo, Roar of the Sea",
+        "number": 195,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "296"
+    },
+    {
+        "card_name": "Black Cage Hina",
+        "number": 8,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "203"
+    },
+    {
+        "card_name": "Baron Tamago",
+        "number": 55,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "312"
+    },
+    {
+        "card_name": "The Birdcage",
+        "number": 102,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "336"
+    },
+    {
+        "card_name": "Bartolomeo the Cannibal",
+        "number": 149,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "322"
+    },
+    {
+        "card_name": "Arlong the Saw, Fishman Pirate",
+        "number": 196,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "Conis, Guide in Heaven",
+        "number": 9,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "190"
+    },
+    {
+        "card_name": "Barrier Screen",
+        "number": 56,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "Born to Boil",
+        "number": 103,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "171"
+    },
+    {
+        "card_name": "Belo Betty, East Army Commander",
+        "number": 150,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "179"
+    },
+    {
+        "card_name": "Armament Haki",
+        "number": 197,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "245"
+    },
+    {
+        "card_name": "Cracker Thousand Arms",
+        "number": 10,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "187"
+    },
+    {
+        "card_name": "Big News Morgans",
+        "number": 57,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "161"
+    },
+    {
+        "card_name": "Darkness is Gravity",
+        "number": 104,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "Boa Hancock, Pirate Empress",
+        "number": 151,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "178"
+    },
+    {
+        "card_name": "Bepo, Martial Artist Mink",
+        "number": 198,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "303"
+    },
+    {
+        "card_name": "Dreams Never Die",
+        "number": 11,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "342"
+    },
+    {
+        "card_name": "Blueno, Door Human",
+        "number": 58,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "319"
+    },
+    {
+        "card_name": "Daz Bonez The Killer",
+        "number": 105,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "194"
+    },
+    {
+        "card_name": "Buster Call",
+        "number": 152,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "66"
+    },
+    {
+        "card_name": "Camie, Designer Apprentice",
+        "number": 199,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "175"
+    },
+    {
+        "card_name": "Duval, Rosy Life Rider",
+        "number": 12,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "195"
+    },
+    {
+        "card_name": "Bon Clay, Okama Imitator",
+        "number": 59,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "Doc Q, Death God",
+        "number": 106,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "325"
+    },
+    {
+        "card_name": "Cards of Fortune",
+        "number": 153,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "65"
+    },
+    {
+        "card_name": "Carrot, Mink Stowaway",
+        "number": 200,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "139"
+    },
+    {
+        "card_name": "Fujitora, Humane Admiral",
+        "number": 13,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "167"
+    },
+    {
+        "card_name": "Cake Raid Mirage",
+        "number": 60,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "48"
+    },
+    {
+        "card_name": "Doctor Hogback",
+        "number": 107,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "182"
+    },
+    {
+        "card_name": "Cut Anything",
+        "number": 154,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "380"
+    },
+    {
+        "card_name": "Cat and Dog, Nekomamushi and Inuarashi",
+        "number": 201,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "Funkfreed, Elephant Sword",
+        "number": 14,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "197"
+    },
+    {
+        "card_name": "Catarina Devon, Kitsune Imitator",
+        "number": 61,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "324"
+    },
+    {
+        "card_name": "Don Foul Play Krieg",
+        "number": 108,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "200"
+    },
+    {
+        "card_name": "Doflamingo, Puppetmaster",
+        "number": 155,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "Cien Fleur",
+        "number": 202,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "359"
+    },
+    {
+        "card_name": "Gan Fall, Knight of the Sky",
+        "number": 15,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "191"
+    },
+    {
+        "card_name": "Ceasar Clown, MADS Scientist",
+        "number": 62,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "Exploitative Industry",
+        "number": 109,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "339"
+    },
+    {
+        "card_name": "The Drums of Liberation",
+        "number": 156,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "335"
+    },
+    {
+        "card_name": "Collective Offensive",
+        "number": 203,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "351"
+    },
+    {
+        "card_name": "Going Merry Flying Mode",
+        "number": 16,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "379"
+    },
+    {
+        "card_name": "Charlotte Br\u00fbl\u00e9e, Mirror Woman",
+        "number": 63,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "186"
+    },
+    {
+        "card_name": "Fizzle Out",
+        "number": 110,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "119"
+    },
+    {
+        "card_name": "Enel, God of Skypiea",
+        "number": 157,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "Cricket's Crew",
+        "number": 204,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "193"
+    },
+    {
+        "card_name": "Goodbye Merry",
+        "number": 17,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "257"
+    },
+    {
+        "card_name": "Charlotte Mont-d'Or",
+        "number": 64,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "317"
+    },
+    {
+        "card_name": "The God Valley Massacre",
+        "number": 111,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "137"
+    },
+    {
+        "card_name": "Eustass Captain Kid",
+        "number": 158,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "Crocus, Laboon's Caretaker",
+        "number": 205,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "192"
+    },
+    {
+        "card_name": "Haki of the Supreme King",
+        "number": 18,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "244"
+    },
+    {
+        "card_name": "Chart the World",
+        "number": 65,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "122"
+    },
+    {
+        "card_name": "Higuma, Mountain Bandit",
+        "number": 112,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "201"
+    },
+    {
+        "card_name": "Fisher Tiger, Slave Liberator",
+        "number": 159,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "154"
+    },
+    {
+        "card_name": "Culinary Paradise",
+        "number": 206,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "252"
+    },
+    {
+        "card_name": "Headchef Zeff",
+        "number": 19,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "118"
+    },
+    {
+        "card_name": "Clou D Clover, Ohara Scholar",
+        "number": 66,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "292"
+    },
+    {
+        "card_name": "Hody Jones, Hollow Idealist",
+        "number": 113,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "152"
+    },
+    {
+        "card_name": "G-5 Tactics",
+        "number": 160,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "143"
+    },
+    {
+        "card_name": "Dorry and Brogy, Giant Warriors",
+        "number": 207,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "Hearty Meal",
+        "number": 20,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "243"
+    },
+    {
+        "card_name": "Commence the Levely",
+        "number": 67,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "164"
+    },
+    {
+        "card_name": "Impel Down Breach",
+        "number": 114,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "64"
+    },
+    {
+        "card_name": "Gum Gum Elephant Gun",
+        "number": 161,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "72"
+    },
+    {
+        "card_name": "Gaimon of Rare Animal Island",
+        "number": 208,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "304"
+    },
+    {
+        "card_name": "Hiriluk, Savior of the Heart",
+        "number": 21,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "287"
+    },
+    {
+        "card_name": "Coup de Burst",
+        "number": 68,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "123"
+    },
+    {
+        "card_name": "Imu, Supreme Ruler",
+        "number": 115,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "311"
+    },
+    {
+        "card_name": "Gum Gum Gatling",
+        "number": 162,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "71"
+    },
+    {
+        "card_name": "Golden Age of Piracy",
+        "number": 209,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "121"
+    },
+    {
+        "card_name": "Katakuri, Honorable Nemesis",
+        "number": 22,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "68"
+    },
+    {
+        "card_name": "Davy Back Fight",
+        "number": 69,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "363"
+    },
+    {
+        "card_name": "Inhumane Auction",
+        "number": 116,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "361"
+    },
+    {
+        "card_name": "Gum Gum Whip",
+        "number": 163,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "73"
+    },
+    {
+        "card_name": "Hachi, Takoyaki Griller",
+        "number": 210,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "150"
+    },
+    {
+        "card_name": "Kaya, Doctor in Training",
+        "number": 23,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "285"
+    },
+    {
+        "card_name": "Decyphering the Poneglyph",
+        "number": 70,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "129"
+    },
+    {
+        "card_name": "Judge, Despotic Diplomat",
+        "number": 117,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "155"
+    },
+    {
+        "card_name": "The Hoof of the World Nobles",
+        "number": 164,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "337"
+    },
+    {
+        "card_name": "Helmeppo, Son of Morgan",
+        "number": 211,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "340"
+    },
+    {
+        "card_name": "Kikunojo of the Snow",
+        "number": 24,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "301"
+    },
+    {
+        "card_name": "Dr. Vegapunk, Super Genius",
+        "number": 71,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "Kanjuro, Theatrical Traitor",
+        "number": 118,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "299"
+    },
+    {
+        "card_name": "Huge Haul",
+        "number": 165,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "132"
+    },
+    {
+        "card_name": "Jack the Drought",
+        "number": 212,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "205"
+    },
+    {
+        "card_name": "Koby the Hero",
+        "number": 25,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "Erase History",
+        "number": 72,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "46"
+    },
+    {
+        "card_name": "Karasu, North Army Commander",
+        "number": 119,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "210"
+    },
+    {
+        "card_name": "I Want To Live!",
+        "number": 166,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "59"
+    },
+    {
+        "card_name": "Jesus Burgess, the Champion",
+        "number": 213,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "185"
+    },
+    {
+        "card_name": "Kozuki Hiyori, Tayu Oiran",
+        "number": 26,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "284"
+    },
+    {
+        "card_name": "Fata Morgana",
+        "number": 73,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "131"
+    },
+    {
+        "card_name": "Kuro of a Hundred Plans",
+        "number": 120,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "124"
+    },
+    {
+        "card_name": "Jet Pistol",
+        "number": 167,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "60"
+    },
+    {
+        "card_name": "Kawamatsu the Kappa",
+        "number": 214,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "211"
+    },
+    {
+        "card_name": "Kyros, One-Legged Soldier",
+        "number": 27,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "318"
+    },
+    {
+        "card_name": "Go on a Vacation",
+        "number": 74,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "120"
+    },
+    {
+        "card_name": "Lafitte, Demon Sheriff",
+        "number": 121,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "199"
+    },
+    {
+        "card_name": "Johnny and Yosaku, Bounty Hunters",
+        "number": 168,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "208"
+    },
+    {
+        "card_name": "Kingbaum, Master of the Woods",
+        "number": 215,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "314"
+    },
+    {
+        "card_name": "Little Black Bears",
+        "number": 28,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "50"
+    },
+    {
+        "card_name": "Ice Time",
+        "number": 75,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "239"
+    },
+    {
+        "card_name": "Magellan, Noxious Warden",
+        "number": 122,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "183"
+    },
+    {
+        "card_name": "Karoo, Super Sonic Duck",
+        "number": 169,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "202"
+    },
+    {
+        "card_name": "Laboon, Loyal Island Whale",
+        "number": 216,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "62"
+    },
+    {
+        "card_name": "Make a Myth",
+        "number": 29,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "362"
+    },
+    {
+        "card_name": "Iceburg, Galley-La President",
+        "number": 76,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "Marshal D Teach, Blackbeard",
+        "number": 123,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "King the Conflagration",
+        "number": 170,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "212"
+    },
+    {
+        "card_name": "Leo, Tonta Corps Leader",
+        "number": 217,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "Marco the Phoenix",
+        "number": 30,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "127"
+    },
+    {
+        "card_name": "Jewelry Bonney",
+        "number": 77,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "207"
+    },
+    {
+        "card_name": "Memory Edit",
+        "number": 124,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "163"
+    },
+    {
+        "card_name": "Kizaru, Flippant Admiral",
+        "number": 171,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "Mihawk, Strongest Swordsman",
+        "number": 218,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "169"
+    },
+    {
+        "card_name": "Nefertari Cobra, Arabasta King",
+        "number": 31,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "308"
+    },
+    {
+        "card_name": "Kaku, Undercover Shipwright",
+        "number": 78,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "295"
+    },
+    {
+        "card_name": "Misplaced Anger",
+        "number": 125,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "269"
+    },
+    {
+        "card_name": "Koza, Rebel Leader",
+        "number": 172,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "213"
+    },
+    {
+        "card_name": "Miss Valentine, Weightlifter",
+        "number": 219,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "310"
+    },
+    {
+        "card_name": "Nefertari Vivi, Arabasta Princess",
+        "number": 32,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Law, Surgeon of Death",
+        "number": 79,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "Miss Double Finger",
+        "number": 126,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "293"
+    },
+    {
+        "card_name": "Kozuki Oden, Foolish Daimyo",
+        "number": 173,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "159"
+    },
+    {
+        "card_name": "Momonosuke, Young Shogun",
+        "number": 220,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "160"
+    },
+    {
+        "card_name": "Nothing Happened",
+        "number": 33,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "83"
+    },
+    {
+        "card_name": "Lindbergh, South Army Commander",
+        "number": 80,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "343"
+    },
+    {
+        "card_name": "Moria, One Thousand Shadows",
+        "number": 127,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "Lassoo, Dog Gun",
+        "number": 174,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "125"
+    },
+    {
+        "card_name": "Morley, West Army Commander",
+        "number": 221,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "217"
+    },
+    {
+        "card_name": "The One Piece Is Real!",
+        "number": 34,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "105"
+    },
+    {
+        "card_name": "Madam Shyarly, Fortune Teller",
+        "number": 81,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "227"
+    },
+    {
+        "card_name": "Mother Carmel, Mountain Witch",
+        "number": 128,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "172"
+    },
+    {
+        "card_name": "Miss Merry Christmas, Setter",
+        "number": 175,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "297"
+    },
+    {
+        "card_name": "Orochi, Kurozomi Usurper",
+        "number": 222,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "188"
+    },
+    {
+        "card_name": "Otohime, Selfless Queen",
+        "number": 35,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "219"
+    },
+    {
+        "card_name": "Memories Too Sweet",
+        "number": 82,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "341"
+    },
+    {
+        "card_name": "Oars the Continent-Puller",
+        "number": 129,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "174"
+    },
+    {
+        "card_name": "Mr. 4, Pinch Hitter",
+        "number": 176,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "291"
+    },
+    {
+        "card_name": "The Paramount War",
+        "number": 223,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "356"
+    },
+    {
+        "card_name": "Passing the Legacy",
+        "number": 36,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "242"
+    },
+    {
+        "card_name": "Miss Goldenweek, Expressionist",
+        "number": 83,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "215"
+    },
+    {
+        "card_name": "One Last Song",
+        "number": 130,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "67"
+    },
+    {
+        "card_name": "Mr. 5, Snot Bomber",
+        "number": 177,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "298"
+    },
+    {
+        "card_name": "Pica, Gargantuan Pipsqueak",
+        "number": 224,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "221"
+    },
+    {
+        "card_name": "Pell the Falcon",
+        "number": 37,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "162"
+    },
+    {
+        "card_name": "News Coo Delivery",
+        "number": 84,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "246"
+    },
+    {
+        "card_name": "Overdue Revival",
+        "number": 131,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "173"
+    },
+    {
+        "card_name": "Nezumi, Corrupt Captain",
+        "number": 178,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "189"
+    },
+    {
+        "card_name": "Pop Green Flytrap",
+        "number": 225,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "358"
+    },
+    {
+        "card_name": "Princess Mansherry",
+        "number": 38,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "145"
+    },
+    {
+        "card_name": "Nola, Master of the Sky",
+        "number": 85,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "218"
+    },
+    {
+        "card_name": "Perona, Ghost Princess",
+        "number": 132,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "147"
+    },
+    {
+        "card_name": "Pappag, Star Designer",
+        "number": 179,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "323"
+    },
+    {
+        "card_name": "Poseidon's Call",
+        "number": 226,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "170"
+    },
+    {
+        "card_name": "Rokushiki",
+        "number": 39,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "248"
+    },
+    {
+        "card_name": "Perception Haki",
+        "number": 86,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "259"
+    },
+    {
+        "card_name": "Perospero, First Son of Linlin",
+        "number": 133,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "316"
+    },
+    {
+        "card_name": "Paulie, Rash Rigger",
+        "number": 180,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "302"
+    },
+    {
+        "card_name": "Recover the Past",
+        "number": 227,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "270"
+    },
+    {
+        "card_name": "Sakazuki",
+        "number": 40,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "104"
+    },
+    {
+        "card_name": "Pudding, Three-Eyed Bride",
+        "number": 87,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "156"
+    },
+    {
+        "card_name": "Pirate's Alliance",
+        "number": 134,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "360"
+    },
+    {
+        "card_name": "Pedro of the Treetops",
+        "number": 181,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "220"
+    },
+    {
+        "card_name": "Repatriate",
+        "number": 228,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "357"
+    },
+    {
+        "card_name": "Sengoku the Buddha",
+        "number": 41,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "224"
+    },
+    {
+        "card_name": "Queen the Plague",
+        "number": 88,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "214"
+    },
+    {
+        "card_name": "Rob Luccy, Massacre Weapon",
+        "number": 135,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Portgas D Ace, Fire Fist",
+        "number": 182,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Rumble Ball",
+        "number": 229,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "263"
+    },
+    {
+        "card_name": "Ship Cutter T Bone",
+        "number": 42,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "327"
+    },
+    {
+        "card_name": "Recover the Records",
+        "number": 89,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "49"
+    },
+    {
+        "card_name": "Ryuma, God of the Blade",
+        "number": 136,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "223"
+    },
+    {
+        "card_name": "Prometheus the Sun",
+        "number": 183,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "315"
+    },
+    {
+        "card_name": "Ryokugyu, Determined Admiral",
+        "number": 230,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "166"
+    },
+    {
+        "card_name": "A Ship Fit for a King",
+        "number": 43,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "106"
+    },
+    {
+        "card_name": "San Charlos, Spoiled Brat",
+        "number": 90,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "101"
+    },
+    {
+        "card_name": "Senseless Violence",
+        "number": 137,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "142"
+    },
+    {
+        "card_name": "Rebecca, Gladiator Princess",
+        "number": 184,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "222"
+    },
+    {
+        "card_name": "Sanjuan Wolf",
+        "number": 231,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "58"
+    },
+    {
+        "card_name": "Show of Force",
+        "number": 44,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "144"
+    },
+    {
+        "card_name": "Smiley, Bio-Chemical Pet",
+        "number": 91,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "228"
+    },
+    {
+        "card_name": "Shadow Theft",
+        "number": 138,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "Red Hair Shanks",
+        "number": 185,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "Sea King Nest",
+        "number": 232,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "250"
+    },
+    {
+        "card_name": "Silvers Rayleigh, The Dark King",
+        "number": 45,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "Surume, Benthic Companion",
+        "number": 92,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "230"
+    },
+    {
+        "card_name": "Shiryu of the Rain",
+        "number": 139,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "226"
+    },
+    {
+        "card_name": "Sabo, Flame Emperor",
+        "number": 186,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "Shirahoshi, Mermaid Princess",
+        "number": 233,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "149"
+    },
+    {
+        "card_name": "Smoker the White Hunter",
+        "number": 46,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Tararan, Spider Monkey Zombie",
+        "number": 93,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "231"
+    },
+    {
+        "card_name": "Spandam, CP9 Chief",
+        "number": 140,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "229"
+    },
+    {
+        "card_name": "Saint Figarland Garling",
+        "number": 187,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "196"
+    },
+    {
+        "card_name": "Sulong, Moon Lion Form",
+        "number": 234,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "140"
+    },
+    {
+        "card_name": "Smoothie, Sweet Commander",
+        "number": 47,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "306"
+    },
+    {
+        "card_name": "Tom, Shipwright with a DON",
+        "number": 94,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "232"
+    },
+    {
+        "card_name": "Stussy, Triple Agent",
+        "number": 141,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "184"
+    },
+    {
+        "card_name": "Senor Pink, Hard-Boiled",
+        "number": 188,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "307"
+    },
+    {
+        "card_name": "The Tale of Noland the Liar",
+        "number": 235,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "151"
+    },
+    {
+        "card_name": "Soap Up",
+        "number": 48,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "209"
+    },
+    {
+        "card_name": "The Unluckies, Informants",
+        "number": 95,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "240"
+    },
+    {
+        "card_name": "Unexpected Return",
+        "number": 142,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "100"
+    },
+    {
+        "card_name": "Shine the Light of Shandia",
+        "number": 189,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "350"
+    },
+    {
+        "card_name": "Ulti, Tobiroppo Rampage",
+        "number": 236,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "233"
+    },
+    {
+        "card_name": "Tashigi, Marine Captain",
+        "number": 49,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "290"
+    },
+    {
+        "card_name": "Van Augur, The Supersonic",
+        "number": 96,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "326"
+    },
+    {
+        "card_name": "Vergo, The First Corazon",
+        "number": 143,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "294"
+    },
+    {
+        "card_name": "Shoot Down That Flag",
+        "number": 190,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "99"
+    },
+    {
+        "card_name": "Urouge, Mad Monk",
+        "number": 237,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "234"
+    },
+    {
+        "card_name": "Whitebeard, Roaring Patriarch",
+        "number": 50,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "Vander Decken IX",
+        "number": 97,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "206"
+    },
+    {
+        "card_name": "The Vinsmoke Siblings",
+        "number": 144,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "305"
+    },
+    {
+        "card_name": "Waste Nothing",
+        "number": 191,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "103"
+    },
+    {
+        "card_name": "We Are!",
+        "number": 238,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "264"
+    },
+    {
+        "card_name": "Worthy Sacrifice",
+        "number": 51,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "51"
+    },
+    {
+        "card_name": "Viola, Insightful Agent",
+        "number": 98,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "235"
+    },
+    {
+        "card_name": "Wet Haired Caribou",
+        "number": 145,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "177"
+    },
+    {
+        "card_name": "The Will of D",
+        "number": 192,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "138"
+    },
+    {
+        "card_name": "Yamato, Son of Kaidou",
+        "number": 239,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "158"
+    },
+    {
+        "card_name": "X Drake, Pretend Deserter",
+        "number": 52,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "237"
+    },
+    {
+        "card_name": "Yeti Cool Brothers, For Hire",
+        "number": 99,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "300"
+    },
+    {
+        "card_name": "Yasopp, Red Hair's Sniper",
+        "number": 146,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "321"
+    },
+    {
+        "card_name": "Zeus, Cumulo Companion",
+        "number": 193,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "313"
+    },
+    {
+        "card_name": "Zunesha, Elephus Dali",
+        "number": 240,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "148"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Cherry Blossoms in Winter",
+        "number": 2,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "267"
+    },
+    {
+        "card_name": "The Five Elders",
+        "number": 245,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "Black Hole Liberation",
+        "number": 1,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Straw Hat Luffy, Dreamer",
+        "number": 259,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "Chopper, Cure Concocter",
+        "number": 243,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "Jinbe, Knight of the Sea",
+        "number": 250,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "Nami, Cat Burglar",
+        "number": 252,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "Kaidou, Strongest Creature",
+        "number": 251,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "Wyper, Shandia Warrior",
+        "number": 261,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "236"
+    },
+    {
+        "card_name": "Rosinante, Mute Savior",
+        "number": 255,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "146"
+    },
+    {
+        "card_name": "Sentomaru, Science Captain",
+        "number": 257,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "225"
+    },
+    {
+        "card_name": "Cheated Power",
+        "number": 267,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "348"
+    },
+    {
+        "card_name": "Zoro, Pirate Hunter",
+        "number": 262,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "Alliance Celebrations",
+        "number": 264,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "268"
+    },
+    {
+        "card_name": "Garp, Marine Instructor",
+        "number": 270,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "102"
+    },
+    {
+        "card_name": "The Usopp Pirates",
+        "number": 276,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "331"
+    },
+    {
+        "card_name": "Monet, Punk Hazard Overseer",
+        "number": 273,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "216"
+    },
+    {
+        "card_name": "Buggy, the Star Clown",
+        "number": 265,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Curly Dadan, Foster Bandit",
+        "number": 268,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "289"
+    },
+    {
+        "card_name": "Rusted Blades",
+        "number": 275,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "98"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Brook, Soul King",
+        "number": 241,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "Foxy the Silver Fox",
+        "number": 246,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "61"
+    },
+    {
+        "card_name": "Ground Secco",
+        "number": 4,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "265"
+    },
+    {
+        "card_name": "Gear Two",
+        "number": 3,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "126"
+    },
+    {
+        "card_name": "Knock Up Stream",
+        "number": 5,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "266"
+    },
+    {
+        "card_name": "Capone Bege, Family Man",
+        "number": 242,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "176"
+    },
+    {
+        "card_name": "Franky, Cyborg Shipwright",
+        "number": 247,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Sir Crocodile, Desert King",
+        "number": 258,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "Dragon, Revolutionary",
+        "number": 244,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "Kokoro, Chimney and Gonbe",
+        "number": 249,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "204"
+    },
+    {
+        "card_name": "Cavendish the Pirate Prince",
+        "number": 266,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "320"
+    },
+    {
+        "card_name": "Deflect",
+        "number": 269,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "Usopp, Sniper King",
+        "number": 260,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "Sanji, Chef En Flamb\u00e9",
+        "number": 256,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "Nico Robin, Archeologist",
+        "number": 253,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "Locked in Impel Down",
+        "number": 272,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "258"
+    },
+    {
+        "card_name": "Ivankov, Kamabakka Queen",
+        "number": 271,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "241"
+    },
+    {
+        "card_name": "Wapol, Munch Machine",
+        "number": 277,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "Foxfire Kinnemon",
+        "number": 263,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "286"
+    },
+    {
+        "card_name": "Mr. 3, Intelligent Criminal",
+        "number": 274,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "198"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Gol D Roger, Pirate King",
+        "number": 248,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "381"
+    },
+    {
+        "card_name": "The One Piece",
+        "number": 254,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "253"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Ace, The King's Cutlass",
+        "number": 278,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "353"
+    },
+    {
+        "card_name": "The Ark Maxim",
+        "number": 279,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "168"
+    },
+    {
+        "card_name": "Baratie, Floating Restaurant",
+        "number": 280,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "255"
+    },
+    {
+        "card_name": "Bartholomew Kuma, PX0",
+        "number": 281,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "180"
+    },
+    {
+        "card_name": "Den Den Mushi",
+        "number": 282,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "338"
+    },
+    {
+        "card_name": "Devil Fruit",
+        "number": 283,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "261"
+    },
+    {
+        "card_name": "The Empty Throne",
+        "number": 284,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "157"
+    },
+    {
+        "card_name": "Enma, Kouzuki Heirloom",
+        "number": 285,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "355"
+    },
+    {
+        "card_name": "Flag of the Strawhats",
+        "number": 286,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "333"
+    },
+    {
+        "card_name": "The Germa Kingdom",
+        "number": 287,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "347"
+    },
+    {
+        "card_name": "The Going Luffy-Senpai",
+        "number": 288,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "55"
+    },
+    {
+        "card_name": "The Going Merry",
+        "number": 289,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "53"
+    },
+    {
+        "card_name": "Kuro Kabuto, Pop Green Slingshot",
+        "number": 290,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "262"
+    },
+    {
+        "card_name": "Log Pose",
+        "number": 291,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "69"
+    },
+    {
+        "card_name": "Mask of Sogeking",
+        "number": 292,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "165"
+    },
+    {
+        "card_name": "The Moby Dick",
+        "number": 293,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "54"
+    },
+    {
+        "card_name": "Murakumogiri, Supreme Naginata",
+        "number": 294,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "354"
+    },
+    {
+        "card_name": "Noah, Ship of Promise",
+        "number": 295,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "344"
+    },
+    {
+        "card_name": "The Oro Jackson",
+        "number": 296,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "345"
+    },
+    {
+        "card_name": "The Pluton Blueprints",
+        "number": 297,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "330"
+    },
+    {
+        "card_name": "Polar Tang, Submarine",
+        "number": 298,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "256"
+    },
+    {
+        "card_name": "Punishers",
+        "number": 299,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "349"
+    },
+    {
+        "card_name": "Queen Mama Chanter",
+        "number": 300,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "56"
+    },
+    {
+        "card_name": "Raid Suit Number 3, Stealth Black",
+        "number": 301,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "352"
+    },
+    {
+        "card_name": "Road Poneglyph",
+        "number": 302,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "130"
+    },
+    {
+        "card_name": "Rocketman, Sea Train",
+        "number": 303,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "128"
+    },
+    {
+        "card_name": "Saber of Xebec",
+        "number": 304,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "334"
+    },
+    {
+        "card_name": "Sandai Kitetsu, Cursed Blade",
+        "number": 305,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "247"
+    },
+    {
+        "card_name": "Sorcery Clima-Tact",
+        "number": 306,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "254"
+    },
+    {
+        "card_name": "The Strawhat",
+        "number": 307,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "63"
+    },
+    {
+        "card_name": "The Striker",
+        "number": 308,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "346"
+    },
+    {
+        "card_name": "The Thousand Sunny",
+        "number": 309,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "57"
+    },
+    {
+        "card_name": "Yoru, Black Blade",
+        "number": 312,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "260"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Whole Cake Island",
+        "number": 311,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "276"
+    },
+    {
+        "card_name": "Drum Island, Sakura Kingdom",
+        "number": 322,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "278"
+    },
+    {
+        "card_name": "The Thriller Bark",
+        "number": 310,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "52"
+    },
+    {
+        "card_name": "Arabasta, Desert Kingdom",
+        "number": 314,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "275"
+    },
+    {
+        "card_name": "Wano Kuni, Prevailing Nation",
+        "number": 354,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "277"
+    },
+    {
+        "card_name": "Marineford, Marine Headquarters",
+        "number": 335,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "95"
+    },
+    {
+        "card_name": "Water 7, Capital of Water",
+        "number": 355,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "281"
+    },
+    {
+        "card_name": "Impel Down, Underwater Prison",
+        "number": 332,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "273"
+    },
+    {
+        "card_name": "Dressrosa, Land of Love and Passion",
+        "number": 321,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "280"
+    },
+    {
+        "card_name": "Zou, Home of the Minks",
+        "number": 360,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "117"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "OPC Hallowed Fountain",
+        "number": 331,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "76"
+    },
+    {
+        "card_name": "Tequila Wolf, Bridge to Nowhere",
+        "number": 351,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "111"
+    },
+    {
+        "card_name": "OPC Blood Crypt",
+        "number": 316,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "74"
+    },
+    {
+        "card_name": "Boin Archipelago, Stomach Baron",
+        "number": 318,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "108"
+    },
+    {
+        "card_name": "Fish-Man Island, Ryugu Kingdom",
+        "number": 326,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "116"
+    },
+    {
+        "card_name": "Weatheria, Meteorology Heaven",
+        "number": 357,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "107"
+    },
+    {
+        "card_name": "OPC Watery Grave",
+        "number": 356,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "82"
+    },
+    {
+        "card_name": "Kuraigana, Muggy Kingdom",
+        "number": 334,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "115"
+    },
+    {
+        "card_name": "OPC Stomping Ground",
+        "number": 349,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "80"
+    },
+    {
+        "card_name": "OPC Temple Garden",
+        "number": 350,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "81"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "OPC Godless Shrine",
+        "number": 329,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "84"
+    },
+    {
+        "card_name": "Karakuri, Future Island Baldimore",
+        "number": 333,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "112"
+    },
+    {
+        "card_name": "OPC Overgrown Tomb",
+        "number": 341,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "77"
+    },
+    {
+        "card_name": "Momoiro, Kamabakka Queendom",
+        "number": 339,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "109"
+    },
+    {
+        "card_name": "OPC Breeding Pool",
+        "number": 319,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "75"
+    },
+    {
+        "card_name": "Namakuri, Land of Poverty",
+        "number": 340,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "113"
+    },
+    {
+        "card_name": "OPC Steam Vents",
+        "number": 348,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "79"
+    },
+    {
+        "card_name": "Rusukaina, Harsh Island",
+        "number": 345,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "114"
+    },
+    {
+        "card_name": "OPC Sacred Foundry",
+        "number": 346,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "78"
+    },
+    {
+        "card_name": "Torino Kingdom, Medicine Island",
+        "number": 352,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "110"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Amazon Lily, Island of Women",
+        "number": 313,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "328"
+    },
+    {
+        "card_name": "OPC Arid Mesa",
+        "number": 315,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "85"
+    },
+    {
+        "card_name": "OPC Bloodstained Mire",
+        "number": 317,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "86"
+    },
+    {
+        "card_name": "The Calm Belt",
+        "number": 320,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "272"
+    },
+    {
+        "card_name": "Egghead, Future Island",
+        "number": 323,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "96"
+    },
+    {
+        "card_name": "Enies Lobby, Judicial Island",
+        "number": 324,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "282"
+    },
+    {
+        "card_name": "Fabled Passage",
+        "number": 325,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "70"
+    },
+    {
+        "card_name": "OPC Flooded Strand",
+        "number": 327,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "87"
+    },
+    {
+        "card_name": "The Gates of Justice",
+        "number": 328,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "283"
+    },
+    {
+        "card_name": "Hachinosu, Pirate Island",
+        "number": 330,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "329"
+    },
+    {
+        "card_name": "OPC Marsh Flats",
+        "number": 336,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "88"
+    },
+    {
+        "card_name": "Mary Geoise, Holy Land",
+        "number": 337,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "279"
+    },
+    {
+        "card_name": "OPC Misty Rainforest",
+        "number": 338,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "89"
+    },
+    {
+        "card_name": "OPC Polluted Delta",
+        "number": 342,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "90"
+    },
+    {
+        "card_name": "Raftel, the Final Island",
+        "number": 343,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "271"
+    },
+    {
+        "card_name": "The Red Line",
+        "number": 344,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "274"
+    },
+    {
+        "card_name": "OPC Scalding Tarn",
+        "number": 347,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "91"
+    },
+    {
+        "card_name": "OPC Verdant Catacombs",
+        "number": 353,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "92"
+    },
+    {
+        "card_name": "OPC Windswept Heath",
+        "number": 358,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "93"
+    },
+    {
+        "card_name": "Wooded Foothills",
+        "number": 359,
+        "shape": "normal",
+        "set": "OPC",
+        "rotated": false,
+        "position": "94"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Copy",
+        "number": 1,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "369"
+    },
+    {
+        "card_name": "The Monarch",
+        "number": 12,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "378"
+    },
+    {
+        "card_name": "Baseball",
+        "number": 13,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "372"
+    },
+    {
+        "card_name": "Clue",
+        "number": 14,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "367"
+    },
+    {
+        "card_name": "Equipment",
+        "number": 15,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "370"
+    },
+    {
+        "card_name": "Food",
+        "number": 16,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "368"
+    },
+    {
+        "card_name": "Junk",
+        "number": 17,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "371"
+    },
+    {
+        "card_name": "Satellite",
+        "number": 18,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "365"
+    },
+    {
+        "card_name": "Toy",
+        "number": 19,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "377"
+    },
+    {
+        "card_name": "Treasure",
+        "number": 20,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "133"
+    },
+    {
+        "card_name": "Vehicle",
+        "number": 21,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "376"
+    },
+    {
+        "card_name": "Desert",
+        "number": 22,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "251"
+    },
+    {
+        "card_name": "Robot",
+        "number": 2,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "364"
+    },
+    {
+        "card_name": "Soldier",
+        "number": 3,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "135"
+    },
+    {
+        "card_name": "Leviathan",
+        "number": 4,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "366"
+    },
+    {
+        "card_name": "Bird",
+        "number": 5,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "238"
+    },
+    {
+        "card_name": "Inkling",
+        "number": 6,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "375"
+    },
+    {
+        "card_name": "Pirate",
+        "number": 7,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "136"
+    },
+    {
+        "card_name": "Spirit",
+        "number": 8,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "374"
+    },
+    {
+        "card_name": "Zombie",
+        "number": 9,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "373"
+    },
+    {
+        "card_name": "Rebel",
+        "number": 10,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "134"
+    },
+    {
+        "card_name": "Merfolk",
+        "number": 11,
+        "shape": "token",
+        "set": "OPC",
+        "rotated": false,
+        "position": "153"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

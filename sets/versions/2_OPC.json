@@ -1,9 +1,11 @@
 ﻿{
     "name": "The Poneglyph",
     "formats": "cube",
-    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "cube",
+    "unpreviewed": "card back",
+    "image_name": "position",
+    "v_mana": "",
     "cards": [
         {
             "card_name": "Dorry and Brogy, Giant Warriors",
@@ -21,6 +23,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": "!exportname Dorry and Brogy, Giant Warriors"
         },
         {
@@ -31,14 +36,17 @@
             "number": 201,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Cat & Dog can't be blocked by creatures with power 2 or less.\nWhenever Cat & Dog deal combat damage to a player, choose one\u2014\n\u2022 Destroy up to one target artifact or enchantment.\n\u2022 Put a +1/+1 counter on Cat & Dog.\n\u2022 Draw a card.",
+            "rules_text": "Cat & Dog can't be blocked by creatures with power 2 or less.\nWhenever Cat & Dog deal combat damage to a player, choose one\u2014\n\u2022 Destroy up to one target artifact or enchantment.\n\u2022 Put two +1/+1 counters on Cat & Dog.\n\u2022 Draw a card.",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
+            "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "1",
+            "rotated": false,
             "notes": "!tag: kouzuki-alliance\n!tag: removal\n!exportname Cat and Dog, Nekomamushi and Inuarashi"
         },
         {
@@ -49,7 +57,7 @@
             "number": 259,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
-            "rules_text": "Trample; Hexproof from instants\nWhen Straw Hat Luffy enters, target opponent becomes the monarch.\nWhenever Straw Hat Luffy attacks the monarch, double his power and toughness until end of turn.",
+            "rules_text": "Trample, reach, hexproof from instants\nWhen Straw Hat Luffy enters, target opponent becomes the monarch.\nWhenever Straw Hat Luffy attacks the monarch, double his power and toughness until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -57,6 +65,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -66,15 +77,18 @@
             "type": "Legendary Creature \u2014 Human Rogue Pirate",
             "number": 252,
             "color_identity": "UB",
-            "cost": "{1}{U}{B}",
-            "rules_text": "Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]\nSacrifice two artifacts: Draw a card.\nWhenever Nami deals combat damage to a player, you may pay 2 life. If you do, create two tapped Treasure tokens.",
+            "cost": "{U}{B}",
+            "rules_text": "Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]\nWhenever Nami deals combat damage to a player, she explores. [i](Reveal the top card of your library. Put it into your hand if it's a land. Otherwise, put a +1/+1 counter on Nami, then put it back or mill it.)[/i]\nRemove a +1/+1 counter from Nami: Create a tapped Treasure token.",
             "flavor_text": "[i][/i]",
-            "pt": "2/3",
+            "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -93,6 +107,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "4",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -111,6 +128,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -121,15 +141,18 @@
             "number": 253,
             "color_identity": "UG",
             "cost": "{2}{G}{U}",
-            "rules_text": "\nAt the beginning of your end step, exile a card from your graveyard.\nYou may play cards exiled with Nico Robin.",
+            "rules_text": "At the beginning of your end step, you may exile a card from your graveyard with a history counter on it.\nYou may play cards with history counters on them from exile. Whenever you do, surveil 1. If a spell cast this way would be put into a graveyard, exile it instead.",
             "flavor_text": "[i][/i]",
-            "pt": "2/2",
+            "pt": "2/4",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!tag: strawhat-pirates\nneedstext"
+            "alias": "",
+            "position": "6",
+            "rotated": false,
+            "notes": "!tag: strawhat-pirates"
         },
         {
             "card_name": "Chopper, Cure Concocter",
@@ -147,6 +170,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -157,7 +183,7 @@
             "number": 241,
             "color_identity": "WB",
             "cost": "{W}{B}",
-            "rules_text": "As long as Brook is a token, he isn't legendary.\nWhenever a creature you control not named Brook dies, each opponent loses 1 life and you gain 1 life.\nEncore {1}{W}{B} [i]({1}{W}{B}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)[/i]",
+            "rules_text": "As long as Brook is a token, he isn't legendary.\nWhenever another non-Bard creature you control dies, each opponent loses 1 life and you gain 1 life.\nEncore {1}{W}{B} [i]({1}{W}{B}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
@@ -165,6 +191,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -175,14 +204,17 @@
             "number": 247,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "Whenever Franky becomes tapped, discard a card, then draw a card.\n{3}, {T}, Sacrifice an artifact: Return target artifact card from your graveyard to the battlefield.",
+            "rules_text": "Whenever Franky becomes tapped, discard a card, then draw a card.\nWhenever another artifact card is put into your graveyard from anywhere, you may create a token that's a copy of it, except its a 2/1 Vehicle artifact with crew 3 in addition to its other abilities. It loses all other types. Do this only once each turn.",
             "flavor_text": "[i][/i]",
-            "pt": "4/3",
+            "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -201,6 +233,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -211,14 +246,17 @@
             "number": 250,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
-            "rules_text": "Jinbe crews Vehicles using his toughness rather than his power.\nArtifact creatures you control get +2/+2 and have vigilance.",
+            "rules_text": "When Jinbe enters, look at the top five cards of your library. You may reveal a Vehicle card from among them and put it into your hand. Put the rest on the bottom of your library in any order. If you didn't put a card into your hand this way, draw a card.\nJinbe crews vehicles using his toughness rather than his power.",
             "flavor_text": "[i][/i]",
-            "pt": "2/5",
+            "pt": "1/5",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -228,15 +266,18 @@
             "type": "Legendary Creature \u2014 Human Pirate",
             "number": 185,
             "color_identity": "R",
-            "cost": "{5}{R}{R}",
-            "rules_text": "First strike\nWhenever Red Hair Shanks attacks, he deals 1 damage to each opponent.\n[i]Landfall[/i] \u2014 Whenever a land you control enters, if it's your turn, after this phase, there is an additional combat phase.\nAt the beginning of combat on each of your turns, untap all creatures you control.",
+            "cost": "{4}{R}{R}{R}",
+            "rules_text": "First strike\nWhenever Shanks attacks, he deals damage equal to his power distributed as you choose among any number of target opponents.\n[i]Landfall[/i] \u2014 Whenever a land you control enters, if it's your main phase, there's an additional combat phase after this phase. At the beginning of that combat, untap all creatures you control.",
             "flavor_text": "[i][/i]",
-            "pt": "7/3",
+            "pt": "6/4",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -255,6 +296,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": "!tag: beast-pirates"
         },
         {
@@ -273,17 +317,20 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": "!tag: whitebeard-pirates\n!tag: removal"
         },
         {
-            "card_name": "Marshal D. Teach, Blackbeard",
+            "card_name": "Marshal D Teach, Blackbeard",
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Pirate",
-            "number": 122,
+            "number": 123,
             "color_identity": "B",
             "cost": "{4}{B}",
-            "rules_text": "Menace\nWhenever Marshal D. Teach deals combat damage to a player, you may cast an instant, sorcery or creature card from that players graveyard without paying its mana cost. If it is an instant or sorcery card, exile it as it resolves.",
+            "rules_text": "Menace\nWhenever Marshal D Teach deals combat damage to a player, you may cast an instant, sorcery or creature card from that players graveyard without paying its mana cost. If it is an instant or sorcery card, exile it as it resolves.",
             "flavor_text": "[i][/i]",
             "pt": "6/6",
             "special_text": "",
@@ -291,6 +338,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "15",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -309,6 +359,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": "!tag: world-government"
         },
         {
@@ -321,12 +374,15 @@
             "cost": "{2}{B}{B}",
             "rules_text": "Menace\nOther creatures you control have menace.\n{5}: For opponent that was dealt damage this turn, create a 1/1 white Soldier creature token.",
             "flavor_text": "[i][/i]",
-            "pt": "4/3",
+            "pt": "5/3",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": "!tag: admiral\n!tag: marines\n!tag: removal"
         },
         {
@@ -345,6 +401,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "18",
+            "rotated": false,
             "notes": "!tag: admiral\n!tag: marines"
         },
         {
@@ -363,6 +422,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": "!tag: admiral\n!tag: marines"
         },
         {
@@ -381,6 +443,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "20",
+            "rotated": false,
             "notes": "!tag: marines"
         },
         {
@@ -391,7 +456,7 @@
             "number": 135,
             "color_identity": "B",
             "cost": "{4}{B}{B}",
-            "rules_text": "When Rob Luccy enters, other creatures get -2/-2 until end of turn.\nWhenever a creature dies, each opponent loses 2 life.",
+            "rules_text": "When Rob Luccy enters, other creatures get -2/-2 until end of turn.\nWhenever a creature dies, Rob Luccy deals 2 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "4/5",
             "special_text": "",
@@ -399,6 +464,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": "!tag: world-government\n!tag: removal\n!tag: boardwipe"
         },
         {
@@ -417,6 +485,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": "!tag: marines"
         },
         {
@@ -435,6 +506,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -453,6 +527,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": "!tag: kid-pirates\n!exportname Eustass Captain Kid\n!tag: removal"
         },
         {
@@ -463,7 +540,7 @@
             "number": 265,
             "color_identity": "BR",
             "cost": "{2}{BR}",
-            "rules_text": "Renown 1 [i](When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)[/i]\nWhenever Buggy attacks, for each opponent he isn't attacking, create a nonlegendary token copy of him except it has \u201cAt the end of your combat, if this creature hasn't dealt damage to an opponent this turn, sacrifice it.\u201d It enters tapped and attacking that opponent.",
+            "rules_text": "Menace\nWhenever Buggy attacks, create X nonlegendary token copies of Buggy, where X is his power. The copies enter tapped and attacking. Exile them at the beginning of the next end step.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -471,6 +548,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -481,7 +561,7 @@
             "number": 258,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
-            "rules_text": "Sir Crocodile gets +X/+X, where X is the number of land cards in all graveyards.\nWhenever Sir Crocodile attacks, you may sacrifice a Basic land. If you do, each opponent sacrifices a Basic land. Each player that sacrificed a land this way creates a Desert land token with \u201c{T}, Pay 1 life: Add one mana of any color.\u201d",
+            "rules_text": "Sir Crocodile gets +X/+X, where X is the number of land cards in all graveyards.\nWhenever Sir Crocodile attacks, you may sacrifice a basic land. If you do, each opponent sacrifices a basic land. Each player that sacrificed a land this way creates a Desert land token with \u201c{T}, Pay 1 life: Add one mana of any color.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
@@ -489,6 +569,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "26",
+            "rotated": false,
             "notes": "tag: baroque-works"
         },
         {
@@ -507,6 +590,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -525,6 +611,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -532,10 +621,10 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Pirate",
-            "number": 126,
+            "number": 127,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Moria enters with two +1/+1 counters on it.\nWhenever a creature dies, put a +1/+1 counter on Moria.\nWhenever Moria is dealt damage, prevent that damage, then remove that many +1/+1 counters from him.",
+            "rules_text": "Moria enters with a +1/+1 counter on it.\nWhenever another creature dies, put two +1/+1 counter on Moria.\nWhenever Moria is dealt damage, prevent that damage, then remove half that many +1/+1 counters from him, rounded up.",
             "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
@@ -543,6 +632,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -561,6 +653,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "30",
+            "rotated": false,
             "notes": "!tag: donquixote-pirates"
         },
         {
@@ -571,7 +666,7 @@
             "number": 62,
             "color_identity": "U",
             "cost": "{4}{U}",
-            "rules_text": "Flying, Ward {2}\nCeasar Clown and other creatures you control have prowess.\nWhenever Ceasar Clown attacks, return up to one target instant, sorcery or artifact card from your graveyard to your hand.",
+            "rules_text": "Flying, Ward {2}\nWhenever Ceasar Clown attacks, until end of turn, target instant, sorcery and artifact cards in your graveyard gain \u201cExile this card from your graveyard: Until end of turn, you may cast a copy of this card. [i](You still pay its costs.)[/i]\u201d",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -579,6 +674,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": "!tag: donquixote-pirates"
         },
         {
@@ -597,6 +695,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -615,6 +716,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -633,6 +737,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": "lsb brother"
         },
         {
@@ -651,6 +758,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -660,16 +770,19 @@
             "type": "Legendary Creature \u2014 Human Doctor",
             "number": 79,
             "color_identity": "U",
-            "cost": "{2}{U}",
-            "rules_text": "Opponents can't block creatures they own.\n{3}{U}, {T}: Each player chooses another nonland, nontoken permanent that player controls and owns. Randomly redistribute control over the chosen permanents among all players.",
+            "cost": "{3}{U}",
+            "rules_text": "Opponents can't block creatures they own.\nWhenever Law attacks, each player exiles cards from the top of their library until they exile a nonland card. Starting with you, each player may choose one of those nonland cards and casts it without paying its mana cost.",
             "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": ""
+            "alias": "",
+            "position": "36",
+            "rotated": false,
+            "notes": "needstext"
         },
         {
             "card_name": "Nefertari Vivi, Arabasta Princess",
@@ -687,6 +800,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "37",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -705,6 +821,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": "!tag: world-government"
         },
         {
@@ -723,6 +842,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": "!tag: revolutionary-army"
         },
         {
@@ -741,6 +863,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": "lsb brother\n!tag: revolutionary-army\n\nlandfall"
         },
         {
@@ -759,6 +884,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "41",
+            "rotated": false,
             "notes": "!tag: tontatta-pirates"
         },
         {
@@ -777,6 +905,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -795,6 +926,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "43",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -813,6 +947,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -831,6 +968,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "45",
+            "rotated": false,
             "notes": "!tag: boardwipe\n!tag: removal"
         },
         {
@@ -849,6 +989,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -867,6 +1010,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "47",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -885,6 +1031,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -903,6 +1052,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "49",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -921,6 +1073,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": "!tag: Boardwipe\n!tag: removal"
         },
         {
@@ -939,6 +1094,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -946,7 +1104,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact Land \u2014 Swamp Vehicle",
-            "number": 311,
+            "number": 310,
             "color_identity": "B",
             "cost": "",
             "rules_text": "[i]({T}: Add {B}.)[/i]\nThe Thriller Bark enters tapped.\nWhenever The Thriller Bark deals combat damage to a player, you may put target creature card from your graveyard on top of your library.\nCrew 3",
@@ -957,6 +1115,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle\n!tag: thriller-bark-pirates"
         },
         {
@@ -964,7 +1125,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 290,
+            "number": 289,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Whenever a Pirate you control enters, put a +1/+1 counter on The Going Merry.\nCrew 2",
@@ -975,6 +1136,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "53",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -982,7 +1146,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 294,
+            "number": 293,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "Ward {3}\nWhen The Moby Dick enters, create two 1/1 black Pirate creature tokens with lifelink.\nWhenever The Moby Dick attacks, other attacking creatures you control get +2/+2 until end of turn.\nCrew 5",
@@ -993,6 +1157,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": "!tag: whitebeard-pirates"
         },
         {
@@ -1000,7 +1167,7 @@
             "color": "",
             "rarity": "cube",
             "type": "legendary Artifact \u2014 Vehicle",
-            "number": 289,
+            "number": 288,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Haste\nWhenever The Going Luffy-Senpai attacks, until end of turn, you may have it gain the abilities of target creature you control.\nCrew 3",
@@ -1011,6 +1178,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "55",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1018,7 +1188,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 301,
+            "number": 300,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "When Queen Mama Chanter enters or attacks, create a Food token.\nWhen Queen Mama Chanter becomes crewed for the first time each turn, other noncreature artifacts you control becomes artifact creatures until end of turn. If they aren't Vehicles, their base power and toughness become 4/4 until end of turn.\nCrew 6",
@@ -1029,6 +1199,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "56",
+            "rotated": false,
             "notes": "!tag big-mom-pirates"
         },
         {
@@ -1036,7 +1209,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 310,
+            "number": 309,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "The Thousand Sunny has lifelink as long as you control a white Pirate. The same is true for flying and blue, indestructible and black, double strike and red and hexproof and green.\nCrew 4",
@@ -1047,6 +1220,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": "!tag: strawhat-pirates"
         },
         {
@@ -1065,6 +1241,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1083,6 +1262,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1101,6 +1283,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "60",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -1111,7 +1296,7 @@
             "number": 246,
             "color_identity": "UR",
             "cost": "{U}{R}",
-            "rules_text": "[i]Landfall[/i] \u2014 Whenever a land you control enters, gain control of target tapped creature until end of turn. Untap it. It gains haste until end of turn.",
+            "rules_text": "When Foxy enters, tap up to one target creature.\n[i]Landfall[/i] \u2014 Whenever a land you control enters, gain control of target tapped creature until end of turn. Untap it. It gains haste until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -1119,6 +1304,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "61",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -1137,6 +1325,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -1144,7 +1335,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 308,
+            "number": 307,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Equipped creature has \u201c{T}: Add one mana of any color. This mana can't be spent to activate equip abilities.\u201d\nEquip {1}",
@@ -1155,6 +1346,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1162,7 +1356,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Enchantment",
-            "number": 113,
+            "number": 114,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Each creature card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. [i](You may cast cards from your graveyard for their escape cost.)[/i]",
@@ -1173,6 +1367,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1191,6 +1388,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1209,6 +1409,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "66",
+            "rotated": false,
             "notes": "!tag: cycling-cycle\n!tag: Boardwipe\n!tag: removal"
         },
         {
@@ -1216,7 +1419,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Sorcery",
-            "number": 129,
+            "number": 130,
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Each player chooses a creature they control. Destroy all creatures not chosen this way. Then, each player loses life equal to the total power among creatures they control.",
@@ -1227,6 +1430,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": "!tag: Boardwipe\n!tag: removal"
         },
         {
@@ -1245,6 +1451,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": "!tag: big-mom-pirates"
         },
         {
@@ -1252,7 +1461,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Artifact",
-            "number": 292,
+            "number": 291,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "When this artifact enters, search your library for a land card with a basic land type, reveal it, put it into your hand, then shuffle.\n{1}, {T}, Sacrifice this artifact: Put a land card from your hand onto the battlefield.",
@@ -1263,6 +1472,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1270,7 +1482,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 326,
+            "number": 325,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.",
@@ -1281,6 +1493,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "70",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -1299,6 +1514,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -1317,6 +1535,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -1335,6 +1556,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": "!tag: Boardwipe\n!tag: removal"
         },
         {
@@ -1342,7 +1566,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Swamp Mountain",
-            "number": 317,
+            "number": 316,
             "color_identity": "BR",
             "cost": "",
             "rules_text": "[i]({T}: Add {B} or {R}.)[/i]\nAs Blood Crypt enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1353,6 +1577,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Blood Crypt"
         },
         {
@@ -1360,7 +1587,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Forest Island",
-            "number": 320,
+            "number": 319,
             "color_identity": "UG",
             "cost": "",
             "rules_text": "[i]({T}: Add {G} or {U}.)[/i]\nAs Breeding Pool enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1371,6 +1598,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Breeding Pool"
         },
         {
@@ -1378,7 +1608,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Plains Island",
-            "number": 332,
+            "number": 331,
             "color_identity": "WU",
             "cost": "",
             "rules_text": "[i]({T}: Add {W} or {U}.)[/i]\nAs Hallowed Fountain enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1389,6 +1619,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "76",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Hallowed Fountain"
         },
         {
@@ -1396,7 +1629,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Swamp Forest",
-            "number": 342,
+            "number": 341,
             "color_identity": "BG",
             "cost": "",
             "rules_text": "[i]({T}: Add {B} or {G}.)[/i]\nAs Overgrown Tomb enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1407,6 +1640,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Overgrown Tomb"
         },
         {
@@ -1414,7 +1650,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Mountain Plains",
-            "number": 347,
+            "number": 346,
             "color_identity": "WR",
             "cost": "",
             "rules_text": "[i]({T}: Add {R} or {W}.)[/i]\nAs Sacred Foundry enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1425,6 +1661,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Sacred Foundry"
         },
         {
@@ -1432,7 +1671,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Island Mountain",
-            "number": 349,
+            "number": 348,
             "color_identity": "UR",
             "cost": "",
             "rules_text": "[i]({T}: Add {U} or {R}.)[/i]\nAs Steam Vents enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1443,6 +1682,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Steam Vents"
         },
         {
@@ -1450,7 +1692,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Mountain Forest",
-            "number": 350,
+            "number": 349,
             "color_identity": "RG",
             "cost": "",
             "rules_text": "[i]({T}: Add {R} or {G}.)[/i]\nAs Stomping Ground enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1461,6 +1703,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Stomping Ground"
         },
         {
@@ -1468,7 +1713,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Forest Plains",
-            "number": 351,
+            "number": 350,
             "color_identity": "WG",
             "cost": "",
             "rules_text": "[i]({T}: Add {G} or {W}.)[/i]\nAs Temple Garden enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1479,6 +1724,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Temple Garden"
         },
         {
@@ -1486,7 +1734,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Island Swamp",
-            "number": 357,
+            "number": 356,
             "color_identity": "UB",
             "cost": "",
             "rules_text": "[i]({T}: Add {U} or {B}.)[/i]\nAs Watery Grave enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1497,6 +1745,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Watery Grave"
         },
         {
@@ -1515,6 +1766,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -1522,7 +1776,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land \u2014 Plains Swamp",
-            "number": 330,
+            "number": 329,
             "color_identity": "WB",
             "cost": "",
             "rules_text": "[i]({T}: Add {W} or {B}.)[/i]\nAs Godless Shrine enters, you may pay 2 life. If you don't, it enters tapped.",
@@ -1533,6 +1787,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": "!tag shock-land-cycle\n!exportname OPC Godless Shrine"
         },
         {
@@ -1540,7 +1797,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 316,
+            "number": 315,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Arid Mesa: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",
@@ -1551,6 +1808,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle\n!exportname OPC Arid Mesa"
         },
         {
@@ -1558,7 +1818,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 318,
+            "number": 317,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
@@ -1569,6 +1829,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle\n!exportname OPC Bloodstained Mire"
         },
         {
@@ -1576,7 +1839,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 328,
+            "number": 327,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
@@ -1587,6 +1850,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle\n!exportname OPC Flooded Strand"
         },
         {
@@ -1594,7 +1860,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 337,
+            "number": 336,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",
@@ -1605,6 +1871,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle\n!exportname OPC Marsh Flats"
         },
         {
@@ -1612,7 +1881,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 339,
+            "number": 338,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Misty Rainforest: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
@@ -1623,6 +1892,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle\n!exportname OPC Misty Rainforest"
         },
         {
@@ -1630,7 +1902,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 343,
+            "number": 342,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for a Island or Swamp card, put it onto the battlefield, then shuffle.",
@@ -1641,6 +1913,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle\n!exportname OPC Polluted Delta"
         },
         {
@@ -1648,7 +1923,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 348,
+            "number": 347,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for a Island or Mountain card, put it onto the battlefield, then shuffle.",
@@ -1659,6 +1934,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle\n!exportname OPC Scalding Tarn"
         },
         {
@@ -1666,7 +1944,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 354,
+            "number": 353,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Verdant Catabombs: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.",
@@ -1677,6 +1955,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle\n!exportname OPC Verdant Catacombs"
         },
         {
@@ -1684,7 +1965,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 359,
+            "number": 358,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle.",
@@ -1695,6 +1976,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle\n!exportname OPC Windswept Heath"
         },
         {
@@ -1702,7 +1986,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Land",
-            "number": 360,
+            "number": 359,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",
@@ -1713,6 +1997,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": "!tag: fetch-land-cycle"
         },
         {
@@ -1720,7 +2007,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Plains",
-            "number": 336,
+            "number": 335,
             "color_identity": "W",
             "cost": "",
             "rules_text": "[i]({T}: Add {W}.)[/i]\nMarineford enters tapped.\nWhen Marineford enters, create a tapped 1/1 white Soldier creature token.",
@@ -1731,6 +2018,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle"
         },
         {
@@ -1738,7 +2028,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 324,
+            "number": 323,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{2}, {T}: Surveil 1, then each player draws a card. [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i]",
@@ -1749,6 +2039,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -1767,6 +2060,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -1785,7 +2081,10 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!tag: removal\nneedstext"
+            "alias": "",
+            "position": "98",
+            "rotated": false,
+            "notes": "!tag: removal"
         },
         {
             "card_name": "Shoot Down That Flag",
@@ -1803,6 +2102,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -1812,8 +2114,8 @@
             "type": "Instant",
             "number": 142,
             "color_identity": "B",
-            "cost": "{3}{B}{B}",
-            "rules_text": "Return target creature card from a graveyard to the battlefield under your control. If that card was put into the graveyard from the battlefield this turn, surveil 2.",
+            "cost": "{3}{B}",
+            "rules_text": "This spell costs {3} less to cast if it targets a card that entered your graveyard from the battlefield this turn.\nReturn target creature card from your graveyard to the battlefield tapped.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1821,6 +2123,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1839,6 +2144,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "101",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -1857,6 +2165,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "102",
+            "rotated": false,
             "notes": "!tag: marines"
         },
         {
@@ -1867,7 +2178,7 @@
             "number": 191,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "When Waste Nothing enters, each player may discard a card. Then each player who did draws a card.\nWhenever a player discards a card, Waste Nothing deals 1 damage to target player. If a land card was discarded this way, it instead deals 2 damage to each opponent.",
+            "rules_text": "When Waste Nothing enters, each player discards a card, then draws a card.\nWhenever a player discards a card, Waste Nothing deals 1 damage to target opponent. If a land card was discarded this way, it instead deals 2 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1875,6 +2186,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1893,6 +2207,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1911,6 +2228,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1929,6 +2249,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "106",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1936,7 +2259,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 358,
+            "number": 357,
             "color_identity": "WU",
             "cost": "",
             "rules_text": "Weatheria enters tapped.\n{T}: Add {W} or {U}.\n{2}, Sacrifice Weatheria: Draw a card.",
@@ -1947,6 +2270,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "107",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -1954,7 +2280,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 319,
+            "number": 318,
             "color_identity": "RG",
             "cost": "",
             "rules_text": "Boin Archipelago enters tapped.\n{T}: Add {R} or {G}.\n{2}, Sacrifice Boin Archipelago: Draw a card.",
@@ -1965,6 +2291,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -1972,7 +2301,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 340,
+            "number": 339,
             "color_identity": "WR",
             "cost": "",
             "rules_text": "Momoiro enters tapped.\n{T}: Add {R} or {W}.\n{2}, Sacrifice Momoiro: Draw a card.",
@@ -1983,6 +2312,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "109",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -1990,7 +2322,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 353,
+            "number": 352,
             "color_identity": "UG",
             "cost": "",
             "rules_text": "Torino Kingdom enters tapped.\n{T}: Add {G} or {U}.\n{2}, Sacrifice Torino Kingdom: Draw a card.",
@@ -2001,6 +2333,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "110",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -2008,7 +2343,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 352,
+            "number": 351,
             "color_identity": "UB",
             "cost": "",
             "rules_text": "Tequila Wolf enters tapped.\n{T}: Add {U} or {B}.\n{2}, Sacrifice Tequila Wolf: Draw a card.",
@@ -2019,6 +2354,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "111",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -2026,7 +2364,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 334,
+            "number": 333,
             "color_identity": "UR",
             "cost": "",
             "rules_text": "Karakuri enters tapped.\n{T}: Add {U} or {R}.\n{2}, Sacrifice Karakuri: Draw a card.",
@@ -2037,6 +2375,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "112",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -2044,7 +2385,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 341,
+            "number": 340,
             "color_identity": "WB",
             "cost": "",
             "rules_text": "Namakuri enters tapped.\n{T}: Add {W} or {B}.\n{2}, Sacrifice Namakuri: Draw a card.",
@@ -2055,6 +2396,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "113",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -2062,7 +2406,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 346,
+            "number": 345,
             "color_identity": "BG",
             "cost": "",
             "rules_text": "Rusukaina enters tapped.\n{T}: Add {B} or {G}.\n{2}, Sacrifice Rusukaina: Draw a card.",
@@ -2073,6 +2417,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -2080,7 +2427,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 335,
+            "number": 334,
             "color_identity": "BR",
             "cost": "",
             "rules_text": "Kuraigana enters tapped.\n{T}: Add {B} or {R}.\n{2}, Sacrifice Kuraigana: Draw a card.",
@@ -2091,6 +2438,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "115",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -2098,7 +2448,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 327,
+            "number": 326,
             "color_identity": "WG",
             "cost": "",
             "rules_text": "Fish-Man Island enters tapped.\n{T}: Add {G} or {W}.\n{2}, Sacrifice Fish-Man Island: Draw a card.",
@@ -2109,6 +2459,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "116",
+            "rotated": false,
             "notes": "!tag: timeskip-island"
         },
         {
@@ -2116,7 +2469,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Forest",
-            "number": 361,
+            "number": 360,
             "color_identity": "G",
             "cost": "",
             "rules_text": "[i]({T}: Add {G}.)[/i]\nZou enters tapped.\n{G}, {T}: Target creature gets +3/+3 until end of turn. Activate only as a sorcery.",
@@ -2127,6 +2480,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "117",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle"
         },
         {
@@ -2145,6 +2501,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2163,6 +2522,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -2181,6 +2543,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -2199,6 +2564,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "121",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2209,7 +2577,7 @@
             "number": 65,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Draw a card for each opponent you have, then discard a card for each opponent you didn't attack this turn.",
+            "rules_text": "Draw a card for each of your opponents, then discard a card for each opponent you didn't attack this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2217,6 +2585,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2227,7 +2598,7 @@
             "number": 68,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Exile target creature or artifact you control. At the beginning of the next end step, return each permanent exiled this way to the battlefield under its owner's control.\nOverload {3}{U} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]",
+            "rules_text": "Exile target nontoken creature or artifact you control. At the beginning of the next end step, return each permanent exiled this way to the battlefield under its owner's control.\nOverload {3}{U} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2235,6 +2606,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "123",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2242,7 +2616,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Pirate",
-            "number": 119,
+            "number": 120,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Deathtouch\nWhen Kuro enters, target opponent splits your library into two face down piles. Search one of those piles for a card, shuffle your library, then put that card on top.",
@@ -2253,6 +2627,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "124",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2271,6 +2648,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "125",
+            "rotated": false,
             "notes": "!tag: baroque-works"
         },
         {
@@ -2289,6 +2669,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "126",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2299,7 +2682,7 @@
             "number": 30,
             "color_identity": "W",
             "cost": "{5}{W}",
-            "rules_text": "Flying\nWhen Marco enters, return up to one target creature card with mana value 3 or less from your graveyard to the battlefield with a flying counter and a finality counter on it.\nWhenever another creature you control attacks, you may pay {8}{W}{W}. If you do, return Marco from your graveyard to the battlefield.",
+            "rules_text": "Flying\nWhenever Marco enters or attacks, return up to one target permanent card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.\nWhenever you attack with three or more creatures, you may pay {7}{W}. If you do, return Marco from your graveyard to the battlefield tapped.",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -2307,6 +2690,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "127",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2314,7 +2700,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 304,
+            "number": 303,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Trample, haste\nRocketman attacks each combat if able.\nAt the beginning of combat on your turn, tap an untapped creature with power 3 or greater you control. When a creature is tapped this way, Rocketman becomes an artifact creature until end of turn.",
@@ -2325,6 +2711,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "128",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2335,7 +2724,7 @@
             "number": 70,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Draw two cards.\nYou become the monarch. [i](The monarch draws a card at the beginning of their end step. Whenever the monarch is dealt combat damage by a creature, its controller becomes the monarch.)[/i]\nIslandcycling {1}",
+            "rules_text": "Surveil 2, then draw two cards.\nYou become the monarch. [i](The monarch draws a card at the beginning of their end step. Whenever the monarch is dealt combat damage by a creature, its controller becomes the monarch.)[/i]\nIslandcycling {1}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2343,6 +2732,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "129",
+            "rotated": false,
             "notes": "!tag: cycling-cycle"
         },
         {
@@ -2350,7 +2742,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Artifact",
-            "number": 303,
+            "number": 302,
             "color_identity": "C",
             "cost": "{5}",
             "rules_text": "When this artifact enters, you become the monarch.\nWhenever another player becomes the monarch, untap this artifact. The monarch gains control of it.\n{T}: Add three mana of any color.",
@@ -2361,6 +2753,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "130",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2379,6 +2774,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "131",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2397,6 +2795,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2415,6 +2816,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": "!related Spandam, CP9 Chief;Mother Carmel, Mountain Witch;Reinstated Bounties;Nezumi, Corrupt Captain;Paulie, Rash Rigger;The Will of D;The Oro Jackson;Gol D. Roger, Pirate King;Pappag, Star Designer<2>;Huge Haul<2>;Baby 5, Full Body Weapon<2>;Nami, Cat Burglar<2>;Industry Exploitation<X>;Wet Haired Caribou<X>;Reinstated Bounties<X>;Alliance Celebrations<X>"
         },
         {
@@ -2433,6 +2837,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": "!related Koza, Rebel Leader;Flag of the Revolutionaries;Dragon, Revolutionary<2>"
         },
         {
@@ -2451,6 +2858,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": "!related G-5 Tactics<2>;Make a Myth;Viola, Insightful Agent;Nezumi, Corrupt Captain;Leo, Tonta Corps Leader;The Germa Kingdom;Marineford, Marine Headquarters;Nefertari Cobra, Arabasta King<X>;Show of Force<X>;Kyros, One-Legged Soldier<1>"
         },
         {
@@ -2469,14 +2879,17 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": "!related Whitebeard, Roaring Patriarch;Higuma, Mountain Bandit;Capone Bege, Family Man;Capone Bege, Family Man<2>;The Moby Dick<2>"
         },
         {
-            "card_name": "Reinstated Bounties",
+            "card_name": "The God Valley Massacre",
             "color": "B",
             "rarity": "cube",
-            "type": "Enchantment",
-            "number": 134,
+            "type": "Legendary Enchantment",
+            "number": 111,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Whenever a creature dies, you may pay 1 life. If you do, create a Treasure token.\nAt the beginning of your end step, you may sacrifice five Treasures. If you do, return target creature card from your graveyard to the battlefield.",
@@ -2487,6 +2900,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2505,6 +2921,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2523,6 +2942,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "139",
+            "rotated": false,
             "notes": "!tag: kouzuki-alliance"
         },
         {
@@ -2541,6 +2963,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2559,6 +2984,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "141",
+            "rotated": false,
             "notes": "!tag: cycling-cycle"
         },
         {
@@ -2577,6 +3005,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": "!tag: cycling-cycle"
         },
         {
@@ -2595,6 +3026,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "143",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -2613,6 +3047,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": "!tag: cycling-cycle"
         },
         {
@@ -2631,6 +3068,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "145",
+            "rotated": false,
             "notes": "!tag: tontatta-pirates"
         },
         {
@@ -2641,7 +3081,7 @@
             "number": 255,
             "color_identity": "WG",
             "cost": "{G}{W}",
-            "rules_text": "During your turn, spells and nonmana abilities your opponents cast or activate cost {1} more to cast or activate.\nDuring each opponent's turn, spells and nonmana abilities you cast or activate cost {1} more to cast or activate.",
+            "rules_text": "During your turn, spells and nonmana abilities your opponents cast or activate cost {1} more to cast or activate.\nDuring each opponent's turn, spells and nonmana abilities you cast or activate cost {1} less to cast or activate.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -2649,6 +3089,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2656,10 +3099,10 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Pirate",
-            "number": 131,
+            "number": 132,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "When Perona enters, create two 1/1 black Spirit creature tokens with flying.\nWhenever a creature you control deals combat damage to a player, you may put a -1/-1 counter on target creature that player controls with toughness 2 or greater.",
+            "rules_text": "When Perona enters, create two 1/1 black Spirit creature tokens with flying.\nWhenever a creature you control deals combat damage to a player, you may put a -1/-1 counter on target creature that player controls if that creature has toughness 2 or greater as this ability resolves.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -2667,6 +3110,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "147",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2685,6 +3131,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": "!tag: kouzuki-alliance"
         },
         {
@@ -2703,6 +3152,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2721,6 +3173,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "150",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2739,6 +3194,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2746,7 +3204,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Shark Merfolk Pirate",
-            "number": 112,
+            "number": 113,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Menace\n{B}, Pay 1 life: Hody Jones gets +2/-1 until end of turn.",
@@ -2757,6 +3215,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2775,6 +3236,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "153",
+            "rotated": false,
             "notes": "!related Arlong the Saw, Fishman Pirate"
         },
         {
@@ -2793,6 +3257,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "154",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2800,7 +3267,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Noble",
-            "number": 116,
+            "number": 117,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Menace, haste\nAt the beginning of combat on your turn, for each opponent, that player may discard a card or sacrifice a creature. For each player that doesn't, Judge gets +1/+1 until end of turn.",
@@ -2811,6 +3278,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "155",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2821,7 +3291,7 @@
             "number": 87,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "When Pudding enters, scry 3.\nWhen Pudding dies, you and target opponent each draw a card.",
+            "rules_text": "When Pudding enters, surveil 2.\nWhen Pudding dies, you and target opponent each draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -2829,6 +3299,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "156",
+            "rotated": false,
             "notes": "!tag: big-mom-pirates"
         },
         {
@@ -2847,6 +3320,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2865,6 +3341,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "158",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2883,6 +3362,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "159",
+            "rotated": false,
             "notes": "!tag: kouzuki-alliance"
         },
         {
@@ -2901,6 +3383,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "160",
+            "rotated": false,
             "notes": "!tag: kouzuki-alliance"
         },
         {
@@ -2919,6 +3404,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "161",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2937,6 +3425,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "162",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2944,7 +3435,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Sorcery",
-            "number": 123,
+            "number": 124,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "Look at target opponent's hand. Choose a nonland card from it. That player discards that card. Repeat this process for each other opponent.",
@@ -2955,6 +3446,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "163",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -2973,6 +3467,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "164",
+            "rotated": false,
             "notes": "!tag: removal\n!tag: boardwipe"
         },
         {
@@ -2980,7 +3477,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 293,
+            "number": 292,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Equipped creature gets +1/+1.\nIf a triggered ability of equipped creature is triggered or an activated ability of equipped creature is activated, that ability triggers or is activated an additional time.\nEquip {3}",
@@ -2991,6 +3488,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "165",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3009,6 +3509,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "166",
+            "rotated": false,
             "notes": "!tag: admiral\n!tag: marines"
         },
         {
@@ -3027,6 +3530,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "167",
+            "rotated": false,
             "notes": "!tag: admiral\n!tag: marines"
         },
         {
@@ -3045,6 +3551,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "168",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3063,6 +3572,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "169",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3081,17 +3593,20 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "170",
+            "rotated": false,
             "notes": ""
         },
         {
             "card_name": "Born to Boil",
             "color": "B",
             "rarity": "cube",
-            "type": "Instant",
+            "type": "Sorcery",
             "number": 103,
             "color_identity": "B",
             "cost": "{X}{B}",
-            "rules_text": "Choose one\u2014\n\u2022 Target creature gets -X/-X until end of turn. You gain X life.\n\u2022 Target creature gets +X/+X until end of turn. You lose X life.",
+            "rules_text": "Choose one\u2014\n\u2022 Target creature gets twice -X/-X until end of turn. You lose X life.\n\u2022 Target creature gets twice +X/+X until end of turn. You gain X life.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3099,6 +3614,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "171",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3106,10 +3624,10 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Rogue",
-            "number": 127,
+            "number": 128,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Sacrifice a creature: Create a Treasure token. Activate only as a sorcery.\n{B}, Sacrifice a creature: Each opponent loses 2 life. Activate only as a sorcery.\n{1}{B}, Sacrifice a creature: Draw a card. Activate only as a sorcery.",
+            "rules_text": "Activate each of Mother Carmel's abilities only once each turn and only during your turn.\nSacrifice a creature: Create a Treasure token.\n{B}, Sacrifice a creature: Mother Carmel deals 2 damage to each opponent.\n{1}{B}, Sacrifice a creature: Draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "1/4",
             "special_text": "",
@@ -3117,6 +3635,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "172",
+            "rotated": false,
             "notes": "!tag: world-government"
         },
         {
@@ -3124,7 +3645,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Sorcery",
-            "number": 130,
+            "number": 131,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Return target creature card from your graveyard to the battlefield. Each creature put onto the battlefield this way is a 1/1 black Skeleton.\nOverload {4}{B}{B} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]",
@@ -3135,6 +3656,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "173",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3142,7 +3666,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Zombie Elder Giant",
-            "number": 128,
+            "number": 129,
             "color_identity": "B",
             "cost": "{8}{B}{B}",
             "rules_text": "Menace, indestructible\nWhen Oars enters or attacks, create a 2/2 black Zombie creature token with decayed for each creature card in your graveyard. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]\nEvoke {3}{B} [i](You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)[/i]",
@@ -3153,6 +3677,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "174",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3171,6 +3698,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "175",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3181,7 +3711,7 @@
             "number": 242,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
-            "rules_text": "When Capone Bege enters, you may sacrifice a creature. If you do, you become the monarch.\nAt the beginning of your end step, create a 1/1 black Pirate creature token with lifelink. If you are the monarch, create two of those tokens instead.",
+            "rules_text": "When Capone Bege enters, you may sacrifice a creature. If you do, you become the monarch.\nAt the beginning of your end step, create a 1/1 black Pirate creature token with lifelink. If you are the monarch, that token enters with a +1/+1 counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3189,6 +3719,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "176",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3207,6 +3740,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "177",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3225,6 +3761,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "178",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3243,6 +3782,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "179",
+            "rotated": false,
             "notes": "!tag: revolutionary-army"
         },
         {
@@ -3261,6 +3803,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "180",
+            "rotated": false,
             "notes": "!tag: world-government\n!tag: revolutionary-army"
         },
         {
@@ -3279,6 +3824,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "181",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3297,6 +3845,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "182",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3304,7 +3855,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Soldier",
-            "number": 121,
+            "number": 122,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]\nWhenever Magellan deals combat damage to a a player, that player loses half their life total, rounded up.",
@@ -3315,6 +3866,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "183",
+            "rotated": false,
             "notes": "!tag: world-government"
         },
         {
@@ -3325,7 +3879,7 @@
             "number": 141,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Flying\nStussy is goaded.\nWhen Stussy enters, target opponent gains control of her.\nWhenever Stussy attacks her owner, that player gains control of her.\nWhenever Stussy deals combat damage to a player, put a +1/+1 counter on her.",
+            "rules_text": "Flying\nStussy attacks each combat if able.\nPrevent all combat damage Stussy would deal to her owner.\nWhenever Stussy deals combat damage to a player, that player gains control of her. Put a +1/+1 counter on her.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -3333,6 +3887,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "184",
+            "rotated": false,
             "notes": "!tag: world-government"
         },
         {
@@ -3351,6 +3908,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "185",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -3361,7 +3921,7 @@
             "number": 63,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Kicker {2}\nYou may have Charlotte Br\u00fbl\u00e9e enter as a copy of any creature on the battlefield except her name is Charlotte Br\u00fbl\u00e9e, Mirror Woman. When she does, if you control that creature or if she was kicked, return that creature to its owner's hand.",
+            "rules_text": "Kicker {3}\nYou may have Charlotte Br\u00fbl\u00e9e enter as a copy of any creature on the battlefield except her name is Charlotte Br\u00fbl\u00e9e, Mirror Woman. When she does, if you control that creature or if she was kicked, return that creature to its owner's hand.",
             "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
@@ -3369,6 +3929,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "186",
+            "rotated": false,
             "notes": "!tag: big-mom-pirates\n!tag: removal"
         },
         {
@@ -3387,6 +3950,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "187",
+            "rotated": false,
             "notes": "!tag: big-mom-pirates\n!exportname Cracker Thousand Arms"
         },
         {
@@ -3405,6 +3971,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "188",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3423,6 +3992,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "189",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3441,6 +4013,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "190",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3459,6 +4034,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "191",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -3477,6 +4055,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "192",
+            "rotated": false,
             "notes": "!tag: roger-pirates"
         },
         {
@@ -3495,6 +4076,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "193",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3513,6 +4097,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "194",
+            "rotated": false,
             "notes": "!tag: baroque-works\n!exportname Daz Bonez The Killer"
         },
         {
@@ -3531,6 +4118,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "195",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3549,6 +4139,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "196",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3567,6 +4160,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "197",
+            "rotated": false,
             "notes": "!tag: world-government"
         },
         {
@@ -3585,6 +4181,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "198",
+            "rotated": false,
             "notes": "tag: baroque-works"
         },
         {
@@ -3592,7 +4191,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Pirate",
-            "number": 120,
+            "number": 121,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Whenever Lafitte deals combat damage to a player, surveil 2.\n{B}: Lafitte gains flying until end of turn.",
@@ -3603,6 +4202,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "199",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3613,7 +4215,7 @@
             "number": 108,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Whenever an opponent discards a card, put a +1/+1 counter on Don Krieg. \n{2}{B}, Sacrifice a creature: Draw a card then, choose one. Activate only as a sorcery,\n\u2022 Each opponent discards a card.\n\u2022 Don Krieg can't be blocked this turn.",
+            "rules_text": "Whenever a player discard one or more cards, put a +1/+1 counter on Don Krieg. \n{2}{B}, Sacrifice a creature: Draw a card then, choose one. Activate only as a sorcery.\n\u2022 Don Krieg can't be blocked this turn.\n\u2022 Each opponent discards a card.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3621,32 +4223,17 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "200",
+            "rotated": false,
             "notes": "!exportname Don Foul Play Krieg"
-        },
-        {
-            "card_name": "Gol D. Roger, Pirate King",
-            "color": "WUBRG",
-            "rarity": "cube",
-            "type": "Legendary Creature \u2014 Human Pirate",
-            "number": 248,
-            "color_identity": "WUBRG",
-            "cost": "{W}{U}{B}{R}{G}",
-            "rules_text": "Pirates you control get +1/+1 for each other Pirate you control.\nWhen Gol D. Roger dies, create a Treasure token, then goad all creatures you don't control.\nEvoke {3}{R}{R}",
-            "flavor_text": "[i][/i]",
-            "pt": "5/5",
-            "special_text": "",
-            "shape": "normal",
-            "set": "OPC",
-            "loyalty": "",
-            "artist": "Toei Animation",
-            "notes": ""
         },
         {
             "card_name": "Higuma, Mountain Bandit",
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Rogue",
-            "number": 111,
+            "number": 112,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Higuma can't block and can't be blocked.\nWhen Higuma dies, create a 1/1 black Pirate creature token with lifelink.",
@@ -3657,6 +4244,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "201",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3675,6 +4265,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "202",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3693,6 +4286,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "203",
+            "rotated": false,
             "notes": "!tag: marines\n!tag: removal"
         },
         {
@@ -3703,7 +4299,7 @@
             "number": 249,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
-            "rules_text": "[i]Landfall[/i] \u2014 Heracles gets +1/+1 and gains flying until end of turn.\nWhenever Heracles attacks, you may draw a card, then you may put a land card from your hand onto the battlefield.",
+            "rules_text": "[i]Landfall[/i] \u2014 Whenever a land you control enters, Heracles gets +1/+1 and gains flying until end of turn.\nWhenever Heracles attacks, you may draw a card, then you may put a land card from your hand onto the battlefield.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -3711,6 +4307,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "204",
+            "rotated": false,
             "notes": "!exportname Kokoro, Chimney and Gonbe"
         },
         {
@@ -3729,6 +4328,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "205",
+            "rotated": false,
             "notes": "!tag: beast-pirates"
         },
         {
@@ -3747,6 +4349,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "206",
+            "rotated": false,
             "notes": "!tag: marines"
         },
         {
@@ -3765,6 +4370,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "207",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3783,6 +4391,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "208",
+            "rotated": false,
             "notes": "!exportname Johnny and Yosaku, Bounty Hunters"
         },
         {
@@ -3801,6 +4412,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "209",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -3808,7 +4422,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Rebel",
-            "number": 118,
+            "number": 119,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Flying\nWhenever Karasu deals combat damage to a player, create a 1/1 black Bird creature token with flying.\nSacrifice three creatures: Return this card from your graveyard to the battlefield. Activate only as a sorcery.",
@@ -3819,6 +4433,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "210",
+            "rotated": false,
             "notes": "!tag: revolutionary-army"
         },
         {
@@ -3837,6 +4454,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "211",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3849,12 +4469,15 @@
             "cost": "{4}{R}{R}",
             "rules_text": "Flying\nWhen King enters, for each opponent, it deals 4 damage to that player or a creature that player controls.\nWhenever a creature or player is dealt noncombat damage, you may discard a card, then draw a card.",
             "flavor_text": "[i][/i]",
-            "pt": "6/6",
+            "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "212",
+            "rotated": false,
             "notes": "!tag: beast-pirates\n!tag: removal"
         },
         {
@@ -3873,6 +4496,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "213",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3883,7 +4509,7 @@
             "number": 88,
             "color_identity": "U",
             "cost": "{7}{U}{U}",
-            "rules_text": "Affinity for artifacts [i](This spell costs {1} less to cast for each artifact you control.)[/i]\nAt the beginning of combat on your turn, create a nonlegendary token copy of target artifact you control not named Queen. The copy becomes a creature in addition to its other types. If it isn't a Vehicle, its base power and toughness becomes 4/4.\nWhenever Queen or another artifact creature you control attacks, you may draw a card.",
+            "rules_text": "Affinity for artifacts [i](This spell costs {1} less to cast for each artifact you control.)[/i]\nWhenever Queen or another artifact creature you control attacks, up to one target creature gets -2/-0 until end of turn and you may draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "7/6",
             "special_text": "",
@@ -3891,6 +4517,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "214",
+            "rotated": false,
             "notes": "!tag: beast-pirates"
         },
         {
@@ -3909,6 +4538,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "215",
+            "rotated": false,
             "notes": "tag: baroque-works"
         },
         {
@@ -3927,6 +4559,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "216",
+            "rotated": false,
             "notes": "!tag: donquixote-pirates"
         },
         {
@@ -3945,6 +4580,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "217",
+            "rotated": false,
             "notes": "!tag: revolutionary-army"
         },
         {
@@ -3963,6 +4601,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "218",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3981,6 +4622,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "219",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3999,6 +4643,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "220",
+            "rotated": false,
             "notes": "!tag: kouzuki-alliance"
         },
         {
@@ -4017,6 +4664,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "221",
+            "rotated": false,
             "notes": "!tag: donquixote-pirates"
         },
         {
@@ -4035,6 +4685,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "222",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4045,7 +4698,7 @@
             "number": 136,
             "color_identity": "B",
             "cost": "{5}{B}",
-            "rules_text": "Whenever Ryuma attacks, each opponent loses 1 life for each modified attacking creature. [i](Equipment, Auras you control, and counters are modifications.)[/i]\nWhen Ryuma enters, you may put a finality counter on him. If you do, you may activate one of this activated abilities without paying its costs.\n{1}{B}, Exile this card from your graveyard: Search your library for an equipment card, reveal it, put it into your hand, then shuffle.",
+            "rules_text": "Whenever Ryuma attacks, he deals 1 damage to each opponent for each modified attacking creature. [i](Equipment, Auras you control, and counters are modifications.)[/i]\nWhen Ryuma enters, you may put a finality counter on him. If you do, you may activate one of this activated abilities without paying its costs.\n{1}{B}, Exile this card from your graveyard: Search your library for an equipment card, reveal it, put it into your hand, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "7/5",
             "special_text": "",
@@ -4053,6 +4706,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "223",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4071,6 +4727,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "224",
+            "rotated": false,
             "notes": "!tag: marines"
         },
         {
@@ -4081,7 +4740,7 @@
             "number": 257,
             "color_identity": "WU",
             "cost": "{3}{W}{U}",
-            "rules_text": "Vigilance, first strike\nWhen Sentomaru enters, each opponent creates a 4/4 white Robot artifact creature token with \u201cThis creature enters with a shield counter on it.\u201d Then, for each of your opponent's create one of those tokens. [i](If it would be dealt damage or destroyed, remove a shield counter from it instead.)[/i]",
+            "rules_text": "Vigilance, first strike\nWhen Sentomaru enters, each opponent creates a 4/4 white Robot artifact creature token with \u201cThis creature enters with a shield counter on it.\u201d Then, for each of your opponent's, create one of those tokens. [i](If it would be dealt damage or destroyed, remove a shield counter from it instead.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -4089,6 +4748,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "225",
+            "rotated": false,
             "notes": "!tag: world-government"
         },
         {
@@ -4107,24 +4769,30 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "226",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Madam Shyarly, Fortuneteller",
+            "card_name": "Madam Shyarly, Fortune Teller",
             "color": "U",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Shark Merfolk Advisor",
             "number": 81,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "{T}, Remove a counter from a creature you control: Surveil 1. Activate only as a sorcery.\nWhenever a card is put into your graveyard from anywhere but the battlefield, put a +1/+1 counter on Madam Shyarly.",
+            "rules_text": "{T}, remove a counter from a creature you control: Surveil 2.\nWhenever one or more cards are put into your graveyard from anywhere but the battlefield, untap target permanent.",
             "flavor_text": "[i][/i]",
-            "pt": "2/3",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "227",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4134,15 +4802,18 @@
             "type": "Legendary Creature \u2014 Salamander Ooze",
             "number": 91,
             "color_identity": "U",
-            "cost": "{3}{U}",
-            "rules_text": "When Smiley dies, create two face down token copies of Smiley.\nMorph {2}{U} [i](You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)[/i]",
+            "cost": "{2}{U}",
+            "rules_text": "When Smiley dies, create two tapped face down token copies of Smiley.\nMorph {2}{U} [i](You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "228",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4153,7 +4824,7 @@
             "number": 140,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "When Spandam dies, choose one\u2014\n\u2022 Target creature gets -1/-1 until end of turn.\n\u2022 Create a Treasure token.\n\u2022 Each opponent loses 2 life.",
+            "rules_text": "When Spandam dies, choose one\u2014\n\u2022 Target creature gets -1/-1 until end of turn.\n\u2022 Create a Treasure token.\n\u2022 Spandam deals 2 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -4161,6 +4832,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "229",
+            "rotated": false,
             "notes": "!tag: world-government\n!tag: removal"
         },
         {
@@ -4179,6 +4853,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "230",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4197,6 +4874,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "231",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4215,6 +4895,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "232",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4233,6 +4916,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "233",
+            "rotated": false,
             "notes": "!tag: beast-pirates"
         },
         {
@@ -4240,17 +4926,20 @@
             "color": "G",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Moonfolk Monk",
-            "number": 238,
+            "number": 237,
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "Flash, reach\nWhenever Urouge is dealt damage, put that many +1/+1 counters on him. When you do, if his power is 10 or greater, you may have him deal damage equal to his power to target creature. Do this only once. [i](He needs to survive the damage.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "3/6",
+            "pt": "3/5",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "234",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4269,6 +4958,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "235",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4287,6 +4979,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "236",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4305,6 +5000,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "237",
+            "rotated": false,
             "notes": "!tag: marines"
         },
         {
@@ -4323,6 +5021,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "238",
+            "rotated": false,
             "notes": "!related Karasu, North Army Commander"
         },
         {
@@ -4341,6 +5042,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "239",
+            "rotated": false,
             "notes": "!tag: removal\n!tag: boardwipe"
         },
         {
@@ -4351,14 +5055,17 @@
             "number": 95,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Flash\nFlying\n[i]Landfall[/i] \u2014 Whenever a land you control enters, you may pay {1}. If you do, put a +1/+1 counter on The Unluckies.",
+            "rules_text": "Flash\nFlying\n[i]Landfall[/i] \u2014 Whenever a land you control enters, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "0/1",
+            "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "240",
+            "rotated": false,
             "notes": "tag: baroque-works"
         },
         {
@@ -4377,6 +5084,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "241",
+            "rotated": false,
             "notes": "!tag: revolutionary-army"
         },
         {
@@ -4395,6 +5105,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "242",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4413,6 +5126,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "243",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4431,6 +5147,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "244",
+            "rotated": false,
             "notes": "!tag: boardwipe\n!tag: removal"
         },
         {
@@ -4441,7 +5160,7 @@
             "number": 197,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "Flash\nEnchant creature\nEquipped creature gets +0/+2 and you may have it deal combat damage using its toughness rather than its power.",
+            "rules_text": "Flash\nEnchant creature\nEquipped creature gets +0/+2 and has \u201cYou may have this creature deal combat damage using its toughness rather than its power.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4449,6 +5168,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "245",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4467,6 +5189,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "246",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4474,10 +5199,10 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 306,
+            "number": 305,
             "color_identity": "C",
-            "cost": "{1}",
-            "rules_text": "Equipped creature gets +X/-1, where X is the number of charge counters on Sandai Kitetsu plus 2.\nWhenever equipped creature dies, draw a card, then put a charge counter on Sandai Kitetsu.\nEquip {2}",
+            "cost": "{2}",
+            "rules_text": "Equipped creature gets +X/-1, where X is the number of charge counters on Sandai Kitetsu plus 2.\nWhenever equipped creature dies, draw a card, then put a charge counter on Sandai Kitetsu.\nEquip {1}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4485,6 +5210,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "247",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4503,6 +5231,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "248",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4521,6 +5252,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "249",
+            "rotated": false,
             "notes": "!tag: big-mom-pirates"
         },
         {
@@ -4539,6 +5273,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "250",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4557,6 +5294,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "251",
+            "rotated": false,
             "notes": "!related Sir Crocodile, Desert King"
         },
         {
@@ -4575,6 +5315,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "252",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4593,6 +5336,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "253",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4600,7 +5346,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 307,
+            "number": 306,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Equipped creature gets +1/+1.\nWhenever equipped creature deals combat damage to a player, choose one\u2014\n\u2022 Create a Treasure token.\n\u2022 You may pay {1}. If you do, proliferate.\n\u2022 You may pay {2}. If you do, draw a card.\nEquip {2}",
@@ -4611,6 +5357,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "254",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4629,6 +5378,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "255",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4636,10 +5388,10 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 299,
+            "number": 298,
             "color_identity": "C",
             "cost": "{2}",
-            "rules_text": "Menace; Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]\nWhenever Polar Tang deals combat damage to a player, draw two cards, then discard a card.\nCrew 2",
+            "rules_text": "Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]\nWhenever Polar Tang deals combat damage to a player, draw two cards.\nCrew 2",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -4647,6 +5399,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "256",
+            "rotated": false,
             "notes": "!tag: heart-pirates"
         },
         {
@@ -4665,17 +5420,20 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!tag: removal\nneedstext"
+            "alias": "",
+            "position": "257",
+            "rotated": false,
+            "notes": "!tag: removal"
         },
         {
-            "card_name": "Locked Away",
+            "card_name": "Locked in Impel Down",
             "color": "WB",
             "rarity": "cube",
-            "type": "Sorcery",
+            "type": "Instant",
             "number": 272,
             "color_identity": "WB",
-            "cost": "{WB}",
-            "rules_text": "Exile target creature with power 4 or greater.",
+            "cost": "{1}{WB}",
+            "rules_text": "Destroy target creature. If its mana value is 4 or greater, exile it instead.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4683,6 +5441,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "258",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -4693,7 +5454,7 @@
             "number": 86,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Enchant creature\nEnchanted creature gets +1/+1.\nWhenever enchanted creature becomes blocked by one or more creatures, or the target of a spell or ability you don't control, surveil 1, then draw a card.",
+            "rules_text": "Enchant creature\nEnchanted creature gets +1/+1.\nWhenever enchanted creature becomes blocked by one or more creatures, or becomes the target of a spell or ability you don't control, surveil 1, then draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4701,6 +5462,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "259",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4708,7 +5472,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 313,
+            "number": 312,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "When Yoru enters, you may attach it to target creature you control.\nEquipped creature has menace.\nWhenever equipped creature attacks a player no other creature is attacking, it gets +3/+3 until end of turn.\nEquip {3}",
@@ -4719,6 +5483,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "260",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4737,6 +5504,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "261",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4744,7 +5514,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 291,
+            "number": 290,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Equipped creature has reach and vigilance.\nWhenever equipped creature attacks, search your library for a basic land card, put it into your hand, then shuffle.\nEquip {1}",
@@ -4755,6 +5525,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "262",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4773,17 +5546,20 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "263",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "United Dreams",
+            "card_name": "We Are!",
             "color": "G",
             "rarity": "cube",
             "type": "Instant",
-            "number": 237,
+            "number": 238,
             "color_identity": "G",
             "cost": "{4}{G}",
-            "rules_text": "Look at the top six cards of your library. Put up to two creature cards with mana value 3 or less or a creature card with mana value 6 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.",
+            "rules_text": "Look at the top six cards of your library. Put up any number of creature cards with total mana value 5 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4791,6 +5567,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "264",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4809,6 +5588,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "265",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4827,6 +5609,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "266",
+            "rotated": false,
             "notes": "!tag: boardwipe\n!tag: removal"
         },
         {
@@ -4845,6 +5630,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "267",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -4863,6 +5651,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "268",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4870,7 +5661,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Enchantment \u2014 Aura",
-            "number": 124,
+            "number": 125,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Enchant creature\nEnchanted creature has menace and is goaded.\nWhenever enchanted creature attacks, its controller loses 2 life and you gain 2 life.",
@@ -4881,6 +5672,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "269",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -4899,6 +5693,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "270",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4906,7 +5703,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 344,
+            "number": 343,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}. Put a journey counter on Raftel.\n{T}, Remove four journey counters from Raftel, Exile Raftel: You become the monarch. Activate only as a sorcery.",
@@ -4917,6 +5714,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "271",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -4924,7 +5724,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 321,
+            "number": 320,
             "color_identity": "C",
             "cost": "",
             "rules_text": "The Calm Belt enters tapped. When it does, return it or an untapped land you control to its owner's hand. If you do, untap The Calm Belt.\n{T}: Add {C}{C}.",
@@ -4935,6 +5735,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "272",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -4942,7 +5745,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Swamp",
-            "number": 333,
+            "number": 332,
             "color_identity": "B",
             "cost": "",
             "rules_text": "[i]({T}: Add {B}.)[/i]\n{3}{B}, Discard this card: Destroy target creature. Activate only as a sorcery.",
@@ -4953,6 +5756,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "273",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle"
         },
         {
@@ -4960,7 +5766,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 345,
+            "number": 344,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Untap another target land.",
@@ -4971,6 +5777,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "274",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -4978,7 +5787,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Mountain Desert",
-            "number": 315,
+            "number": 314,
             "color_identity": "R",
             "cost": "",
             "rules_text": "[i]({T}: Add {R}.)[/i]\nArabasta enters tapped.\n{T}, Pay 1 life: Add one mana of any color.",
@@ -4989,6 +5798,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "275",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle"
         },
         {
@@ -4996,7 +5808,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact Land \u2014 Food Plains",
-            "number": 312,
+            "number": 311,
             "color_identity": "W",
             "cost": "",
             "rules_text": "[i]({T}: Add {W}.)[/i]\nWhen Whole Cake Island leaves the battlefield, draw a card.\n{2}, {T}, Sacrifice Whole Cake Island: You gain 3 life.",
@@ -5007,6 +5819,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "276",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle"
         },
         {
@@ -5014,7 +5829,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Forest",
-            "number": 355,
+            "number": 354,
             "color_identity": "G",
             "cost": "",
             "rules_text": "[i]({T}: Add {G}.)[/i]\nYou may play Wano Kuni from your graveyard.",
@@ -5025,6 +5840,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "277",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle"
         },
         {
@@ -5032,10 +5850,10 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Island",
-            "number": 323,
+            "number": 322,
             "color_identity": "U",
             "cost": "",
-            "rules_text": "[i]({T}: Add {U}.)[/i]\n{3}{U}, {T}, Sacrifice Drum Island: When you next cast a spell this turn, copy it. You may choose new modes and targets for the copy. Activate only as a sorcery.",
+            "rules_text": "[i]({T}: Add {U}.)[/i]\n{3}{U}, {T}, Sacrifice Drum Island: When you next cast a spell this turn, copy it. The copy isn't legendary. You may choose new modes and targets for the copy. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5043,6 +5861,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "278",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle"
         },
         {
@@ -5050,7 +5871,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 338,
+            "number": 337,
             "color_identity": "C",
             "cost": "",
             "rules_text": "Legendary creatures you control have ward {1}.\n{T}: Add {C}.",
@@ -5061,6 +5882,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "279",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -5068,7 +5892,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Mountain",
-            "number": 322,
+            "number": 321,
             "color_identity": "R",
             "cost": "",
             "rules_text": "[i]({T}: Add {R}.)[/i]\nWhen Dressrosa enters, discard a card. If you discarded a card this way, draw a card.",
@@ -5079,6 +5903,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "280",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle"
         },
         {
@@ -5086,7 +5913,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land \u2014 Island",
-            "number": 356,
+            "number": 355,
             "color_identity": "U",
             "cost": "",
             "rules_text": "[i]({T}: Add {U}.)[/i]\nWater 7 enters tapped.\n{T}: Add {C}{C}. Do not spend this mana to cast nonartifact spells.",
@@ -5097,6 +5924,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "281",
+            "rotated": false,
             "notes": "!tag: mono-land-cycle"
         },
         {
@@ -5104,7 +5934,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 325,
+            "number": 324,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\nWhenever a creature you control attacks a player no other creature is attacking, that creature gets +1/+0 until end of turn.",
@@ -5115,6 +5945,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "282",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -5122,7 +5955,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 329,
+            "number": 328,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn. Activate only as a sorcery.\n[i]Channel[/i] \u2014 {2}, Discard this card: Target creature can't be blocked this turn. Activate only as a sorcery.",
@@ -5133,6 +5966,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "283",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -5151,6 +5987,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "284",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5169,6 +6008,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "285",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5187,6 +6029,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "286",
+            "rotated": false,
             "notes": "!exportname Foxfire Kinnemon"
         },
         {
@@ -5197,7 +6042,7 @@
             "number": 21,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "At the beginning of your upkeep, put a +1/+1 counter on another target creature you control.\nCreatures you control have \u201cWhenever this creature becomes modified, scry 1 and you gain 1 life. This ability triggers only once each turn.\u201d",
+            "rules_text": "At the beginning of your upkeep, put a +1/+1 counter on another target creature you control.\nCreatures you control have \u201cWhenever this creature becomes modified, surveil 1 and you gain 1 life. This ability triggers only once each turn.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -5205,6 +6050,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "287",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5223,10 +6071,13 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "288",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Curly Dadan, Foster Mother",
+            "card_name": "Curly Dadan, Foster Bandit",
             "color": "RG",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Rogue",
@@ -5241,6 +6092,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "289",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -5259,6 +6113,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "290",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5277,6 +6134,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "291",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5287,7 +6147,7 @@
             "number": 66,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Whenever you draw a card, put a +1/+1 counter on Clou D Clover.\nWhenever a modified creature you control dies, create a Clue token.",
+            "rules_text": "Whenever you draw a card, put a +1/+1 counter on Clou D Clover.\nWhenever a modified creature you control dies, create a Clue token. [i](Equipment, Auras you control, and counters are modifications.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -5295,6 +6155,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "292",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5302,7 +6165,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Rogue",
-            "number": 125,
+            "number": 126,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "During your turn, Miss Double Finger has deathtouch.\nWhen Miss Double Finger enters, she deals 1 damage to any target.",
@@ -5313,6 +6176,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "293",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -5331,6 +6197,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "294",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5349,6 +6218,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "295",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5367,6 +6239,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "296",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5385,6 +6260,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "297",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5395,7 +6273,7 @@
             "number": 177,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Whenever an artifact you control enters or leaves the battlefield, Mr. 5 deals 1 damage to each opponent.",
+            "rules_text": "Whenever an artifact you control enters or dies, Mr. 5 deals 1 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -5403,6 +6281,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "298",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5410,7 +6291,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Ninja",
-            "number": 117,
+            "number": 118,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Kanjuro is goaded and can't block.\nWhen Kanjuro dies, his owner creates a 2/1 black Inkling creature token with decayed. Then, return him from the graveyard to the battlefield under target opponent's control.",
@@ -5421,6 +6302,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "299",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5439,6 +6323,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "300",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -5449,7 +6336,7 @@
             "number": 24,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Whenever Kikunojo attacks, she gains first strike until end of turn. Then, you may choose one\u2014\n\u2022 Put a +1/+1 counter on her.\n\u2022 Choose a permanent attached to her. Pay {X}, where X is the mana value of that permanent. If you do, create a nonlegendary token copy of that permanent. Attached the copy to her.",
+            "rules_text": "Whenever Kikunojo attacks, she gains first strike until end of turn. Then, you may choose one\u2014\n\u2022 Put a +1/+1 counter on her.\n\u2022 Choose a permanent attached to her. Pay {X}, where X is the mana value of that permanent. If you do, create a nonlegendary token copy of that permanent. Attach the copy to her.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -5457,6 +6344,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "301",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5467,7 +6357,7 @@
             "number": 180,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Reach\nWhen Paulie enters, create a Treasure token.\n{X}, {T}, Sacrifice an artifact: Return target artifact card with mana value X from your graveyard to the battlefield.",
+            "rules_text": "Reach\nWhen Paulie enters, create a Treasure token.\n{X}, {T}, Sacrifice an artifact: Return target artifact card with mana value less than or equal to X plus 2 from your graveyard to the battlefield.",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -5475,6 +6365,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "302",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5493,6 +6386,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "303",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5511,6 +6407,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "304",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5521,7 +6420,7 @@
             "number": 144,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "Flying, Ward\u2014Pay 3 life\nWhen The Vinsmoke Siblings enters, each player sacrifices a creatures.\nWhenever you sacrifice a permanent, each opponent loses 1 life.",
+            "rules_text": "Flying, Ward\u2014Pay 3 life\nWhen The Vinsmoke Siblings enters, each player sacrifices a creatures.\nWhenever you sacrifice a permanent, The Vinsmoke Siblings deals 1 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -5529,6 +6428,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "305",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5547,6 +6449,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "306",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5565,6 +6470,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "307",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5583,6 +6491,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "308",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5601,6 +6512,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "309",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5619,6 +6533,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "310",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5626,7 +6543,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Noble",
-            "number": 114,
+            "number": 115,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "At the beginning of your upkeep, each player mills a card, then may exile a creature card from their graveyard with a reversi counter on it. Each player that didn't exile a card this way loses 1 life.\n{3}{B}{B}, Pay 2 life, Remove a reversi counter from a card in exile: Put that card onto the battlefield under your control with a finality counter on it. It gains decayed.",
@@ -5637,6 +6554,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "311",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5655,6 +6575,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "312",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5673,6 +6596,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "313",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5683,7 +6609,7 @@
             "number": 215,
             "color_identity": "G",
             "cost": "{5}{G}{G}",
-            "rules_text": "Trample\n{3}: Put a +1/+1 counter on Kingbaum. Activate only outside of combat.\nWhenever you tap a permanent for mana, add an additional {G}. If that permanent is a Forest, add an additional {G}{G} instead.",
+            "rules_text": "As an additional cost to cast creature spells, you may pay any amount of mana. If you do, that creature enters with that many additional +1/+1 counters on it.\nWhenever you tap a permanent for mana, add an additional {G}. If that permanent is a Forest, add an additional {G}{G} instead.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -5691,6 +6617,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "314",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5709,6 +6638,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "315",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5716,10 +6648,10 @@
             "color": "B",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Human Pirate",
-            "number": 132,
+            "number": 133,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Persist [i](When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)[/i]\nWhen Perospero enters, for each player that lost life this turn, create a Food token.\nWhenever you gain one or more life, each opponent loses 1 life.",
+            "rules_text": "Persist [i](When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)[/i]\nWhen Perospero enters, for each player that lost life this turn, create a Food token.\nWhenever you gain life, Perospero deals 1 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -5727,6 +6659,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "316",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5736,15 +6671,18 @@
             "type": "Legendary Creature \u2014 Human Pirate",
             "number": 64,
             "color_identity": "U",
-            "cost": "{2}{U}",
-            "rules_text": "Whenever Charlotte Mont-d'Or deals combat damage to a creature, if he is attacking, gain control of that creature until the end of your next turn.\nWhenever a creature you control but don't own attacks, it gets +2/+2 until end of turn. Draw a card.",
+            "cost": "{3}{U}",
+            "rules_text": "Whenever a creature you control but don't own attacks, it gets +1/+1 and gains flying until end of turn.\nWhenever one or more creatures you control deal combat damage to a player, exile the top card of their library face down. You may cast that card for as long as it remains exiled and you may spend mana of any color to cast it.",
             "flavor_text": "[i][/i]",
-            "pt": "2/3",
+            "pt": "2/4",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "317",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5763,6 +6701,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "318",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5773,7 +6714,7 @@
             "number": 58,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Blueno can't be blocked.\n{2}{U}: Target creature can't be blocked this turn.",
+            "rules_text": "Blueno can't be blocked.\n{2}{U}: Target creature can't be blocked this turn.\n{1}, {T}: Put a +1/+1 counter on Blueno.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -5781,6 +6722,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "319",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5799,6 +6743,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "320",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5817,6 +6764,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "321",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5835,6 +6785,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "322",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5853,17 +6806,20 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "323",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Catarina Devon, Nine-Tail Imitator",
+            "card_name": "Catarina Devon, Kitsune Imitator",
             "color": "U",
             "rarity": "cube",
             "type": "Legendary Creature \u2014 Fox Human Pirate",
             "number": 61,
             "color_identity": "U",
-            "cost": "{3}{U}",
-            "rules_text": "Prowess\nWhenever Catarina Devon attacks, for each other modified creature you control, create a nonlegendary token copy of that creature. The copy enters tapped and attacking. Sacrifice it at the end of combat. [i](Equipment, Auras you control, and counters are modifications.)[/i]",
+            "cost": "{2}{U}",
+            "rules_text": "Prowess\nAt the beginning of combat on your turn, scry 1. Then, you may reveal the top card of your library. If it's a permanent card, you may have Catarina Devon become a copy of it until end of turn except she has prowess.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -5871,6 +6827,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "324",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5881,14 +6840,17 @@
             "number": 106,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "At the beginning of your end step, put a -1/-1 counter on Doc Q. Then, for each opponent, that player may have you draw a card. If they don't, they distribute X -1/-1 counters among creatures they control, where X is the number of -1/-1 counters on Doc Q.",
+            "rules_text": "Whenever Doc Q attacks, put a -1/-1 counter on him. Then, the defending player may have you draw a card. If they don't, move all counters from Doc Q on up to one other target permanent.",
             "flavor_text": "[i][/i]",
-            "pt": "1/3",
+            "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "325",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -5907,6 +6869,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "326",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -5925,6 +6890,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "327",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5932,7 +6900,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 314,
+            "number": 313,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{4}, {T}: Proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
@@ -5943,6 +6911,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "328",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -5950,7 +6921,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Land",
-            "number": 331,
+            "number": 330,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{6}: Until end of turn, Hachinosu becomes an X/X Pirate creature with menace, where X is the number of lands you control. It's still a land.",
@@ -5961,6 +6932,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "329",
+            "rotated": false,
             "notes": "!tag: misc-land-cycle"
         },
         {
@@ -5968,7 +6942,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact",
-            "number": 298,
+            "number": 297,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "{T}: Add {C}.\nWhen The Pluton Blueprints leaves the battlefield, return another target artifact card from your graveyard to your hand.",
@@ -5979,6 +6953,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "330",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5997,6 +6974,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "331",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6007,7 +6987,7 @@
             "number": 148,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Equipped creature gets +2/+2.\nAt the beginning of your combat, each opponent may have you create two Treasure tokens. For each opponent that does, Baby 5 and equipped creature can't attack that player this turn.\nReconfigure {2}",
+            "rules_text": "Equipped creature gets +2/+2.\nAt the beginning of your combat, if Baby 5 is a creature or attacked to a creature each opponent may have you create two Treasure tokens. For each opponent that does, Baby 5 and equipped creature can't attack that player this turn.\nReconfigure {2}",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -6015,6 +6995,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "332",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6022,10 +7005,10 @@
             "color": "",
             "rarity": "cube",
             "type": "Artifact",
-            "number": 287,
+            "number": 286,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "When Flag enters, put a +1/+1 counter on each Pirate you control.\n{T}: Add one mana of any color.",
+            "rules_text": "{T}: Add one mana of any color.\n{T}: Add two mana in any combination of colors. Spend this mana only to cast Pirate spells or to activate the abilities of Pirate sources. If you spend this mana to cast a Pirate spell, it gains haste until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6033,6 +7016,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "333",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6040,7 +7026,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 305,
+            "number": 304,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Menace\nWhenever Saber deals combat damage to an opponent, each opponent may sacrifice a creature or discard a card. For each opponent that did neither, create a 1/1 black Pirate creature token with lifelink.\nCrew 5",
@@ -6051,6 +7037,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "334",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6061,7 +7050,7 @@
             "number": 156,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Whenever you attack, exile the top card of each player's library.\nYou may play cards exiled with this enchantment that you own or that are owned by a player you attacked this turn.",
+            "rules_text": "Whenever you attack, exile the top card of each player's library.\nYou may play cards exiled with this enchantment that you own or that are owned by a player you attacked this turn. You may spend mana of any color to cast those cards.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6069,6 +7058,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "335",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6087,6 +7079,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "336",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6105,6 +7100,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "337",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -6123,24 +7121,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": ""
-        },
-        {
-            "card_name": "Flag of the Revolutionaries",
-            "color": "",
-            "rarity": "cube",
-            "type": "Artifact",
-            "number": 286,
-            "color_identity": "C",
-            "cost": "{2}",
-            "rules_text": "{T}: Target creature gets +1/+0 until end of turn. Activate only outside of combat.\nWhen this artifact enters or leaves the battlefield, create a 1/1 red Rebel creature token with menace.",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "OPC",
-            "loyalty": "",
-            "artist": "Toei Animation",
+            "alias": "",
+            "position": "338",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6159,6 +7142,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "339",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6177,6 +7163,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "340",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6195,6 +7184,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "341",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6213,6 +7205,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "342",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6231,6 +7226,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "343",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6238,7 +7236,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Artifact \u2014 Vehicle",
-            "number": 296,
+            "number": 295,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Noah's power and toughness are each equal to the number of land cards in all graveyards plus 1.\nDiscard a land card or sacrifice a land: Noah becomes an artifact creature until end of turn. Activate only once each turn.\nCrew 3",
@@ -6249,6 +7247,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "344",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6256,7 +7257,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 297,
+            "number": 296,
             "color_identity": "WUBRG",
             "cost": "{5}",
             "rules_text": "Indestructible\nWhen The Oro Jackson enters or attacks, create a Treasure token.\nTreasures you control have \u201c{T}: Add one mana of any color.\u201d\n{W}{U}{B}{R}{G}: The Oro Jackson becomes an artifact creature until end of turn.",
@@ -6267,6 +7268,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "345",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6274,7 +7278,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 309,
+            "number": 308,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Haste\nWhenever The Striker attacks, create a Treasure token.\nCrew 1",
@@ -6285,6 +7289,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "346",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6292,7 +7299,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Vehicle",
-            "number": 288,
+            "number": 287,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "When The Germa Kingdom enters, it gains the abilities of target land in addition to its other abilities.\nVigilance\nWhenever The Germa Kingdom attacks, create a 1/1 white Soldier creature token.\nCrew 5",
@@ -6303,6 +7310,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "347",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6321,6 +7331,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "348",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6328,7 +7341,7 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 300,
+            "number": 299,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Equipped creature gets +2/+1.\nWhenever equipped creature attacks, put a spin counter on Punishers. Discard X cards, then draw X cards, where X is the number of spin counters on Punishers.\nEquip {3}",
@@ -6339,6 +7352,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "349",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6349,7 +7365,7 @@
             "number": 189,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Exile target card from your graveyard. For each card exiled this way, you may cast a copy of it without paying its mana cost. Permanent spells cast this way gain haste and \u201cSacrifice this permanent at the end of turn.\u201d\nOverload {8}{R}{R} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]",
+            "rules_text": "Exile target nonland card from your graveyard. For each card exiled this way, you may cast a copy of it without paying its mana cost. Permanent spells cast this way gain haste and \u201cSacrifice this permanent at the end of turn.\u201d\nOverload {8}{R}{R} [i](You may cast this spell for its overload cost. If you do, change \u201ctarget\u201d in its text to \u201ceach.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6357,10 +7373,13 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "350",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Collective Charge",
+            "card_name": "Collective Offensive",
             "color": "G",
             "rarity": "cube",
             "type": "Enchantment",
@@ -6375,14 +7394,17 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "needstext"
+            "alias": "",
+            "position": "351",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Raid Suit Number 3, Stealth Black",
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 302,
+            "number": 301,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Equipped creature can't be blocked.\nWhenever equipped creature deals combat damage to a player, draw a card.\nEquip {4}\nEquip modified {2}",
@@ -6393,6 +7415,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "352",
+            "rotated": false,
             "notes": "!exportname Raid Suit Number 3, Stealth Black"
         },
         {
@@ -6403,7 +7428,7 @@
             "number": 278,
             "color_identity": "C",
             "cost": "{6}",
-            "rules_text": "When Ace enters, you become the monarch.\nAs long as you're the monarch, equipped creature gets +3/+3 and has trample.\nAs long as an opponent is the monarch, equipped creature has protection from the monarch.\nEquip {3}",
+            "rules_text": "When Ace enters, you become the monarch.\nAs long as you're the monarch, equipped creature gets +3/+3 and has trample.\nAs long as an opponent is the monarch, equipped creature has protection from the monarch.\nEquip {4}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6411,6 +7436,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "353",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6418,10 +7446,10 @@
             "color": "",
             "rarity": "cube",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 295,
+            "number": 294,
             "color_identity": "C",
             "cost": "{4}",
-            "rules_text": "When Murakumogiri enters, you may attach it to target creature you control.\nEquipped creature gets +5/+2 and has trample and ward {1}.\nEquip {4}",
+            "rules_text": "When Murakumogiri enters, you may attach it to target creature you control.\nEquipped creature gets +5/+2 and has trample and ward {1}.\nEquip {5}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6429,6 +7457,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "354",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6447,6 +7478,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "355",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6465,6 +7499,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "356",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -6483,6 +7520,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "357",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6501,6 +7541,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "358",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6519,6 +7562,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "359",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6526,7 +7572,7 @@
             "color": "B",
             "rarity": "cube",
             "type": "Enchantment",
-            "number": 133,
+            "number": 134,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "When this enchantment enters, each opponent becomes an ally until they attack you.\nAt the beginning of each upkeep if it is your turn or an ally's turn, the player who's turn it is exiles the top card of their library. Until end of turn, they may play a card exiled with this enchantment by paying 1 life in addition to its other costs. They may spend mana of any color to cast it.",
@@ -6537,6 +7583,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "360",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6544,10 +7593,10 @@
             "color": "B",
             "rarity": "cube",
             "type": "Sorcery",
-            "number": 115,
+            "number": 116,
             "color_identity": "B",
-            "cost": "{2}{B}",
-            "rules_text": "Starting with you, each player may pay 1 life and vote for a creature you don't control. Repeat this process until no one pays life. Destroy each creature card with the most votes or tied for the most votes.",
+            "cost": "{5}{B}",
+            "rules_text": "For each player, choose up to one target creature card in that player's graveyard. For each of those cards, its owner may pay an amount of life equal to that card's mana value. If they don't, put that card onto the battlefield under your control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6555,13 +7604,16 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
-            "notes": "!tag: removal"
+            "alias": "",
+            "position": "361",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Make a Myth",
             "color": "W",
             "rarity": "cube",
-            "type": "Instant",
+            "type": "Sorcery",
             "number": 29,
             "color_identity": "W",
             "cost": "{2}{W}",
@@ -6573,6 +7625,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "362",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6583,7 +7638,7 @@
             "number": 69,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Choose target spell. Flip three coins. Return that spell to its owner's hand. If you win all three flips, gain control of that spell instead. You may choose new modes and new targets for it.",
+            "rules_text": "Choose target spell. Return that spell to its owner's hand. Flip three coins. If you win all three flips, gain control of that spell instead. You may choose new modes and targets for it.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6591,6 +7646,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "363",
+            "rotated": false,
             "notes": "!tag: removal"
         },
         {
@@ -6609,6 +7667,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "364",
+            "rotated": false,
             "notes": "!related Bartholomew Kuma, PX0;Sentomaru, Science Captain;Sentomaru, Science Captain<3>"
         },
         {
@@ -6627,6 +7688,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "365",
+            "rotated": false,
             "notes": "!related Dr. Vegapunk, Super Genius"
         },
         {
@@ -6645,6 +7709,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "366",
+            "rotated": false,
             "notes": "!related Poseidon's Call;Sea King Nest"
         },
         {
@@ -6663,6 +7730,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "367",
+            "rotated": false,
             "notes": "!related Clou D Clover, Ohara Scholar;Mr. 3, Intelligent Criminal"
         },
         {
@@ -6681,6 +7751,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "368",
+            "rotated": false,
             "notes": "!related Hachi, Takoyaki Griller;Culinary Paradise;Headchef Zeff;Queen Mama Chanter;Sanji, Chef En Flamb\u00e9;Cracker Thousand Arms<X>;Perospero, First Son of Linlin<X>"
         },
         {
@@ -6691,7 +7764,7 @@
             "number": 1,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "",
+            "rules_text": "[i](This token can be used to represent a token that's a copy of a permanent.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6699,6 +7772,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "369",
+            "rotated": false,
             "notes": "!related Kikunojo of the Snow;Clou D Clover, Ohara Scholar;Fata Morgana;Jack the Drought;Mr. 3, Intelligent Criminal;Buggy, the Star Clown"
         },
         {
@@ -6717,6 +7793,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "370",
+            "rotated": false,
             "notes": "!related Wyper, Shandia Warrior"
         },
         {
@@ -6735,6 +7814,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "371",
+            "rotated": false,
             "notes": "!related Eustass Captain Kid"
         },
         {
@@ -6753,6 +7835,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "372",
+            "rotated": false,
             "notes": "!related Lassoo, Dog Gun<1>"
         },
         {
@@ -6771,6 +7856,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "373",
+            "rotated": false,
             "notes": "!related Oars the Continent-Puller<X>"
         },
         {
@@ -6789,6 +7877,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "374",
+            "rotated": false,
             "notes": "!related Perona, Ghost Princess<2>"
         },
         {
@@ -6807,6 +7898,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "375",
+            "rotated": false,
             "notes": "!related Kanjuro, Theatrical Traitor"
         },
         {
@@ -6825,6 +7919,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "376",
+            "rotated": false,
             "notes": "!related Tom, Shipwright with a DON"
         },
         {
@@ -6843,6 +7940,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "377",
+            "rotated": false,
             "notes": "!related Little Black Bears<X>"
         },
         {
@@ -6861,6 +7961,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "378",
+            "rotated": false,
             "notes": "!related Raftel, the Final Island;Road Poneglyph;The Empty Throne;Ace, the King's Cutlass;Straw Hat Luffy, Dreamer;The One Piece;Dragon, Revolutionary;Capone Bege, Family Man;Sea King Nest;Orochi, Kurozomi Usurper;The Will of D;Kozuki Oden, Foolish Daimyo;The Birdcage;Decyphering the Poneglyph;Whitebeard, Roaring Patriarch;Nefertari Vivi, Arabasta Princess;"
         },
         {
@@ -6879,6 +7982,9 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "379",
+            "rotated": false,
             "notes": "!exportname Going Merry Flying Mode"
         },
         {
@@ -6897,6 +8003,30 @@
             "set": "OPC",
             "loyalty": "",
             "artist": "Toei Animation",
+            "alias": "",
+            "position": "380",
+            "rotated": false,
+            "notes": ""
+        },
+        {
+            "card_name": "Gol D Roger, Pirate King",
+            "color": "WUBRG",
+            "rarity": "cube",
+            "type": "Legendary Creature \u2014 Human Pirate",
+            "number": 248,
+            "color_identity": "WUBRG",
+            "cost": "{W}{U}{B}{R}{G}",
+            "rules_text": "Pirates you control get +1/+1 for each other Pirate you control.\nWhen Roger dies, create a Treasure token, then goad all creatures you don't control.\nEvoke {3}{R}{R}",
+            "flavor_text": "[i][/i]",
+            "pt": "5/5",
+            "special_text": "",
+            "shape": "normal",
+            "set": "OPC",
+            "loyalty": "",
+            "artist": "Toei Animation",
+            "alias": "",
+            "position": "381",
+            "rotated": false,
             "notes": ""
         }
     ]

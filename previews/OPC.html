@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/OPC-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/OPC-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>OPC visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -35,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -58,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -78,11 +87,12 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -98,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -114,40 +125,54 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
 			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
 		}
 		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
 		.footer {
@@ -156,477 +181,494 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/OPC-files/logo.png" />
-	<img class="preload-hidden" src="/sets/JUMP★-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OPC-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/OPC-files/logo.png" />
+	<img class="preload-hidden" src="../sets/JUMP★-files/icon.png" />
+		<img class="preload-hidden" src="../sets/OPC-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="icon-bar">
-			<div class="icon"><a href="JUMP★"><img src="/sets/JUMP★-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="OPC"><img src="/sets/OPC-files/icon.png"></img></a></div>
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/OPC"><img src="../sets/OPC-files/icon.png">The Poneglyph</a>
+	
+		<a class="set-bar inactive" href="../previews/JUMP★"><img src="../sets/JUMP★-files/icon.png">JUMPSTAR</a>
+	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/OPC-files/logo.png">
+		<img class="logo" src="../sets/OPC-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="/sets\OPC-files\img\6_Bell-mère, Ex-Marine.png" id="6_Bell-mère, Ex-Marine" data-flag="@X" onclick="openSidebar('6_Bell-mère, Ex-Marine',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\53_Abuse Authority.png" id="53_Abuse Authority" data-flag="@X" onclick="openSidebar('53_Abuse Authority',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\100_Akainu, Thorough Admiral.png" id="100_Akainu, Thorough Admiral" data-flag="@X" onclick="openSidebar('100_Akainu, Thorough Admiral',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\147_Alvida, the Iron Mace.png" id="147_Alvida, the Iron Mace" data-flag="@X" onclick="openSidebar('147_Alvida, the Iron Mace',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\194_3D2Y.png" id="194_3D2Y" data-flag="@X" onclick="openSidebar('194_3D2Y',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\7_Big Mom, Soulful Host.png" id="7_Big Mom, Soulful Host" data-flag="@X" onclick="openSidebar('7_Big Mom, Soulful Host',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\54_Aokiji, Lazy Admiral.png" id="54_Aokiji, Lazy Admiral" data-flag="@X" onclick="openSidebar('54_Aokiji, Lazy Admiral',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\101_Basil Hawkins, the Magician.png" id="101_Basil Hawkins, the Magician" data-flag="@X" onclick="openSidebar('101_Basil Hawkins, the Magician',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\148_Baby 5, Full Body Weapon.png" id="148_Baby 5, Full Body Weapon" data-flag="@X" onclick="openSidebar('148_Baby 5, Full Body Weapon',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\195_Apoo, Roar of the Sea.png" id="195_Apoo, Roar of the Sea" data-flag="@X" onclick="openSidebar('195_Apoo, Roar of the Sea',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\8_Black Cage Hina.png" id="8_Black Cage Hina" data-flag="@X" onclick="openSidebar('8_Black Cage Hina',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\55_Baron Tamago.png" id="55_Baron Tamago" data-flag="@X" onclick="openSidebar('55_Baron Tamago',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\102_The Birdcage.png" id="102_The Birdcage" data-flag="@X" onclick="openSidebar('102_The Birdcage',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\149_Bartolomeo the Cannibal.png" id="149_Bartolomeo the Cannibal" data-flag="@X" onclick="openSidebar('149_Bartolomeo the Cannibal',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\196_Arlong the Saw, Fishman Pirate.png" id="196_Arlong the Saw, Fishman Pirate" data-flag="@X" onclick="openSidebar('196_Arlong the Saw, Fishman Pirate',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\9_Conis, Guide in Heaven.png" id="9_Conis, Guide in Heaven" data-flag="@X" onclick="openSidebar('9_Conis, Guide in Heaven',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\56_Barrier Screen.png" id="56_Barrier Screen" data-flag="@X" onclick="openSidebar('56_Barrier Screen',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\103_Born to Boil.png" id="103_Born to Boil" data-flag="@X" onclick="openSidebar('103_Born to Boil',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\150_Belo Betty, East Army Commander.png" id="150_Belo Betty, East Army Commander" data-flag="@X" onclick="openSidebar('150_Belo Betty, East Army Commander',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\197_Armament Haki.png" id="197_Armament Haki" data-flag="@X" onclick="openSidebar('197_Armament Haki',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\10_Cracker Thousand Arms.png" id="10_Cracker Thousand Arms" data-flag="@X" onclick="openSidebar('10_Cracker Thousand Arms',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\57_Big News Morgans.png" id="57_Big News Morgans" data-flag="@X" onclick="openSidebar('57_Big News Morgans',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\104_Darkness is Gravity.png" id="104_Darkness is Gravity" data-flag="@X" onclick="openSidebar('104_Darkness is Gravity',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\151_Boa Hancock, Pirate Empress.png" id="151_Boa Hancock, Pirate Empress" data-flag="@X" onclick="openSidebar('151_Boa Hancock, Pirate Empress',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\198_Bepo, Martial Artist Mink.png" id="198_Bepo, Martial Artist Mink" data-flag="@X" onclick="openSidebar('198_Bepo, Martial Artist Mink',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\11_Dreams Never Die.png" id="11_Dreams Never Die" data-flag="@X" onclick="openSidebar('11_Dreams Never Die',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\58_Blueno, Door Human.png" id="58_Blueno, Door Human" data-flag="@X" onclick="openSidebar('58_Blueno, Door Human',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\105_Daz Bonez The Killer.png" id="105_Daz Bonez The Killer" data-flag="@X" onclick="openSidebar('105_Daz Bonez The Killer',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\152_Buster Call.png" id="152_Buster Call" data-flag="@X" onclick="openSidebar('152_Buster Call',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\199_Camie, Designer Apprentice.png" id="199_Camie, Designer Apprentice" data-flag="@X" onclick="openSidebar('199_Camie, Designer Apprentice',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\12_Duval, Rosy Life Rider.png" id="12_Duval, Rosy Life Rider" data-flag="@X" onclick="openSidebar('12_Duval, Rosy Life Rider',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\59_Bon Clay, Okama Imitator.png" id="59_Bon Clay, Okama Imitator" data-flag="@X" onclick="openSidebar('59_Bon Clay, Okama Imitator',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\106_Doc Q, Death God.png" id="106_Doc Q, Death God" data-flag="@X" onclick="openSidebar('106_Doc Q, Death God',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\153_Cards of Fortune.png" id="153_Cards of Fortune" data-flag="@X" onclick="openSidebar('153_Cards of Fortune',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\200_Carrot, Mink Stowaway.png" id="200_Carrot, Mink Stowaway" data-flag="@X" onclick="openSidebar('200_Carrot, Mink Stowaway',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\13_Fujitora, Humane Admiral.png" id="13_Fujitora, Humane Admiral" data-flag="@X" onclick="openSidebar('13_Fujitora, Humane Admiral',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\60_Cake Raid Mirage.png" id="60_Cake Raid Mirage" data-flag="@X" onclick="openSidebar('60_Cake Raid Mirage',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\107_Doctor Hogback.png" id="107_Doctor Hogback" data-flag="@X" onclick="openSidebar('107_Doctor Hogback',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\154_Cut Anything.png" id="154_Cut Anything" data-flag="@X" onclick="openSidebar('154_Cut Anything',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\201_Cat and Dog, Nekomamushi and Inuarashi.png" id="201_Cat and Dog, Nekomamushi and Inuarashi" data-flag="@X" onclick="openSidebar('201_Cat and Dog, Nekomamushi and Inuarashi',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\14_Funkfreed, Elephant Sword.png" id="14_Funkfreed, Elephant Sword" data-flag="@X" onclick="openSidebar('14_Funkfreed, Elephant Sword',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\61_Catarina Devon, Nine-Tail Imitator.png" id="61_Catarina Devon, Nine-Tail Imitator" data-flag="@X" onclick="openSidebar('61_Catarina Devon, Nine-Tail Imitator',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\108_Don Foul Play Krieg.png" id="108_Don Foul Play Krieg" data-flag="@X" onclick="openSidebar('108_Don Foul Play Krieg',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\155_Doflamingo, Puppetmaster.png" id="155_Doflamingo, Puppetmaster" data-flag="@X" onclick="openSidebar('155_Doflamingo, Puppetmaster',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\202_Cien Fleur.png" id="202_Cien Fleur" data-flag="@X" onclick="openSidebar('202_Cien Fleur',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\15_Gan Fall, Knight of the Sky.png" id="15_Gan Fall, Knight of the Sky" data-flag="@X" onclick="openSidebar('15_Gan Fall, Knight of the Sky',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\62_Ceasar Clown, MADS Scientist.png" id="62_Ceasar Clown, MADS Scientist" data-flag="@X" onclick="openSidebar('62_Ceasar Clown, MADS Scientist',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\109_Exploitative Industry.png" id="109_Exploitative Industry" data-flag="@X" onclick="openSidebar('109_Exploitative Industry',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\156_The Drums of Liberation.png" id="156_The Drums of Liberation" data-flag="@X" onclick="openSidebar('156_The Drums of Liberation',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\203_Collective Charge.png" id="203_Collective Charge" data-flag="@X" onclick="openSidebar('203_Collective Charge',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\16_Going Merry Flying Mode.png" id="16_Going Merry Flying Mode" data-flag="@X" onclick="openSidebar('16_Going Merry Flying Mode',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\63_Charlotte Brûlée, Mirror Woman.png" id="63_Charlotte Brûlée, Mirror Woman" data-flag="@X" onclick="openSidebar('63_Charlotte Brûlée, Mirror Woman',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\110_Fizzle Out.png" id="110_Fizzle Out" data-flag="@X" onclick="openSidebar('110_Fizzle Out',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\157_Enel, God of Skypiea.png" id="157_Enel, God of Skypiea" data-flag="@X" onclick="openSidebar('157_Enel, God of Skypiea',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\204_Cricket's Crew.png" id="204_Crickets Crew" data-flag="@X" onclick="openSidebar('204_Crickets Crew',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\17_Goodbye Merry.png" id="17_Goodbye Merry" data-flag="@X" onclick="openSidebar('17_Goodbye Merry',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\64_Charlotte Mont-d'Or.png" id="64_Charlotte Mont-dOr" data-flag="@X" onclick="openSidebar('64_Charlotte Mont-dOr',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\111_Higuma, Mountain Bandit.png" id="111_Higuma, Mountain Bandit" data-flag="@X" onclick="openSidebar('111_Higuma, Mountain Bandit',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\158_Eustass Captain Kid.png" id="158_Eustass Captain Kid" data-flag="@X" onclick="openSidebar('158_Eustass Captain Kid',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\205_Crocus, Laboon's Caretaker.png" id="205_Crocus, Laboons Caretaker" data-flag="@X" onclick="openSidebar('205_Crocus, Laboons Caretaker',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\18_Haki of the Supreme King.png" id="18_Haki of the Supreme King" data-flag="@X" onclick="openSidebar('18_Haki of the Supreme King',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\65_Chart the World.png" id="65_Chart the World" data-flag="@X" onclick="openSidebar('65_Chart the World',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\112_Hody Jones, Hollow Idealist.png" id="112_Hody Jones, Hollow Idealist" data-flag="@X" onclick="openSidebar('112_Hody Jones, Hollow Idealist',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\159_Fisher Tiger, Slave Liberator.png" id="159_Fisher Tiger, Slave Liberator" data-flag="@X" onclick="openSidebar('159_Fisher Tiger, Slave Liberator',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\206_Culinary Paradise.png" id="206_Culinary Paradise" data-flag="@X" onclick="openSidebar('206_Culinary Paradise',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\19_Headchef Zeff.png" id="19_Headchef Zeff" data-flag="@X" onclick="openSidebar('19_Headchef Zeff',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\66_Clou D Clover, Ohara Scholar.png" id="66_Clou D Clover, Ohara Scholar" data-flag="@X" onclick="openSidebar('66_Clou D Clover, Ohara Scholar',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\113_Impel Down Breach.png" id="113_Impel Down Breach" data-flag="@X" onclick="openSidebar('113_Impel Down Breach',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\160_G-5 Tactics.png" id="160_G-5 Tactics" data-flag="@X" onclick="openSidebar('160_G-5 Tactics',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\207_Dorry and Brogy, Giant Warriors.png" id="207_Dorry and Brogy, Giant Warriors" data-flag="@X" onclick="openSidebar('207_Dorry and Brogy, Giant Warriors',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\20_Hearty Meal.png" id="20_Hearty Meal" data-flag="@X" onclick="openSidebar('20_Hearty Meal',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\67_Commence the Levely.png" id="67_Commence the Levely" data-flag="@X" onclick="openSidebar('67_Commence the Levely',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\114_Imu, Supreme Ruler.png" id="114_Imu, Supreme Ruler" data-flag="@X" onclick="openSidebar('114_Imu, Supreme Ruler',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\161_Gum Gum Elephant Gun.png" id="161_Gum Gum Elephant Gun" data-flag="@X" onclick="openSidebar('161_Gum Gum Elephant Gun',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\208_Gaimon of Rare Animal Island.png" id="208_Gaimon of Rare Animal Island" data-flag="@X" onclick="openSidebar('208_Gaimon of Rare Animal Island',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\21_Hiriluk, Savior of the Heart.png" id="21_Hiriluk, Savior of the Heart" data-flag="@X" onclick="openSidebar('21_Hiriluk, Savior of the Heart',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\68_Coup de Burst.png" id="68_Coup de Burst" data-flag="@X" onclick="openSidebar('68_Coup de Burst',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\115_Inhumane Auction.png" id="115_Inhumane Auction" data-flag="@X" onclick="openSidebar('115_Inhumane Auction',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\162_Gum Gum Gatling.png" id="162_Gum Gum Gatling" data-flag="@X" onclick="openSidebar('162_Gum Gum Gatling',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\209_Golden Age of Piracy.png" id="209_Golden Age of Piracy" data-flag="@X" onclick="openSidebar('209_Golden Age of Piracy',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\22_Katakuri, Honorable Nemesis.png" id="22_Katakuri, Honorable Nemesis" data-flag="@X" onclick="openSidebar('22_Katakuri, Honorable Nemesis',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\69_Davy Back Fight.png" id="69_Davy Back Fight" data-flag="@X" onclick="openSidebar('69_Davy Back Fight',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\116_Judge, Despotic Diplomat.png" id="116_Judge, Despotic Diplomat" data-flag="@X" onclick="openSidebar('116_Judge, Despotic Diplomat',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\163_Gum Gum Whip.png" id="163_Gum Gum Whip" data-flag="@X" onclick="openSidebar('163_Gum Gum Whip',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\210_Hachi, Takoyaki Griller.png" id="210_Hachi, Takoyaki Griller" data-flag="@X" onclick="openSidebar('210_Hachi, Takoyaki Griller',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\23_Kaya, Doctor in Training.png" id="23_Kaya, Doctor in Training" data-flag="@X" onclick="openSidebar('23_Kaya, Doctor in Training',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\70_Decyphering the Poneglyph.png" id="70_Decyphering the Poneglyph" data-flag="@X" onclick="openSidebar('70_Decyphering the Poneglyph',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\117_Kanjuro, Theatrical Traitor.png" id="117_Kanjuro, Theatrical Traitor" data-flag="@X" onclick="openSidebar('117_Kanjuro, Theatrical Traitor',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\164_The Hoof of the World Nobles.png" id="164_The Hoof of the World Nobles" data-flag="@X" onclick="openSidebar('164_The Hoof of the World Nobles',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\211_Helmeppo, Son of Morgan.png" id="211_Helmeppo, Son of Morgan" data-flag="@X" onclick="openSidebar('211_Helmeppo, Son of Morgan',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\24_Kikunojo of the Snow.png" id="24_Kikunojo of the Snow" data-flag="@X" onclick="openSidebar('24_Kikunojo of the Snow',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\71_Dr. Vegapunk, Super Genius.png" id="71_Dr. Vegapunk, Super Genius" data-flag="@X" onclick="openSidebar('71_Dr. Vegapunk, Super Genius',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\118_Karasu, North Army Commander.png" id="118_Karasu, North Army Commander" data-flag="@X" onclick="openSidebar('118_Karasu, North Army Commander',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\165_Huge Haul.png" id="165_Huge Haul" data-flag="@X" onclick="openSidebar('165_Huge Haul',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\212_Jack the Drought.png" id="212_Jack the Drought" data-flag="@X" onclick="openSidebar('212_Jack the Drought',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\25_Koby the Hero.png" id="25_Koby the Hero" data-flag="@X" onclick="openSidebar('25_Koby the Hero',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\72_Erase History.png" id="72_Erase History" data-flag="@X" onclick="openSidebar('72_Erase History',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\119_Kuro of a Hundred Plans.png" id="119_Kuro of a Hundred Plans" data-flag="@X" onclick="openSidebar('119_Kuro of a Hundred Plans',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\166_I Want To Live!.png" id="166_I Want To Live!" data-flag="@X" onclick="openSidebar('166_I Want To Live!',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\213_Jesus Burgess, the Champion.png" id="213_Jesus Burgess, the Champion" data-flag="@X" onclick="openSidebar('213_Jesus Burgess, the Champion',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\26_Kozuki Hiyori, Tayu Oiran.png" id="26_Kozuki Hiyori, Tayu Oiran" data-flag="@X" onclick="openSidebar('26_Kozuki Hiyori, Tayu Oiran',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\73_Fata Morgana.png" id="73_Fata Morgana" data-flag="@X" onclick="openSidebar('73_Fata Morgana',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\120_Lafitte, Demon Sheriff.png" id="120_Lafitte, Demon Sheriff" data-flag="@X" onclick="openSidebar('120_Lafitte, Demon Sheriff',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\167_Jet Pistol.png" id="167_Jet Pistol" data-flag="@X" onclick="openSidebar('167_Jet Pistol',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\214_Kawamatsu the Kappa.png" id="214_Kawamatsu the Kappa" data-flag="@X" onclick="openSidebar('214_Kawamatsu the Kappa',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\27_Kyros, One-Legged Soldier.png" id="27_Kyros, One-Legged Soldier" data-flag="@X" onclick="openSidebar('27_Kyros, One-Legged Soldier',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\74_Go on a Vacation.png" id="74_Go on a Vacation" data-flag="@X" onclick="openSidebar('74_Go on a Vacation',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\121_Magellan, Noxious Warden.png" id="121_Magellan, Noxious Warden" data-flag="@X" onclick="openSidebar('121_Magellan, Noxious Warden',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\168_Johnny and Yosaku, Bounty Hunters.png" id="168_Johnny and Yosaku, Bounty Hunters" data-flag="@X" onclick="openSidebar('168_Johnny and Yosaku, Bounty Hunters',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\215_Kingbaum, Master of the Woods.png" id="215_Kingbaum, Master of the Woods" data-flag="@X" onclick="openSidebar('215_Kingbaum, Master of the Woods',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\28_Little Black Bears.png" id="28_Little Black Bears" data-flag="@X" onclick="openSidebar('28_Little Black Bears',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\75_Ice Time.png" id="75_Ice Time" data-flag="@X" onclick="openSidebar('75_Ice Time',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\122_Marshal D. Teach, Blackbeard.png" id="122_Marshal D. Teach, Blackbeard" data-flag="@X" onclick="openSidebar('122_Marshal D. Teach, Blackbeard',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\169_Karoo, Super Sonic Duck.png" id="169_Karoo, Super Sonic Duck" data-flag="@X" onclick="openSidebar('169_Karoo, Super Sonic Duck',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\216_Laboon, Loyal Island Whale.png" id="216_Laboon, Loyal Island Whale" data-flag="@X" onclick="openSidebar('216_Laboon, Loyal Island Whale',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\29_Make a Myth.png" id="29_Make a Myth" data-flag="@X" onclick="openSidebar('29_Make a Myth',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\76_Iceburg, Galley-La President.png" id="76_Iceburg, Galley-La President" data-flag="@X" onclick="openSidebar('76_Iceburg, Galley-La President',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\123_Memory Edit.png" id="123_Memory Edit" data-flag="@X" onclick="openSidebar('123_Memory Edit',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\170_King the Conflagration.png" id="170_King the Conflagration" data-flag="@X" onclick="openSidebar('170_King the Conflagration',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\217_Leo, Tonta Corps Leader.png" id="217_Leo, Tonta Corps Leader" data-flag="@X" onclick="openSidebar('217_Leo, Tonta Corps Leader',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\30_Marco the Phoenix.png" id="30_Marco the Phoenix" data-flag="@X" onclick="openSidebar('30_Marco the Phoenix',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\77_Jewelry Bonney.png" id="77_Jewelry Bonney" data-flag="@X" onclick="openSidebar('77_Jewelry Bonney',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\124_Misplaced Anger.png" id="124_Misplaced Anger" data-flag="@X" onclick="openSidebar('124_Misplaced Anger',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\171_Kizaru, Flippant Admiral.png" id="171_Kizaru, Flippant Admiral" data-flag="@X" onclick="openSidebar('171_Kizaru, Flippant Admiral',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\218_Mihawk, Strongest Swordsman.png" id="218_Mihawk, Strongest Swordsman" data-flag="@X" onclick="openSidebar('218_Mihawk, Strongest Swordsman',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\31_Nefertari Cobra, Arabasta King.png" id="31_Nefertari Cobra, Arabasta King" data-flag="@X" onclick="openSidebar('31_Nefertari Cobra, Arabasta King',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\78_Kaku, Undercover Shipwright.png" id="78_Kaku, Undercover Shipwright" data-flag="@X" onclick="openSidebar('78_Kaku, Undercover Shipwright',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\125_Miss Double Finger.png" id="125_Miss Double Finger" data-flag="@X" onclick="openSidebar('125_Miss Double Finger',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\172_Koza, Rebel Leader.png" id="172_Koza, Rebel Leader" data-flag="@X" onclick="openSidebar('172_Koza, Rebel Leader',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\219_Miss Valentine, Weightlifter.png" id="219_Miss Valentine, Weightlifter" data-flag="@X" onclick="openSidebar('219_Miss Valentine, Weightlifter',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\32_Nefertari Vivi, Arabasta Princess.png" id="32_Nefertari Vivi, Arabasta Princess" data-flag="@X" onclick="openSidebar('32_Nefertari Vivi, Arabasta Princess',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\79_Law, Surgeon of Death.png" id="79_Law, Surgeon of Death" data-flag="@X" onclick="openSidebar('79_Law, Surgeon of Death',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\126_Moria, One Thousand Shadows.png" id="126_Moria, One Thousand Shadows" data-flag="@X" onclick="openSidebar('126_Moria, One Thousand Shadows',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\173_Kozuki Oden, Foolish Daimyo.png" id="173_Kozuki Oden, Foolish Daimyo" data-flag="@X" onclick="openSidebar('173_Kozuki Oden, Foolish Daimyo',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\220_Momonosuke, Young Shogun.png" id="220_Momonosuke, Young Shogun" data-flag="@X" onclick="openSidebar('220_Momonosuke, Young Shogun',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\33_Nothing Happened.png" id="33_Nothing Happened" data-flag="@X" onclick="openSidebar('33_Nothing Happened',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\80_Lindbergh, South Army Commander.png" id="80_Lindbergh, South Army Commander" data-flag="@X" onclick="openSidebar('80_Lindbergh, South Army Commander',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\127_Mother Carmel, Mountain Witch.png" id="127_Mother Carmel, Mountain Witch" data-flag="@X" onclick="openSidebar('127_Mother Carmel, Mountain Witch',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\174_Lassoo, Dog Gun.png" id="174_Lassoo, Dog Gun" data-flag="@X" onclick="openSidebar('174_Lassoo, Dog Gun',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\221_Morley, West Army Commander.png" id="221_Morley, West Army Commander" data-flag="@X" onclick="openSidebar('221_Morley, West Army Commander',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\34_The One Piece Is Real!.png" id="34_The One Piece Is Real!" data-flag="@X" onclick="openSidebar('34_The One Piece Is Real!',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\81_Madam Shyarly, Fortuneteller.png" id="81_Madam Shyarly, Fortuneteller" data-flag="@X" onclick="openSidebar('81_Madam Shyarly, Fortuneteller',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\128_Oars the Continent-Puller.png" id="128_Oars the Continent-Puller" data-flag="@X" onclick="openSidebar('128_Oars the Continent-Puller',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\175_Miss Merry Christmas, Setter.png" id="175_Miss Merry Christmas, Setter" data-flag="@X" onclick="openSidebar('175_Miss Merry Christmas, Setter',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\222_Orochi, Kurozomi Usurper.png" id="222_Orochi, Kurozomi Usurper" data-flag="@X" onclick="openSidebar('222_Orochi, Kurozomi Usurper',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\35_Otohime, Selfless Queen.png" id="35_Otohime, Selfless Queen" data-flag="@X" onclick="openSidebar('35_Otohime, Selfless Queen',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\82_Memories Too Sweet.png" id="82_Memories Too Sweet" data-flag="@X" onclick="openSidebar('82_Memories Too Sweet',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\129_One Last Song.png" id="129_One Last Song" data-flag="@X" onclick="openSidebar('129_One Last Song',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\176_Mr. 4, Pinch Hitter.png" id="176_Mr. 4, Pinch Hitter" data-flag="@X" onclick="openSidebar('176_Mr. 4, Pinch Hitter',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\223_The Paramount War.png" id="223_The Paramount War" data-flag="@X" onclick="openSidebar('223_The Paramount War',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\36_Passing the Legacy.png" id="36_Passing the Legacy" data-flag="@X" onclick="openSidebar('36_Passing the Legacy',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\83_Miss Goldenweek, Expressionist.png" id="83_Miss Goldenweek, Expressionist" data-flag="@X" onclick="openSidebar('83_Miss Goldenweek, Expressionist',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\130_Overdue Revival.png" id="130_Overdue Revival" data-flag="@X" onclick="openSidebar('130_Overdue Revival',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\177_Mr. 5, Snot Bomber.png" id="177_Mr. 5, Snot Bomber" data-flag="@X" onclick="openSidebar('177_Mr. 5, Snot Bomber',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\224_Pica, Gargantuan Pipsqueak.png" id="224_Pica, Gargantuan Pipsqueak" data-flag="@X" onclick="openSidebar('224_Pica, Gargantuan Pipsqueak',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\37_Pell the Falcon.png" id="37_Pell the Falcon" data-flag="@X" onclick="openSidebar('37_Pell the Falcon',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\84_News Coo Delivery.png" id="84_News Coo Delivery" data-flag="@X" onclick="openSidebar('84_News Coo Delivery',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\131_Perona, Ghost Princess.png" id="131_Perona, Ghost Princess" data-flag="@X" onclick="openSidebar('131_Perona, Ghost Princess',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\178_Nezumi, Corrupt Captain.png" id="178_Nezumi, Corrupt Captain" data-flag="@X" onclick="openSidebar('178_Nezumi, Corrupt Captain',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\225_Pop Green Flytrap.png" id="225_Pop Green Flytrap" data-flag="@X" onclick="openSidebar('225_Pop Green Flytrap',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\38_Princess Mansherry.png" id="38_Princess Mansherry" data-flag="@X" onclick="openSidebar('38_Princess Mansherry',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\85_Nola, Master of the Sky.png" id="85_Nola, Master of the Sky" data-flag="@X" onclick="openSidebar('85_Nola, Master of the Sky',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\132_Perospero, First Son of Linlin.png" id="132_Perospero, First Son of Linlin" data-flag="@X" onclick="openSidebar('132_Perospero, First Son of Linlin',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\179_Pappag, Star Designer.png" id="179_Pappag, Star Designer" data-flag="@X" onclick="openSidebar('179_Pappag, Star Designer',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\226_Poseidon's Call.png" id="226_Poseidons Call" data-flag="@X" onclick="openSidebar('226_Poseidons Call',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\39_Rokushiki.png" id="39_Rokushiki" data-flag="@X" onclick="openSidebar('39_Rokushiki',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\86_Perception Haki.png" id="86_Perception Haki" data-flag="@X" onclick="openSidebar('86_Perception Haki',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\133_Pirate's Alliance.png" id="133_Pirates Alliance" data-flag="@X" onclick="openSidebar('133_Pirates Alliance',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\180_Paulie, Rash Rigger.png" id="180_Paulie, Rash Rigger" data-flag="@X" onclick="openSidebar('180_Paulie, Rash Rigger',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\227_Recover the Past.png" id="227_Recover the Past" data-flag="@X" onclick="openSidebar('227_Recover the Past',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\40_Sakazuki.png" id="40_Sakazuki" data-flag="@X" onclick="openSidebar('40_Sakazuki',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\87_Pudding, Three-Eyed Bride.png" id="87_Pudding, Three-Eyed Bride" data-flag="@X" onclick="openSidebar('87_Pudding, Three-Eyed Bride',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\134_Reinstated Bounties.png" id="134_Reinstated Bounties" data-flag="@X" onclick="openSidebar('134_Reinstated Bounties',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\181_Pedro of the Treetops.png" id="181_Pedro of the Treetops" data-flag="@X" onclick="openSidebar('181_Pedro of the Treetops',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\228_Repatriate.png" id="228_Repatriate" data-flag="@X" onclick="openSidebar('228_Repatriate',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\41_Sengoku the Buddha.png" id="41_Sengoku the Buddha" data-flag="@X" onclick="openSidebar('41_Sengoku the Buddha',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\88_Queen the Plague.png" id="88_Queen the Plague" data-flag="@X" onclick="openSidebar('88_Queen the Plague',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\135_Rob Luccy, Massacre Weapon.png" id="135_Rob Luccy, Massacre Weapon" data-flag="@X" onclick="openSidebar('135_Rob Luccy, Massacre Weapon',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\182_Portgas D Ace, Fire Fist.png" id="182_Portgas D Ace, Fire Fist" data-flag="@X" onclick="openSidebar('182_Portgas D Ace, Fire Fist',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\229_Rumble Ball.png" id="229_Rumble Ball" data-flag="@X" onclick="openSidebar('229_Rumble Ball',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\42_Ship Cutter T Bone.png" id="42_Ship Cutter T Bone" data-flag="@X" onclick="openSidebar('42_Ship Cutter T Bone',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\89_Recover the Records.png" id="89_Recover the Records" data-flag="@X" onclick="openSidebar('89_Recover the Records',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\136_Ryuma, God of the Blade.png" id="136_Ryuma, God of the Blade" data-flag="@X" onclick="openSidebar('136_Ryuma, God of the Blade',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\183_Prometheus the Sun.png" id="183_Prometheus the Sun" data-flag="@X" onclick="openSidebar('183_Prometheus the Sun',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\230_Ryokugyu, Determined Admiral.png" id="230_Ryokugyu, Determined Admiral" data-flag="@X" onclick="openSidebar('230_Ryokugyu, Determined Admiral',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\43_A Ship Fit for a King.png" id="43_A Ship Fit for a King" data-flag="@X" onclick="openSidebar('43_A Ship Fit for a King',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\90_San Charlos, Spoiled Brat.png" id="90_San Charlos, Spoiled Brat" data-flag="@X" onclick="openSidebar('90_San Charlos, Spoiled Brat',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\137_Senseless Violence.png" id="137_Senseless Violence" data-flag="@X" onclick="openSidebar('137_Senseless Violence',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\184_Rebecca, Gladiator Princess.png" id="184_Rebecca, Gladiator Princess" data-flag="@X" onclick="openSidebar('184_Rebecca, Gladiator Princess',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\231_Sanjuan Wolf.png" id="231_Sanjuan Wolf" data-flag="@X" onclick="openSidebar('231_Sanjuan Wolf',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\44_Show of Force.png" id="44_Show of Force" data-flag="@X" onclick="openSidebar('44_Show of Force',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\91_Smiley, Bio-Chemical Pet.png" id="91_Smiley, Bio-Chemical Pet" data-flag="@X" onclick="openSidebar('91_Smiley, Bio-Chemical Pet',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\138_Shadow Theft.png" id="138_Shadow Theft" data-flag="@X" onclick="openSidebar('138_Shadow Theft',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\185_Red Hair Shanks.png" id="185_Red Hair Shanks" data-flag="@X" onclick="openSidebar('185_Red Hair Shanks',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\232_Sea King Nest.png" id="232_Sea King Nest" data-flag="@X" onclick="openSidebar('232_Sea King Nest',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\45_Silvers Rayleigh, The Dark King.png" id="45_Silvers Rayleigh, The Dark King" data-flag="@X" onclick="openSidebar('45_Silvers Rayleigh, The Dark King',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\92_Surume, Benthic Companion.png" id="92_Surume, Benthic Companion" data-flag="@X" onclick="openSidebar('92_Surume, Benthic Companion',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\139_Shiryu of the Rain.png" id="139_Shiryu of the Rain" data-flag="@X" onclick="openSidebar('139_Shiryu of the Rain',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\186_Sabo, Flame Emperor.png" id="186_Sabo, Flame Emperor" data-flag="@X" onclick="openSidebar('186_Sabo, Flame Emperor',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\233_Shirahoshi, Mermaid Princess.png" id="233_Shirahoshi, Mermaid Princess" data-flag="@X" onclick="openSidebar('233_Shirahoshi, Mermaid Princess',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\46_Smoker the White Hunter.png" id="46_Smoker the White Hunter" data-flag="@X" onclick="openSidebar('46_Smoker the White Hunter',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\93_Tararan, Spider Monkey Zombie.png" id="93_Tararan, Spider Monkey Zombie" data-flag="@X" onclick="openSidebar('93_Tararan, Spider Monkey Zombie',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\140_Spandam, CP9 Chief.png" id="140_Spandam, CP9 Chief" data-flag="@X" onclick="openSidebar('140_Spandam, CP9 Chief',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\187_Saint Figarland Garling.png" id="187_Saint Figarland Garling" data-flag="@X" onclick="openSidebar('187_Saint Figarland Garling',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\234_Sulong, Moon Lion Form.png" id="234_Sulong, Moon Lion Form" data-flag="@X" onclick="openSidebar('234_Sulong, Moon Lion Form',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\47_Smoothie, Sweet Commander.png" id="47_Smoothie, Sweet Commander" data-flag="@X" onclick="openSidebar('47_Smoothie, Sweet Commander',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\94_Tom, Shipwright with a DON.png" id="94_Tom, Shipwright with a DON" data-flag="@X" onclick="openSidebar('94_Tom, Shipwright with a DON',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\141_Stussy, Triple Agent.png" id="141_Stussy, Triple Agent" data-flag="@X" onclick="openSidebar('141_Stussy, Triple Agent',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\188_Senor Pink, Hard-Boiled.png" id="188_Senor Pink, Hard-Boiled" data-flag="@X" onclick="openSidebar('188_Senor Pink, Hard-Boiled',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\235_The Tale of Noland the Liar.png" id="235_The Tale of Noland the Liar" data-flag="@X" onclick="openSidebar('235_The Tale of Noland the Liar',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\48_Soap Up.png" id="48_Soap Up" data-flag="@X" onclick="openSidebar('48_Soap Up',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\95_The Unluckies, Informants.png" id="95_The Unluckies, Informants" data-flag="@X" onclick="openSidebar('95_The Unluckies, Informants',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\142_Unexpected Return.png" id="142_Unexpected Return" data-flag="@X" onclick="openSidebar('142_Unexpected Return',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\189_Shine the Light of Shandia.png" id="189_Shine the Light of Shandia" data-flag="@X" onclick="openSidebar('189_Shine the Light of Shandia',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\236_Ulti, Tobiroppo Rampage.png" id="236_Ulti, Tobiroppo Rampage" data-flag="@X" onclick="openSidebar('236_Ulti, Tobiroppo Rampage',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\49_Tashigi, Marine Captain.png" id="49_Tashigi, Marine Captain" data-flag="@X" onclick="openSidebar('49_Tashigi, Marine Captain',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\96_Van Augur, The Supersonic.png" id="96_Van Augur, The Supersonic" data-flag="@X" onclick="openSidebar('96_Van Augur, The Supersonic',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\143_Vergo, The First Corazon.png" id="143_Vergo, The First Corazon" data-flag="@X" onclick="openSidebar('143_Vergo, The First Corazon',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\190_Shoot Down That Flag.png" id="190_Shoot Down That Flag" data-flag="@X" onclick="openSidebar('190_Shoot Down That Flag',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\237_United Dreams.png" id="237_United Dreams" data-flag="@X" onclick="openSidebar('237_United Dreams',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\50_Whitebeard, Roaring Patriarch.png" id="50_Whitebeard, Roaring Patriarch" data-flag="@X" onclick="openSidebar('50_Whitebeard, Roaring Patriarch',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\97_Vander Decken IX.png" id="97_Vander Decken IX" data-flag="@X" onclick="openSidebar('97_Vander Decken IX',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\144_The Vinsmoke Siblings.png" id="144_The Vinsmoke Siblings" data-flag="@X" onclick="openSidebar('144_The Vinsmoke Siblings',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\191_Waste Nothing.png" id="191_Waste Nothing" data-flag="@X" onclick="openSidebar('191_Waste Nothing',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\238_Urouge, Mad Monk.png" id="238_Urouge, Mad Monk" data-flag="@X" onclick="openSidebar('238_Urouge, Mad Monk',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\51_Worthy Sacrifice.png" id="51_Worthy Sacrifice" data-flag="@X" onclick="openSidebar('51_Worthy Sacrifice',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\98_Viola, Insightful Agent.png" id="98_Viola, Insightful Agent" data-flag="@X" onclick="openSidebar('98_Viola, Insightful Agent',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\145_Wet Haired Caribou.png" id="145_Wet Haired Caribou" data-flag="@X" onclick="openSidebar('145_Wet Haired Caribou',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\192_The Will of D.png" id="192_The Will of D" data-flag="@X" onclick="openSidebar('192_The Will of D',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\239_Yamato, Son of Kaidou.png" id="239_Yamato, Son of Kaidou" data-flag="@X" onclick="openSidebar('239_Yamato, Son of Kaidou',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\52_X Drake, Pretend Deserter.png" id="52_X Drake, Pretend Deserter" data-flag="@X" onclick="openSidebar('52_X Drake, Pretend Deserter',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\99_Yeti Cool Brothers, For Hire.png" id="99_Yeti Cool Brothers, For Hire" data-flag="@X" onclick="openSidebar('99_Yeti Cool Brothers, For Hire',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\146_Yasopp, Red Hair's Sniper.png" id="146_Yasopp, Red Hairs Sniper" data-flag="@X" onclick="openSidebar('146_Yasopp, Red Hairs Sniper',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\193_Zeus, Cumulo Companion.png" id="193_Zeus, Cumulo Companion" data-flag="@X" onclick="openSidebar('193_Zeus, Cumulo Companion',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\240_Zunesha, Elephus Dali.png" id="240_Zunesha, Elephus Dali" data-flag="@X" onclick="openSidebar('240_Zunesha, Elephus Dali',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="gold" class="anchor"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\2_Cherry Blossoms in Winter.png" id="2_Cherry Blossoms in Winter" data-flag="@X" onclick="openSidebar('2_Cherry Blossoms in Winter',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\245_The Five Elders.png" id="245_The Five Elders" data-flag="@X" onclick="openSidebar('245_The Five Elders',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\1_Black Hole Liberation.png" id="1_Black Hole Liberation" data-flag="@X" onclick="openSidebar('1_Black Hole Liberation',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\259_Straw Hat Luffy, Dreamer.png" id="259_Straw Hat Luffy, Dreamer" data-flag="@X" onclick="openSidebar('259_Straw Hat Luffy, Dreamer',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\243_Chopper, Cure Concocter.png" id="243_Chopper, Cure Concocter" data-flag="@X" onclick="openSidebar('243_Chopper, Cure Concocter',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\250_Jinbe, Knight of the Sea.png" id="250_Jinbe, Knight of the Sea" data-flag="@X" onclick="openSidebar('250_Jinbe, Knight of the Sea',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\252_Nami, Cat Burglar.png" id="252_Nami, Cat Burglar" data-flag="@X" onclick="openSidebar('252_Nami, Cat Burglar',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\251_Kaidou, Strongest Creature.png" id="251_Kaidou, Strongest Creature" data-flag="@X" onclick="openSidebar('251_Kaidou, Strongest Creature',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\261_Wyper, Shandia Warrior.png" id="261_Wyper, Shandia Warrior" data-flag="@X" onclick="openSidebar('261_Wyper, Shandia Warrior',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\255_Rosinante, Mute Savior.png" id="255_Rosinante, Mute Savior" data-flag="@X" onclick="openSidebar('255_Rosinante, Mute Savior',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\257_Sentomaru, Science Captain.png" id="257_Sentomaru, Science Captain" data-flag="@X" onclick="openSidebar('257_Sentomaru, Science Captain',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\267_Cheated Power.png" id="267_Cheated Power" data-flag="@X" onclick="openSidebar('267_Cheated Power',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\262_Zoro, Pirate Hunter.png" id="262_Zoro, Pirate Hunter" data-flag="@X" onclick="openSidebar('262_Zoro, Pirate Hunter',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\264_Alliance Celebrations.png" id="264_Alliance Celebrations" data-flag="@X" onclick="openSidebar('264_Alliance Celebrations',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\270_Garp, Marine Instructor.png" id="270_Garp, Marine Instructor" data-flag="@X" onclick="openSidebar('270_Garp, Marine Instructor',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\276_The Usopp Pirates.png" id="276_The Usopp Pirates" data-flag="@X" onclick="openSidebar('276_The Usopp Pirates',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\273_Monet, Punk Hazard Overseer.png" id="273_Monet, Punk Hazard Overseer" data-flag="@X" onclick="openSidebar('273_Monet, Punk Hazard Overseer',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\265_Buggy, the Star Clown.png" id="265_Buggy, the Star Clown" data-flag="@X" onclick="openSidebar('265_Buggy, the Star Clown',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\268_Curly Dadan, Foster Mother.png" id="268_Curly Dadan, Foster Mother" data-flag="@X" onclick="openSidebar('268_Curly Dadan, Foster Mother',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\275_Rusted Blades.png" id="275_Rusted Blades" data-flag="@X" onclick="openSidebar('275_Rusted Blades',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\241_Brook, Soul King.png" id="241_Brook, Soul King" data-flag="@X" onclick="openSidebar('241_Brook, Soul King',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\246_Foxy the Silver Fox.png" id="246_Foxy the Silver Fox" data-flag="@X" onclick="openSidebar('246_Foxy the Silver Fox',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\4_Ground Secco.png" id="4_Ground Secco" data-flag="@X" onclick="openSidebar('4_Ground Secco',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\3_Gear Two.png" id="3_Gear Two" data-flag="@X" onclick="openSidebar('3_Gear Two',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\5_Knock Up Stream.png" id="5_Knock Up Stream" data-flag="@X" onclick="openSidebar('5_Knock Up Stream',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\242_Capone Bege, Family Man.png" id="242_Capone Bege, Family Man" data-flag="@X" onclick="openSidebar('242_Capone Bege, Family Man',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\247_Franky, Cyborg Shipwright.png" id="247_Franky, Cyborg Shipwright" data-flag="@X" onclick="openSidebar('247_Franky, Cyborg Shipwright',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\258_Sir Crocodile, Desert King.png" id="258_Sir Crocodile, Desert King" data-flag="@X" onclick="openSidebar('258_Sir Crocodile, Desert King',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\244_Dragon, Revolutionary.png" id="244_Dragon, Revolutionary" data-flag="@X" onclick="openSidebar('244_Dragon, Revolutionary',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\249_Kokoro, Chimney and Gonbe.png" id="249_Kokoro, Chimney and Gonbe" data-flag="@X" onclick="openSidebar('249_Kokoro, Chimney and Gonbe',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\266_Cavendish the Pirate Prince.png" id="266_Cavendish the Pirate Prince" data-flag="@X" onclick="openSidebar('266_Cavendish the Pirate Prince',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\269_Deflect.png" id="269_Deflect" data-flag="@X" onclick="openSidebar('269_Deflect',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\260_Usopp, Sniper King.png" id="260_Usopp, Sniper King" data-flag="@X" onclick="openSidebar('260_Usopp, Sniper King',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\256_Sanji, Chef En Flambé.png" id="256_Sanji, Chef En Flambé" data-flag="@X" onclick="openSidebar('256_Sanji, Chef En Flambé',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\253_Nico Robin, Archeologist.png" id="253_Nico Robin, Archeologist" data-flag="@X" onclick="openSidebar('253_Nico Robin, Archeologist',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\272_Locked Away.png" id="272_Locked Away" data-flag="@X" onclick="openSidebar('272_Locked Away',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\271_Ivankov, Kamabakka Queen.png" id="271_Ivankov, Kamabakka Queen" data-flag="@X" onclick="openSidebar('271_Ivankov, Kamabakka Queen',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\277_Wapol, Munch Machine.png" id="277_Wapol, Munch Machine" data-flag="@X" onclick="openSidebar('277_Wapol, Munch Machine',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\263_Foxfire Kinnemon.png" id="263_Foxfire Kinnemon" data-flag="@X" onclick="openSidebar('263_Foxfire Kinnemon',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\274_Mr. 3, Intelligent Criminal.png" id="274_Mr. 3, Intelligent Criminal" data-flag="@X" onclick="openSidebar('274_Mr. 3, Intelligent Criminal',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\248_Gol D. Roger, Pirate King.png" id="248_Gol D. Roger, Pirate King" data-flag="@X" onclick="openSidebar('248_Gol D. Roger, Pirate King',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\254_The One Piece.png" id="254_The One Piece" data-flag="@X" onclick="openSidebar('254_The One Piece',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="colorless" class="anchor"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\278_Ace, The King's Cutlass.png" id="278_Ace, The Kings Cutlass" data-flag="@X" onclick="openSidebar('278_Ace, The Kings Cutlass',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\279_The Ark Maxim.png" id="279_The Ark Maxim" data-flag="@X" onclick="openSidebar('279_The Ark Maxim',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\280_Baratie, Floating Restaurant.png" id="280_Baratie, Floating Restaurant" data-flag="@X" onclick="openSidebar('280_Baratie, Floating Restaurant',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\281_Bartholomew Kuma, PX0.png" id="281_Bartholomew Kuma, PX0" data-flag="@X" onclick="openSidebar('281_Bartholomew Kuma, PX0',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\282_Den Den Mushi.png" id="282_Den Den Mushi" data-flag="@X" onclick="openSidebar('282_Den Den Mushi',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\283_Devil Fruit.png" id="283_Devil Fruit" data-flag="@X" onclick="openSidebar('283_Devil Fruit',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\284_The Empty Throne.png" id="284_The Empty Throne" data-flag="@X" onclick="openSidebar('284_The Empty Throne',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\285_Enma, Kouzuki Heirloom.png" id="285_Enma, Kouzuki Heirloom" data-flag="@X" onclick="openSidebar('285_Enma, Kouzuki Heirloom',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\286_Flag of the Revolutionaries.png" id="286_Flag of the Revolutionaries" data-flag="@X" onclick="openSidebar('286_Flag of the Revolutionaries',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\287_Flag of the Strawhats.png" id="287_Flag of the Strawhats" data-flag="@X" onclick="openSidebar('287_Flag of the Strawhats',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\288_The Germa Kingdom.png" id="288_The Germa Kingdom" data-flag="@X" onclick="openSidebar('288_The Germa Kingdom',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\289_The Going Luffy-Senpai.png" id="289_The Going Luffy-Senpai" data-flag="@X" onclick="openSidebar('289_The Going Luffy-Senpai',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\290_The Going Merry.png" id="290_The Going Merry" data-flag="@X" onclick="openSidebar('290_The Going Merry',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\291_Kuro Kabuto, Pop Green Slingshot.png" id="291_Kuro Kabuto, Pop Green Slingshot" data-flag="@X" onclick="openSidebar('291_Kuro Kabuto, Pop Green Slingshot',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\292_Log Pose.png" id="292_Log Pose" data-flag="@X" onclick="openSidebar('292_Log Pose',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\293_Mask of Sogeking.png" id="293_Mask of Sogeking" data-flag="@X" onclick="openSidebar('293_Mask of Sogeking',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\294_The Moby Dick.png" id="294_The Moby Dick" data-flag="@X" onclick="openSidebar('294_The Moby Dick',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\295_Murakumogiri, Supreme Naginata.png" id="295_Murakumogiri, Supreme Naginata" data-flag="@X" onclick="openSidebar('295_Murakumogiri, Supreme Naginata',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\296_Noah, Ship of Promise.png" id="296_Noah, Ship of Promise" data-flag="@X" onclick="openSidebar('296_Noah, Ship of Promise',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\297_The Oro Jackson.png" id="297_The Oro Jackson" data-flag="@X" onclick="openSidebar('297_The Oro Jackson',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\298_The Pluton Blueprints.png" id="298_The Pluton Blueprints" data-flag="@X" onclick="openSidebar('298_The Pluton Blueprints',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\299_Polar Tang, Submarine.png" id="299_Polar Tang, Submarine" data-flag="@X" onclick="openSidebar('299_Polar Tang, Submarine',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\300_Punishers.png" id="300_Punishers" data-flag="@X" onclick="openSidebar('300_Punishers',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\301_Queen Mama Chanter.png" id="301_Queen Mama Chanter" data-flag="@X" onclick="openSidebar('301_Queen Mama Chanter',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\302_Raid Suit Number 3, Stealth Black.png" id="302_Raid Suit Number 3, Stealth Black" data-flag="@X" onclick="openSidebar('302_Raid Suit Number 3, Stealth Black',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\303_Road Poneglyph.png" id="303_Road Poneglyph" data-flag="@X" onclick="openSidebar('303_Road Poneglyph',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\304_Rocketman, Sea Train.png" id="304_Rocketman, Sea Train" data-flag="@X" onclick="openSidebar('304_Rocketman, Sea Train',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\305_Saber of Xebec.png" id="305_Saber of Xebec" data-flag="@X" onclick="openSidebar('305_Saber of Xebec',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\306_Sandai Kitetsu, Cursed Blade.png" id="306_Sandai Kitetsu, Cursed Blade" data-flag="@X" onclick="openSidebar('306_Sandai Kitetsu, Cursed Blade',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\307_Sorcery Clima-Tact.png" id="307_Sorcery Clima-Tact" data-flag="@X" onclick="openSidebar('307_Sorcery Clima-Tact',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\308_The Strawhat.png" id="308_The Strawhat" data-flag="@X" onclick="openSidebar('308_The Strawhat',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\309_The Striker.png" id="309_The Striker" data-flag="@X" onclick="openSidebar('309_The Striker',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\310_The Thousand Sunny.png" id="310_The Thousand Sunny" data-flag="@X" onclick="openSidebar('310_The Thousand Sunny',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\313_Yoru, Black Blade.png" id="313_Yoru, Black Blade" data-flag="@X" onclick="openSidebar('313_Yoru, Black Blade',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="land" class="anchor"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\312_Whole Cake Island.png" id="312_Whole Cake Island" data-flag="@X" onclick="openSidebar('312_Whole Cake Island',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\323_Drum Island, Sakura Kingdom.png" id="323_Drum Island, Sakura Kingdom" data-flag="@X" onclick="openSidebar('323_Drum Island, Sakura Kingdom',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\311_The Thriller Bark.png" id="311_The Thriller Bark" data-flag="@X" onclick="openSidebar('311_The Thriller Bark',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\315_Arabasta, Desert Kingdom.png" id="315_Arabasta, Desert Kingdom" data-flag="@X" onclick="openSidebar('315_Arabasta, Desert Kingdom',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\355_Wano Kuni, Prevailing Nation.png" id="355_Wano Kuni, Prevailing Nation" data-flag="@X" onclick="openSidebar('355_Wano Kuni, Prevailing Nation',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\336_Marineford, Marine Headquarters.png" id="336_Marineford, Marine Headquarters" data-flag="@X" onclick="openSidebar('336_Marineford, Marine Headquarters',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\356_Water 7, Capital of Water.png" id="356_Water 7, Capital of Water" data-flag="@X" onclick="openSidebar('356_Water 7, Capital of Water',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\333_Impel Down, Underwater Prison.png" id="333_Impel Down, Underwater Prison" data-flag="@X" onclick="openSidebar('333_Impel Down, Underwater Prison',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\322_Dressrosa, Land of Love and Passion.png" id="322_Dressrosa, Land of Love and Passion" data-flag="@X" onclick="openSidebar('322_Dressrosa, Land of Love and Passion',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\361_Zou, Home of the Minks.png" id="361_Zou, Home of the Minks" data-flag="@X" onclick="openSidebar('361_Zou, Home of the Minks',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\332_OPC Hallowed Fountain.png" id="332_OPC Hallowed Fountain" data-flag="@X" onclick="openSidebar('332_OPC Hallowed Fountain',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\352_Tequila Wolf, Bridge to Nowhere.png" id="352_Tequila Wolf, Bridge to Nowhere" data-flag="@X" onclick="openSidebar('352_Tequila Wolf, Bridge to Nowhere',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\317_OPC Blood Crypt.png" id="317_OPC Blood Crypt" data-flag="@X" onclick="openSidebar('317_OPC Blood Crypt',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\319_Boin Archipelago, Stomach Baron.png" id="319_Boin Archipelago, Stomach Baron" data-flag="@X" onclick="openSidebar('319_Boin Archipelago, Stomach Baron',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\327_Fish-Man Island, Ryugu Kingdom.png" id="327_Fish-Man Island, Ryugu Kingdom" data-flag="@X" onclick="openSidebar('327_Fish-Man Island, Ryugu Kingdom',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\358_Weatheria, Meteorology Heaven.png" id="358_Weatheria, Meteorology Heaven" data-flag="@X" onclick="openSidebar('358_Weatheria, Meteorology Heaven',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\357_OPC Watery Grave.png" id="357_OPC Watery Grave" data-flag="@X" onclick="openSidebar('357_OPC Watery Grave',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\335_Kuraigana, Muggy Kingdom.png" id="335_Kuraigana, Muggy Kingdom" data-flag="@X" onclick="openSidebar('335_Kuraigana, Muggy Kingdom',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\350_OPC Stomping Ground.png" id="350_OPC Stomping Ground" data-flag="@X" onclick="openSidebar('350_OPC Stomping Ground',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\351_OPC Temple Garden.png" id="351_OPC Temple Garden" data-flag="@X" onclick="openSidebar('351_OPC Temple Garden',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\330_OPC Godless Shrine.png" id="330_OPC Godless Shrine" data-flag="@X" onclick="openSidebar('330_OPC Godless Shrine',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\334_Karakuri, Future Island Baldimore.png" id="334_Karakuri, Future Island Baldimore" data-flag="@X" onclick="openSidebar('334_Karakuri, Future Island Baldimore',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\342_OPC Overgrown Tomb.png" id="342_OPC Overgrown Tomb" data-flag="@X" onclick="openSidebar('342_OPC Overgrown Tomb',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\340_Momoiro, Kamabakka Queendom.png" id="340_Momoiro, Kamabakka Queendom" data-flag="@X" onclick="openSidebar('340_Momoiro, Kamabakka Queendom',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\320_OPC Breeding Pool.png" id="320_OPC Breeding Pool" data-flag="@X" onclick="openSidebar('320_OPC Breeding Pool',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\341_Namakuri, Land of Poverty.png" id="341_Namakuri, Land of Poverty" data-flag="@X" onclick="openSidebar('341_Namakuri, Land of Poverty',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\349_OPC Steam Vents.png" id="349_OPC Steam Vents" data-flag="@X" onclick="openSidebar('349_OPC Steam Vents',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\346_Rusukaina, Harsh Island.png" id="346_Rusukaina, Harsh Island" data-flag="@X" onclick="openSidebar('346_Rusukaina, Harsh Island',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\347_OPC Sacred Foundry.png" id="347_OPC Sacred Foundry" data-flag="@X" onclick="openSidebar('347_OPC Sacred Foundry',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\353_Torino Kingdom, Medicine Island.png" id="353_Torino Kingdom, Medicine Island" data-flag="@X" onclick="openSidebar('353_Torino Kingdom, Medicine Island',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\314_Amazon Lily, Island of Women.png" id="314_Amazon Lily, Island of Women" data-flag="@X" onclick="openSidebar('314_Amazon Lily, Island of Women',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\316_OPC Arid Mesa.png" id="316_OPC Arid Mesa" data-flag="@X" onclick="openSidebar('316_OPC Arid Mesa',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\318_OPC Bloodstained Mire.png" id="318_OPC Bloodstained Mire" data-flag="@X" onclick="openSidebar('318_OPC Bloodstained Mire',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\321_The Calm Belt.png" id="321_The Calm Belt" data-flag="@X" onclick="openSidebar('321_The Calm Belt',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\324_Egghead, Future Island.png" id="324_Egghead, Future Island" data-flag="@X" onclick="openSidebar('324_Egghead, Future Island',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\325_Enies Lobby, Judicial Island.png" id="325_Enies Lobby, Judicial Island" data-flag="@X" onclick="openSidebar('325_Enies Lobby, Judicial Island',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\326_Fabled Passage.png" id="326_Fabled Passage" data-flag="@X" onclick="openSidebar('326_Fabled Passage',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\328_OPC Flooded Strand.png" id="328_OPC Flooded Strand" data-flag="@X" onclick="openSidebar('328_OPC Flooded Strand',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\329_The Gates of Justice.png" id="329_The Gates of Justice" data-flag="@X" onclick="openSidebar('329_The Gates of Justice',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\331_Hachinosu, Pirate Island.png" id="331_Hachinosu, Pirate Island" data-flag="@X" onclick="openSidebar('331_Hachinosu, Pirate Island',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\337_OPC Marsh Flats.png" id="337_OPC Marsh Flats" data-flag="@X" onclick="openSidebar('337_OPC Marsh Flats',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\338_Mary Geoise, Holy Land.png" id="338_Mary Geoise, Holy Land" data-flag="@X" onclick="openSidebar('338_Mary Geoise, Holy Land',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\339_OPC Misty Rainforest.png" id="339_OPC Misty Rainforest" data-flag="@X" onclick="openSidebar('339_OPC Misty Rainforest',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\343_OPC Polluted Delta.png" id="343_OPC Polluted Delta" data-flag="@X" onclick="openSidebar('343_OPC Polluted Delta',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\344_Raftel, the Final Island.png" id="344_Raftel, the Final Island" data-flag="@X" onclick="openSidebar('344_Raftel, the Final Island',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\345_The Red Line.png" id="345_The Red Line" data-flag="@X" onclick="openSidebar('345_The Red Line',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\348_OPC Scalding Tarn.png" id="348_OPC Scalding Tarn" data-flag="@X" onclick="openSidebar('348_OPC Scalding Tarn',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\354_OPC Verdant Catacombs.png" id="354_OPC Verdant Catacombs" data-flag="@X" onclick="openSidebar('354_OPC Verdant Catacombs',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\359_OPC Windswept Heath.png" id="359_OPC Windswept Heath" data-flag="@X" onclick="openSidebar('359_OPC Windswept Heath',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\360_Wooded Foothills.png" id="360_Wooded Foothills" data-flag="@X" onclick="openSidebar('360_Wooded Foothills',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="token" class="anchor"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\1t_Copy.png" id="1t_Copy" data-flag="@X" onclick="openSidebar('1t_Copy',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\12t_The Monarch.png" id="12t_The Monarch" data-flag="@X" onclick="openSidebar('12t_The Monarch',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\13t_Baseball.png" id="13t_Baseball" data-flag="@X" onclick="openSidebar('13t_Baseball',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\14t_Clue.png" id="14t_Clue" data-flag="@X" onclick="openSidebar('14t_Clue',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\15t_Equipment.png" id="15t_Equipment" data-flag="@X" onclick="openSidebar('15t_Equipment',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\16t_Food.png" id="16t_Food" data-flag="@X" onclick="openSidebar('16t_Food',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\17t_Junk.png" id="17t_Junk" data-flag="@X" onclick="openSidebar('17t_Junk',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\18t_Satellite.png" id="18t_Satellite" data-flag="@X" onclick="openSidebar('18t_Satellite',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\19t_Toy.png" id="19t_Toy" data-flag="@X" onclick="openSidebar('19t_Toy',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\20t_Treasure.png" id="20t_Treasure" data-flag="@X" onclick="openSidebar('20t_Treasure',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\21t_Vehicle.png" id="21t_Vehicle" data-flag="@X" onclick="openSidebar('21t_Vehicle',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\22t_Desert.png" id="22t_Desert" data-flag="@X" onclick="openSidebar('22t_Desert',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\2t_Robot.png" id="2t_Robot" data-flag="@X" onclick="openSidebar('2t_Robot',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\3t_Soldier.png" id="3t_Soldier" data-flag="@X" onclick="openSidebar('3t_Soldier',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\4t_Leviathan.png" id="4t_Leviathan" data-flag="@X" onclick="openSidebar('4t_Leviathan',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\5t_Bird.png" id="5t_Bird" data-flag="@X" onclick="openSidebar('5t_Bird',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\6t_Inkling.png" id="6t_Inkling" data-flag="@X" onclick="openSidebar('6t_Inkling',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\7t_Pirate.png" id="7t_Pirate" data-flag="@X" onclick="openSidebar('7t_Pirate',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\8t_Spirit.png" id="8t_Spirit" data-flag="@X" onclick="openSidebar('8t_Spirit',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\9t_Zombie.png" id="9t_Zombie" data-flag="@X" onclick="openSidebar('9t_Zombie',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\10t_Rebel.png" id="10t_Rebel" data-flag="@X" onclick="openSidebar('10t_Rebel',false)"></div>
-			<div class="container"><img alt="/sets\OPC-files\img\11t_Merfolk.png" id="11t_Merfolk" data-flag="@X" onclick="openSidebar('11t_Merfolk',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\OPC-files\img\288.png" id="OPC_288" data-flag="@X" onclick="openSidebar('OPC_288',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\97.png" id="OPC_97" data-flag="@X" onclick="openSidebar('OPC_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\17.png" id="OPC_17" data-flag="@X" onclick="openSidebar('OPC_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\181.png" id="OPC_181" data-flag="@X" onclick="openSidebar('OPC_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\141.png" id="OPC_141" data-flag="@X" onclick="openSidebar('OPC_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\249.png" id="OPC_249" data-flag="@X" onclick="openSidebar('OPC_249',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\19.png" id="OPC_19" data-flag="@X" onclick="openSidebar('OPC_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\309.png" id="OPC_309" data-flag="@X" onclick="openSidebar('OPC_309',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\332.png" id="OPC_332" data-flag="@X" onclick="openSidebar('OPC_332',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\296.png" id="OPC_296" data-flag="@X" onclick="openSidebar('OPC_296',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\203.png" id="OPC_203" data-flag="@X" onclick="openSidebar('OPC_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\312.png" id="OPC_312" data-flag="@X" onclick="openSidebar('OPC_312',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\336.png" id="OPC_336" data-flag="@X" onclick="openSidebar('OPC_336',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\322.png" id="OPC_322" data-flag="@X" onclick="openSidebar('OPC_322',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\27.png" id="OPC_27" data-flag="@X" onclick="openSidebar('OPC_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\190.png" id="OPC_190" data-flag="@X" onclick="openSidebar('OPC_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\43.png" id="OPC_43" data-flag="@X" onclick="openSidebar('OPC_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\171.png" id="OPC_171" data-flag="@X" onclick="openSidebar('OPC_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\179.png" id="OPC_179" data-flag="@X" onclick="openSidebar('OPC_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\245.png" id="OPC_245" data-flag="@X" onclick="openSidebar('OPC_245',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\187.png" id="OPC_187" data-flag="@X" onclick="openSidebar('OPC_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\161.png" id="OPC_161" data-flag="@X" onclick="openSidebar('OPC_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\44.png" id="OPC_44" data-flag="@X" onclick="openSidebar('OPC_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\178.png" id="OPC_178" data-flag="@X" onclick="openSidebar('OPC_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\303.png" id="OPC_303" data-flag="@X" onclick="openSidebar('OPC_303',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\342.png" id="OPC_342" data-flag="@X" onclick="openSidebar('OPC_342',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\319.png" id="OPC_319" data-flag="@X" onclick="openSidebar('OPC_319',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\194.png" id="OPC_194" data-flag="@X" onclick="openSidebar('OPC_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\66.png" id="OPC_66" data-flag="@X" onclick="openSidebar('OPC_66',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\175.png" id="OPC_175" data-flag="@X" onclick="openSidebar('OPC_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\195.png" id="OPC_195" data-flag="@X" onclick="openSidebar('OPC_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\33.png" id="OPC_33" data-flag="@X" onclick="openSidebar('OPC_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\325.png" id="OPC_325" data-flag="@X" onclick="openSidebar('OPC_325',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\65.png" id="OPC_65" data-flag="@X" onclick="openSidebar('OPC_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\139.png" id="OPC_139" data-flag="@X" onclick="openSidebar('OPC_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\167.png" id="OPC_167" data-flag="@X" onclick="openSidebar('OPC_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\48.png" id="OPC_48" data-flag="@X" onclick="openSidebar('OPC_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\182.png" id="OPC_182" data-flag="@X" onclick="openSidebar('OPC_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\380.png" id="OPC_380" data-flag="@X" onclick="openSidebar('OPC_380',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\1.png" id="OPC_1" data-flag="@X" onclick="openSidebar('OPC_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\197.png" id="OPC_197" data-flag="@X" onclick="openSidebar('OPC_197',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\324.png" id="OPC_324" data-flag="@X" onclick="openSidebar('OPC_324',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\200.png" id="OPC_200" data-flag="@X" onclick="openSidebar('OPC_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\30.png" id="OPC_30" data-flag="@X" onclick="openSidebar('OPC_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\359.png" id="OPC_359" data-flag="@X" onclick="openSidebar('OPC_359',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\191.png" id="OPC_191" data-flag="@X" onclick="openSidebar('OPC_191',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\31.png" id="OPC_31" data-flag="@X" onclick="openSidebar('OPC_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\339.png" id="OPC_339" data-flag="@X" onclick="openSidebar('OPC_339',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\335.png" id="OPC_335" data-flag="@X" onclick="openSidebar('OPC_335',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\351.png" id="OPC_351" data-flag="@X" onclick="openSidebar('OPC_351',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\379.png" id="OPC_379" data-flag="@X" onclick="openSidebar('OPC_379',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\186.png" id="OPC_186" data-flag="@X" onclick="openSidebar('OPC_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\119.png" id="OPC_119" data-flag="@X" onclick="openSidebar('OPC_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\28.png" id="OPC_28" data-flag="@X" onclick="openSidebar('OPC_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\193.png" id="OPC_193" data-flag="@X" onclick="openSidebar('OPC_193',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\257.png" id="OPC_257" data-flag="@X" onclick="openSidebar('OPC_257',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\317.png" id="OPC_317" data-flag="@X" onclick="openSidebar('OPC_317',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\137.png" id="OPC_137" data-flag="@X" onclick="openSidebar('OPC_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\24.png" id="OPC_24" data-flag="@X" onclick="openSidebar('OPC_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\192.png" id="OPC_192" data-flag="@X" onclick="openSidebar('OPC_192',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\244.png" id="OPC_244" data-flag="@X" onclick="openSidebar('OPC_244',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\122.png" id="OPC_122" data-flag="@X" onclick="openSidebar('OPC_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\201.png" id="OPC_201" data-flag="@X" onclick="openSidebar('OPC_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\154.png" id="OPC_154" data-flag="@X" onclick="openSidebar('OPC_154',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\252.png" id="OPC_252" data-flag="@X" onclick="openSidebar('OPC_252',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\118.png" id="OPC_118" data-flag="@X" onclick="openSidebar('OPC_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\292.png" id="OPC_292" data-flag="@X" onclick="openSidebar('OPC_292',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\152.png" id="OPC_152" data-flag="@X" onclick="openSidebar('OPC_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\143.png" id="OPC_143" data-flag="@X" onclick="openSidebar('OPC_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\0.png" id="OPC_0" data-flag="@X" onclick="openSidebar('OPC_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\243.png" id="OPC_243" data-flag="@X" onclick="openSidebar('OPC_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\164.png" id="OPC_164" data-flag="@X" onclick="openSidebar('OPC_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\64.png" id="OPC_64" data-flag="@X" onclick="openSidebar('OPC_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\72.png" id="OPC_72" data-flag="@X" onclick="openSidebar('OPC_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\304.png" id="OPC_304" data-flag="@X" onclick="openSidebar('OPC_304',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\287.png" id="OPC_287" data-flag="@X" onclick="openSidebar('OPC_287',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\123.png" id="OPC_123" data-flag="@X" onclick="openSidebar('OPC_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\311.png" id="OPC_311" data-flag="@X" onclick="openSidebar('OPC_311',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\71.png" id="OPC_71" data-flag="@X" onclick="openSidebar('OPC_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\121.png" id="OPC_121" data-flag="@X" onclick="openSidebar('OPC_121',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\68.png" id="OPC_68" data-flag="@X" onclick="openSidebar('OPC_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\363.png" id="OPC_363" data-flag="@X" onclick="openSidebar('OPC_363',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\361.png" id="OPC_361" data-flag="@X" onclick="openSidebar('OPC_361',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\73.png" id="OPC_73" data-flag="@X" onclick="openSidebar('OPC_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\150.png" id="OPC_150" data-flag="@X" onclick="openSidebar('OPC_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\285.png" id="OPC_285" data-flag="@X" onclick="openSidebar('OPC_285',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\129.png" id="OPC_129" data-flag="@X" onclick="openSidebar('OPC_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\155.png" id="OPC_155" data-flag="@X" onclick="openSidebar('OPC_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\337.png" id="OPC_337" data-flag="@X" onclick="openSidebar('OPC_337',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\340.png" id="OPC_340" data-flag="@X" onclick="openSidebar('OPC_340',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\301.png" id="OPC_301" data-flag="@X" onclick="openSidebar('OPC_301',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\38.png" id="OPC_38" data-flag="@X" onclick="openSidebar('OPC_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\299.png" id="OPC_299" data-flag="@X" onclick="openSidebar('OPC_299',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\132.png" id="OPC_132" data-flag="@X" onclick="openSidebar('OPC_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\205.png" id="OPC_205" data-flag="@X" onclick="openSidebar('OPC_205',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\22.png" id="OPC_22" data-flag="@X" onclick="openSidebar('OPC_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\46.png" id="OPC_46" data-flag="@X" onclick="openSidebar('OPC_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\210.png" id="OPC_210" data-flag="@X" onclick="openSidebar('OPC_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\59.png" id="OPC_59" data-flag="@X" onclick="openSidebar('OPC_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\185.png" id="OPC_185" data-flag="@X" onclick="openSidebar('OPC_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\284.png" id="OPC_284" data-flag="@X" onclick="openSidebar('OPC_284',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\131.png" id="OPC_131" data-flag="@X" onclick="openSidebar('OPC_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\124.png" id="OPC_124" data-flag="@X" onclick="openSidebar('OPC_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\60.png" id="OPC_60" data-flag="@X" onclick="openSidebar('OPC_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\211.png" id="OPC_211" data-flag="@X" onclick="openSidebar('OPC_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\318.png" id="OPC_318" data-flag="@X" onclick="openSidebar('OPC_318',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\120.png" id="OPC_120" data-flag="@X" onclick="openSidebar('OPC_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\199.png" id="OPC_199" data-flag="@X" onclick="openSidebar('OPC_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\208.png" id="OPC_208" data-flag="@X" onclick="openSidebar('OPC_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\314.png" id="OPC_314" data-flag="@X" onclick="openSidebar('OPC_314',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\50.png" id="OPC_50" data-flag="@X" onclick="openSidebar('OPC_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\239.png" id="OPC_239" data-flag="@X" onclick="openSidebar('OPC_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\183.png" id="OPC_183" data-flag="@X" onclick="openSidebar('OPC_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\202.png" id="OPC_202" data-flag="@X" onclick="openSidebar('OPC_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\62.png" id="OPC_62" data-flag="@X" onclick="openSidebar('OPC_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\362.png" id="OPC_362" data-flag="@X" onclick="openSidebar('OPC_362',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\35.png" id="OPC_35" data-flag="@X" onclick="openSidebar('OPC_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\15.png" id="OPC_15" data-flag="@X" onclick="openSidebar('OPC_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\212.png" id="OPC_212" data-flag="@X" onclick="openSidebar('OPC_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\41.png" id="OPC_41" data-flag="@X" onclick="openSidebar('OPC_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\127.png" id="OPC_127" data-flag="@X" onclick="openSidebar('OPC_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\207.png" id="OPC_207" data-flag="@X" onclick="openSidebar('OPC_207',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\163.png" id="OPC_163" data-flag="@X" onclick="openSidebar('OPC_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\18.png" id="OPC_18" data-flag="@X" onclick="openSidebar('OPC_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\169.png" id="OPC_169" data-flag="@X" onclick="openSidebar('OPC_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\308.png" id="OPC_308" data-flag="@X" onclick="openSidebar('OPC_308',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\295.png" id="OPC_295" data-flag="@X" onclick="openSidebar('OPC_295',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\269.png" id="OPC_269" data-flag="@X" onclick="openSidebar('OPC_269',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\213.png" id="OPC_213" data-flag="@X" onclick="openSidebar('OPC_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\310.png" id="OPC_310" data-flag="@X" onclick="openSidebar('OPC_310',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\37.png" id="OPC_37" data-flag="@X" onclick="openSidebar('OPC_37',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\36.png" id="OPC_36" data-flag="@X" onclick="openSidebar('OPC_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\293.png" id="OPC_293" data-flag="@X" onclick="openSidebar('OPC_293',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\159.png" id="OPC_159" data-flag="@X" onclick="openSidebar('OPC_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\160.png" id="OPC_160" data-flag="@X" onclick="openSidebar('OPC_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\83.png" id="OPC_83" data-flag="@X" onclick="openSidebar('OPC_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\343.png" id="OPC_343" data-flag="@X" onclick="openSidebar('OPC_343',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\29.png" id="OPC_29" data-flag="@X" onclick="openSidebar('OPC_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\125.png" id="OPC_125" data-flag="@X" onclick="openSidebar('OPC_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\217.png" id="OPC_217" data-flag="@X" onclick="openSidebar('OPC_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\105.png" id="OPC_105" data-flag="@X" onclick="openSidebar('OPC_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\227.png" id="OPC_227" data-flag="@X" onclick="openSidebar('OPC_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\172.png" id="OPC_172" data-flag="@X" onclick="openSidebar('OPC_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\297.png" id="OPC_297" data-flag="@X" onclick="openSidebar('OPC_297',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\188.png" id="OPC_188" data-flag="@X" onclick="openSidebar('OPC_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\219.png" id="OPC_219" data-flag="@X" onclick="openSidebar('OPC_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\341.png" id="OPC_341" data-flag="@X" onclick="openSidebar('OPC_341',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\174.png" id="OPC_174" data-flag="@X" onclick="openSidebar('OPC_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\291.png" id="OPC_291" data-flag="@X" onclick="openSidebar('OPC_291',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\356.png" id="OPC_356" data-flag="@X" onclick="openSidebar('OPC_356',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\242.png" id="OPC_242" data-flag="@X" onclick="openSidebar('OPC_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\215.png" id="OPC_215" data-flag="@X" onclick="openSidebar('OPC_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\67.png" id="OPC_67" data-flag="@X" onclick="openSidebar('OPC_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\298.png" id="OPC_298" data-flag="@X" onclick="openSidebar('OPC_298',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\221.png" id="OPC_221" data-flag="@X" onclick="openSidebar('OPC_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\162.png" id="OPC_162" data-flag="@X" onclick="openSidebar('OPC_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\246.png" id="OPC_246" data-flag="@X" onclick="openSidebar('OPC_246',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\173.png" id="OPC_173" data-flag="@X" onclick="openSidebar('OPC_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\189.png" id="OPC_189" data-flag="@X" onclick="openSidebar('OPC_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\358.png" id="OPC_358" data-flag="@X" onclick="openSidebar('OPC_358',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\145.png" id="OPC_145" data-flag="@X" onclick="openSidebar('OPC_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\218.png" id="OPC_218" data-flag="@X" onclick="openSidebar('OPC_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\147.png" id="OPC_147" data-flag="@X" onclick="openSidebar('OPC_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\323.png" id="OPC_323" data-flag="@X" onclick="openSidebar('OPC_323',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\170.png" id="OPC_170" data-flag="@X" onclick="openSidebar('OPC_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\248.png" id="OPC_248" data-flag="@X" onclick="openSidebar('OPC_248',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\259.png" id="OPC_259" data-flag="@X" onclick="openSidebar('OPC_259',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\316.png" id="OPC_316" data-flag="@X" onclick="openSidebar('OPC_316',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\302.png" id="OPC_302" data-flag="@X" onclick="openSidebar('OPC_302',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\270.png" id="OPC_270" data-flag="@X" onclick="openSidebar('OPC_270',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\104.png" id="OPC_104" data-flag="@X" onclick="openSidebar('OPC_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\156.png" id="OPC_156" data-flag="@X" onclick="openSidebar('OPC_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\360.png" id="OPC_360" data-flag="@X" onclick="openSidebar('OPC_360',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\220.png" id="OPC_220" data-flag="@X" onclick="openSidebar('OPC_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\357.png" id="OPC_357" data-flag="@X" onclick="openSidebar('OPC_357',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\224.png" id="OPC_224" data-flag="@X" onclick="openSidebar('OPC_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\214.png" id="OPC_214" data-flag="@X" onclick="openSidebar('OPC_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\21.png" id="OPC_21" data-flag="@X" onclick="openSidebar('OPC_21',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\34.png" id="OPC_34" data-flag="@X" onclick="openSidebar('OPC_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\263.png" id="OPC_263" data-flag="@X" onclick="openSidebar('OPC_263',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\327.png" id="OPC_327" data-flag="@X" onclick="openSidebar('OPC_327',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\49.png" id="OPC_49" data-flag="@X" onclick="openSidebar('OPC_49',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\223.png" id="OPC_223" data-flag="@X" onclick="openSidebar('OPC_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\315.png" id="OPC_315" data-flag="@X" onclick="openSidebar('OPC_315',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\166.png" id="OPC_166" data-flag="@X" onclick="openSidebar('OPC_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\106.png" id="OPC_106" data-flag="@X" onclick="openSidebar('OPC_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\101.png" id="OPC_101" data-flag="@X" onclick="openSidebar('OPC_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\142.png" id="OPC_142" data-flag="@X" onclick="openSidebar('OPC_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\222.png" id="OPC_222" data-flag="@X" onclick="openSidebar('OPC_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\58.png" id="OPC_58" data-flag="@X" onclick="openSidebar('OPC_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\144.png" id="OPC_144" data-flag="@X" onclick="openSidebar('OPC_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\228.png" id="OPC_228" data-flag="@X" onclick="openSidebar('OPC_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\42.png" id="OPC_42" data-flag="@X" onclick="openSidebar('OPC_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\12.png" id="OPC_12" data-flag="@X" onclick="openSidebar('OPC_12',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\250.png" id="OPC_250" data-flag="@X" onclick="openSidebar('OPC_250',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\32.png" id="OPC_32" data-flag="@X" onclick="openSidebar('OPC_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\230.png" id="OPC_230" data-flag="@X" onclick="openSidebar('OPC_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\226.png" id="OPC_226" data-flag="@X" onclick="openSidebar('OPC_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\40.png" id="OPC_40" data-flag="@X" onclick="openSidebar('OPC_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\149.png" id="OPC_149" data-flag="@X" onclick="openSidebar('OPC_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\20.png" id="OPC_20" data-flag="@X" onclick="openSidebar('OPC_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\231.png" id="OPC_231" data-flag="@X" onclick="openSidebar('OPC_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\229.png" id="OPC_229" data-flag="@X" onclick="openSidebar('OPC_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\196.png" id="OPC_196" data-flag="@X" onclick="openSidebar('OPC_196',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\140.png" id="OPC_140" data-flag="@X" onclick="openSidebar('OPC_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\306.png" id="OPC_306" data-flag="@X" onclick="openSidebar('OPC_306',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\232.png" id="OPC_232" data-flag="@X" onclick="openSidebar('OPC_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\184.png" id="OPC_184" data-flag="@X" onclick="openSidebar('OPC_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\307.png" id="OPC_307" data-flag="@X" onclick="openSidebar('OPC_307',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\151.png" id="OPC_151" data-flag="@X" onclick="openSidebar('OPC_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\209.png" id="OPC_209" data-flag="@X" onclick="openSidebar('OPC_209',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\240.png" id="OPC_240" data-flag="@X" onclick="openSidebar('OPC_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\100.png" id="OPC_100" data-flag="@X" onclick="openSidebar('OPC_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\350.png" id="OPC_350" data-flag="@X" onclick="openSidebar('OPC_350',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\233.png" id="OPC_233" data-flag="@X" onclick="openSidebar('OPC_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\290.png" id="OPC_290" data-flag="@X" onclick="openSidebar('OPC_290',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\326.png" id="OPC_326" data-flag="@X" onclick="openSidebar('OPC_326',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\294.png" id="OPC_294" data-flag="@X" onclick="openSidebar('OPC_294',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\99.png" id="OPC_99" data-flag="@X" onclick="openSidebar('OPC_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\234.png" id="OPC_234" data-flag="@X" onclick="openSidebar('OPC_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\14.png" id="OPC_14" data-flag="@X" onclick="openSidebar('OPC_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\206.png" id="OPC_206" data-flag="@X" onclick="openSidebar('OPC_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\305.png" id="OPC_305" data-flag="@X" onclick="openSidebar('OPC_305',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\103.png" id="OPC_103" data-flag="@X" onclick="openSidebar('OPC_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\264.png" id="OPC_264" data-flag="@X" onclick="openSidebar('OPC_264',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\51.png" id="OPC_51" data-flag="@X" onclick="openSidebar('OPC_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\235.png" id="OPC_235" data-flag="@X" onclick="openSidebar('OPC_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\177.png" id="OPC_177" data-flag="@X" onclick="openSidebar('OPC_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\138.png" id="OPC_138" data-flag="@X" onclick="openSidebar('OPC_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\158.png" id="OPC_158" data-flag="@X" onclick="openSidebar('OPC_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\237.png" id="OPC_237" data-flag="@X" onclick="openSidebar('OPC_237',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\300.png" id="OPC_300" data-flag="@X" onclick="openSidebar('OPC_300',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\321.png" id="OPC_321" data-flag="@X" onclick="openSidebar('OPC_321',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\313.png" id="OPC_313" data-flag="@X" onclick="openSidebar('OPC_313',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\148.png" id="OPC_148" data-flag="@X" onclick="openSidebar('OPC_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\267.png" id="OPC_267" data-flag="@X" onclick="openSidebar('OPC_267',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\16.png" id="OPC_16" data-flag="@X" onclick="openSidebar('OPC_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\45.png" id="OPC_45" data-flag="@X" onclick="openSidebar('OPC_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\2.png" id="OPC_2" data-flag="@X" onclick="openSidebar('OPC_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\7.png" id="OPC_7" data-flag="@X" onclick="openSidebar('OPC_7',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\11.png" id="OPC_11" data-flag="@X" onclick="openSidebar('OPC_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\3.png" id="OPC_3" data-flag="@X" onclick="openSidebar('OPC_3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\13.png" id="OPC_13" data-flag="@X" onclick="openSidebar('OPC_13',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\236.png" id="OPC_236" data-flag="@X" onclick="openSidebar('OPC_236',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\146.png" id="OPC_146" data-flag="@X" onclick="openSidebar('OPC_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\225.png" id="OPC_225" data-flag="@X" onclick="openSidebar('OPC_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\348.png" id="OPC_348" data-flag="@X" onclick="openSidebar('OPC_348',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\4.png" id="OPC_4" data-flag="@X" onclick="openSidebar('OPC_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\268.png" id="OPC_268" data-flag="@X" onclick="openSidebar('OPC_268',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\102.png" id="OPC_102" data-flag="@X" onclick="openSidebar('OPC_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\331.png" id="OPC_331" data-flag="@X" onclick="openSidebar('OPC_331',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\216.png" id="OPC_216" data-flag="@X" onclick="openSidebar('OPC_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\25.png" id="OPC_25" data-flag="@X" onclick="openSidebar('OPC_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\289.png" id="OPC_289" data-flag="@X" onclick="openSidebar('OPC_289',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\98.png" id="OPC_98" data-flag="@X" onclick="openSidebar('OPC_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\8.png" id="OPC_8" data-flag="@X" onclick="openSidebar('OPC_8',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\61.png" id="OPC_61" data-flag="@X" onclick="openSidebar('OPC_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\265.png" id="OPC_265" data-flag="@X" onclick="openSidebar('OPC_265',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\126.png" id="OPC_126" data-flag="@X" onclick="openSidebar('OPC_126',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\266.png" id="OPC_266" data-flag="@X" onclick="openSidebar('OPC_266',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\176.png" id="OPC_176" data-flag="@X" onclick="openSidebar('OPC_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\9.png" id="OPC_9" data-flag="@X" onclick="openSidebar('OPC_9',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\26.png" id="OPC_26" data-flag="@X" onclick="openSidebar('OPC_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\39.png" id="OPC_39" data-flag="@X" onclick="openSidebar('OPC_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\204.png" id="OPC_204" data-flag="@X" onclick="openSidebar('OPC_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\320.png" id="OPC_320" data-flag="@X" onclick="openSidebar('OPC_320',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\47.png" id="OPC_47" data-flag="@X" onclick="openSidebar('OPC_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\5.png" id="OPC_5" data-flag="@X" onclick="openSidebar('OPC_5',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\10.png" id="OPC_10" data-flag="@X" onclick="openSidebar('OPC_10',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\6.png" id="OPC_6" data-flag="@X" onclick="openSidebar('OPC_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\258.png" id="OPC_258" data-flag="@X" onclick="openSidebar('OPC_258',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\241.png" id="OPC_241" data-flag="@X" onclick="openSidebar('OPC_241',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\23.png" id="OPC_23" data-flag="@X" onclick="openSidebar('OPC_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\286.png" id="OPC_286" data-flag="@X" onclick="openSidebar('OPC_286',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\198.png" id="OPC_198" data-flag="@X" onclick="openSidebar('OPC_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\381.png" id="OPC_381" data-flag="@X" onclick="openSidebar('OPC_381',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\253.png" id="OPC_253" data-flag="@X" onclick="openSidebar('OPC_253',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="OPC_e" data-flag="@E" onclick="openSidebar('OPC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="OPC_e" data-flag="@E" onclick="openSidebar('OPC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="OPC_e" data-flag="@E" onclick="openSidebar('OPC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\353.png" id="OPC_353" data-flag="@X" onclick="openSidebar('OPC_353',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\168.png" id="OPC_168" data-flag="@X" onclick="openSidebar('OPC_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\255.png" id="OPC_255" data-flag="@X" onclick="openSidebar('OPC_255',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\180.png" id="OPC_180" data-flag="@X" onclick="openSidebar('OPC_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\338.png" id="OPC_338" data-flag="@X" onclick="openSidebar('OPC_338',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\261.png" id="OPC_261" data-flag="@X" onclick="openSidebar('OPC_261',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\157.png" id="OPC_157" data-flag="@X" onclick="openSidebar('OPC_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\355.png" id="OPC_355" data-flag="@X" onclick="openSidebar('OPC_355',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\333.png" id="OPC_333" data-flag="@X" onclick="openSidebar('OPC_333',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\347.png" id="OPC_347" data-flag="@X" onclick="openSidebar('OPC_347',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\55.png" id="OPC_55" data-flag="@X" onclick="openSidebar('OPC_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\53.png" id="OPC_53" data-flag="@X" onclick="openSidebar('OPC_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\262.png" id="OPC_262" data-flag="@X" onclick="openSidebar('OPC_262',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\69.png" id="OPC_69" data-flag="@X" onclick="openSidebar('OPC_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\165.png" id="OPC_165" data-flag="@X" onclick="openSidebar('OPC_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\54.png" id="OPC_54" data-flag="@X" onclick="openSidebar('OPC_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\354.png" id="OPC_354" data-flag="@X" onclick="openSidebar('OPC_354',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\344.png" id="OPC_344" data-flag="@X" onclick="openSidebar('OPC_344',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\345.png" id="OPC_345" data-flag="@X" onclick="openSidebar('OPC_345',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\330.png" id="OPC_330" data-flag="@X" onclick="openSidebar('OPC_330',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\256.png" id="OPC_256" data-flag="@X" onclick="openSidebar('OPC_256',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\349.png" id="OPC_349" data-flag="@X" onclick="openSidebar('OPC_349',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\56.png" id="OPC_56" data-flag="@X" onclick="openSidebar('OPC_56',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\352.png" id="OPC_352" data-flag="@X" onclick="openSidebar('OPC_352',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\130.png" id="OPC_130" data-flag="@X" onclick="openSidebar('OPC_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\128.png" id="OPC_128" data-flag="@X" onclick="openSidebar('OPC_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\334.png" id="OPC_334" data-flag="@X" onclick="openSidebar('OPC_334',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\247.png" id="OPC_247" data-flag="@X" onclick="openSidebar('OPC_247',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\254.png" id="OPC_254" data-flag="@X" onclick="openSidebar('OPC_254',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\63.png" id="OPC_63" data-flag="@X" onclick="openSidebar('OPC_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\346.png" id="OPC_346" data-flag="@X" onclick="openSidebar('OPC_346',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\57.png" id="OPC_57" data-flag="@X" onclick="openSidebar('OPC_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\260.png" id="OPC_260" data-flag="@X" onclick="openSidebar('OPC_260',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="OPC_e" data-flag="@E" onclick="openSidebar('OPC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="OPC_e" data-flag="@E" onclick="openSidebar('OPC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\276.png" id="OPC_276" data-flag="@X" onclick="openSidebar('OPC_276',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\278.png" id="OPC_278" data-flag="@X" onclick="openSidebar('OPC_278',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\52.png" id="OPC_52" data-flag="@X" onclick="openSidebar('OPC_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\275.png" id="OPC_275" data-flag="@X" onclick="openSidebar('OPC_275',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\277.png" id="OPC_277" data-flag="@X" onclick="openSidebar('OPC_277',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\95.png" id="OPC_95" data-flag="@X" onclick="openSidebar('OPC_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\281.png" id="OPC_281" data-flag="@X" onclick="openSidebar('OPC_281',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\273.png" id="OPC_273" data-flag="@X" onclick="openSidebar('OPC_273',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\280.png" id="OPC_280" data-flag="@X" onclick="openSidebar('OPC_280',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\117.png" id="OPC_117" data-flag="@X" onclick="openSidebar('OPC_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\76.png" id="OPC_76" data-flag="@X" onclick="openSidebar('OPC_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\111.png" id="OPC_111" data-flag="@X" onclick="openSidebar('OPC_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\74.png" id="OPC_74" data-flag="@X" onclick="openSidebar('OPC_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\108.png" id="OPC_108" data-flag="@X" onclick="openSidebar('OPC_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\116.png" id="OPC_116" data-flag="@X" onclick="openSidebar('OPC_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\107.png" id="OPC_107" data-flag="@X" onclick="openSidebar('OPC_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\82.png" id="OPC_82" data-flag="@X" onclick="openSidebar('OPC_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\115.png" id="OPC_115" data-flag="@X" onclick="openSidebar('OPC_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\80.png" id="OPC_80" data-flag="@X" onclick="openSidebar('OPC_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\81.png" id="OPC_81" data-flag="@X" onclick="openSidebar('OPC_81',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\84.png" id="OPC_84" data-flag="@X" onclick="openSidebar('OPC_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\112.png" id="OPC_112" data-flag="@X" onclick="openSidebar('OPC_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\77.png" id="OPC_77" data-flag="@X" onclick="openSidebar('OPC_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\109.png" id="OPC_109" data-flag="@X" onclick="openSidebar('OPC_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\75.png" id="OPC_75" data-flag="@X" onclick="openSidebar('OPC_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\113.png" id="OPC_113" data-flag="@X" onclick="openSidebar('OPC_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\79.png" id="OPC_79" data-flag="@X" onclick="openSidebar('OPC_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\114.png" id="OPC_114" data-flag="@X" onclick="openSidebar('OPC_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\78.png" id="OPC_78" data-flag="@X" onclick="openSidebar('OPC_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\110.png" id="OPC_110" data-flag="@X" onclick="openSidebar('OPC_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\328.png" id="OPC_328" data-flag="@X" onclick="openSidebar('OPC_328',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\85.png" id="OPC_85" data-flag="@X" onclick="openSidebar('OPC_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\86.png" id="OPC_86" data-flag="@X" onclick="openSidebar('OPC_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\272.png" id="OPC_272" data-flag="@X" onclick="openSidebar('OPC_272',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\96.png" id="OPC_96" data-flag="@X" onclick="openSidebar('OPC_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\282.png" id="OPC_282" data-flag="@X" onclick="openSidebar('OPC_282',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\70.png" id="OPC_70" data-flag="@X" onclick="openSidebar('OPC_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\87.png" id="OPC_87" data-flag="@X" onclick="openSidebar('OPC_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\283.png" id="OPC_283" data-flag="@X" onclick="openSidebar('OPC_283',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\329.png" id="OPC_329" data-flag="@X" onclick="openSidebar('OPC_329',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\88.png" id="OPC_88" data-flag="@X" onclick="openSidebar('OPC_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\279.png" id="OPC_279" data-flag="@X" onclick="openSidebar('OPC_279',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\89.png" id="OPC_89" data-flag="@X" onclick="openSidebar('OPC_89',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\90.png" id="OPC_90" data-flag="@X" onclick="openSidebar('OPC_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\271.png" id="OPC_271" data-flag="@X" onclick="openSidebar('OPC_271',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\274.png" id="OPC_274" data-flag="@X" onclick="openSidebar('OPC_274',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\91.png" id="OPC_91" data-flag="@X" onclick="openSidebar('OPC_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\92.png" id="OPC_92" data-flag="@X" onclick="openSidebar('OPC_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\93.png" id="OPC_93" data-flag="@X" onclick="openSidebar('OPC_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\94.png" id="OPC_94" data-flag="@X" onclick="openSidebar('OPC_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\369.png" id="OPC_369" data-flag="@X" onclick="openSidebar('OPC_369',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\378.png" id="OPC_378" data-flag="@X" onclick="openSidebar('OPC_378',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\372.png" id="OPC_372" data-flag="@X" onclick="openSidebar('OPC_372',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\367.png" id="OPC_367" data-flag="@X" onclick="openSidebar('OPC_367',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\370.png" id="OPC_370" data-flag="@X" onclick="openSidebar('OPC_370',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\368.png" id="OPC_368" data-flag="@X" onclick="openSidebar('OPC_368',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\371.png" id="OPC_371" data-flag="@X" onclick="openSidebar('OPC_371',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\365.png" id="OPC_365" data-flag="@X" onclick="openSidebar('OPC_365',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\377.png" id="OPC_377" data-flag="@X" onclick="openSidebar('OPC_377',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\133.png" id="OPC_133" data-flag="@X" onclick="openSidebar('OPC_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\376.png" id="OPC_376" data-flag="@X" onclick="openSidebar('OPC_376',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\251.png" id="OPC_251" data-flag="@X" onclick="openSidebar('OPC_251',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\364.png" id="OPC_364" data-flag="@X" onclick="openSidebar('OPC_364',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\135.png" id="OPC_135" data-flag="@X" onclick="openSidebar('OPC_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\366.png" id="OPC_366" data-flag="@X" onclick="openSidebar('OPC_366',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\238.png" id="OPC_238" data-flag="@X" onclick="openSidebar('OPC_238',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\375.png" id="OPC_375" data-flag="@X" onclick="openSidebar('OPC_375',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\136.png" id="OPC_136" data-flag="@X" onclick="openSidebar('OPC_136',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\374.png" id="OPC_374" data-flag="@X" onclick="openSidebar('OPC_374',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\373.png" id="OPC_373" data-flag="@X" onclick="openSidebar('OPC_373',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\134.png" id="OPC_134" data-flag="@X" onclick="openSidebar('OPC_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\OPC-files\img\153.png" id="OPC_153" data-flag="@X" onclick="openSidebar('OPC_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="OPC_e" data-flag="@E" onclick="openSidebar('OPC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="OPC_e" data-flag="@E" onclick="openSidebar('OPC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="OPC_e" data-flag="@E" onclick="openSidebar('OPC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="OPC_er" data-flag="@E" onclick="openSidebar('OPC_er',false)"></div>
 	</div>
-</div>
+	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -639,13 +681,13 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
@@ -653,8 +695,100 @@
 
 				card_list_arrayified = card_list.cards;
 
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
 		preloadImgs = document.getElementsByClassName('preload-hidden');
-		
+
 		let images_loaded = [];
 
 		do {
@@ -686,13 +820,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -718,49 +855,75 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
 		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
-		
+
 		document.getElementById('sidebar').style.display = 'grid';
 
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -775,7 +938,7 @@
 			document.getElementById('sidebar-flip-btn').style.display = 'none';
 		}
 		document.getElementById('main-content').style.width = '60%';
-		
+
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
 		setSidebarTop();
@@ -786,10 +949,30 @@
 
 		document.getElementById('sidebar').style.display = 'none';
 		document.getElementById('main-content').style.width = '100%';
-		
+
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
 	}
 
 	document.getElementById("search").addEventListener("keypress", function(event) {
@@ -800,16 +983,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -819,7 +1002,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

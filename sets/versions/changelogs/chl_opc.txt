@@ -1,4 +1,1043 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Marshal D Teach, Blackbeard added.
+The God Valley Massacre added.
+Madam Shyarly, Fortune Teller added.
+Locked in Impel Down added.
+We Are! added.
+Curly Dadan, Foster Bandit added.
+Catarina Devon, Kitsune Imitator added.
+Collective Offensive added.
+Gol D Roger, Pirate King added.
+
+Marshal D. Teach, Blackbeard removed.
+Reinstated Bounties removed.
+Gol D. Roger, Pirate King removed.
+Madam Shyarly, Fortuneteller removed.
+Locked Away removed.
+United Dreams removed.
+Curly Dadan, Foster Mother removed.
+Catarina Devon, Nine-Tail Imitator removed.
+Flag of the Revolutionaries removed.
+Collective Charge removed.
+
+Dorry and Brogy, Giant Warriors
+
+Cat and Dog, Nekomamushi and Inuarashi
+rules_text: Cat & Dog can't be blocked by creatures with power 2 or less.
+Whenever Cat & Dog deal combat damage to a player, choose one—
+• Destroy up to one target artifact or enchantment.
+• Put a +1/+1 counter on Cat & Dog.
+• Draw a card. => Cat & Dog can't be blocked by creatures with power 2 or less.
+Whenever Cat & Dog deal combat damage to a player, choose one—
+• Destroy up to one target artifact or enchantment.
+• Put two +1/+1 counters on Cat & Dog.
+• Draw a card.
+pt: 3/2 => 2/3
+
+Straw Hat Luffy, Dreamer
+rules_text: Trample; Hexproof from instants
+When Straw Hat Luffy enters, target opponent becomes the monarch.
+Whenever Straw Hat Luffy attacks the monarch, double his power and toughness until end of turn. => Trample, reach, hexproof from instants
+When Straw Hat Luffy enters, target opponent becomes the monarch.
+Whenever Straw Hat Luffy attacks the monarch, double his power and toughness until end of turn.
+
+Nami, Cat Burglar
+cost: {1}{U}{B} => {U}{B}
+rules_text: Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]
+Sacrifice two artifacts: Draw a card.
+Whenever Nami deals combat damage to a player, you may pay 2 life. If you do, create two tapped Treasure tokens. => Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]
+Whenever Nami deals combat damage to a player, she explores. [i](Reveal the top card of your library. Put it into your hand if it's a land. Otherwise, put a +1/+1 counter on Nami, then put it back or mill it.)[/i]
+Remove a +1/+1 counter from Nami: Create a tapped Treasure token.
+pt: 2/3 => 1/3
+
+Zoro, Pirate Hunter
+
+Usopp, Sniper King
+
+Nico Robin, Archeologist
+rules_text: 
+At the beginning of your end step, exile a card from your graveyard.
+You may play cards exiled with Nico Robin. => At the beginning of your end step, you may exile a card from your graveyard with a history counter on it.
+You may play cards with history counters on them from exile. Whenever you do, surveil 1. If a spell cast this way would be put into a graveyard, exile it instead.
+pt: 2/2 => 2/4
+
+Chopper, Cure Concocter
+
+Brook, Soul King
+rules_text: As long as Brook is a token, he isn't legendary.
+Whenever a creature you control not named Brook dies, each opponent loses 1 life and you gain 1 life.
+Encore {1}{W}{B} [i]({1}{W}{B}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)[/i] => As long as Brook is a token, he isn't legendary.
+Whenever another non-Bard creature you control dies, each opponent loses 1 life and you gain 1 life.
+Encore {1}{W}{B} [i]({1}{W}{B}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)[/i]
+
+Franky, Cyborg Shipwright
+rules_text: Whenever Franky becomes tapped, discard a card, then draw a card.
+{3}, {T}, Sacrifice an artifact: Return target artifact card from your graveyard to the battlefield. => Whenever Franky becomes tapped, discard a card, then draw a card.
+Whenever another artifact card is put into your graveyard from anywhere, you may create a token that's a copy of it, except its a 2/1 Vehicle artifact with crew 3 in addition to its other abilities. It loses all other types. Do this only once each turn.
+pt: 4/3 => 3/3
+
+Sanji, Chef En Flambé
+
+Jinbe, Knight of the Sea
+rules_text: Jinbe crews Vehicles using his toughness rather than his power.
+Artifact creatures you control get +2/+2 and have vigilance. => When Jinbe enters, look at the top five cards of your library. You may reveal a Vehicle card from among them and put it into your hand. Put the rest on the bottom of your library in any order. If you didn't put a card into your hand this way, draw a card.
+Jinbe crews vehicles using his toughness rather than his power.
+pt: 2/5 => 1/5
+
+Red Hair Shanks
+cost: {5}{R}{R} => {4}{R}{R}{R}
+rules_text: First strike
+Whenever Red Hair Shanks attacks, he deals 1 damage to each opponent.
+[i]Landfall[/i] — Whenever a land you control enters, if it's your turn, after this phase, there is an additional combat phase.
+At the beginning of combat on each of your turns, untap all creatures you control. => First strike
+Whenever Shanks attacks, he deals damage equal to his power distributed as you choose among any number of target opponents.
+[i]Landfall[/i] — Whenever a land you control enters, if it's your main phase, there's an additional combat phase after this phase. At the beginning of that combat, untap all creatures you control.
+pt: 7/3 => 6/4
+
+Kaidou, Strongest Creature
+
+Whitebeard, Roaring Patriarch
+
+The Five Elders
+
+Akainu, Thorough Admiral
+pt: 4/3 => 5/3
+
+Kizaru, Flippant Admiral
+
+Aokiji, Lazy Admiral
+
+Smoker the White Hunter
+
+Rob Luccy, Massacre Weapon
+rules_text: When Rob Luccy enters, other creatures get -2/-2 until end of turn.
+Whenever a creature dies, each opponent loses 2 life. => When Rob Luccy enters, other creatures get -2/-2 until end of turn.
+Whenever a creature dies, Rob Luccy deals 2 damage to each opponent.
+
+Koby the Hero
+
+Wapol, Munch Machine
+
+Eustass Captain Kid
+
+Buggy, the Star Clown
+rules_text: Renown 1 [i](When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)[/i]
+Whenever Buggy attacks, for each opponent he isn't attacking, create a nonlegendary token copy of him except it has “At the end of your combat, if this creature hasn't dealt damage to an opponent this turn, sacrifice it.” It enters tapped and attacking that opponent. => Menace
+Whenever Buggy attacks, create X nonlegendary token copies of Buggy, where X is his power. The copies enter tapped and attacking. Exile them at the beginning of the next end step.
+
+Sir Crocodile, Desert King
+rules_text: Sir Crocodile gets +X/+X, where X is the number of land cards in all graveyards.
+Whenever Sir Crocodile attacks, you may sacrifice a Basic land. If you do, each opponent sacrifices a Basic land. Each player that sacrificed a land this way creates a Desert land token with “{T}, Pay 1 life: Add one mana of any color.” => Sir Crocodile gets +X/+X, where X is the number of land cards in all graveyards.
+Whenever Sir Crocodile attacks, you may sacrifice a basic land. If you do, each opponent sacrifices a basic land. Each player that sacrificed a land this way creates a Desert land token with “{T}, Pay 1 life: Add one mana of any color.”
+
+Arlong the Saw, Fishman Pirate
+
+Enel, God of Skypiea
+
+Moria, One Thousand Shadows
+rules_text: Moria enters with two +1/+1 counters on it.
+Whenever a creature dies, put a +1/+1 counter on Moria.
+Whenever Moria is dealt damage, prevent that damage, then remove that many +1/+1 counters from him. => Moria enters with a +1/+1 counter on it.
+Whenever another creature dies, put two +1/+1 counter on Moria.
+Whenever Moria is dealt damage, prevent that damage, then remove half that many +1/+1 counters from him, rounded up.
+
+Doflamingo, Puppetmaster
+
+Ceasar Clown, MADS Scientist
+rules_text: Flying, Ward {2}
+Ceasar Clown and other creatures you control have prowess.
+Whenever Ceasar Clown attacks, return up to one target instant, sorcery or artifact card from your graveyard to your hand. => Flying, Ward {2}
+Whenever Ceasar Clown attacks, until end of turn, target instant, sorcery and artifact cards in your graveyard gain “Exile this card from your graveyard: Until end of turn, you may cast a copy of this card. [i](You still pay its costs.)[/i]”
+
+Silvers Rayleigh, The Dark King
+
+Bon Clay, Okama Imitator
+
+Portgas D Ace, Fire Fist
+
+Iceburg, Galley-La President
+
+Law, Surgeon of Death
+cost: {2}{U} => {3}{U}
+rules_text: Opponents can't block creatures they own.
+{3}{U}, {T}: Each player chooses another nonland, nontoken permanent that player controls and owns. Randomly redistribute control over the chosen permanents among all players. => Opponents can't block creatures they own.
+Whenever Law attacks, each player exiles cards from the top of their library until they exile a nonland card. Starting with you, each player may choose one of those nonland cards and casts it without paying its mana cost.
+pt: 3/3 => 3/4
+
+Nefertari Vivi, Arabasta Princess
+
+Dr. Vegapunk, Super Genius
+
+Dragon, Revolutionary
+
+Sabo, Flame Emperor
+
+Leo, Tonta Corps Leader
+
+Shadow Theft
+
+Barrier Screen
+
+Darkness is Gravity
+
+Black Hole Liberation
+
+Erase History
+
+Deflect
+
+Cake Raid Mirage
+
+Recover the Records
+
+Little Black Bears
+
+Worthy Sacrifice
+
+The Thriller Bark
+
+The Going Merry
+
+The Moby Dick
+
+The Going Luffy-Senpai
+
+Queen Mama Chanter
+
+The Thousand Sunny
+
+Sanjuan Wolf
+
+I Want To Live!
+
+Jet Pistol
+
+Foxy the Silver Fox
+rules_text: [i]Landfall[/i] — Whenever a land you control enters, gain control of target tapped creature until end of turn. Untap it. It gains haste until end of turn. => When Foxy enters, tap up to one target creature.
+[i]Landfall[/i] — Whenever a land you control enters, gain control of target tapped creature until end of turn. Untap it. It gains haste until end of turn.
+
+Laboon, Loyal Island Whale
+
+The Strawhat
+
+Impel Down Breach
+
+Cards of Fortune
+
+Buster Call
+
+One Last Song
+
+Katakuri, Honorable Nemesis
+
+Log Pose
+
+Fabled Passage
+
+Gum Gum Gatling
+
+Gum Gum Elephant Gun
+
+Gum Gum Whip
+
+OPC Blood Crypt
+
+OPC Breeding Pool
+
+OPC Hallowed Fountain
+
+OPC Overgrown Tomb
+
+OPC Sacred Foundry
+
+OPC Steam Vents
+
+OPC Stomping Ground
+
+OPC Temple Garden
+
+OPC Watery Grave
+
+Nothing Happened
+
+OPC Godless Shrine
+
+OPC Arid Mesa
+
+OPC Bloodstained Mire
+
+OPC Flooded Strand
+
+OPC Marsh Flats
+
+OPC Misty Rainforest
+
+OPC Polluted Delta
+
+OPC Scalding Tarn
+
+OPC Verdant Catacombs
+
+OPC Windswept Heath
+
+Wooded Foothills
+
+Marineford, Marine Headquarters
+
+Egghead, Future Island
+
+Abuse Authority
+
+Rusted Blades
+
+Shoot Down That Flag
+
+Unexpected Return
+cost: {3}{B}{B} => {3}{B}
+rules_text: Return target creature card from a graveyard to the battlefield under your control. If that card was put into the graveyard from the battlefield this turn, surveil 2. => This spell costs {3} less to cast if it targets a card that entered your graveyard from the battlefield this turn.
+Return target creature card from your graveyard to the battlefield tapped.
+
+San Charlos, Spoiled Brat
+
+Garp, Marine Instructor
+
+Waste Nothing
+rules_text: When Waste Nothing enters, each player may discard a card. Then each player who did draws a card.
+Whenever a player discards a card, Waste Nothing deals 1 damage to target player. If a land card was discarded this way, it instead deals 2 damage to each opponent. => When Waste Nothing enters, each player discards a card, then draws a card.
+Whenever a player discards a card, Waste Nothing deals 1 damage to target opponent. If a land card was discarded this way, it instead deals 2 damage to each opponent.
+
+Sakazuki
+
+The One Piece Is Real!
+
+A Ship Fit for a King
+
+Weatheria, Meteorology Heaven
+
+Boin Archipelago, Stomach Baron
+
+Momoiro, Kamabakka Queendom
+
+Torino Kingdom, Medicine Island
+
+Tequila Wolf, Bridge to Nowhere
+
+Karakuri, Future Island Baldimore
+
+Namakuri, Land of Poverty
+
+Rusukaina, Harsh Island
+
+Kuraigana, Muggy Kingdom
+
+Fish-Man Island, Ryugu Kingdom
+
+Zou, Home of the Minks
+
+Headchef Zeff
+
+Fizzle Out
+
+Go on a Vacation
+
+Golden Age of Piracy
+
+Chart the World
+rules_text: Draw a card for each opponent you have, then discard a card for each opponent you didn't attack this turn. => Draw a card for each of your opponents, then discard a card for each opponent you didn't attack this turn.
+
+Coup de Burst
+rules_text: Exile target creature or artifact you control. At the beginning of the next end step, return each permanent exiled this way to the battlefield under its owner's control.
+Overload {3}{U} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i] => Exile target nontoken creature or artifact you control. At the beginning of the next end step, return each permanent exiled this way to the battlefield under its owner's control.
+Overload {3}{U} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i]
+
+Kuro of a Hundred Plans
+
+Lassoo, Dog Gun
+
+Gear Two
+
+Marco the Phoenix
+rules_text: Flying
+When Marco enters, return up to one target creature card with mana value 3 or less from your graveyard to the battlefield with a flying counter and a finality counter on it.
+Whenever another creature you control attacks, you may pay {8}{W}{W}. If you do, return Marco from your graveyard to the battlefield. => Flying
+Whenever Marco enters or attacks, return up to one target permanent card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+Whenever you attack with three or more creatures, you may pay {7}{W}. If you do, return Marco from your graveyard to the battlefield tapped.
+
+Rocketman, Sea Train
+
+Decyphering the Poneglyph
+rules_text: Draw two cards.
+You become the monarch. [i](The monarch draws a card at the beginning of their end step. Whenever the monarch is dealt combat damage by a creature, its controller becomes the monarch.)[/i]
+Islandcycling {1} => Surveil 2, then draw two cards.
+You become the monarch. [i](The monarch draws a card at the beginning of their end step. Whenever the monarch is dealt combat damage by a creature, its controller becomes the monarch.)[/i]
+Islandcycling {1}
+
+Road Poneglyph
+
+Fata Morgana
+
+Huge Haul
+
+Treasure
+
+Rebel
+
+Soldier
+
+Pirate
+
+The Will of D
+
+Carrot, Mink Stowaway
+
+Sulong, Moon Lion Form
+
+3D2Y
+
+Senseless Violence
+
+G-5 Tactics
+
+Show of Force
+
+Princess Mansherry
+
+Rosinante, Mute Savior
+rules_text: During your turn, spells and nonmana abilities your opponents cast or activate cost {1} more to cast or activate.
+During each opponent's turn, spells and nonmana abilities you cast or activate cost {1} more to cast or activate. => During your turn, spells and nonmana abilities your opponents cast or activate cost {1} more to cast or activate.
+During each opponent's turn, spells and nonmana abilities you cast or activate cost {1} less to cast or activate.
+
+Perona, Ghost Princess
+rules_text: When Perona enters, create two 1/1 black Spirit creature tokens with flying.
+Whenever a creature you control deals combat damage to a player, you may put a -1/-1 counter on target creature that player controls with toughness 2 or greater. => When Perona enters, create two 1/1 black Spirit creature tokens with flying.
+Whenever a creature you control deals combat damage to a player, you may put a -1/-1 counter on target creature that player controls if that creature has toughness 2 or greater as this ability resolves.
+
+Zunesha, Elephus Dali
+
+Shirahoshi, Mermaid Princess
+
+Hachi, Takoyaki Griller
+
+The Tale of Noland the Liar
+
+Hody Jones, Hollow Idealist
+
+Merfolk
+
+Fisher Tiger, Slave Liberator
+
+Judge, Despotic Diplomat
+
+Pudding, Three-Eyed Bride
+rules_text: When Pudding enters, scry 3.
+When Pudding dies, you and target opponent each draw a card. => When Pudding enters, surveil 2.
+When Pudding dies, you and target opponent each draw a card.
+
+The Empty Throne
+
+Yamato, Son of Kaidou
+
+Kozuki Oden, Foolish Daimyo
+
+Momonosuke, Young Shogun
+
+Big News Morgans
+
+Pell the Falcon
+
+Memory Edit
+
+Commence the Levely
+
+Mask of Sogeking
+
+Ryokugyu, Determined Admiral
+
+Fujitora, Humane Admiral
+
+The Ark Maxim
+
+Mihawk, Strongest Swordsman
+
+Poseidon's Call
+
+Born to Boil
+type: Instant => Sorcery
+rules_text: Choose one—
+• Target creature gets -X/-X until end of turn. You gain X life.
+• Target creature gets +X/+X until end of turn. You lose X life. => Choose one—
+• Target creature gets twice -X/-X until end of turn. You lose X life.
+• Target creature gets twice +X/+X until end of turn. You gain X life.
+
+Mother Carmel, Mountain Witch
+rules_text: Sacrifice a creature: Create a Treasure token. Activate only as a sorcery.
+{B}, Sacrifice a creature: Each opponent loses 2 life. Activate only as a sorcery.
+{1}{B}, Sacrifice a creature: Draw a card. Activate only as a sorcery. => Activate each of Mother Carmel's abilities only once each turn and only during your turn.
+Sacrifice a creature: Create a Treasure token.
+{B}, Sacrifice a creature: Mother Carmel deals 2 damage to each opponent.
+{1}{B}, Sacrifice a creature: Draw a card.
+
+Overdue Revival
+
+Oars the Continent-Puller
+
+Camie, Designer Apprentice
+
+Capone Bege, Family Man
+rules_text: When Capone Bege enters, you may sacrifice a creature. If you do, you become the monarch.
+At the beginning of your end step, create a 1/1 black Pirate creature token with lifelink. If you are the monarch, create two of those tokens instead. => When Capone Bege enters, you may sacrifice a creature. If you do, you become the monarch.
+At the beginning of your end step, create a 1/1 black Pirate creature token with lifelink. If you are the monarch, that token enters with a +1/+1 counter on it.
+
+Wet Haired Caribou
+
+Boa Hancock, Pirate Empress
+
+Belo Betty, East Army Commander
+
+Bartholomew Kuma, PX0
+
+Alvida, the Iron Mace
+
+Doctor Hogback
+
+Magellan, Noxious Warden
+
+Stussy, Triple Agent
+rules_text: Flying
+Stussy is goaded.
+When Stussy enters, target opponent gains control of her.
+Whenever Stussy attacks her owner, that player gains control of her.
+Whenever Stussy deals combat damage to a player, put a +1/+1 counter on her. => Flying
+Stussy attacks each combat if able.
+Prevent all combat damage Stussy would deal to her owner.
+Whenever Stussy deals combat damage to a player, that player gains control of her. Put a +1/+1 counter on her.
+
+Jesus Burgess, the Champion
+
+Charlotte Brûlée, Mirror Woman
+rules_text: Kicker {2}
+You may have Charlotte Brûlée enter as a copy of any creature on the battlefield except her name is Charlotte Brûlée, Mirror Woman. When she does, if you control that creature or if she was kicked, return that creature to its owner's hand. => Kicker {3}
+You may have Charlotte Brûlée enter as a copy of any creature on the battlefield except her name is Charlotte Brûlée, Mirror Woman. When she does, if you control that creature or if she was kicked, return that creature to its owner's hand.
+
+Cracker Thousand Arms
+
+Orochi, Kurozomi Usurper
+
+Nezumi, Corrupt Captain
+
+Conis, Guide in Heaven
+
+Gan Fall, Knight of the Sky
+
+Crocus, Laboon's Caretaker
+
+Cricket's Crew
+
+Daz Bonez The Killer
+
+Duval, Rosy Life Rider
+
+Saint Figarland Garling
+
+Funkfreed, Elephant Sword
+
+Mr. 3, Intelligent Criminal
+
+Lafitte, Demon Sheriff
+
+Don Foul Play Krieg
+rules_text: Whenever an opponent discards a card, put a +1/+1 counter on Don Krieg. 
+{2}{B}, Sacrifice a creature: Draw a card then, choose one. Activate only as a sorcery,
+• Each opponent discards a card.
+• Don Krieg can't be blocked this turn. => Whenever a player discard one or more cards, put a +1/+1 counter on Don Krieg. 
+{2}{B}, Sacrifice a creature: Draw a card then, choose one. Activate only as a sorcery.
+• Don Krieg can't be blocked this turn.
+• Each opponent discards a card.
+
+Higuma, Mountain Bandit
+
+Karoo, Super Sonic Duck
+
+Black Cage Hina
+
+Kokoro, Chimney and Gonbe
+rules_text: [i]Landfall[/i] — Heracles gets +1/+1 and gains flying until end of turn.
+Whenever Heracles attacks, you may draw a card, then you may put a land card from your hand onto the battlefield. => [i]Landfall[/i] — Whenever a land you control enters, Heracles gets +1/+1 and gains flying until end of turn.
+Whenever Heracles attacks, you may draw a card, then you may put a land card from your hand onto the battlefield.
+
+Jack the Drought
+
+Vander Decken IX
+
+Jewelry Bonney
+
+Johnny and Yosaku, Bounty Hunters
+
+Soap Up
+
+Karasu, North Army Commander
+
+Kawamatsu the Kappa
+
+King the Conflagration
+pt: 6/6 => 5/5
+
+Koza, Rebel Leader
+
+Queen the Plague
+rules_text: Affinity for artifacts [i](This spell costs {1} less to cast for each artifact you control.)[/i]
+At the beginning of combat on your turn, create a nonlegendary token copy of target artifact you control not named Queen. The copy becomes a creature in addition to its other types. If it isn't a Vehicle, its base power and toughness becomes 4/4.
+Whenever Queen or another artifact creature you control attacks, you may draw a card. => Affinity for artifacts [i](This spell costs {1} less to cast for each artifact you control.)[/i]
+Whenever Queen or another artifact creature you control attacks, up to one target creature gets -2/-0 until end of turn and you may draw a card.
+
+Miss Goldenweek, Expressionist
+
+Monet, Punk Hazard Overseer
+
+Morley, West Army Commander
+
+Nola, Master of the Sky
+
+Otohime, Selfless Queen
+
+Pedro of the Treetops
+
+Pica, Gargantuan Pipsqueak
+
+Rebecca, Gladiator Princess
+
+Ryuma, God of the Blade
+rules_text: Whenever Ryuma attacks, each opponent loses 1 life for each modified attacking creature. [i](Equipment, Auras you control, and counters are modifications.)[/i]
+When Ryuma enters, you may put a finality counter on him. If you do, you may activate one of this activated abilities without paying its costs.
+{1}{B}, Exile this card from your graveyard: Search your library for an equipment card, reveal it, put it into your hand, then shuffle. => Whenever Ryuma attacks, he deals 1 damage to each opponent for each modified attacking creature. [i](Equipment, Auras you control, and counters are modifications.)[/i]
+When Ryuma enters, you may put a finality counter on him. If you do, you may activate one of this activated abilities without paying its costs.
+{1}{B}, Exile this card from your graveyard: Search your library for an equipment card, reveal it, put it into your hand, then shuffle.
+
+Sengoku the Buddha
+
+Sentomaru, Science Captain
+rules_text: Vigilance, first strike
+When Sentomaru enters, each opponent creates a 4/4 white Robot artifact creature token with “This creature enters with a shield counter on it.” Then, for each of your opponent's create one of those tokens. [i](If it would be dealt damage or destroyed, remove a shield counter from it instead.)[/i] => Vigilance, first strike
+When Sentomaru enters, each opponent creates a 4/4 white Robot artifact creature token with “This creature enters with a shield counter on it.” Then, for each of your opponent's, create one of those tokens. [i](If it would be dealt damage or destroyed, remove a shield counter from it instead.)[/i]
+
+Shiryu of the Rain
+
+Smiley, Bio-Chemical Pet
+cost: {3}{U} => {2}{U}
+rules_text: When Smiley dies, create two face down token copies of Smiley.
+Morph {2}{U} [i](You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)[/i] => When Smiley dies, create two tapped face down token copies of Smiley.
+Morph {2}{U} [i](You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)[/i]
+pt: 3/3 => 3/2
+
+Spandam, CP9 Chief
+rules_text: When Spandam dies, choose one—
+• Target creature gets -1/-1 until end of turn.
+• Create a Treasure token.
+• Each opponent loses 2 life. => When Spandam dies, choose one—
+• Target creature gets -1/-1 until end of turn.
+• Create a Treasure token.
+• Spandam deals 2 damage to each opponent.
+
+Surume, Benthic Companion
+
+Tararan, Spider Monkey Zombie
+
+Tom, Shipwright with a DON
+
+Ulti, Tobiroppo Rampage
+
+Urouge, Mad Monk
+pt: 3/6 => 3/5
+
+Viola, Insightful Agent
+
+Wyper, Shandia Warrior
+
+X Drake, Pretend Deserter
+
+Bird
+
+Ice Time
+
+The Unluckies, Informants
+rules_text: Flash
+Flying
+[i]Landfall[/i] — Whenever a land you control enters, you may pay {1}. If you do, put a +1/+1 counter on The Unluckies. => Flash
+Flying
+[i]Landfall[/i] — Whenever a land you control enters, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+pt: 0/1 => 1/1
+
+Ivankov, Kamabakka Queen
+
+Passing the Legacy
+
+Hearty Meal
+
+Haki of the Supreme King
+
+Armament Haki
+rules_text: Flash
+Enchant creature
+Equipped creature gets +0/+2 and you may have it deal combat damage using its toughness rather than its power. => Flash
+Enchant creature
+Equipped creature gets +0/+2 and has “You may have this creature deal combat damage using its toughness rather than its power.”
+
+News Coo Delivery
+
+Sandai Kitetsu, Cursed Blade
+cost: {1} => {2}
+rules_text: Equipped creature gets +X/-1, where X is the number of charge counters on Sandai Kitetsu plus 2.
+Whenever equipped creature dies, draw a card, then put a charge counter on Sandai Kitetsu.
+Equip {2} => Equipped creature gets +X/-1, where X is the number of charge counters on Sandai Kitetsu plus 2.
+Whenever equipped creature dies, draw a card, then put a charge counter on Sandai Kitetsu.
+Equip {1}
+
+Rokushiki
+
+Big Mom, Soulful Host
+
+Sea King Nest
+
+Desert
+
+Culinary Paradise
+
+The One Piece
+
+Sorcery Clima-Tact
+
+Baratie, Floating Restaurant
+
+Polar Tang, Submarine
+rules_text: Menace; Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]
+Whenever Polar Tang deals combat damage to a player, draw two cards, then discard a card.
+Crew 2 => Skulk [i](This creature can't be blocked by creatures with greater power.)[/i]
+Whenever Polar Tang deals combat damage to a player, draw two cards.
+Crew 2
+
+Goodbye Merry
+
+Perception Haki
+rules_text: Enchant creature
+Enchanted creature gets +1/+1.
+Whenever enchanted creature becomes blocked by one or more creatures, or the target of a spell or ability you don't control, surveil 1, then draw a card. => Enchant creature
+Enchanted creature gets +1/+1.
+Whenever enchanted creature becomes blocked by one or more creatures, or becomes the target of a spell or ability you don't control, surveil 1, then draw a card.
+
+Yoru, Black Blade
+
+Devil Fruit
+
+Kuro Kabuto, Pop Green Slingshot
+
+Rumble Ball
+
+Ground Secco
+
+Knock Up Stream
+
+Cherry Blossoms in Winter
+
+Alliance Celebrations
+
+Misplaced Anger
+
+Recover the Past
+
+Raftel, the Final Island
+
+The Calm Belt
+
+Impel Down, Underwater Prison
+
+The Red Line
+
+Arabasta, Desert Kingdom
+
+Whole Cake Island
+
+Wano Kuni, Prevailing Nation
+
+Drum Island, Sakura Kingdom
+rules_text: [i]({T}: Add {U}.)[/i]
+{3}{U}, {T}, Sacrifice Drum Island: When you next cast a spell this turn, copy it. You may choose new modes and targets for the copy. Activate only as a sorcery. => [i]({T}: Add {U}.)[/i]
+{3}{U}, {T}, Sacrifice Drum Island: When you next cast a spell this turn, copy it. The copy isn't legendary. You may choose new modes and targets for the copy. Activate only as a sorcery.
+
+Mary Geoise, Holy Land
+
+Dressrosa, Land of Love and Passion
+
+Water 7, Capital of Water
+
+Enies Lobby, Judicial Island
+
+The Gates of Justice
+
+Kozuki Hiyori, Tayu Oiran
+
+Kaya, Doctor in Training
+
+Foxfire Kinnemon
+
+Hiriluk, Savior of the Heart
+rules_text: At the beginning of your upkeep, put a +1/+1 counter on another target creature you control.
+Creatures you control have “Whenever this creature becomes modified, scry 1 and you gain 1 life. This ability triggers only once each turn.” => At the beginning of your upkeep, put a +1/+1 counter on another target creature you control.
+Creatures you control have “Whenever this creature becomes modified, surveil 1 and you gain 1 life. This ability triggers only once each turn.”
+
+Bell-mère, Ex-Marine
+
+Tashigi, Marine Captain
+
+Mr. 4, Pinch Hitter
+
+Clou D Clover, Ohara Scholar
+rules_text: Whenever you draw a card, put a +1/+1 counter on Clou D Clover.
+Whenever a modified creature you control dies, create a Clue token. => Whenever you draw a card, put a +1/+1 counter on Clou D Clover.
+Whenever a modified creature you control dies, create a Clue token. [i](Equipment, Auras you control, and counters are modifications.)[/i]
+
+Miss Double Finger
+
+Vergo, The First Corazon
+
+Kaku, Undercover Shipwright
+
+Apoo, Roar of the Sea
+
+Miss Merry Christmas, Setter
+
+Mr. 5, Snot Bomber
+rules_text: Whenever an artifact you control enters or leaves the battlefield, Mr. 5 deals 1 damage to each opponent. => Whenever an artifact you control enters or dies, Mr. 5 deals 1 damage to each opponent.
+
+Kanjuro, Theatrical Traitor
+
+Yeti Cool Brothers, For Hire
+
+Kikunojo of the Snow
+rules_text: Whenever Kikunojo attacks, she gains first strike until end of turn. Then, you may choose one—
+• Put a +1/+1 counter on her.
+• Choose a permanent attached to her. Pay {X}, where X is the mana value of that permanent. If you do, create a nonlegendary token copy of that permanent. Attached the copy to her. => Whenever Kikunojo attacks, she gains first strike until end of turn. Then, you may choose one—
+• Put a +1/+1 counter on her.
+• Choose a permanent attached to her. Pay {X}, where X is the mana value of that permanent. If you do, create a nonlegendary token copy of that permanent. Attach the copy to her.
+
+Paulie, Rash Rigger
+rules_text: Reach
+When Paulie enters, create a Treasure token.
+{X}, {T}, Sacrifice an artifact: Return target artifact card with mana value X from your graveyard to the battlefield. => Reach
+When Paulie enters, create a Treasure token.
+{X}, {T}, Sacrifice an artifact: Return target artifact card with mana value less than or equal to X plus 2 from your graveyard to the battlefield.
+
+Bepo, Martial Artist Mink
+
+Gaimon of Rare Animal Island
+
+The Vinsmoke Siblings
+rules_text: Flying, Ward—Pay 3 life
+When The Vinsmoke Siblings enters, each player sacrifices a creatures.
+Whenever you sacrifice a permanent, each opponent loses 1 life. => Flying, Ward—Pay 3 life
+When The Vinsmoke Siblings enters, each player sacrifices a creatures.
+Whenever you sacrifice a permanent, The Vinsmoke Siblings deals 1 damage to each opponent.
+
+Smoothie, Sweet Commander
+
+Senor Pink, Hard-Boiled
+
+Nefertari Cobra, Arabasta King
+
+Basil Hawkins, the Magician
+
+Miss Valentine, Weightlifter
+
+Imu, Supreme Ruler
+
+Baron Tamago
+
+Zeus, Cumulo Companion
+
+Kingbaum, Master of the Woods
+rules_text: Trample
+{3}: Put a +1/+1 counter on Kingbaum. Activate only outside of combat.
+Whenever you tap a permanent for mana, add an additional {G}. If that permanent is a Forest, add an additional {G}{G} instead. => As an additional cost to cast creature spells, you may pay any amount of mana. If you do, that creature enters with that many additional +1/+1 counters on it.
+Whenever you tap a permanent for mana, add an additional {G}. If that permanent is a Forest, add an additional {G}{G} instead.
+
+Prometheus the Sun
+
+Perospero, First Son of Linlin
+rules_text: Persist [i](When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)[/i]
+When Perospero enters, for each player that lost life this turn, create a Food token.
+Whenever you gain one or more life, each opponent loses 1 life. => Persist [i](When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)[/i]
+When Perospero enters, for each player that lost life this turn, create a Food token.
+Whenever you gain life, Perospero deals 1 damage to each opponent.
+
+Charlotte Mont-d'Or
+cost: {2}{U} => {3}{U}
+rules_text: Whenever Charlotte Mont-d'Or deals combat damage to a creature, if he is attacking, gain control of that creature until the end of your next turn.
+Whenever a creature you control but don't own attacks, it gets +2/+2 until end of turn. Draw a card. => Whenever a creature you control but don't own attacks, it gets +1/+1 and gains flying until end of turn.
+Whenever one or more creatures you control deal combat damage to a player, exile the top card of their library face down. You may cast that card for as long as it remains exiled and you may spend mana of any color to cast it.
+pt: 2/3 => 2/4
+
+Kyros, One-Legged Soldier
+
+Blueno, Door Human
+rules_text: Blueno can't be blocked.
+{2}{U}: Target creature can't be blocked this turn. => Blueno can't be blocked.
+{2}{U}: Target creature can't be blocked this turn.
+{1}, {T}: Put a +1/+1 counter on Blueno.
+
+Cavendish the Pirate Prince
+
+Yasopp, Red Hair's Sniper
+
+Bartolomeo the Cannibal
+
+Pappag, Star Designer
+
+Doc Q, Death God
+rules_text: At the beginning of your end step, put a -1/-1 counter on Doc Q. Then, for each opponent, that player may have you draw a card. If they don't, they distribute X -1/-1 counters among creatures they control, where X is the number of -1/-1 counters on Doc Q. => Whenever Doc Q attacks, put a -1/-1 counter on him. Then, the defending player may have you draw a card. If they don't, move all counters from Doc Q on up to one other target permanent.
+pt: 1/3 => 3/3
+
+Van Augur, The Supersonic
+
+Ship Cutter T Bone
+
+Amazon Lily, Island of Women
+
+Hachinosu, Pirate Island
+
+The Pluton Blueprints
+
+The Usopp Pirates
+
+Baby 5, Full Body Weapon
+rules_text: Equipped creature gets +2/+2.
+At the beginning of your combat, each opponent may have you create two Treasure tokens. For each opponent that does, Baby 5 and equipped creature can't attack that player this turn.
+Reconfigure {2} => Equipped creature gets +2/+2.
+At the beginning of your combat, if Baby 5 is a creature or attacked to a creature each opponent may have you create two Treasure tokens. For each opponent that does, Baby 5 and equipped creature can't attack that player this turn.
+Reconfigure {2}
+
+Flag of the Strawhats
+rules_text: When Flag enters, put a +1/+1 counter on each Pirate you control.
+{T}: Add one mana of any color. => {T}: Add one mana of any color.
+{T}: Add two mana in any combination of colors. Spend this mana only to cast Pirate spells or to activate the abilities of Pirate sources. If you spend this mana to cast a Pirate spell, it gains haste until end of turn.
+
+Saber of Xebec
+
+The Drums of Liberation
+rules_text: Whenever you attack, exile the top card of each player's library.
+You may play cards exiled with this enchantment that you own or that are owned by a player you attacked this turn. => Whenever you attack, exile the top card of each player's library.
+You may play cards exiled with this enchantment that you own or that are owned by a player you attacked this turn. You may spend mana of any color to cast those cards.
+
+The Birdcage
+
+The Hoof of the World Nobles
+
+Den Den Mushi
+
+Exploitative Industry
+
+Helmeppo, Son of Morgan
+
+Memories Too Sweet
+
+Dreams Never Die
+
+Lindbergh, South Army Commander
+
+Noah, Ship of Promise
+
+The Oro Jackson
+
+The Striker
+
+The Germa Kingdom
+
+Cheated Power
+
+Punishers
+
+Shine the Light of Shandia
+rules_text: Exile target card from your graveyard. For each card exiled this way, you may cast a copy of it without paying its mana cost. Permanent spells cast this way gain haste and “Sacrifice this permanent at the end of turn.”
+Overload {8}{R}{R} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i] => Exile target nonland card from your graveyard. For each card exiled this way, you may cast a copy of it without paying its mana cost. Permanent spells cast this way gain haste and “Sacrifice this permanent at the end of turn.”
+Overload {8}{R}{R} [i](You may cast this spell for its overload cost. If you do, change “target” in its text to “each.”)[/i]
+
+Raid Suit Number 3, Stealth Black
+
+Ace, The King's Cutlass
+rules_text: When Ace enters, you become the monarch.
+As long as you're the monarch, equipped creature gets +3/+3 and has trample.
+As long as an opponent is the monarch, equipped creature has protection from the monarch.
+Equip {3} => When Ace enters, you become the monarch.
+As long as you're the monarch, equipped creature gets +3/+3 and has trample.
+As long as an opponent is the monarch, equipped creature has protection from the monarch.
+Equip {4}
+
+Murakumogiri, Supreme Naginata
+rules_text: When Murakumogiri enters, you may attach it to target creature you control.
+Equipped creature gets +5/+2 and has trample and ward {1}.
+Equip {4} => When Murakumogiri enters, you may attach it to target creature you control.
+Equipped creature gets +5/+2 and has trample and ward {1}.
+Equip {5}
+
+Enma, Kouzuki Heirloom
+
+The Paramount War
+
+Repatriate
+
+Pop Green Flytrap
+
+Cien Fleur
+
+Pirate's Alliance
+
+Inhumane Auction
+cost: {2}{B} => {5}{B}
+rules_text: Starting with you, each player may pay 1 life and vote for a creature you don't control. Repeat this process until no one pays life. Destroy each creature card with the most votes or tied for the most votes. => For each player, choose up to one target creature card in that player's graveyard. For each of those cards, its owner may pay an amount of life equal to that card's mana value. If they don't, put that card onto the battlefield under your control.
+
+Make a Myth
+type: Instant => Sorcery
+
+Davy Back Fight
+rules_text: Choose target spell. Flip three coins. Return that spell to its owner's hand. If you win all three flips, gain control of that spell instead. You may choose new modes and new targets for it. => Choose target spell. Return that spell to its owner's hand. Flip three coins. If you win all three flips, gain control of that spell instead. You may choose new modes and targets for it.
+
+Robot
+
+Satellite
+
+Leviathan
+
+Clue
+
+Food
+
+Copy
+rules_text:  => [i](This token can be used to represent a token that's a copy of a permanent.)[/i]
+
+Equipment
+
+Junk
+
+Baseball
+
+Zombie
+
+Spirit
+
+Inkling
+
+Vehicle
+
+Toy
+
+The Monarch
+
+Going Merry Flying Mode
+
+Cut Anything
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

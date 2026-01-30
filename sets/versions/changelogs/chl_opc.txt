@@ -1,4 +1,460 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Arlong's Rampage added.
+The Levely added.
+Emet's Haki Knot added.
+
+Worthy Sacrifice removed.
+Commence the Levely removed.
+Ice Time removed.
+
+Nico Robin, Archeologist
+rules_text: At the beginning of your end step, you may exile a card from your graveyard with a history counter on it.
+You may play cards with history counters on them from exile. Whenever you do, surveil 1. If a spell cast this way would be put into a graveyard, exile it instead. => At the beginning of your end step, you may exile a card from your graveyard. Put a history counter on the exiled card.
+You may play cards with history counters on them from exile. Spells cast this way cost {2} less to cast. If a spell cast this way would be put into a graveyard, exile it instead. If its a permanent spell, it enters with a finality counter on it.
+
+Kaidou, Strongest Creature
+rules_text: Trample, indestructible
+As long as there are six or more +1/+1 counters on Kaidou, he is a Dragon in addition to his other types and has flying.
+Whenever an attacking creature you control dies or a blocking creature you don't control dies, put two +1/+1 counters on Kaidou. => Trample, indestructible
+Whenever an attacking creature you control dies or a blocking creature you don't control dies, put two +1/+1 counters on Kaidou.
+As long as there are six or more +1/+1 counters on Kaidou, he is a Dragon in addition to his other types and has flying.
+
+Akainu, Thorough Admiral
+rules_text: Menace
+Other creatures you control have menace.
+{5}: For opponent that was dealt damage this turn, create a 1/1 white Soldier creature token. => Menace
+Other creatures you control have menace.
+{5}: For each opponent that was dealt damage this turn, create a 1/1 white Soldier creature token.
+
+Rob Luccy, Massacre Weapon
+rules_text: When Rob Luccy enters, other creatures get -2/-2 until end of turn.
+Whenever a creature dies, Rob Luccy deals 2 damage to each opponent. => When Rob Luccy enters, other creatures get -2/-2 until end of turn.
+Whenever a creature dies, Rob Luccy deals 1 damage to each opponent.
+pt: 4/5 => 5/5
+
+Eustass Captain Kid
+rules_text: [i]Landfall[/i] — Whenever a land you control enters, create a Junk token. [i](It's an artifact with “{T}, Sacrifice this artifact: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.”)[/i]
+Sacrifice five artifacts: Eustass deals 5 damage to any target. Activate only as a sorcery. => [i]Landfall[/i] — Whenever a land you control enters, create a Junk token. [i](It's an artifact with “{T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.”)[/i]
+Sacrifice five artifacts: Eustass deals 5 damage to any target. Activate only as a sorcery.
+
+Ceasar Clown, MADS Scientist
+cost: {4}{U} => {3}{U}{U}
+rules_text: Flying, Ward {2}
+Whenever Ceasar Clown attacks, until end of turn, target instant, sorcery and artifact cards in your graveyard gain “Exile this card from your graveyard: Until end of turn, you may cast a copy of this card. [i](You still pay its costs.)[/i]” => Flying, Ward {2}
+Whenever Ceasar Clown attacks, until end of turn, target instant, sorcery or artifact cards in your graveyard gain “Exile this card from your graveyard: Until end of turn, you may cast a copy of this card. [i](You still pay its costs.)[/i]”
+
+Law, Surgeon of Death
+rules_text: Opponents can't block creatures they own.
+Whenever Law attacks, each player exiles cards from the top of their library until they exile a nonland card. Starting with you, each player may choose one of those nonland cards and casts it without paying its mana cost. => Opponents can't block creatures they own.
+Whenever Law attacks, each player exiles cards from the top of their library until they exile a nonland card. Then, starting with you, each player may choose one of those nonland cards and casts it without paying its mana cost.
+
+Barrier Screen
+cost: {2}{U} => {1}{U}{U}
+rules_text: Choose one—
+• Counter target spell.
+• Counter all abilities. => Choose one—
+• Counter target spell.
+• Counter all activated or triggered abilities.
+
+Deflect
+rules_text: You may choose new targets for target spell.
+Cycling {1} [i]({1}, Discard this card: Draw a card.)[/i] => Choose one—
+• You may choose new targets for target spell or ability.
+• Return target instant or sorcery card from your graveyard to your hand.
+
+Little Black Bears
+
+Nothing Happened
+cost: {2}{W} => {1}{W}
+rules_text: Choose target creature. Until end of turn, prevent all damage dealt by sources other than this spell. When damage is prevented this way, Nothing Happened deals that much damage to the chosen creature. [i](If it is still on the battlefield.)[/i] => Kicker—Sacrifice a creature
+You and permanents you control gain hexproof until end of turn. Then if this spell was kicked, until end of turn, your life total can't change and permanents you control gain indestructible until end of turn.
+
+Jet Pistol
+cost: {R} => {1}{R}
+rules_text: Split second [i](As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)[/i]
+Jet Pistol deals 3 damage to any target. => Split second [i](As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)[/i]
+This spell can't be countered.
+Jet Pistol deals 5 damage to target creature.
+
+Buster Call
+rules_text: Buster Call deals 4 to each opponent and each creature they control. If a creature dealt damage this way would die this turn, exile it instead.
+Mountaincycling {1} => Buster Call deals 6 to each creature. If a creature you don't control dealt damage this way would die this turn, exile it instead.
+Mountaincycling {1}
+
+One Last Song
+cost: {4}{B} => {3}{B}{B}
+
+Gum Gum Whip
+cost: {1}{R} => {1}{R}{R}
+rules_text: Gum Gum Whip deals 1 damage to each opponent and each creature they control.
+Draw a card. => Gum Gum Whip deals 4 damage to up to one target creature and 2 damage to each opponent and each other creature you don't control.
+
+Shoot Down That Flag
+type: Sorcery => Instant
+
+A Ship Fit for a King
+rules_text: Search your library or graveyard for an artifact card, reveal it, and put it into your hand. If you searched your library this way, shuffle. => Choose one—
+• Search your library or graveyard for an artifact card, reveal it, and put it into your hand. If you searched your library this way, shuffle.
+• Vehicles you control become creatures until end of turn.
+
+3D2Y
+cost: {4}{G} => {3}{G}{G}
+
+Judge, Despotic Diplomat
+rules_text: Menace, haste
+At the beginning of combat on your turn, for each opponent, that player may discard a card or sacrifice a creature. For each player that doesn't, Judge gets +1/+1 until end of turn. => Menace, haste
+Whenever Judge attacks, target opponent may discard a card or sacrifice a creature. If that player doesn't, put a +1/+1 counter on him.
+pt: 3/3 => 4/3
+
+Funkfreed, Elephant Sword
+rules_text: Ward {2}
+Equipped creature gets +0/+3 and has ward {2}.
+Reconfigure {1} => Ward {2}
+Equipped creature gets +1/+2 and has ward {2}.
+Reconfigure {1}
+pt: 0/3 => 1/2
+
+Soap Up
+rules_text: Enchant nonland permanent
+Enchanted permanent can't attack or block and loses all abilities. => Enchant nonland permanent
+Enchanted permanent can't attack, block or crew Vehicles and loses all abilities and can't have or gain abilities.
+
+King the Conflagration
+rules_text: Flying
+When King enters, for each opponent, it deals 4 damage to that player or a creature that player controls.
+Whenever a creature or player is dealt noncombat damage, you may discard a card, then draw a card. => Flying
+When King enters, for each opponent, he deals 4 damage to that player or a creature that player controls.
+Whenever a creature or player is dealt noncombat damage, you may discard a card, then draw a card.
+
+The Unluckies, Informants
+
+Ivankov, Kamabakka Queen
+
+Passing the Legacy
+
+Hearty Meal
+
+Haki of the Supreme King
+rules_text: Kicker {2}{W}
+Enchant creature
+When this Aura enters, if it was kicked, destroy all creatures with power less than enchanted creature's power.
+Enchanted creature gets +1/+1 and has protection from creatures. [i](This permanent can't be targeted or dealt damage by creatures..)[/i] => Kicker {2}{W}
+Enchant creature
+When this Aura enters, if it was kicked, destroy all creatures with power less than enchanted creature's power.
+Enchanted creature gets +1/+1 and has protection from creatures. [i](This permanent can't be targeted or dealt damage by creatures.)[/i]
+
+Armament Haki
+
+News Coo Delivery
+
+Sandai Kitetsu, Cursed Blade
+
+Rokushiki
+
+Big Mom, Soulful Host
+
+Sea King Nest
+
+Desert
+
+Culinary Paradise
+rules_text: Whenever you attack a player, create a tapped Food token.
+Food you control are Treasures and have “{T}, Sacrifice this artifact: Add one mana of any color.” in addition to their other types and abilities. => Whenever you attack, create a tapped Food token.
+Food you control are Treasures and have “{T}, Sacrifice this artifact: Add one mana of any color.” in addition to their other types and abilities.
+
+The One Piece
+
+Sorcery Clima-Tact
+
+Baratie, Floating Restaurant
+
+Polar Tang, Submarine
+
+Goodbye Merry
+
+Locked in Impel Down
+type: Instant => Sorcery
+
+Perception Haki
+
+Yoru, Black Blade
+
+Devil Fruit
+
+Kuro Kabuto, Pop Green Slingshot
+
+Rumble Ball
+
+We Are!
+
+Ground Secco
+
+Knock Up Stream
+
+Cherry Blossoms in Winter
+
+Alliance Celebrations
+
+Misplaced Anger
+
+Recover the Past
+
+Raftel, the Final Island
+
+The Calm Belt
+
+Impel Down, Underwater Prison
+
+The Red Line
+
+Arabasta, Desert Kingdom
+
+Whole Cake Island
+
+Wano Kuni, Prevailing Nation
+
+Drum Island, Sakura Kingdom
+
+Mary Geoise, Holy Land
+
+Dressrosa, Land of Love and Passion
+
+Water 7, Capital of Water
+
+Enies Lobby, Judicial Island
+
+The Gates of Justice
+
+Kozuki Hiyori, Tayu Oiran
+
+Kaya, Doctor in Training
+
+Foxfire Kinnemon
+
+Hiriluk, Savior of the Heart
+rules_text: At the beginning of your upkeep, put a +1/+1 counter on another target creature you control.
+Creatures you control have “Whenever this creature becomes modified, surveil 1 and you gain 1 life. This ability triggers only once each turn.” => At the beginning of your upkeep, put a +1/+1 counter on another target creature you control.
+Unmodified creatures you control have “Whenever this creature becomes modified for the first time each turn, surveil 1 and you gain 1 life.”
+pt: 1/1 => 0/1
+
+Bell-mère, Ex-Marine
+
+Curly Dadan, Foster Bandit
+
+Tashigi, Marine Captain
+
+Mr. 4, Pinch Hitter
+
+Clou D Clover, Ohara Scholar
+
+Miss Double Finger
+
+Vergo, The First Corazon
+
+Kaku, Undercover Shipwright
+
+Apoo, Roar of the Sea
+
+Miss Merry Christmas, Setter
+
+Mr. 5, Snot Bomber
+
+Kanjuro, Theatrical Traitor
+
+Yeti Cool Brothers, For Hire
+cost: {5}{U} => {4}{U}{U}
+
+Kikunojo of the Snow
+
+Paulie, Rash Rigger
+
+Bepo, Martial Artist Mink
+
+Gaimon of Rare Animal Island
+
+The Vinsmoke Siblings
+
+Smoothie, Sweet Commander
+
+Senor Pink, Hard-Boiled
+
+Nefertari Cobra, Arabasta King
+
+Basil Hawkins, the Magician
+
+Miss Valentine, Weightlifter
+
+Imu, Supreme Ruler
+
+Baron Tamago
+
+Zeus, Cumulo Companion
+
+Kingbaum, Master of the Woods
+
+Prometheus the Sun
+
+Perospero, First Son of Linlin
+
+Charlotte Mont-d'Or
+
+Kyros, One-Legged Soldier
+
+Blueno, Door Human
+
+Cavendish the Pirate Prince
+
+Yasopp, Red Hair's Sniper
+
+Bartolomeo the Cannibal
+
+Pappag, Star Designer
+
+Catarina Devon, Kitsune Imitator
+
+Doc Q, Death God
+cost: {1}{B} => {2}{B}
+rules_text: Whenever Doc Q attacks, put a -1/-1 counter on him. Then, the defending player may have you draw a card. If they don't, move all counters from Doc Q on up to one other target permanent. => Deathtouch
+When Doc Q enters, put X -1/-1 counters on up to one target creature where X is that creature's toughness minus 1.
+pt: 3/3 => 1/3
+
+Van Augur, The Supersonic
+
+Ship Cutter T Bone
+
+Amazon Lily, Island of Women
+
+Hachinosu, Pirate Island
+
+The Pluton Blueprints
+
+The Usopp Pirates
+
+Baby 5, Full Body Weapon
+rules_text: Equipped creature gets +2/+2.
+At the beginning of your combat, if Baby 5 is a creature or attacked to a creature each opponent may have you create two Treasure tokens. For each opponent that does, Baby 5 and equipped creature can't attack that player this turn.
+Reconfigure {2} => Equipped creature gets +2/+2.
+At the beginning of your combat, if Baby 5 is a creature or attached to a creature, each opponent may have you create two Treasure tokens. For each opponent that does, Baby 5 and equipped creature can't attack that player this turn.
+Reconfigure {2}
+
+Flag of the Strawhats
+
+Saber of Xebec
+
+The Drums of Liberation
+
+The Birdcage
+
+The Hoof of the World Nobles
+cost: {2}{R} => {1}{R}
+rules_text: Enchant creature
+During your turn, you control enchanted creature.
+Enchanted creature is goaded. => Enchant creature
+At the beginning of your upkeep, gain control of enchanted creature until end of turn.
+Enchanted creature is goaded and can't be sacrificed.
+
+Den Den Mushi
+
+Exploitative Industry
+
+Helmeppo, Son of Morgan
+
+Memories Too Sweet
+
+Dreams Never Die
+
+Lindbergh, South Army Commander
+
+Noah, Ship of Promise
+
+The Oro Jackson
+
+The Striker
+
+The Germa Kingdom
+
+Cheated Power
+
+Punishers
+
+Shine the Light of Shandia
+
+Collective Offensive
+
+Raid Suit Number 3, Stealth Black
+
+Ace, The King's Cutlass
+
+Murakumogiri, Supreme Naginata
+
+Enma, Kouzuki Heirloom
+rules_text: Equipped creature has 
+When equipped creature dies, you gain X life, where X is its power.
+Pay 3 life: Put a +1/+1 counter on equipped creature.
+Equip {2} => When equipped creature dies, you gain X life, where X is its power.
+Pay 3 life: Put a +1/+1 counter on equipped creature.
+Equip {2}
+
+The Paramount War
+type: Instant => Sorcery
+rules_text: Assist [i](Another player can pay up to {2} of this spell's cost.)[/i]
+Starting with you, each player chooses a creature they control and a creature neither they nor you control. When they do, each player may have a creature they chose this way deal damage equal to its power to another creature they chose this way. => Assist [i](Another player can pay up to {2} of this spell's cost.)[/i]
+Starting with you, each player may have a creature they control fight a creature that they don't control and you don't control.
+
+Repatriate
+
+Pop Green Flytrap
+
+Cien Fleur
+
+Pirate's Alliance
+
+Inhumane Auction
+
+Make a Myth
+
+Davy Back Fight
+
+Robot
+
+Satellite
+
+Leviathan
+
+Clue
+
+Food
+
+Copy
+
+Equipment
+
+Junk
+
+Baseball
+
+Zombie
+
+Spirit
+
+Inkling
+
+Vehicle
+
+Toy
+
+The Monarch
+
+Going Merry Flying Mode
+
+Cut Anything
+
+Gol D Roger, Pirate King
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Marshal D Teach, Blackbeard added.
